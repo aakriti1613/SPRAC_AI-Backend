@@ -1,0 +1,101 @@
+{
+  "slug": "stats/basic/sparc",
+  "source": "own-library",
+  "name": "Basic stats",
+  "kind": "component",
+  "versions": {
+    "0628fb7f113cd5b9e3da11c6582fd43efafec2192b22cf0d2ba603983d6c8e53": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:stats/basic/sparc@1.0.0",
+        "name": "Basic stats",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic stats: Row of big numbers.",
+        "room": "stats",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/stats/basic/sparc/index.tsx",
+          "contentHash": "0628fb7f113cd5b9e3da11c6582fd43efafec2192b22cf0d2ba603983d6c8e53"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "stats",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "stats",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "0628fb7f113cd5b9e3da11c6582fd43efafec2192b22cf0d2ba603983d6c8e53",
+  "quality": {
+    "sizeKb": 0.9,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

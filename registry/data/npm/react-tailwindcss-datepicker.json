@@ -1,0 +1,92 @@
+{
+  "slug": "react-tailwindcss-datepicker",
+  "source": "npm",
+  "name": "react-tailwindcss-datepicker",
+  "kind": "library",
+  "versions": {
+    "36a121775658d19f52325d191cccdd9fee4b6cfaf69d1242d3bfc0d840201083": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-tailwindcss-datepicker@2.0.0",
+        "name": "react-tailwindcss-datepicker",
+        "version": "2.0.0",
+        "kind": "library",
+        "summary": "A modern React Datepicker using Tailwind CSS 3",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-tailwindcss-datepicker",
+          "ref": "2.0.0",
+          "contentHash": "36a121775658d19f52325d191cccdd9fee4b6cfaf69d1242d3bfc0d840201083"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "dayjs": "^1.11.12",
+            "react": "^17.0.2 || ^18.2.0 || ^19.0.0"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^17.0.2 || ^18.2.0 || ^19.0.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "react-tailwindcss-datepicker",
+            "react-datepicker",
+            "tailwind-datepicker",
+            "datepicker",
+            "date-picker",
+            "daterangepicker",
+            "react-daterangepicker",
+            "date-range",
+            "query:react datepicker"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "36a121775658d19f52325d191cccdd9fee4b6cfaf69d1242d3bfc0d840201083",
+  "quality": {
+    "downloads": 427032,
+    "lastPublish": "2025-02-04T12:21:15.160Z",
+    "hasTypes": true
+  }
+}

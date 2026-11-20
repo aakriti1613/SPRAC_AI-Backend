@@ -1,0 +1,80 @@
+{
+  "slug": "react-table-sticky",
+  "source": "npm",
+  "name": "react-table-sticky",
+  "kind": "library",
+  "versions": {
+    "bf22c8efdbbf3a740325acb3869a2b64432b9113336084c23af77bc85361ca6f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-table-sticky@1.1.3",
+        "name": "react-table-sticky",
+        "version": "1.1.3",
+        "kind": "library",
+        "summary": "Sticky components for react-table v7",
+        "room": "data-table",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-table-sticky",
+          "ref": "1.1.3",
+          "contentHash": "bf22c8efdbbf3a740325acb3869a2b64432b9113336084c23af77bc85361ca6f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data-table",
+          "tags": [
+            "query:react table"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "data-table",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "bf22c8efdbbf3a740325acb3869a2b64432b9113336084c23af77bc85361ca6f",
+  "quality": {
+    "downloads": 621354,
+    "lastPublish": "2020-07-13T20:30:32.682Z",
+    "hasTypes": true
+  }
+}

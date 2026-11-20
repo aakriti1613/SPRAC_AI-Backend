@@ -1,0 +1,50 @@
+{
+  "siteName": "  Priya Sharma  ",
+  "unknownTopLevel": true,
+  "profile": {
+    "firstName": "Priya",
+    "fullName": "Priya Sharma",
+    "role": "Frontend Engineer",
+    "hackerField": "x",
+    "heroSummary": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word word "
+  },
+  "skills": {
+    "Frontend": [
+      "React",
+      "TypeScript",
+      42
+    ],
+    "": [
+      "empty group"
+    ]
+  },
+  "projects": [
+    {
+      "title": "Dashboard",
+      "tech": [
+        "React"
+      ],
+      "type": "spaceship",
+      "featured": "yes"
+    }
+  ],
+  "services": [
+    {
+      "icon": "not-an-icon",
+      "title": "UI",
+      "description": "Build UI"
+    }
+  ],
+  "contactLinks": [
+    {
+      "type": "carrier-pigeon",
+      "label": "Coo",
+      "value": "x"
+    },
+    {
+      "type": "email",
+      "label": "Email",
+      "value": "p@example.com"
+    }
+  ]
+}

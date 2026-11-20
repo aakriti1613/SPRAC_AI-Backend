@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/code-snippet",
+  "source": "storybook",
+  "name": "CodeSnippet (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "a645de4a7326bfb89abc1fbbcdc171494571cdb260a8ac608111c3d222111aad": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/code-snippet@0.0.0",
+        "name": "CodeSnippet (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "CodeSnippet from IBM Carbon (React): 7 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-codesnippet--overview",
+          "ref": "@carbon/react",
+          "contentHash": "a645de4a7326bfb89abc1fbbcdc171494571cdb260a8ac608111c3d222111aad"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a645de4a7326bfb89abc1fbbcdc171494571cdb260a8ac608111c3d222111aad",
+  "quality": {
+    "hasTests": true
+  }
+}

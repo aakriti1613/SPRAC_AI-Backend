@@ -1,0 +1,72 @@
+{
+  "slug": "meteors",
+  "source": "magicui",
+  "name": "Meteors",
+  "kind": "ui",
+  "versions": {
+    "c1ab49d3fdb40ada93f32f9c52f2c378060d8139461c799ec9ffee0c28500d60": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:meteors@0.0.0",
+        "name": "Meteors",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A meteor shower effect.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/meteors.json",
+          "ref": "magicui",
+          "contentHash": "c1ab49d3fdb40ada93f32f9c52f2c378060d8139461c799ec9ffee0c28500d60"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "c1ab49d3fdb40ada93f32f9c52f2c378060d8139461c799ec9ffee0c28500d60",
+  "quality": {}
+}

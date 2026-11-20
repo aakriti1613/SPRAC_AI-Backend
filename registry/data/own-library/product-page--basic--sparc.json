@@ -1,0 +1,129 @@
+{
+  "slug": "product-page/basic/sparc",
+  "source": "own-library",
+  "name": "Basic product-page",
+  "kind": "component",
+  "versions": {
+    "da890f11b56ed5ba3c602e0dab3b7b5893fc3a69e3662805866c1dec1a3f4951": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:product-page/basic/sparc@1.0.0",
+        "name": "Basic product-page",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic product-page: One product in detail with price, description and 'Add to cart'.",
+        "room": "product-page",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "ecommerce"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/product-page/basic/sparc/index.tsx",
+          "contentHash": "da890f11b56ed5ba3c602e0dab3b7b5893fc3a69e3662805866c1dec1a3f4951"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "backHref",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "cartHref",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "currency",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "inCart",
+              "kind": "number",
+              "required": true
+            },
+            {
+              "name": "onAdd",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "product",
+              "kind": "object",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/money",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "commerce",
+          "tags": [
+            "product-page",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-19T11-06-31-950Z-330d3d"
+    }
+  },
+  "room": "product-page",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "da890f11b56ed5ba3c602e0dab3b7b5893fc3a69e3662805866c1dec1a3f4951",
+  "quality": {
+    "sizeKb": 1.4,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

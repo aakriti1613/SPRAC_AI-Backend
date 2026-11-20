@@ -1,0 +1,73 @@
+{
+  "slug": "pagination",
+  "source": "shadcn",
+  "name": "pagination",
+  "kind": "ui",
+  "versions": {
+    "e728a23c0f3fc978b10bde1800033d223d9c5edc3b8ca7e36106f5e39543bd92": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:pagination@0.0.0",
+        "name": "pagination",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"pagination\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/pagination.json",
+          "ref": "new-york-v4",
+          "contentHash": "e728a23c0f3fc978b10bde1800033d223d9c5edc3b8ca7e36106f5e39543bd92"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:button",
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e728a23c0f3fc978b10bde1800033d223d9c5edc3b8ca7e36106f5e39543bd92",
+  "quality": {}
+}

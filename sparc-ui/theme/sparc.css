@@ -1,0 +1,78 @@
+/*
+ * SPARC theme tokens. core/theme.ts writes the --sparc-* variables from the
+ * site config (colour, corner size, spacing, button size, light/dark).
+ * Components use the Tailwind names below (bg-primary, rounded-sparc, h-control…)
+ * and never hard-code colours, so the same component fits every brand.
+ */
+:root {
+  --sparc-primary: #2563eb;
+  --sparc-primary-hover: #1d4ed8;
+  --sparc-primary-soft: #dbeafe;
+  --sparc-primary-foreground: #ffffff;
+  --sparc-radius: 8px;
+  --sparc-density: 1;
+  --sparc-control-h: 2.5rem;
+  --sparc-font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --sparc-bg: #f8fafc;
+  --sparc-surface: #ffffff;
+  --sparc-fg: #0f172a;
+  --sparc-muted: #64748b;
+  --sparc-border: #e2e8f0;
+  --sparc-danger: #dc2626;
+  --sparc-success: #16a34a;
+  --sparc-warning: #d97706;
+}
+
+:root[data-theme="dark"] {
+  --sparc-bg: #0b1120;
+  --sparc-surface: #111827;
+  --sparc-fg: #e5e7eb;
+  --sparc-muted: #94a3b8;
+  --sparc-border: #1f2937;
+}
+
+@theme inline {
+  --color-primary: var(--sparc-primary);
+  --color-primary-hover: var(--sparc-primary-hover);
+  --color-primary-soft: var(--sparc-primary-soft);
+  --color-primary-foreground: var(--sparc-primary-foreground);
+  --color-bg: var(--sparc-bg);
+  --color-surface: var(--sparc-surface);
+  --color-fg: var(--sparc-fg);
+  --color-muted: var(--sparc-muted);
+  --color-border: var(--sparc-border);
+  --color-danger: var(--sparc-danger);
+  --color-success: var(--sparc-success);
+  --color-warning: var(--sparc-warning);
+  --radius-sparc: var(--sparc-radius);
+  --font-sans: var(--sparc-font);
+  --spacing: calc(0.25rem * var(--sparc-density));
+}
+
+@utility h-control {
+  height: var(--sparc-control-h);
+}
+@utility min-h-control {
+  min-height: var(--sparc-control-h);
+}
+
+html {
+  background: var(--sparc-bg);
+  color: var(--sparc-fg);
+  font-family: var(--sparc-font);
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

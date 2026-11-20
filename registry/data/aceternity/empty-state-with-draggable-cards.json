@@ -1,0 +1,75 @@
+{
+  "slug": "empty-state-with-draggable-cards",
+  "source": "aceternity",
+  "name": "empty-state-with-draggable-cards",
+  "kind": "ui",
+  "versions": {
+    "7666157e607ba660e3fdd315139a6d3ddec2580b3310098cb13b55178f5cb111": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:empty-state-with-draggable-cards@0.0.0",
+        "name": "empty-state-with-draggable-cards",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Empty hiring-style layout with a swipeable card deck above primary actions",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/empty-state-with-draggable-cards.json",
+          "ref": "aceternity",
+          "contentHash": "7666157e607ba660e3fdd315139a6d3ddec2580b3310098cb13b55178f5cb111"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "7666157e607ba660e3fdd315139a6d3ddec2580b3310098cb13b55178f5cb111",
+  "quality": {}
+}

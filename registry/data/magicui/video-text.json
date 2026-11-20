@@ -1,0 +1,72 @@
+{
+  "slug": "video-text",
+  "source": "magicui",
+  "name": "Video Text",
+  "kind": "ui",
+  "versions": {
+    "fd90a77b7ab7cb7b18f397ee54f8c0dad0a99b391768d4cfa4aabcb3711b9c54": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:video-text@0.0.0",
+        "name": "Video Text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A component that displays text with a video playing in the background.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/video-text.json",
+          "ref": "magicui",
+          "contentHash": "fd90a77b7ab7cb7b18f397ee54f8c0dad0a99b391768d4cfa4aabcb3711b9c54"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "fd90a77b7ab7cb7b18f397ee54f8c0dad0a99b391768d4cfa4aabcb3711b9c54",
+  "quality": {}
+}

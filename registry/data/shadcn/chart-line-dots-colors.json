@@ -1,0 +1,76 @@
+{
+  "slug": "chart-line-dots-colors",
+  "source": "shadcn",
+  "name": "chart-line-dots-colors",
+  "kind": "ui",
+  "versions": {
+    "c76ec979c38a84616c53b531eaca4744b8498ec8fa2ab4b98e7ad18aa4bc3486": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-line-dots-colors@0.0.0",
+        "name": "chart-line-dots-colors",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-line-dots-colors\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-line-dots-colors.json",
+          "ref": "new-york-v4",
+          "contentHash": "c76ec979c38a84616c53b531eaca4744b8498ec8fa2ab4b98e7ad18aa4bc3486"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-line"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "c76ec979c38a84616c53b531eaca4744b8498ec8fa2ab4b98e7ad18aa4bc3486",
+  "quality": {}
+}

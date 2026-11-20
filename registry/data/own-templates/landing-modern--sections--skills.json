@@ -1,0 +1,94 @@
+{
+  "slug": "landing-modern/sections/skills",
+  "source": "own-templates",
+  "name": "Skills section (landing-modern)",
+  "kind": "component",
+  "versions": {
+    "5434409b7030ba231cdcf7784cfde90e6850f595f27a935d780e4b76789ddd0f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:landing-modern/sections/skills@0.1.0",
+        "name": "Skills section (landing-modern)",
+        "version": "0.1.0",
+        "kind": "component",
+        "summary": "Page section \"Skills\" from the landing-modern landing template.",
+        "room": "skills",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "landing-modern/src/components/sections/Skills.jsx",
+          "contentHash": "5434409b7030ba231cdcf7784cfde90e6850f595f27a935d780e4b76789ddd0f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "*",
+            "framer-motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "language": "js"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "legacy",
+            "section",
+            "landing-modern"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.7
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "room": "skills",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "reads the template's config singleton instead of taking props (must be rewritten to accept its room's props)",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"groups\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "5434409b7030ba231cdcf7784cfde90e6850f595f27a935d780e4b76789ddd0f",
+  "quality": {}
+}

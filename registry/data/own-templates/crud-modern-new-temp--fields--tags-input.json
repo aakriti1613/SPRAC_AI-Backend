@@ -1,0 +1,129 @@
+{
+  "slug": "crud-modern-new-temp/fields/tags-input",
+  "source": "own-templates",
+  "name": "TagsInput (crud-modern template)",
+  "kind": "component",
+  "versions": {
+    "669decf4f9683cb1f75b9017dbbb6bcc6b6a92813580476ca0c03820a9e82e23": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/fields/tags-input@0.1.0",
+        "name": "TagsInput (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "component",
+        "summary": "Form input \"TagsInput\" from the crud-modern-new-temp template.",
+        "room": "form-field",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/fields/TagsInput.tsx",
+          "contentHash": "669decf4f9683cb1f75b9017dbbb6bcc6b6a92813580476ca0c03820a9e82e23"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "config",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "error",
+              "kind": "boolean",
+              "required": false
+            },
+            {
+              "name": "id",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "onChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "value",
+              "kind": "unknown",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [
+            "tags"
+          ],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.2.0",
+            "framer-motion": "^11.15.0",
+            "lucide-react": "^0.564.0"
+          },
+          "peer": {},
+          "registry": [
+            "crud-modern-new-temp/src/lib/utils",
+            "crud-modern-new-temp/src/shared/components/form/form.types"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "legacy",
+            "fields",
+            "tags"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "room": "form-field",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "contract: does not accept required prop \"field\"",
+    "contract: prop \"error\" is boolean, room expects string",
+    "contract: requires prop \"config\" that the room never provides",
+    "contract: requires prop \"id\" that the room never provides",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "669decf4f9683cb1f75b9017dbbb6bcc6b6a92813580476ca0c03820a9e82e23",
+  "quality": {}
+}

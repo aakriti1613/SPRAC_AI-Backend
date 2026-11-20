@@ -1,0 +1,76 @@
+{
+  "slug": "combobox",
+  "source": "shadcn",
+  "name": "combobox",
+  "kind": "ui",
+  "versions": {
+    "4d5aa49d4a81e1f41940a2867e8b5028be134cdf1b1cbecbc8618791aeab00d1": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:combobox@0.0.0",
+        "name": "combobox",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"combobox\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/combobox.json",
+          "ref": "new-york-v4",
+          "contentHash": "4d5aa49d4a81e1f41940a2867e8b5028be134cdf1b1cbecbc8618791aeab00d1"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@base-ui/react": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:button",
+            "shadcn:input-group",
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "4d5aa49d4a81e1f41940a2867e8b5028be134cdf1b1cbecbc8618791aeab00d1",
+  "quality": {}
+}

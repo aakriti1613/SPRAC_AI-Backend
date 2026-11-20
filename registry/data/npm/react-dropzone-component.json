@@ -1,0 +1,84 @@
+{
+  "slug": "react-dropzone-component",
+  "source": "npm",
+  "name": "react-dropzone-component",
+  "kind": "library",
+  "versions": {
+    "5075c4ddf1efbd1c5acf949a70e79c8924d47c25054db2bcd36081297f250485": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-dropzone-component@3.2.0",
+        "name": "react-dropzone-component",
+        "version": "3.2.0",
+        "kind": "library",
+        "summary": "A Dropzone Component for ReactJS",
+        "room": "file-upload",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-dropzone-component",
+          "ref": "3.2.0",
+          "contentHash": "5075c4ddf1efbd1c5acf949a70e79c8924d47c25054db2bcd36081297f250485"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">15.0.1",
+            "react-dom": ">15.0.1"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">15.0.1",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "file-upload",
+          "tags": [
+            "query:react dropzone"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "file-upload",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "5075c4ddf1efbd1c5acf949a70e79c8924d47c25054db2bcd36081297f250485",
+  "quality": {
+    "downloads": 127501,
+    "lastPublish": "2018-03-28T22:55:49.577Z",
+    "hasTypes": true
+  }
+}

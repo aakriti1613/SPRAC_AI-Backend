@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/inline-loading",
+  "source": "storybook",
+  "name": "InlineLoading (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "26bfba58f8aee8a5d0beebe8d11301b97b07c9fc49db97b11266f6c093e3ceb4": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/inline-loading@0.0.0",
+        "name": "InlineLoading (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "InlineLoading from IBM Carbon (React): 2 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-inlineloading--overview",
+          "ref": "@carbon/react",
+          "contentHash": "26bfba58f8aee8a5d0beebe8d11301b97b07c9fc49db97b11266f6c093e3ceb4"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "26bfba58f8aee8a5d0beebe8d11301b97b07c9fc49db97b11266f6c093e3ceb4",
+  "quality": {
+    "hasTests": true
+  }
+}

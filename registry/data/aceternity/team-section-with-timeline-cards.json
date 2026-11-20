@@ -1,0 +1,92 @@
+{
+  "slug": "team-section-with-timeline-cards",
+  "source": "aceternity",
+  "name": "team-section-with-timeline-cards",
+  "kind": "component",
+  "versions": {
+    "8883611aa1ff9a4799b2e6e0f9c8e6c55b89771739b135d603614a7d56411dfa": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:team-section-with-timeline-cards@0.0.0",
+        "name": "team-section-with-timeline-cards",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Team Section With Timeline Cards",
+        "room": "experience",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/team-section-with-timeline-cards.json",
+          "ref": "aceternity",
+          "contentHash": "8883611aa1ff9a4799b2e6e0f9c8e6c55b89771739b135d603614a7d56411dfa"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "experience",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "8883611aa1ff9a4799b2e6e0f9c8e6c55b89771739b135d603614a7d56411dfa",
+  "quality": {}
+}

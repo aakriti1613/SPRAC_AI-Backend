@@ -1,0 +1,121 @@
+{
+  "slug": "settings/good/sparc",
+  "source": "own-library",
+  "name": "Good settings",
+  "kind": "component",
+  "versions": {
+    "a58486492b4f42ef6e3ce051df2da500e6a3e577ddf29f894435ca11f9b5629d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:settings/good/sparc@1.0.0",
+        "name": "Good settings",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good settings: Settings page made of sections.",
+        "room": "settings",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/settings/good/sparc/index.tsx",
+          "contentHash": "a58486492b4f42ef6e3ce051df2da500e6a3e577ddf29f894435ca11f9b5629d"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "onSave",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "saving",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "sections",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "values",
+              "kind": "object",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "settings",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "settings",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "a58486492b4f42ef6e3ce051df2da500e6a3e577ddf29f894435ca11f9b5629d",
+  "quality": {
+    "sizeKb": 1.8,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

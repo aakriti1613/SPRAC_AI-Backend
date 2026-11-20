@@ -1,0 +1,76 @@
+{
+  "slug": "chart-radial-simple",
+  "source": "shadcn",
+  "name": "chart-radial-simple",
+  "kind": "ui",
+  "versions": {
+    "265c8c54eb126100b3f4a1edf0741f1944a77108c8d1a96d2689349796843ab0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-radial-simple@0.0.0",
+        "name": "chart-radial-simple",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-radial-simple\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-radial-simple.json",
+          "ref": "new-york-v4",
+          "contentHash": "265c8c54eb126100b3f4a1edf0741f1944a77108c8d1a96d2689349796843ab0"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-radial"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "265c8c54eb126100b3f4a1edf0741f1944a77108c8d1a96d2689349796843ab0",
+  "quality": {}
+}

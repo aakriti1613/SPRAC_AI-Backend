@@ -1,0 +1,73 @@
+{
+  "slug": "background-with-skewed-rectangles",
+  "source": "aceternity",
+  "name": "background-with-skewed-rectangles",
+  "kind": "ui",
+  "versions": {
+    "c42519300c8ee2fdf0b9f7eb4c8d85312ab4377519be91219697fca7a6d8f7c7": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:background-with-skewed-rectangles@0.0.0",
+        "name": "background-with-skewed-rectangles",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Background With Skewed Rectangles",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/background-with-skewed-rectangles.json",
+          "ref": "aceternity",
+          "contentHash": "c42519300c8ee2fdf0b9f7eb4c8d85312ab4377519be91219697fca7a6d8f7c7"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "c42519300c8ee2fdf0b9f7eb4c8d85312ab4377519be91219697fca7a6d8f7c7",
+  "quality": {}
+}

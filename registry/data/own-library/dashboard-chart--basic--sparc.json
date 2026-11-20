@@ -1,0 +1,121 @@
+{
+  "slug": "dashboard-chart/basic/sparc",
+  "source": "own-library",
+  "name": "Basic dashboard-chart",
+  "kind": "component",
+  "versions": {
+    "1a8818ba4131fadb328758de1994a364607f26c7d31751de20a0f147e680dce7": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:dashboard-chart/basic/sparc@1.0.0",
+        "name": "Basic dashboard-chart",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic dashboard-chart: One chart (bar, line or pie).",
+        "room": "dashboard-chart",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/dashboard-chart/basic/sparc/index.tsx",
+          "contentHash": "1a8818ba4131fadb328758de1994a364607f26c7d31751de20a0f147e680dce7"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "data",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "loading",
+              "kind": "boolean",
+              "required": false
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "valueFormat",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "variant",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/format",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "dashboard-chart",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "dashboard-chart",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "1a8818ba4131fadb328758de1994a364607f26c7d31751de20a0f147e680dce7",
+  "quality": {
+    "sizeKb": 1.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

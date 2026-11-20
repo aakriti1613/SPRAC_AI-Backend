@@ -1,0 +1,76 @@
+{
+  "slug": "image-particles",
+  "source": "aceternity",
+  "name": "Image Particles",
+  "kind": "ui",
+  "versions": {
+    "758da96cc7c67a94f2c2a1a30134d24c96b6c4ec5df0bea7957f72302af8938b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:image-particles@0.0.0",
+        "name": "Image Particles",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Turns any image or logo into colored dots. They scatter away from your pointer and spring back home; press for a shockwave.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/image-particles.json",
+          "ref": "aceternity",
+          "contentHash": "758da96cc7c67a94f2c2a1a30134d24c96b6c4ec5df0bea7957f72302af8938b"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "interactions",
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "758da96cc7c67a94f2c2a1a30134d24c96b6c4ec5df0bea7957f72302af8938b",
+  "quality": {}
+}

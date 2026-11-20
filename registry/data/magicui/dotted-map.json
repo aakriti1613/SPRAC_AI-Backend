@@ -1,0 +1,89 @@
+{
+  "slug": "dotted-map",
+  "source": "magicui",
+  "name": "Dotted Map",
+  "kind": "component",
+  "versions": {
+    "d8490e2cf9870ecf5ef5b7f14f47ed8f91b4ab455784f7d1a387e49639526580": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:dotted-map@0.0.0",
+        "name": "Dotted Map",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "A component with a dotted map.",
+        "room": "location-map",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/dotted-map.json",
+          "ref": "magicui",
+          "contentHash": "d8490e2cf9870ecf5ef5b7f14f47ed8f91b4ab455784f7d1a387e49639526580"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "svg-dotted-map": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "room": "location-map",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "package \"svg-dotted-map\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"address\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "d8490e2cf9870ecf5ef5b7f14f47ed8f91b4ab455784f7d1a387e49639526580",
+  "quality": {}
+}

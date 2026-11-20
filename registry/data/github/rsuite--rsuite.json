@@ -1,0 +1,80 @@
+{
+  "slug": "rsuite/rsuite",
+  "source": "github",
+  "name": "rsuite/rsuite",
+  "kind": "library",
+  "versions": {
+    "0a86a1b44311f5096f072ba492ed5071a092f99050631841d5bb35a849caab20": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:rsuite/rsuite@0.0.0",
+        "name": "rsuite/rsuite",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "🧱 A suite of React components .  ",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/rsuite/rsuite",
+          "ref": "main",
+          "contentHash": "0a86a1b44311f5096f072ba492ed5071a092f99050631841d5bb35a849caab20"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "awesome-react-stuff",
+            "react",
+            "react-components",
+            "reactjs",
+            "rsuite",
+            "typescript",
+            "ui-kit",
+            "ui-library",
+            "query:topic:react-components language:TypeScript stars:>2000"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "0a86a1b44311f5096f072ba492ed5071a092f99050631841d5bb35a849caab20",
+  "quality": {
+    "stars": 8698,
+    "lastPublish": "2026-11-15T08:23:08Z"
+  }
+}

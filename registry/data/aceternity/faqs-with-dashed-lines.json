@@ -1,0 +1,76 @@
+{
+  "slug": "faqs-with-dashed-lines",
+  "source": "aceternity",
+  "name": "faqs-with-dashed-lines",
+  "kind": "ui",
+  "versions": {
+    "b13d8afadeea1c5f800031fe8937bbbbc73cb94dc381d81ea118858a867deb50": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:faqs-with-dashed-lines@0.0.0",
+        "name": "faqs-with-dashed-lines",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "FAQs With Dashed Lines and Accordion",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/faqs-with-dashed-lines.json",
+          "ref": "aceternity",
+          "contentHash": "b13d8afadeea1c5f800031fe8937bbbbc73cb94dc381d81ea118858a867deb50"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "b13d8afadeea1c5f800031fe8937bbbbc73cb94dc381d81ea118858a867deb50",
+  "quality": {}
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "button",
+  "source": "shadcn",
+  "name": "button",
+  "kind": "ui",
+  "versions": {
+    "3b1d1cb4de17d10fd7b830a67ae14f9c987a578b818be40a00a8af62935bca88": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:button@0.0.0",
+        "name": "button",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"button\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/button.json",
+          "ref": "new-york-v4",
+          "contentHash": "3b1d1cb4de17d10fd7b830a67ae14f9c987a578b818be40a00a8af62935bca88"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "also-in:crud-modern-new-temp"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "3b1d1cb4de17d10fd7b830a67ae14f9c987a578b818be40a00a8af62935bca88",
+  "quality": {}
+}

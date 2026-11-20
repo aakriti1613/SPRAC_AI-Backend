@@ -1,0 +1,260 @@
+{
+  "version": 1,
+  "templateId": "portal-admin",
+  "slug": "preset-generic",
+  "portalName": "preset-generic",
+  "appName": "Acme Admin",
+  "industry": "generic",
+  "themePreset": "blue",
+  "type": "admin",
+  "themeColor": "#2563eb",
+  "logoText": "AA",
+  "logoUrl": "",
+  "auth": {
+    "screens": {
+      "login": true,
+      "signup": true,
+      "forgotPassword": false
+    },
+    "method": "email-password"
+  },
+  "dashboard": {
+    "enabled": true,
+    "template": "stats-overview",
+    "style": "operations"
+  },
+  "loginPage": {
+    "portalName": "Acme Admin",
+    "badge": "Business Operations",
+    "headline": "Run your operations from one focused workspace",
+    "highlightText": "operations",
+    "description": "Manage records, tasks, approvals, and daily workflows from one secure dashboard.",
+    "features": [
+      {
+        "title": "Secure Access",
+        "description": "Enterprise-grade authentication for authorized users."
+      },
+      {
+        "title": "Self Service",
+        "description": "Manage records, workflows, and operations from one dashboard."
+      }
+    ],
+    "footerText": "Powered by your operations team"
+  },
+  "footer": {
+    "text": "Powered by your operations team"
+  },
+  "company": {
+    "name": "Acme Admin",
+    "website": "",
+    "supportEmail": "",
+    "address": ""
+  },
+  "profile": {
+    "enabled": true
+  },
+  "modules": [
+    {
+      "id": "contacts",
+      "singularName": "Contact",
+      "pluralName": "Contacts",
+      "icon": "Users",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "field-43z0zz",
+          "label": "Contact Name",
+          "key": "name",
+          "type": "text",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-mp7z8x",
+          "label": "Email",
+          "key": "email",
+          "type": "email",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-7nmzte",
+          "label": "Phone",
+          "key": "phone",
+          "type": "phone",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-d96whc",
+          "label": "Status",
+          "key": "status",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "New",
+            "Active",
+            "Inactive"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-uj40xw",
+          "label": "Notes",
+          "key": "notes",
+          "type": "textarea",
+          "required": false,
+          "width": "full",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        }
+      ],
+      "listColumns": [
+        "name",
+        "email",
+        "phone",
+        "status"
+      ],
+      "tableFeatures": {
+        "sort": true,
+        "filter": true,
+        "search": true,
+        "pagination": true,
+        "export": true
+      }
+    },
+    {
+      "id": "tasks",
+      "singularName": "Task",
+      "pluralName": "Tasks",
+      "icon": "ClipboardList",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "field-0di5ue",
+          "label": "Task",
+          "key": "title",
+          "type": "text",
+          "required": true,
+          "width": "full",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-mn8cxz",
+          "label": "Owner",
+          "key": "owner",
+          "type": "text",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-ir5cwx",
+          "label": "Due Date",
+          "key": "due_date",
+          "type": "date",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-92ud8g",
+          "label": "Priority",
+          "key": "priority",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Low",
+            "Medium",
+            "High"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-yld50t",
+          "label": "Completed",
+          "key": "completed",
+          "type": "toggle",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        }
+      ],
+      "listColumns": [
+        "title",
+        "owner",
+        "due_date",
+        "priority"
+      ],
+      "tableFeatures": {
+        "sort": true,
+        "filter": true,
+        "search": true,
+        "pagination": true,
+        "export": true
+      }
+    }
+  ]
+}

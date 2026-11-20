@@ -1,0 +1,75 @@
+{
+  "slug": "smooth-cursor",
+  "source": "magicui",
+  "name": "smooth-cursor",
+  "kind": "ui",
+  "versions": {
+    "6cdc1b104a75f3c61fae2e33045cb21b9e8f26b3b358fbd067984da30ec74c18": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:smooth-cursor@0.0.0",
+        "name": "smooth-cursor",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A customizable, physics-based smooth cursor animation component with spring animations and rotation effects",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/smooth-cursor.json",
+          "ref": "magicui",
+          "contentHash": "6cdc1b104a75f3c61fae2e33045cb21b9e8f26b3b358fbd067984da30ec74c18"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "6cdc1b104a75f3c61fae2e33045cb21b9e8f26b3b358fbd067984da30ec74c18",
+  "quality": {}
+}

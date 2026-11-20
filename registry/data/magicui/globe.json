@@ -1,0 +1,91 @@
+{
+  "slug": "globe",
+  "source": "magicui",
+  "name": "Globe",
+  "kind": "component",
+  "versions": {
+    "483b91aef674b91aabca2cedbd9d3bbaa8ca0e06c3fc7766b38f9876c20311e0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:globe@0.0.0",
+        "name": "Globe",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "An autorotating, interactive, and highly performant globe made using WebGL.",
+        "room": "location-map",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/globe.json",
+          "ref": "magicui",
+          "contentHash": "483b91aef674b91aabca2cedbd9d3bbaa8ca0e06c3fc7766b38f9876c20311e0"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "cobe": "^0.6.4",
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "room": "location-map",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "package \"cobe\" is not allowed at style \"astonishing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"address\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "483b91aef674b91aabca2cedbd9d3bbaa8ca0e06c3fc7766b38f9876c20311e0",
+  "quality": {}
+}

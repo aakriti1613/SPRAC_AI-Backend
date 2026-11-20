@@ -1,0 +1,88 @@
+{
+  "slug": "background-gradient-animation",
+  "source": "aceternity",
+  "name": "background-gradient-animation",
+  "kind": "component",
+  "versions": {
+    "73c5e3a2bd6b21989b38aeafaf80ab0f02b6ae5ffc6d14b69197b67a5114be8f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:background-gradient-animation@0.0.0",
+        "name": "background-gradient-animation",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"background-gradient-animation\".",
+        "room": "hero",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/background-gradient-animation.json",
+          "ref": "aceternity",
+          "contentHash": "73c5e3a2bd6b21989b38aeafaf80ab0f02b6ae5ffc6d14b69197b67a5114be8f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "hero",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"title\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "73c5e3a2bd6b21989b38aeafaf80ab0f02b6ae5ffc6d14b69197b67a5114be8f",
+  "quality": {}
+}

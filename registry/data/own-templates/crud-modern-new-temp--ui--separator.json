@@ -1,0 +1,82 @@
+{
+  "slug": "crud-modern-new-temp/ui/separator",
+  "source": "own-templates",
+  "name": "separator (crud-modern template)",
+  "kind": "ui",
+  "versions": {
+    "03bf07e1813351a187dff742e1866470a339252c5cd49290b3f18182c82250bf": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/ui/separator@0.1.0",
+        "name": "separator (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "ui",
+        "summary": "UI primitive \"separator\" from the crud-modern-new-temp template.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/ui/separator.tsx",
+          "contentHash": "03bf07e1813351a187dff742e1866470a339252c5cd49290b3f18182c82250bf"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.2.0",
+            "radix-ui": "^1.4.3"
+          },
+          "peer": {},
+          "registry": [
+            "crud-modern-new-temp/src/lib/utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "tags": [
+            "legacy",
+            "ui"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "03bf07e1813351a187dff742e1866470a339252c5cd49290b3f18182c82250bf",
+  "quality": {}
+}

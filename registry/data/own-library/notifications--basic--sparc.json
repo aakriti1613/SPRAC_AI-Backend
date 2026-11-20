@@ -1,0 +1,112 @@
+{
+  "slug": "notifications/basic/sparc",
+  "source": "own-library",
+  "name": "Basic notifications",
+  "kind": "component",
+  "versions": {
+    "b2bb0b056e842b6eeb9928e3e5b08afcc371ff07a2112a4df2564c4857e82d94": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:notifications/basic/sparc@1.0.0",
+        "name": "Basic notifications",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic notifications: Bell menu or panel with notifications.",
+        "room": "notifications",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/notifications/basic/sparc/index.tsx",
+          "contentHash": "b2bb0b056e842b6eeb9928e3e5b08afcc371ff07a2112a4df2564c4857e82d94"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "onMarkAllRead",
+              "kind": "function",
+              "required": false
+            },
+            {
+              "name": "onMarkRead",
+              "kind": "function",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/format",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "feedback",
+          "tags": [
+            "notifications",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "notifications",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "b2bb0b056e842b6eeb9928e3e5b08afcc371ff07a2112a4df2564c4857e82d94",
+  "quality": {
+    "sizeKb": 1.3,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

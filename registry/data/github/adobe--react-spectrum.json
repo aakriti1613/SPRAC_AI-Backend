@@ -1,0 +1,78 @@
+{
+  "slug": "adobe/react-spectrum",
+  "source": "github",
+  "name": "adobe/react-spectrum",
+  "kind": "library",
+  "versions": {
+    "604200da79c6018b98a2bc61e8687c98e6f0e2de32af3ef8cec7370622aeb61d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:adobe/react-spectrum@0.0.0",
+        "name": "adobe/react-spectrum",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "A collection of libraries and tools that help you build adaptive, accessible, and robust user experiences.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/adobe/react-spectrum",
+          "ref": "main",
+          "contentHash": "604200da79c6018b98a2bc61e8687c98e6f0e2de32af3ef8cec7370622aeb61d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "accessibility",
+            "design-systems",
+            "react",
+            "react-components",
+            "ui-components",
+            "wai-aria",
+            "query:topic:react-components language:TypeScript stars:>2000"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "604200da79c6018b98a2bc61e8687c98e6f0e2de32af3ef8cec7370622aeb61d",
+  "quality": {
+    "stars": 16050,
+    "lastPublish": "2026-11-18T06:00:32Z"
+  }
+}

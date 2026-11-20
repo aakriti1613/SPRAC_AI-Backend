@@ -1,0 +1,84 @@
+{
+  "slug": "rsuite-table",
+  "source": "npm",
+  "name": "rsuite-table",
+  "kind": "library",
+  "versions": {
+    "f70322425ebc973086cefd060e74a6a1d9d02dcc359dc051c21e342bcf40fe64": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:rsuite-table@5.19.3",
+        "name": "rsuite-table",
+        "version": "5.19.3",
+        "kind": "library",
+        "summary": "A React table component",
+        "room": "data-table",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/rsuite-table",
+          "ref": "5.19.3",
+          "contentHash": "f70322425ebc973086cefd060e74a6a1d9d02dcc359dc051c21e342bcf40fe64"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">=16.8.0",
+            "react-dom": ">=16.8.0"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">=16.8.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data-table",
+          "tags": [
+            "query:react table"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "data-table",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "f70322425ebc973086cefd060e74a6a1d9d02dcc359dc051c21e342bcf40fe64",
+  "quality": {
+    "downloads": 877031,
+    "lastPublish": "2026-10-24T00:18:35.762Z",
+    "hasTypes": true
+  }
+}

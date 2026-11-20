@@ -1,0 +1,98 @@
+{
+  "cdlVersion": 1,
+  "id": "own:crud-modern/currency-input@1.0.0",
+  "name": "CurrencyInput",
+  "version": "1.0.0",
+  "kind": "component",
+  "summary": "Money input with currency symbol and Indian number formatting.",
+  "room": "form-field",
+  "styleLevel": "basic",
+  "websiteTypes": [
+    "admin-portal"
+  ],
+  "source": {
+    "type": "own-template",
+    "url": "platform-backend-main/templates/crud-modern-new-temp",
+    "path": "src/components/fields/CurrencyInput.tsx"
+  },
+  "interface": {
+    "props": [
+      {
+        "name": "field",
+        "kind": "object",
+        "required": true
+      },
+      {
+        "name": "value",
+        "kind": "unknown",
+        "required": true
+      },
+      {
+        "name": "onChange",
+        "kind": "function",
+        "required": true
+      },
+      {
+        "name": "error",
+        "kind": "string",
+        "required": false
+      },
+      {
+        "name": "disabled",
+        "kind": "boolean",
+        "required": false
+      }
+    ]
+  },
+  "provides": {
+    "fieldTypes": [
+      "currency"
+    ],
+    "capabilities": [
+      "format.inr"
+    ]
+  },
+  "requires": {
+    "npm": {
+      "react": "^19.0.0"
+    },
+    "peer": {},
+    "registry": [
+      "input"
+    ],
+    "env": []
+  },
+  "compat": {
+    "react": ">=19",
+    "tailwind": "4",
+    "language": "ts"
+  },
+  "facets": {
+    "category": "form",
+    "tags": [
+      "money",
+      "currency",
+      "inr"
+    ]
+  },
+  "license": "own",
+  "quality": {
+    "sizeKb": 2.1,
+    "hasTypes": true,
+    "hasTests": true,
+    "a11yViolations": 0
+  },
+  "trust": "verified",
+  "provenance": {
+    "interface": {
+      "by": "parser",
+      "confidence": 1
+    },
+    "summary": {
+      "by": "human"
+    },
+    "trust": {
+      "by": "human"
+    }
+  }
+}

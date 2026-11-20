@@ -1,0 +1,134 @@
+{
+  "slug": "hero/astonishing/sparc",
+  "source": "own-library",
+  "name": "Astonishing hero",
+  "kind": "component",
+  "versions": {
+    "6209dc845648cc6d7df7a9ce5334cdbdaa498a4158ca6a97bd19f250fc64d04a": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:hero/astonishing/sparc@1.0.0",
+        "name": "Astonishing hero",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Astonishing hero: First big section: headline, sub-text, buttons, optional image.",
+        "room": "hero",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/hero/astonishing/sparc/index.tsx",
+          "contentHash": "6209dc845648cc6d7df7a9ce5334cdbdaa498a4158ca6a97bd19f250fc64d04a"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "eyebrow",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "highlight",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "image",
+              "kind": "object",
+              "required": false
+            },
+            {
+              "name": "primaryCta",
+              "kind": "object",
+              "required": false
+            },
+            {
+              "name": "secondaryCta",
+              "kind": "object",
+              "required": false
+            },
+            {
+              "name": "subtitle",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "hero",
+            "astonishing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "hero",
+  "styleLevel": "astonishing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "6209dc845648cc6d7df7a9ce5334cdbdaa498a4158ca6a97bd19f250fc64d04a",
+  "quality": {
+    "sizeKb": 47.8,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

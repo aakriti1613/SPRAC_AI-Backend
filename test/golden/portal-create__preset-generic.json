@@ -1,0 +1,270 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "slug": "preset-generic",
+    "portalUrl": "/portal/preset-generic",
+    "shortPortalUrl": "/p/preset-generic"
+  },
+  "stored": {
+    "version": 1,
+    "templateId": "portal-admin",
+    "slug": "preset-generic",
+    "portalName": "preset-generic",
+    "appName": "Acme Admin",
+    "type": "admin",
+    "industry": "generic",
+    "themePreset": "blue",
+    "themeColor": "#2563eb",
+    "logoUrl": "",
+    "logoText": "AA",
+    "loginPage": {
+      "portalName": "Acme Admin",
+      "badge": "Business Operations",
+      "headline": "Run your operations from one focused workspace",
+      "highlightText": "operations",
+      "description": "Manage records, tasks, approvals, and daily workflows from one secure dashboard.",
+      "features": [
+        {
+          "title": "Secure Access",
+          "description": "Enterprise-grade authentication for authorized users."
+        },
+        {
+          "title": "Self Service",
+          "description": "Manage records, workflows, and operations from one dashboard."
+        }
+      ],
+      "footerText": "Powered by your operations team"
+    },
+    "footer": {
+      "text": "Powered by your operations team"
+    },
+    "company": {
+      "name": "Acme Admin",
+      "website": "",
+      "supportEmail": "",
+      "address": ""
+    },
+    "auth": {
+      "screens": {
+        "login": true,
+        "signup": true,
+        "forgotPassword": false
+      },
+      "method": "email-password"
+    },
+    "dashboard": {
+      "enabled": true,
+      "template": "stats-overview"
+    },
+    "profile": {
+      "enabled": true
+    },
+    "modules": [
+      {
+        "id": "contacts",
+        "singularName": "Contact",
+        "pluralName": "Contacts",
+        "icon": "Users",
+        "fields": [
+          {
+            "id": "field-43z0zz",
+            "key": "name",
+            "label": "Contact Name",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-mp7z8x",
+            "key": "email",
+            "label": "Email",
+            "type": "email",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-7nmzte",
+            "key": "phone",
+            "label": "Phone",
+            "type": "phone",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-d96whc",
+            "key": "status",
+            "label": "Status",
+            "type": "select",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "New",
+              "Active",
+              "Inactive"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-uj40xw",
+            "key": "notes",
+            "label": "Notes",
+            "type": "textarea",
+            "required": false,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "name",
+          "email",
+          "phone",
+          "status"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        },
+        "collapsed": false
+      },
+      {
+        "id": "tasks",
+        "singularName": "Task",
+        "pluralName": "Tasks",
+        "icon": "ClipboardList",
+        "fields": [
+          {
+            "id": "field-0di5ue",
+            "key": "title",
+            "label": "Task",
+            "type": "text",
+            "required": true,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-mn8cxz",
+            "key": "owner",
+            "label": "Owner",
+            "type": "text",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-ir5cwx",
+            "key": "due_date",
+            "label": "Due Date",
+            "type": "date",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-92ud8g",
+            "key": "priority",
+            "label": "Priority",
+            "type": "select",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "Low",
+              "Medium",
+              "High"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-yld50t",
+            "key": "completed",
+            "label": "Completed",
+            "type": "toggle",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "title",
+          "owner",
+          "due_date",
+          "priority"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        },
+        "collapsed": false
+      }
+    ],
+    "createdAt": "<iso>",
+    "updatedAt": "<iso>"
+  }
+}

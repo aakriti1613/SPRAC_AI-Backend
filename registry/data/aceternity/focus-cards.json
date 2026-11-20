@@ -1,0 +1,89 @@
+{
+  "slug": "focus-cards",
+  "source": "aceternity",
+  "name": "focus-cards",
+  "kind": "component",
+  "versions": {
+    "202269ef9821fdce0aa98864c0ff963cc45e7ef9116095c052de29e97ea32bd8": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:focus-cards@0.0.0",
+        "name": "focus-cards",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"focus-cards\".",
+        "room": "services",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/focus-cards.json",
+          "ref": "aceternity",
+          "contentHash": "202269ef9821fdce0aa98864c0ff963cc45e7ef9116095c052de29e97ea32bd8"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "services",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "202269ef9821fdce0aa98864c0ff963cc45e7ef9116095c052de29e97ea32bd8",
+  "quality": {}
+}

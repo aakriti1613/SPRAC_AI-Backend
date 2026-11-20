@@ -1,0 +1,72 @@
+{
+  "slug": "shine-border",
+  "source": "magicui",
+  "name": "Shine Border",
+  "kind": "ui",
+  "versions": {
+    "6acdfba455089b3f4e202fe7e877e1c88a209a46795521e0d62dcf5fe2c1fd37": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:shine-border@0.0.0",
+        "name": "Shine Border",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Shine border is an animated background border effect.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/shine-border.json",
+          "ref": "magicui",
+          "contentHash": "6acdfba455089b3f4e202fe7e877e1c88a209a46795521e0d62dcf5fe2c1fd37"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "6acdfba455089b3f4e202fe7e877e1c88a209a46795521e0d62dcf5fe2c1fd37",
+  "quality": {}
+}

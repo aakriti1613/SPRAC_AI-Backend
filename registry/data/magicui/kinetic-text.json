@@ -1,0 +1,72 @@
+{
+  "slug": "kinetic-text",
+  "source": "magicui",
+  "name": "Kinetic Text",
+  "kind": "ui",
+  "versions": {
+    "c11c653691a836f39aecefcbb13bc2c9ae47c0b063f96345630673085030bcc2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:kinetic-text@0.0.0",
+        "name": "Kinetic Text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A text component that animates font weight of characters on hover.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/kinetic-text.json",
+          "ref": "magicui",
+          "contentHash": "c11c653691a836f39aecefcbb13bc2c9ae47c0b063f96345630673085030bcc2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "c11c653691a836f39aecefcbb13bc2c9ae47c0b063f96345630673085030bcc2",
+  "quality": {}
+}

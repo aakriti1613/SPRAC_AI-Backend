@@ -1,0 +1,30 @@
+{
+  "missingFields": {
+    "status": 400,
+    "body": {
+      "success": false,
+      "error": "templateId and projectName are required"
+    }
+  },
+  "badProjectName": {
+    "status": 400,
+    "body": {
+      "success": false,
+      "error": "templateId and projectName must be alphanumeric, dash, or underscore only"
+    }
+  },
+  "unknownTemplate": {
+    "status": 404,
+    "body": {
+      "success": false,
+      "error": "Template \"nope\" not found in templates/"
+    }
+  },
+  "validateNoConfig": {
+    "status": 400,
+    "body": {
+      "success": false,
+      "error": "config object is required"
+    }
+  }
+}

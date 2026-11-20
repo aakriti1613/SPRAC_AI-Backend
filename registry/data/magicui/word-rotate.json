@@ -1,0 +1,75 @@
+{
+  "slug": "word-rotate",
+  "source": "magicui",
+  "name": "Word Rotate",
+  "kind": "ui",
+  "versions": {
+    "e034cc48e7bfef9a4b7cc002dff649f8b86859a5810186ae47b04ae65287f7e0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:word-rotate@0.0.0",
+        "name": "Word Rotate",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A vertical rotation of words",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/word-rotate.json",
+          "ref": "magicui",
+          "contentHash": "e034cc48e7bfef9a4b7cc002dff649f8b86859a5810186ae47b04ae65287f7e0"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e034cc48e7bfef9a4b7cc002dff649f8b86859a5810186ae47b04ae65287f7e0",
+  "quality": {}
+}

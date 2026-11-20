@@ -1,0 +1,107 @@
+{
+  "slug": "experience/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing experience",
+  "kind": "component",
+  "versions": {
+    "e27540cc0b7f1626bc67b20d6c759fc4e08fb3170e7a2ddcc2924c0ee784f73b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:experience/amazing/sparc@1.0.0",
+        "name": "Amazing experience",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing experience: Work experience timeline.",
+        "room": "experience",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/experience/amazing/sparc/index.tsx",
+          "contentHash": "e27540cc0b7f1626bc67b20d6c759fc4e08fb3170e7a2ddcc2924c0ee784f73b"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "experience",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "experience",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "e27540cc0b7f1626bc67b20d6c759fc4e08fb3170e7a2ddcc2924c0ee784f73b",
+  "quality": {
+    "sizeKb": 45.9,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "registration-form-with-images",
+  "source": "aceternity",
+  "name": "registration-form-with-images",
+  "kind": "ui",
+  "versions": {
+    "551bd8de9da808a508d72b7d218f7ed78d41243563daaef752754a434004fef4": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:registration-form-with-images@0.0.0",
+        "name": "registration-form-with-images",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Registration Form With Images",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/registration-form-with-images.json",
+          "ref": "aceternity",
+          "contentHash": "551bd8de9da808a508d72b7d218f7ed78d41243563daaef752754a434004fef4"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "551bd8de9da808a508d72b7d218f7ed78d41243563daaef752754a434004fef4",
+  "quality": {}
+}

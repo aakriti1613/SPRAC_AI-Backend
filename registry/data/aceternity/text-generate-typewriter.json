@@ -1,0 +1,73 @@
+{
+  "slug": "text-generate-typewriter",
+  "source": "aceternity",
+  "name": "text-generate-typewriter",
+  "kind": "ui",
+  "versions": {
+    "3bcd1826df340632e5d293b2599f176a942b6cf0898a1e8836809415c695249f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:text-generate-typewriter@0.0.0",
+        "name": "text-generate-typewriter",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Text Generate Typewriter with Keyboard Sounds",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/text-generate-typewriter.json",
+          "ref": "aceternity",
+          "contentHash": "3bcd1826df340632e5d293b2599f176a942b6cf0898a1e8836809415c695249f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "3bcd1826df340632e5d293b2599f176a942b6cf0898a1e8836809415c695249f",
+  "quality": {}
+}

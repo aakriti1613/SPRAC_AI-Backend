@@ -1,0 +1,88 @@
+{
+  "slug": "react-dropzone-esm",
+  "source": "npm",
+  "name": "react-dropzone-esm",
+  "kind": "library",
+  "versions": {
+    "b3068969bbe3dd71104d8ef941a91c2eb6d415069f0bf78229afee06e368500c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-dropzone-esm@15.2.0",
+        "name": "react-dropzone-esm",
+        "version": "15.2.0",
+        "kind": "library",
+        "summary": "Simple HTML5 drag-drop zone with React.js",
+        "room": "file-upload",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-dropzone-esm",
+          "ref": "15.2.0",
+          "contentHash": "b3068969bbe3dd71104d8ef941a91c2eb6d415069f0bf78229afee06e368500c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">= 16.8 || 18.0.0"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">= 16.8 || 18.0.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "file-upload",
+          "tags": [
+            "react-component",
+            "react",
+            "drag",
+            "drop",
+            "upload",
+            "query:react dropzone"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "file-upload",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "b3068969bbe3dd71104d8ef941a91c2eb6d415069f0bf78229afee06e368500c",
+  "quality": {
+    "downloads": 1329177,
+    "lastPublish": "2024-11-19T10:29:01.117Z",
+    "hasTypes": true
+  }
+}

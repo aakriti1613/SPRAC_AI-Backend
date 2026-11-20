@@ -1,0 +1,75 @@
+{
+  "slug": "text-hover-effect",
+  "source": "aceternity",
+  "name": "text-hover-effect",
+  "kind": "ui",
+  "versions": {
+    "4ad154179b0763db84d3adf35161b2dd45366a3b75b03bdd603bf76e803db1ad": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:text-hover-effect@0.0.0",
+        "name": "text-hover-effect",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"text-hover-effect\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/text-hover-effect.json",
+          "ref": "aceternity",
+          "contentHash": "4ad154179b0763db84d3adf35161b2dd45366a3b75b03bdd603bf76e803db1ad"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "4ad154179b0763db84d3adf35161b2dd45366a3b75b03bdd603bf76e803db1ad",
+  "quality": {}
+}

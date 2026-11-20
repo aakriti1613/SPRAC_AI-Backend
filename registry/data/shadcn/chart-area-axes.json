@@ -1,0 +1,76 @@
+{
+  "slug": "chart-area-axes",
+  "source": "shadcn",
+  "name": "chart-area-axes",
+  "kind": "ui",
+  "versions": {
+    "eb6b4fab23cf22f55c9a38094dfc1ebfcf2a201ffc1dec2f8ce37d7a377928c2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-area-axes@0.0.0",
+        "name": "chart-area-axes",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-area-axes\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-area-axes.json",
+          "ref": "new-york-v4",
+          "contentHash": "eb6b4fab23cf22f55c9a38094dfc1ebfcf2a201ffc1dec2f8ce37d7a377928c2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-area"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "eb6b4fab23cf22f55c9a38094dfc1ebfcf2a201ffc1dec2f8ce37d7a377928c2",
+  "quality": {}
+}

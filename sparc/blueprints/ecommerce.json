@@ -1,0 +1,30 @@
+{
+  "id": "ecommerce",
+  "name": "E-commerce store",
+  "description": "Online shop: products, product pages, cart and checkout with payment (practice cards in test mode, Razorpay/Stripe through a server function).",
+  "status": "active",
+  "release": "v2",
+  "audience": "Shops selling online",
+  "industryBased": true,
+  "industries": ["inventory", "generic"],
+  "maxStyleLevel": "amazing",
+  "configFile": "store-config.json",
+  "existingTemplates": [],
+  "rooms": {
+    "required": ["navbar", "hero", "product-list", "product-page", "cart", "checkout-payment", "order-confirmation", "footer", "not-found"],
+    "optional": ["testimonials", "faq", "newsletter", "cta-banner"],
+    "defaultOn": ["faq"]
+  },
+  "industryDefaults": {
+    "inventory": ["testimonials", "newsletter"],
+    "generic": ["faq", "cta-banner"]
+  },
+  "pages": [
+    { "id": "home", "path": "/", "title": "Shop home", "rooms": ["navbar", "hero", "product-list", "testimonials", "cta-banner", "faq", "newsletter", "footer"] },
+    { "id": "product", "path": "/product/:id", "title": "Product", "rooms": ["navbar", "product-page", "footer"] },
+    { "id": "cart", "path": "/cart", "title": "Cart", "rooms": ["navbar", "cart", "footer"] },
+    { "id": "checkout", "path": "/checkout", "title": "Checkout and payment", "rooms": ["navbar", "checkout-payment", "footer"] },
+    { "id": "order-confirmation", "path": "/order-confirmation", "title": "Order confirmed", "rooms": ["navbar", "order-confirmation", "footer"] },
+    { "id": "not-found", "path": "*", "title": "404", "rooms": ["not-found"] }
+  ]
+}

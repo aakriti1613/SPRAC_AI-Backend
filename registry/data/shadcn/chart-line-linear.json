@@ -1,0 +1,76 @@
+{
+  "slug": "chart-line-linear",
+  "source": "shadcn",
+  "name": "chart-line-linear",
+  "kind": "ui",
+  "versions": {
+    "65e230e14f5c3dbbcba9df6c80c05bddb6badebb94f53d2d159caed7efb8b47a": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-line-linear@0.0.0",
+        "name": "chart-line-linear",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-line-linear\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-line-linear.json",
+          "ref": "new-york-v4",
+          "contentHash": "65e230e14f5c3dbbcba9df6c80c05bddb6badebb94f53d2d159caed7efb8b47a"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-line"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "65e230e14f5c3dbbcba9df6c80c05bddb6badebb94f53d2d159caed7efb8b47a",
+  "quality": {}
+}

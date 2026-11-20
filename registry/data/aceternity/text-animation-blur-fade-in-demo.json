@@ -1,0 +1,75 @@
+{
+  "slug": "text-animation-blur-fade-in-demo",
+  "source": "aceternity",
+  "name": "text-animation-blur-fade-in-demo",
+  "kind": "ui",
+  "versions": {
+    "f070c32522f8cef6c8d75a89ac59fdc1e96cb1a785d65ec28b422701b8740d02": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:text-animation-blur-fade-in-demo@0.0.0",
+        "name": "text-animation-blur-fade-in-demo",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Text Animation Blur Fade In Demo",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/text-animation-blur-fade-in-demo.json",
+          "ref": "aceternity",
+          "contentHash": "f070c32522f8cef6c8d75a89ac59fdc1e96cb1a785d65ec28b422701b8740d02"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "f070c32522f8cef6c8d75a89ac59fdc1e96cb1a785d65ec28b422701b8740d02",
+  "quality": {}
+}

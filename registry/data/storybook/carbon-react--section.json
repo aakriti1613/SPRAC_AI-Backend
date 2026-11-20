@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/section",
+  "source": "storybook",
+  "name": "Section (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "4dd9b3656b8d9eae92dbf2b916822ddd47a11d31fb8190a30dd7747f6d7c425e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/section@0.0.0",
+        "name": "Section (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Section from IBM Carbon (React): 0 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-section-overview--overview",
+          "ref": "@carbon/react",
+          "contentHash": "4dd9b3656b8d9eae92dbf2b916822ddd47a11d31fb8190a30dd7747f6d7c425e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "4dd9b3656b8d9eae92dbf2b916822ddd47a11d31fb8190a30dd7747f6d7c425e",
+  "quality": {
+    "hasTests": false
+  }
+}

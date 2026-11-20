@@ -1,0 +1,75 @@
+{
+  "slug": "carbon-react/tabs",
+  "source": "storybook",
+  "name": "Tabs (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "42edd53af025ad149e95fd600f887e7f7d446a41bcec84ef1ea88c1aa466a409": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/tabs@0.0.0",
+        "name": "Tabs (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Tabs from IBM Carbon (React): 17 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-tabs--overview",
+          "ref": "@carbon/react",
+          "contentHash": "42edd53af025ad149e95fd600f887e7f7d446a41bcec84ef1ea88c1aa466a409"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest",
+            "play-fn"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "42edd53af025ad149e95fd600f887e7f7d446a41bcec84ef1ea88c1aa466a409",
+  "quality": {
+    "hasTests": true
+  }
+}

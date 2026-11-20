@@ -1,0 +1,75 @@
+{
+  "slug": "pointer",
+  "source": "magicui",
+  "name": "Pointer",
+  "kind": "ui",
+  "versions": {
+    "6f0acb85401ad2c52f4573c154bd35646bb52a3fde061817aa299dd0b547542e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:pointer@0.0.0",
+        "name": "Pointer",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A component that displays a pointer when hovering over an element",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/pointer.json",
+          "ref": "magicui",
+          "contentHash": "6f0acb85401ad2c52f4573c154bd35646bb52a3fde061817aa299dd0b547542e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "6f0acb85401ad2c52f4573c154bd35646bb52a3fde061817aa299dd0b547542e",
+  "quality": {}
+}

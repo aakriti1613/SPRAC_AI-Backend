@@ -1,0 +1,76 @@
+{
+  "slug": "chart-radial-shape",
+  "source": "shadcn",
+  "name": "chart-radial-shape",
+  "kind": "ui",
+  "versions": {
+    "df1a733e8be7a81edd80c6241704a15ea18db3b561895a83c8c500badaafd66e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-radial-shape@0.0.0",
+        "name": "chart-radial-shape",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-radial-shape\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-radial-shape.json",
+          "ref": "new-york-v4",
+          "contentHash": "df1a733e8be7a81edd80c6241704a15ea18db3b561895a83c8c500badaafd66e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-radial"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "df1a733e8be7a81edd80c6241704a15ea18db3b561895a83c8c500badaafd66e",
+  "quality": {}
+}

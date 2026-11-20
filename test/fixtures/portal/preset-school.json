@@ -1,0 +1,270 @@
+{
+  "version": 1,
+  "templateId": "portal-admin",
+  "slug": "preset-school",
+  "portalName": "preset-school",
+  "appName": "Acme Admin",
+  "industry": "school",
+  "themePreset": "blue",
+  "type": "admin",
+  "themeColor": "#ca8a04",
+  "logoText": "AA",
+  "logoUrl": "",
+  "auth": {
+    "screens": {
+      "login": true,
+      "signup": true,
+      "forgotPassword": false
+    },
+    "method": "email-password"
+  },
+  "dashboard": {
+    "enabled": true,
+    "template": "stats-overview",
+    "style": "school"
+  },
+  "loginPage": {
+    "portalName": "Acme Admin",
+    "badge": "School Management",
+    "headline": "Run student and campus operations smoothly",
+    "highlightText": "student",
+    "description": "Manage student records, fees, classes, and school workflows from a single dashboard.",
+    "features": [
+      {
+        "title": "Secure Access",
+        "description": "Enterprise-grade authentication for authorized users."
+      },
+      {
+        "title": "Self Service",
+        "description": "Manage records, workflows, and operations from one dashboard."
+      }
+    ],
+    "footerText": "School administration portal"
+  },
+  "footer": {
+    "text": "School administration portal"
+  },
+  "company": {
+    "name": "Acme Admin",
+    "website": "",
+    "supportEmail": "",
+    "address": ""
+  },
+  "profile": {
+    "enabled": true
+  },
+  "modules": [
+    {
+      "id": "students",
+      "singularName": "Student",
+      "pluralName": "Students",
+      "icon": "GraduationCap",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "field-ylpec3",
+          "label": "Student Name",
+          "key": "name",
+          "type": "text",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-b4tmun",
+          "label": "Guardian Phone",
+          "key": "guardian_phone",
+          "type": "phone",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-24k41t",
+          "label": "Class",
+          "key": "class_name",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Nursery",
+            "Class 1",
+            "Class 5",
+            "Class 10",
+            "Class 12"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-2fsr79",
+          "label": "Enrollment Date",
+          "key": "enrollment_date",
+          "type": "date",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-61sfsh",
+          "label": "Status",
+          "key": "status",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Active",
+            "Transferred",
+            "Alumni"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        }
+      ],
+      "listColumns": [
+        "name",
+        "class_name",
+        "guardian_phone",
+        "status"
+      ],
+      "tableFeatures": {
+        "sort": true,
+        "filter": true,
+        "search": true,
+        "pagination": true,
+        "export": true
+      }
+    },
+    {
+      "id": "fee-records",
+      "singularName": "Fee Record",
+      "pluralName": "Fee Records",
+      "icon": "BadgeIndianRupee",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "field-7ewtd3",
+          "label": "Student Name",
+          "key": "student_name",
+          "type": "text",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-h34v1g",
+          "label": "Term",
+          "key": "term",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Term 1",
+            "Term 2",
+            "Annual"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-24qlmf",
+          "label": "Amount",
+          "key": "amount",
+          "type": "currency",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-l41vkc",
+          "label": "Due Date",
+          "key": "due_date",
+          "type": "date",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-1mhuf3",
+          "label": "Payment Status",
+          "key": "status",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Due",
+            "Partial",
+            "Paid"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        }
+      ],
+      "listColumns": [
+        "student_name",
+        "term",
+        "amount",
+        "status"
+      ],
+      "tableFeatures": {
+        "sort": true,
+        "filter": true,
+        "search": true,
+        "pagination": true,
+        "export": true
+      }
+    }
+  ]
+}

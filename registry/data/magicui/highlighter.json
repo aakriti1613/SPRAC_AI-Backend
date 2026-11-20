@@ -1,0 +1,76 @@
+{
+  "slug": "highlighter",
+  "source": "magicui",
+  "name": "Highlighter",
+  "kind": "ui",
+  "versions": {
+    "4be98a2eb93e5726bb727e288f871fdf255a1cb2c2be3bc940a58d77770ae049": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:highlighter@0.0.0",
+        "name": "Highlighter",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A text highlighter that mimics the effect of a human-drawn marker stroke.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/highlighter.json",
+          "ref": "magicui",
+          "contentHash": "4be98a2eb93e5726bb727e288f871fdf255a1cb2c2be3bc940a58d77770ae049"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "rough-notation": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "4be98a2eb93e5726bb727e288f871fdf255a1cb2c2be3bc940a58d77770ae049",
+  "quality": {}
+}

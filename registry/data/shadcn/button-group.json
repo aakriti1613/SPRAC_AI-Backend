@@ -1,0 +1,74 @@
+{
+  "slug": "button-group",
+  "source": "shadcn",
+  "name": "button-group",
+  "kind": "ui",
+  "versions": {
+    "f63f6b0a7d2bc9758d4835ea0dc65d93542a19571ea72db80c975ca6ac766257": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:button-group@0.0.0",
+        "name": "button-group",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"button-group\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/button-group.json",
+          "ref": "new-york-v4",
+          "contentHash": "f63f6b0a7d2bc9758d4835ea0dc65d93542a19571ea72db80c975ca6ac766257"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:button",
+            "shadcn:separator",
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "f63f6b0a7d2bc9758d4835ea0dc65d93542a19571ea72db80c975ca6ac766257",
+  "quality": {}
+}

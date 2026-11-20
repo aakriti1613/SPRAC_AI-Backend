@@ -1,0 +1,75 @@
+{
+  "slug": "scroll-progress",
+  "source": "magicui",
+  "name": "Scroll Progress",
+  "kind": "ui",
+  "versions": {
+    "0f44e9ab630b9ef7ffa62e4a9b47b73d16799932fafae46c3bfb053d570100ea": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:scroll-progress@0.0.0",
+        "name": "Scroll Progress",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Animated Scroll Progress for your pages",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/scroll-progress.json",
+          "ref": "magicui",
+          "contentHash": "0f44e9ab630b9ef7ffa62e4a9b47b73d16799932fafae46c3bfb053d570100ea"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "0f44e9ab630b9ef7ffa62e4a9b47b73d16799932fafae46c3bfb053d570100ea",
+  "quality": {}
+}

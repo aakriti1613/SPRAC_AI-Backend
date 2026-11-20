@@ -1,0 +1,59 @@
+name: Backend tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: |
+            package-lock.json
+            sparc-ui/package-lock.json
+      - run: npm ci
+      # The registry analyzer reads sparc-ui components with their real types.
+      - run: npm ci --prefix sparc-ui
+      - name: Syntax check
+        run: node --check index.js
+      # Golden regression tests (old flow must produce identical output),
+      # field types, login/auth, templates, SPARC scope and the component registry.
+      - run: npm test
+      # The committed catalogue must match the code: re-label our own library and
+      # rebuild the status report, then fail if anything changed.
+      - name: Catalogue is up to date
+        run: |
+          node registry/cli.js ingest --source own-library
+          node registry/cli.js report
+          node registry/cli.js verify
+          git diff --exit-code -- registry/data/own-library docs/LIBRARY_STATUS.md
+      # Search + planner accuracy must stay above the Phase 4 thresholds.
+      - name: Search and planner evaluation
+        run: node registry/cli.js evaluate
+
+  sparc-ui:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: sparc-ui
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: sparc-ui/package-lock.json
+      - run: npm ci
+      # Every component must match its room contract (TypeScript) ...
+      - run: npm run typecheck
+      # ... render, pass accessibility + size budgets (quality.*.json must be current),
+      # and the shells must work end to end (demo mode).
+      - run: npm test
+      - run: npm run build

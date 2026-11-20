@@ -1,0 +1,82 @@
+{
+  "slug": "crud-modern-new-temp/ui/scroll-area",
+  "source": "own-templates",
+  "name": "scroll-area (crud-modern template)",
+  "kind": "ui",
+  "versions": {
+    "f3476dc08878688ef81b369e30b70abcfad603e9131c058ea63fe5c7725551ba": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/ui/scroll-area@0.1.0",
+        "name": "scroll-area (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "ui",
+        "summary": "UI primitive \"scroll-area\" from the crud-modern-new-temp template.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/ui/scroll-area.tsx",
+          "contentHash": "f3476dc08878688ef81b369e30b70abcfad603e9131c058ea63fe5c7725551ba"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.2.0",
+            "radix-ui": "^1.4.3"
+          },
+          "peer": {},
+          "registry": [
+            "crud-modern-new-temp/src/lib/utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "tags": [
+            "legacy",
+            "ui"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "f3476dc08878688ef81b369e30b70abcfad603e9131c058ea63fe5c7725551ba",
+  "quality": {}
+}

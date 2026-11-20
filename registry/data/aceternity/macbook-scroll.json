@@ -1,0 +1,76 @@
+{
+  "slug": "macbook-scroll",
+  "source": "aceternity",
+  "name": "macbook-scroll",
+  "kind": "ui",
+  "versions": {
+    "85af5d2224a6be3577ee037523b2296fd7dd34e5190c5b9ef3155dc5b8959c08": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:macbook-scroll@0.0.0",
+        "name": "macbook-scroll",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"macbook-scroll\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/macbook-scroll.json",
+          "ref": "aceternity",
+          "contentHash": "85af5d2224a6be3577ee037523b2296fd7dd34e5190c5b9ef3155dc5b8959c08"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@tabler/icons-react": "*",
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "85af5d2224a6be3577ee037523b2296fd7dd34e5190c5b9ef3155dc5b8959c08",
+  "quality": {}
+}

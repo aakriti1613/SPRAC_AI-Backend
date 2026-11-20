@@ -1,0 +1,130 @@
+{
+  "slug": "dashboard-stat-card/amazing/gradient-tile",
+  "source": "own-library",
+  "name": "Amazing dashboard-stat-card (gradient-tile)",
+  "kind": "component",
+  "versions": {
+    "da6d91b29b5ac6fbaaa011d3327ead0d02050f54aa82818c525705efe17f14a0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:dashboard-stat-card/amazing/gradient-tile@1.0.0",
+        "name": "Amazing dashboard-stat-card (gradient-tile)",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing dashboard-stat-card: One KPI tile (e.g. 'Patients: 128').",
+        "description": "Gradient KPI tile promoted from the prototype's crud-modern StatCard. Cleaning: accepts the dashboard-stat-card contract (icon by name, value as text), uses theme tokens instead of fixed colours, respects reduce-motion; the sparkline was dropped because the contract does not provide that data.",
+        "room": "dashboard-stat-card",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/dashboard-stat-card/amazing/gradient-tile/index.tsx",
+          "contentHash": "da6d91b29b5ac6fbaaa011d3327ead0d02050f54aa82818c525705efe17f14a0"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "hint",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "href",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "icon",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "label",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "trend",
+              "kind": "number",
+              "required": false
+            },
+            {
+              "name": "value",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "^12.43.0",
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "dashboard-stat-card",
+            "amazing",
+            "derived-from:legacy:crud-modern-new-temp/widgets/stat-card@0.1.0"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "dashboard-stat-card",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "da6d91b29b5ac6fbaaa011d3327ead0d02050f54aa82818c525705efe17f14a0",
+  "quality": {
+    "sizeKb": 45.5,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

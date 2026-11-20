@@ -1,0 +1,106 @@
+{
+  "slug": "crud-modern-new-temp/widgets/recent-list",
+  "source": "own-templates",
+  "name": "RecentList (crud-modern template)",
+  "kind": "component",
+  "versions": {
+    "efd2fc4919c61245af7a29e6400cbcd1b9f54c616952086aefefd4a7e17f9ee4": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/widgets/recent-list@0.1.0",
+        "name": "RecentList (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "component",
+        "summary": "Dashboard widget \"RecentList\" from the crud-modern-new-temp template.",
+        "room": "activity-log",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/widgets/RecentList.tsx",
+          "contentHash": "efd2fc4919c61245af7a29e6400cbcd1b9f54c616952086aefefd4a7e17f9ee4"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "crud-modern-new-temp/src/components/ui/card",
+            "crud-modern-new-temp/src/components/ui/empty-state",
+            "crud-modern-new-temp/src/lib/utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "legacy",
+            "widgets"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "room": "activity-log",
+  "styleLevel": "basic",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "contract: does not accept required prop \"heading\"",
+    "contract: requires prop \"title\" that the room never provides",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "efd2fc4919c61245af7a29e6400cbcd1b9f54c616952086aefefd4a7e17f9ee4",
+  "quality": {}
+}

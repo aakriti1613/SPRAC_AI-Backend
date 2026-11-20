@@ -1,0 +1,73 @@
+{
+  "slug": "stateful-button",
+  "source": "aceternity",
+  "name": "stateful-button",
+  "kind": "ui",
+  "versions": {
+    "f889463a47974b92f118b756f7f36912a303faa5bb57b5fff3cb9c9db0cc44db": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:stateful-button@0.0.0",
+        "name": "stateful-button",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"stateful-button\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/stateful-button.json",
+          "ref": "aceternity",
+          "contentHash": "f889463a47974b92f118b756f7f36912a303faa5bb57b5fff3cb9c9db0cc44db"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "f889463a47974b92f118b756f7f36912a303faa5bb57b5fff3cb9c9db0cc44db",
+  "quality": {}
+}

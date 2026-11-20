@@ -1,0 +1,45 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "projectName": "t-empty-landing-modern",
+    "path": "<tmp>/t-empty-landing-modern",
+    "warnings": [
+      "Added default siteName",
+      "Added default profile.fullName",
+      "Added default profile.firstName",
+      "Added default meta.title",
+      "Added default meta.description",
+      "Added default footerCopyright"
+    ],
+    "templateId": "landing-modern",
+    "requestedTemplateId": "landing-modern",
+    "message": "Project \"t-empty-landing-modern\" generated from template \"landing-modern\"."
+  },
+  "files": {
+    "src/content.json": {
+      "siteName": "Portfolio",
+      "meta": {
+        "title": "Portfolio",
+        "description": "Portfolio portfolio."
+      },
+      "profile": {
+        "firstName": "Portfolio",
+        "fullName": "Portfolio",
+        "role": "",
+        "currentTitle": "",
+        "heroHeadline": "Welcome to my portfolio",
+        "heroSummary": "A short introduction about who you are and what you build.",
+        "availability": "Open to opportunities."
+      },
+      "stats": [],
+      "skills": {},
+      "supportingSkills": [],
+      "projects": [],
+      "experience": [],
+      "services": [],
+      "contactLinks": [],
+      "footerCopyright": "© 2026 Portfolio. All rights reserved."
+    }
+  }
+}

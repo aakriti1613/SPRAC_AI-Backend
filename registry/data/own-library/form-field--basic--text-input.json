@@ -1,0 +1,141 @@
+{
+  "slug": "form-field/basic/text-input",
+  "source": "own-library",
+  "name": "Basic form-field (text-input)",
+  "kind": "component",
+  "versions": {
+    "05bed9502b10d5361182a7ad81d2b1fedb7e22b9daca4a52f57d4387da93b90d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:form-field/basic/text-input@1.0.0",
+        "name": "Basic form-field (text-input)",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic form-field: ONE input for one field type (text, currency, date…). Each component declares which field types it supports.",
+        "room": "form-field",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/form-field/basic/text-input/index.tsx",
+          "contentHash": "05bed9502b10d5361182a7ad81d2b1fedb7e22b9daca4a52f57d4387da93b90d"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "disabled",
+              "kind": "boolean",
+              "required": false
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "field",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "onChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "value",
+              "kind": "unknown",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [
+            "text",
+            "email",
+            "password",
+            "phone",
+            "url",
+            "color"
+          ],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "form-field",
+            "basic",
+            "text",
+            "email",
+            "password",
+            "phone",
+            "url",
+            "color"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "form-field",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [
+    {
+      "rule": "fixed-colour",
+      "reason": "<input type=\"color\"> needs a valid hex start value; this is data, not styling",
+      "file": "library/_views/form-field/text-input.tsx",
+      "line": 28
+    }
+  ],
+  "current": "05bed9502b10d5361182a7ad81d2b1fedb7e22b9daca4a52f57d4387da93b90d",
+  "quality": {
+    "sizeKb": 1.2,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

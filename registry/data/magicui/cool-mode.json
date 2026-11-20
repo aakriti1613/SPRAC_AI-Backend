@@ -1,0 +1,72 @@
+{
+  "slug": "cool-mode",
+  "source": "magicui",
+  "name": "Cool Mode",
+  "kind": "ui",
+  "versions": {
+    "e0b19a0a884c5ce2e22d168c0f9bdfbf667fc982356cbaf2c2553ef6e205a29e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:cool-mode@0.0.0",
+        "name": "Cool Mode",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Cool mode effect for buttons, links, and other DOMs",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/cool-mode.json",
+          "ref": "magicui",
+          "contentHash": "e0b19a0a884c5ce2e22d168c0f9bdfbf667fc982356cbaf2c2553ef6e205a29e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e0b19a0a884c5ce2e22d168c0f9bdfbf667fc982356cbaf2c2553ef6e205a29e",
+  "quality": {}
+}

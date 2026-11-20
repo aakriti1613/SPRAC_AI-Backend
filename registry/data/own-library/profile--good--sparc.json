@@ -1,0 +1,126 @@
+{
+  "slug": "profile/good/sparc",
+  "source": "own-library",
+  "name": "Good profile",
+  "kind": "component",
+  "versions": {
+    "fd5764acc2aa62525204a0c205e968a110867bfc2c5ff80790ab5a01cc51596d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:profile/good/sparc@1.0.0",
+        "name": "Good profile",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good profile: The signed-in user's profile page.",
+        "room": "profile",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/profile/good/sparc/index.tsx",
+          "contentHash": "fd5764acc2aa62525204a0c205e968a110867bfc2c5ff80790ab5a01cc51596d"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "fields",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "onSave",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "saving",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "user",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "values",
+              "kind": "object",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "profile",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "profile",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "fd5764acc2aa62525204a0c205e968a110867bfc2c5ff80790ab5a01cc51596d",
+  "quality": {
+    "sizeKb": 1.8,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

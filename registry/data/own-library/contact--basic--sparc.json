@@ -1,0 +1,118 @@
+{
+  "slug": "contact/basic/sparc",
+  "source": "own-library",
+  "name": "Basic contact",
+  "kind": "component",
+  "versions": {
+    "b9cb076909e17e24b1e3e41ad822b80d9eabbe6bf255fd75a638503f71bd63c6": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:contact/basic/sparc@1.0.0",
+        "name": "Basic contact",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic contact: Contact details (email, phone, profiles) without a form.",
+        "room": "contact",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/contact/basic/sparc/index.tsx",
+          "contentHash": "b9cb076909e17e24b1e3e41ad822b80d9eabbe6bf255fd75a638503f71bd63c6"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "availability",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "links",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "text",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "contact",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "contact",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "b9cb076909e17e24b1e3e41ad822b80d9eabbe6bf255fd75a638503f71bd63c6",
+  "quality": {
+    "sizeKb": 1.2,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

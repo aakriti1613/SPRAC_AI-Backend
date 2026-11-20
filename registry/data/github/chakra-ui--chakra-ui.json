@@ -1,0 +1,82 @@
+{
+  "slug": "chakra-ui/chakra-ui",
+  "source": "github",
+  "name": "chakra-ui/chakra-ui",
+  "kind": "library",
+  "versions": {
+    "5fb32f4fabc8042af135bfd6b21b9d5873d01d3151da1203d2546fd18e6ef9e2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:chakra-ui/chakra-ui@0.0.0",
+        "name": "chakra-ui/chakra-ui",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "Chakra UI is a component system for building SaaS products with speed ⚡️",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/chakra-ui/chakra-ui",
+          "ref": "main",
+          "contentHash": "5fb32f4fabc8042af135bfd6b21b9d5873d01d3151da1203d2546fd18e6ef9e2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "a11y",
+            "accessible",
+            "ark-ui",
+            "chakra-ui",
+            "component",
+            "css-in-js",
+            "dark-mode",
+            "design-system",
+            "react",
+            "react-components",
+            "query:topic:react-components language:TypeScript stars:>2000"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "5fb32f4fabc8042af135bfd6b21b9d5873d01d3151da1203d2546fd18e6ef9e2",
+  "quality": {
+    "stars": 40736,
+    "lastPublish": "2026-11-18T12:12:04Z"
+  }
+}

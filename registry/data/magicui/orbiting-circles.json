@@ -1,0 +1,72 @@
+{
+  "slug": "orbiting-circles",
+  "source": "magicui",
+  "name": "Orbiting Circles",
+  "kind": "ui",
+  "versions": {
+    "a1edae5e171397a5ab3ea1ac14f23b2eb3286c9561842abd0fb0d5cb744a5661": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:orbiting-circles@0.0.0",
+        "name": "Orbiting Circles",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A collection of circles which move in orbit along a circular path",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/orbiting-circles.json",
+          "ref": "magicui",
+          "contentHash": "a1edae5e171397a5ab3ea1ac14f23b2eb3286c9561842abd0fb0d5cb744a5661"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a1edae5e171397a5ab3ea1ac14f23b2eb3286c9561842abd0fb0d5cb744a5661",
+  "quality": {}
+}

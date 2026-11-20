@@ -1,0 +1,79 @@
+{
+  "slug": "carbon-react/uishell",
+  "source": "storybook",
+  "name": "UIShell (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "08d91718291dddcc6e1f9dbf8f6bc44d30263640ac60b29029745c41546e7b54": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/uishell@0.0.0",
+        "name": "UIShell (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "UIShell from IBM Carbon (React): 12 stories, documented.",
+        "room": "app-frame",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-ui-shell-header--overview",
+          "ref": "@carbon/react",
+          "contentHash": "08d91718291dddcc6e1f9dbf8f6bc44d30263640ac60b29029745c41546e7b54"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "app-frame",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "room": "app-frame",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "08d91718291dddcc6e1f9dbf8f6bc44d30263640ac60b29029745c41546e7b54",
+  "quality": {
+    "hasTests": true
+  }
+}

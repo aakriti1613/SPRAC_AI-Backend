@@ -1,0 +1,73 @@
+{
+  "slug": "background-dots-masked",
+  "source": "aceternity",
+  "name": "background-dots-masked",
+  "kind": "ui",
+  "versions": {
+    "26222dd709fb41a63a800eab7627dbca0b7cf63dff1e90b68895f92dbb0132b2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:background-dots-masked@0.0.0",
+        "name": "background-dots-masked",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Background Dots Masked",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/background-dots-masked.json",
+          "ref": "aceternity",
+          "contentHash": "26222dd709fb41a63a800eab7627dbca0b7cf63dff1e90b68895f92dbb0132b2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "26222dd709fb41a63a800eab7627dbca0b7cf63dff1e90b68895f92dbb0132b2",
+  "quality": {}
+}

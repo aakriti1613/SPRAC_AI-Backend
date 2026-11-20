@@ -1,0 +1,92 @@
+{
+  "slug": "playful-hero-section",
+  "source": "aceternity",
+  "name": "playful-hero-section",
+  "kind": "component",
+  "versions": {
+    "ce45955c4cf0ba8e233ba293cb882f8f7f278e94dda913ad67497243a4287eac": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:playful-hero-section@0.0.0",
+        "name": "playful-hero-section",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Playful Hero Section",
+        "room": "hero",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/playful-hero-section.json",
+          "ref": "aceternity",
+          "contentHash": "ce45955c4cf0ba8e233ba293cb882f8f7f278e94dda913ad67497243a4287eac"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react-rough-notation": "*",
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "hero",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"react-rough-notation\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"title\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "ce45955c4cf0ba8e233ba293cb882f8f7f278e94dda913ad67497243a4287eac",
+  "quality": {}
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/layer",
+  "source": "storybook",
+  "name": "Layer (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "36e157abf7c722858e3ec98db6893b81f3c0a6af49cf6d3e9ff887cef6e9d1e5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/layer@0.0.0",
+        "name": "Layer (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Layer from IBM Carbon (React): 4 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-layer--overview",
+          "ref": "@carbon/react",
+          "contentHash": "36e157abf7c722858e3ec98db6893b81f3c0a6af49cf6d3e9ff887cef6e9d1e5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "36e157abf7c722858e3ec98db6893b81f3c0a6af49cf6d3e9ff887cef6e9d1e5",
+  "quality": {
+    "hasTests": true
+  }
+}

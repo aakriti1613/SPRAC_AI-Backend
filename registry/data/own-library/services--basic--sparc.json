@@ -1,0 +1,113 @@
+{
+  "slug": "services/basic/sparc",
+  "source": "own-library",
+  "name": "Basic services",
+  "kind": "component",
+  "versions": {
+    "e58e255196ddcea046cbfd14710aa847ec0d0fc7fe4b3713fb220e072a85280e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:services/basic/sparc@1.0.0",
+        "name": "Basic services",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic services: Services / features grid with icons.",
+        "room": "services",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/services/basic/sparc/index.tsx",
+          "contentHash": "e58e255196ddcea046cbfd14710aa847ec0d0fc7fe4b3713fb220e072a85280e"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "subtitle",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "services",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "services",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "e58e255196ddcea046cbfd14710aa847ec0d0fc7fe4b3713fb220e072a85280e",
+  "quality": {
+    "sizeKb": 1.1,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "dot-pattern",
+  "source": "magicui",
+  "name": "Dot Pattern",
+  "kind": "ui",
+  "versions": {
+    "239026b0452f3e116ce6134464a3ee84d5160eb0b82aade2cf1518a91e341434": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:dot-pattern@0.0.0",
+        "name": "Dot Pattern",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A background dot pattern made with SVGs, fully customizable using Tailwind CSS.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/dot-pattern.json",
+          "ref": "magicui",
+          "contentHash": "239026b0452f3e116ce6134464a3ee84d5160eb0b82aade2cf1518a91e341434"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "239026b0452f3e116ce6134464a3ee84d5160eb0b82aade2cf1518a91e341434",
+  "quality": {}
+}

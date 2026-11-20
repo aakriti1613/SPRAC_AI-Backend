@@ -1,0 +1,49 @@
+{
+  "id": "landing",
+  "name": "Business landing page",
+  "description": "One-page public website for a clinic, school, shop or startup: what you offer and how to contact you.",
+  "status": "active",
+  "release": "v1",
+  "audience": "Clinics, coaching centres, shops, startups",
+  "industryBased": true,
+  "industries": ["generic", "healthcare", "school", "crm"],
+  "maxStyleLevel": "astonishing",
+  "configFile": "content.json",
+  "existingTemplates": [],
+  "rooms": {
+    "required": ["navbar", "hero", "services", "contact-form", "footer", "not-found"],
+    "optional": ["about", "stats", "pricing", "testimonials", "faq", "team", "gallery", "location-map", "cta-banner", "newsletter"],
+    "defaultOn": ["about", "testimonials", "cta-banner"]
+  },
+  "industryDefaults": {
+    "generic": ["testimonials", "faq", "cta-banner"],
+    "healthcare": ["location-map", "team", "faq"],
+    "school": ["gallery", "team", "faq"],
+    "crm": ["pricing", "testimonials", "cta-banner"]
+  },
+  "pages": [
+    {
+      "id": "home",
+      "path": "/",
+      "title": "Home (one long page)",
+      "rooms": [
+        "navbar",
+        "hero",
+        "stats",
+        "about",
+        "services",
+        "pricing",
+        "team",
+        "gallery",
+        "testimonials",
+        "faq",
+        "cta-banner",
+        "location-map",
+        "contact-form",
+        "newsletter",
+        "footer"
+      ]
+    },
+    { "id": "not-found", "path": "*", "title": "404", "rooms": ["not-found"] }
+  ]
+}

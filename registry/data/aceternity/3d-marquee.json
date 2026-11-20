@@ -1,0 +1,89 @@
+{
+  "slug": "3d-marquee",
+  "source": "aceternity",
+  "name": "3d-marquee",
+  "kind": "component",
+  "versions": {
+    "cd4de6d8507ef07ab109437b0b866faf3f08c505fca7e809aa1d05da41577876": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:3d-marquee@0.0.0",
+        "name": "3d-marquee",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"3d-marquee\".",
+        "room": "testimonials",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/3d-marquee.json",
+          "ref": "aceternity",
+          "contentHash": "cd4de6d8507ef07ab109437b0b866faf3f08c505fca7e809aa1d05da41577876"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "testimonials",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "cd4de6d8507ef07ab109437b0b866faf3f08c505fca7e809aa1d05da41577876",
+  "quality": {}
+}

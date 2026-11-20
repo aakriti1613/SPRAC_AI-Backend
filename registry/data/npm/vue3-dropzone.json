@@ -1,0 +1,86 @@
+{
+  "slug": "vue3-dropzone",
+  "source": "npm",
+  "name": "vue3-dropzone",
+  "kind": "library",
+  "versions": {
+    "e0b326c1045eee2d3211ec1ff30eb55709adf0afc45ae5065e266df861ecc98f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:vue3-dropzone@2.2.1",
+        "name": "vue3-dropzone",
+        "version": "2.2.1",
+        "kind": "library",
+        "summary": "It's inspired by [react-dropzone](https://github.com/react-dropzone/react-dropzone) and implemented with vue3.",
+        "room": "file-upload",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/vue3-dropzone",
+          "ref": "2.2.1",
+          "contentHash": "e0b326c1045eee2d3211ec1ff30eb55709adf0afc45ae5065e266df861ecc98f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "vue": ">=3"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "language": "ts"
+        },
+        "facets": {
+          "category": "file-upload",
+          "tags": [
+            "vue3",
+            "dropzone",
+            "file-upload",
+            "vue3-dropzone",
+            "query:react dropzone"
+          ]
+        },
+        "license": "ISC",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "file-upload",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e0b326c1045eee2d3211ec1ff30eb55709adf0afc45ae5065e266df861ecc98f",
+  "quality": {
+    "downloads": 105071,
+    "lastPublish": "2023-12-24T04:34:41.562Z",
+    "hasTypes": true
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "pricing/good/sparc",
+  "source": "own-library",
+  "name": "Good pricing",
+  "kind": "component",
+  "versions": {
+    "0910f443888fbc007825a0dc941c7d780aa7916fa00415351321ef6d0a1aa40d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:pricing/good/sparc@1.0.0",
+        "name": "Good pricing",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good pricing: Pricing plans side by side.",
+        "room": "pricing",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "landing"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/pricing/good/sparc/index.tsx",
+          "contentHash": "0910f443888fbc007825a0dc941c7d780aa7916fa00415351321ef6d0a1aa40d"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "plans",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "subtitle",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "pricing",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "pricing",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "0910f443888fbc007825a0dc941c7d780aa7916fa00415351321ef6d0a1aa40d",
+  "quality": {
+    "sizeKb": 1.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

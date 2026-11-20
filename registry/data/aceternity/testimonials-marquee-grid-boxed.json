@@ -1,0 +1,92 @@
+{
+  "slug": "testimonials-marquee-grid-boxed",
+  "source": "aceternity",
+  "name": "testimonials-marquee-grid-boxed",
+  "kind": "component",
+  "versions": {
+    "7fbd3bcc5630c3e57ec1a9374555719a5fab9ba9032401a64a5f9553306ddca1": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:testimonials-marquee-grid-boxed@0.0.0",
+        "name": "testimonials-marquee-grid-boxed",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Two-row testimonial marquee with framed section and bordered cards",
+        "room": "testimonials",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/testimonials-marquee-grid-boxed.json",
+          "ref": "aceternity",
+          "contentHash": "7fbd3bcc5630c3e57ec1a9374555719a5fab9ba9032401a64a5f9553306ddca1"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react-fast-marquee": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "testimonials",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"react-fast-marquee\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "7fbd3bcc5630c3e57ec1a9374555719a5fab9ba9032401a64a5f9553306ddca1",
+  "quality": {}
+}

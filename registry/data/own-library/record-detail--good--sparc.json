@@ -1,0 +1,122 @@
+{
+  "slug": "record-detail/good/sparc",
+  "source": "own-library",
+  "name": "Good record-detail",
+  "kind": "component",
+  "versions": {
+    "ca28c47de1629c3d95c39affa65f52009d9a97eab2de162c8a27428433451e79": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:record-detail/good/sparc@1.0.0",
+        "name": "Good record-detail",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good record-detail: Read-only view of one record.",
+        "room": "record-detail",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/record-detail/good/sparc/index.tsx",
+          "contentHash": "ca28c47de1629c3d95c39affa65f52009d9a97eab2de162c8a27428433451e79"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "fields",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "onDelete",
+              "kind": "function",
+              "required": false
+            },
+            {
+              "name": "onEdit",
+              "kind": "function",
+              "required": false
+            },
+            {
+              "name": "record",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/format",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "record-detail",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "record-detail",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "ca28c47de1629c3d95c39affa65f52009d9a97eab2de162c8a27428433451e79",
+  "quality": {
+    "sizeKb": 1.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

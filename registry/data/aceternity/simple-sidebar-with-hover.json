@@ -1,0 +1,95 @@
+{
+  "slug": "simple-sidebar-with-hover",
+  "source": "aceternity",
+  "name": "simple-sidebar-with-hover",
+  "kind": "component",
+  "versions": {
+    "6fd0c569753863333bcc414b397bbfa2d52d39616d0f46a79ca6a1a9ea6d19ca": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:simple-sidebar-with-hover@0.0.0",
+        "name": "simple-sidebar-with-hover",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Simple Sidebar With Hover",
+        "room": "app-frame",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/simple-sidebar-with-hover.json",
+          "ref": "aceternity",
+          "contentHash": "6fd0c569753863333bcc414b397bbfa2d52d39616d0f46a79ca6a1a9ea6d19ca"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "app-frame",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"navItems\"",
+    "contract: does not accept required prop \"user\"",
+    "contract: does not accept required prop \"onLogout\"",
+    "contract: does not accept required prop \"children\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "6fd0c569753863333bcc414b397bbfa2d52d39616d0f46a79ca6a1a9ea6d19ca",
+  "quality": {}
+}

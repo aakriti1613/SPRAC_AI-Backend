@@ -1,0 +1,117 @@
+{
+  "slug": "about/good/sparc",
+  "source": "own-library",
+  "name": "Good about",
+  "kind": "component",
+  "versions": {
+    "37290daefbb4ce0205e972cd3f51b2744e23822ac23b951ec7986c6b9d6998d0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:about/good/sparc@1.0.0",
+        "name": "Good about",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good about: About section: heading, paragraph, photo and highlights.",
+        "room": "about",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/about/good/sparc/index.tsx",
+          "contentHash": "37290daefbb4ce0205e972cd3f51b2744e23822ac23b951ec7986c6b9d6998d0"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "body",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "highlights",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "image",
+              "kind": "object",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "about",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "about",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "37290daefbb4ce0205e972cd3f51b2744e23822ac23b951ec7986c6b9d6998d0",
+  "quality": {
+    "sizeKb": 1.5,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

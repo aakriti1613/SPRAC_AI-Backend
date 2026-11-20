@@ -1,0 +1,96 @@
+{
+  "slug": "login-03",
+  "source": "shadcn",
+  "name": "login-03",
+  "kind": "component",
+  "versions": {
+    "08cea751004b2319c9eb81b372a28448516acdb1fece7c6a63d0e7448f5ae263": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:login-03@0.0.0",
+        "name": "login-03",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "A login page with a muted background color.",
+        "room": "login",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/login-03.json",
+          "ref": "new-york-v4",
+          "contentHash": "08cea751004b2319c9eb81b372a28448516acdb1fece7c6a63d0e7448f5ae263"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:button",
+            "shadcn:card",
+            "shadcn:field",
+            "shadcn:input",
+            "shadcn:label",
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "authentication",
+            "login"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "room": "login",
+  "styleLevel": "good",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"headline\"",
+    "contract: does not accept required prop \"onSubmit\"",
+    "contract: does not accept required prop \"submitting\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "08cea751004b2319c9eb81b372a28448516acdb1fece7c6a63d0e7448f5ae263",
+  "quality": {}
+}

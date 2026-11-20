@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/tree-view",
+  "source": "storybook",
+  "name": "TreeView (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "148d955288120ca504a7cde0cbb7edb461f92e9c0c2df3b4144dc1dde14ef064": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/tree-view@0.0.0",
+        "name": "TreeView (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "TreeView from IBM Carbon (React): 0 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-treeview-feature-flag--flag-details",
+          "ref": "@carbon/react",
+          "contentHash": "148d955288120ca504a7cde0cbb7edb461f92e9c0c2df3b4144dc1dde14ef064"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "148d955288120ca504a7cde0cbb7edb461f92e9c0c2df3b4144dc1dde14ef064",
+  "quality": {
+    "hasTests": false
+  }
+}

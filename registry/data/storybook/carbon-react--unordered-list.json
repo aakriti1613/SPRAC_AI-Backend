@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/unordered-list",
+  "source": "storybook",
+  "name": "UnorderedList (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "518e503339dc24af6e0f14e1ba264410a3d549262f4c8419a92eeb54e2206b86": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/unordered-list@0.0.0",
+        "name": "UnorderedList (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "UnorderedList from IBM Carbon (React): 2 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-unorderedlist--overview",
+          "ref": "@carbon/react",
+          "contentHash": "518e503339dc24af6e0f14e1ba264410a3d549262f4c8419a92eeb54e2206b86"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "518e503339dc24af6e0f14e1ba264410a3d549262f4c8419a92eeb54e2206b86",
+  "quality": {
+    "hasTests": true
+  }
+}

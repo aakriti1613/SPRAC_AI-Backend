@@ -1,0 +1,35 @@
+{
+  "name": "platform-server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node --test --test-concurrency=1 \"test/**/*.test.js\"",
+    "sparc:generate": "node scripts/sparc-generate.js",
+    "registry:ingest": "node registry/cli.js ingest",
+    "registry:report": "node registry/cli.js report",
+    "registry:verify": "node registry/cli.js verify",
+    "registry:evaluate": "node registry/cli.js evaluate",
+    "registry:build": "node registry/cli.js build",
+    "registry:evaluate-sites": "node registry/cli.js evaluate-sites",
+    "registry:evaluate-report": "node registry/cli.js evaluate-report",
+    "registry:study-sites": "node registry/cli.js study-sites",
+    "registry:study-report": "node registry/cli.js study-report"
+  },
+  "dependencies": {
+    "@google/genai": "^2.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^8.5.2",
+    "fs-extra": "^11.2.0",
+    "octokit": "^4.0.2",
+    "simple-git": "^3.27.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

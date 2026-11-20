@@ -1,0 +1,74 @@
+{
+  "slug": "radio-group",
+  "source": "shadcn",
+  "name": "radio-group",
+  "kind": "ui",
+  "versions": {
+    "4ba71bff076231d41e65910303b6b89d6c076fd92e35141316199cff0ed33ccc": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:radio-group@0.0.0",
+        "name": "radio-group",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"radio-group\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/radio-group.json",
+          "ref": "new-york-v4",
+          "contentHash": "4ba71bff076231d41e65910303b6b89d6c076fd92e35141316199cff0ed33ccc"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "4ba71bff076231d41e65910303b6b89d6c076fd92e35141316199cff0ed33ccc",
+  "quality": {}
+}

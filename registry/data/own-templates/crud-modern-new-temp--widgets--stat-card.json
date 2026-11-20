@@ -1,0 +1,125 @@
+{
+  "slug": "crud-modern-new-temp/widgets/stat-card",
+  "source": "own-templates",
+  "name": "StatCard (crud-modern template)",
+  "kind": "component",
+  "versions": {
+    "ddbb44e8270381009482a42f51908e11c6310cbdca7c4a5ba0bdf3ec9f6cec37": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/widgets/stat-card@0.1.0",
+        "name": "StatCard (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "component",
+        "summary": "Dashboard widget \"StatCard\" from the crud-modern-new-temp template.",
+        "room": "dashboard-stat-card",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/widgets/StatCard.tsx",
+          "contentHash": "ddbb44e8270381009482a42f51908e11c6310cbdca7c4a5ba0bdf3ec9f6cec37"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "icon",
+              "kind": "unknown",
+              "required": true
+            },
+            {
+              "name": "index",
+              "kind": "number",
+              "required": false
+            },
+            {
+              "name": "label",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "spark",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "trend",
+              "kind": "number",
+              "required": false
+            },
+            {
+              "name": "value",
+              "kind": "unknown",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "framer-motion": "^11.15.0",
+            "lucide-react": "^0.564.0"
+          },
+          "peer": {},
+          "registry": [
+            "crud-modern-new-temp/src/lib/utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "legacy",
+            "widgets"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "room": "dashboard-stat-card",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "ddbb44e8270381009482a42f51908e11c6310cbdca7c4a5ba0bdf3ec9f6cec37",
+  "quality": {}
+}

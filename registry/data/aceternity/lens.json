@@ -1,0 +1,75 @@
+{
+  "slug": "lens",
+  "source": "aceternity",
+  "name": "lens",
+  "kind": "ui",
+  "versions": {
+    "89b913c7bc95c9def9bbbf89120f6811f47753cf640322d9c83a872068822100": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:lens@0.0.0",
+        "name": "lens",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"lens\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/lens.json",
+          "ref": "aceternity",
+          "contentHash": "89b913c7bc95c9def9bbbf89120f6811f47753cf640322d9c83a872068822100"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "89b913c7bc95c9def9bbbf89120f6811f47753cf640322d9c83a872068822100",
+  "quality": {}
+}

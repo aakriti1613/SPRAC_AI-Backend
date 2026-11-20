@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/tooltip",
+  "source": "storybook",
+  "name": "Tooltip (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "8b6690fbad3c324f20b60e380323a10a126686c7e5d61d708b55c787775a7950": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/tooltip@0.0.0",
+        "name": "Tooltip (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Tooltip from IBM Carbon (React): 5 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-tooltip--overview",
+          "ref": "@carbon/react",
+          "contentHash": "8b6690fbad3c324f20b60e380323a10a126686c7e5d61d708b55c787775a7950"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "8b6690fbad3c324f20b60e380323a10a126686c7e5d61d708b55c787775a7950",
+  "quality": {
+    "hasTests": true
+  }
+}

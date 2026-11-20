@@ -1,0 +1,76 @@
+{
+  "slug": "canvas-reveal-effect",
+  "source": "aceternity",
+  "name": "canvas-reveal-effect",
+  "kind": "ui",
+  "versions": {
+    "ad3900f9aaac53e1e029d812667a9ba6fdd5c38c7b132dfd23dc12a0c9ec1a0f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:canvas-reveal-effect@0.0.0",
+        "name": "canvas-reveal-effect",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"canvas-reveal-effect\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/canvas-reveal-effect.json",
+          "ref": "aceternity",
+          "contentHash": "ad3900f9aaac53e1e029d812667a9ba6fdd5c38c7b132dfd23dc12a0c9ec1a0f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "three": "*",
+            "@react-three/fiber": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "ad3900f9aaac53e1e029d812667a9ba6fdd5c38c7b132dfd23dc12a0c9ec1a0f",
+  "quality": {}
+}

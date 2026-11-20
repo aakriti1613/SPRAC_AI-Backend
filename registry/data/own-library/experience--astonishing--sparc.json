@@ -1,0 +1,107 @@
+{
+  "slug": "experience/astonishing/sparc",
+  "source": "own-library",
+  "name": "Astonishing experience",
+  "kind": "component",
+  "versions": {
+    "9f34205c96aba7476721a682fd00d70c956d518a77b2d0742061064b5b7c4814": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:experience/astonishing/sparc@1.0.0",
+        "name": "Astonishing experience",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Astonishing experience: Work experience timeline.",
+        "room": "experience",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/experience/astonishing/sparc/index.tsx",
+          "contentHash": "9f34205c96aba7476721a682fd00d70c956d518a77b2d0742061064b5b7c4814"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "experience",
+            "astonishing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "experience",
+  "styleLevel": "astonishing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "9f34205c96aba7476721a682fd00d70c956d518a77b2d0742061064b5b7c4814",
+  "quality": {
+    "sizeKb": 47.7,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

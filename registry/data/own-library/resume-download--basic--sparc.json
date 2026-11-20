@@ -1,0 +1,111 @@
+{
+  "slug": "resume-download/basic/sparc",
+  "source": "own-library",
+  "name": "Basic resume-download",
+  "kind": "component",
+  "versions": {
+    "b7e83f55ecaad45bbd8c4f0fc895d9a4e99f92026a2059f2040c68b81b87915d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:resume-download/basic/sparc@1.0.0",
+        "name": "Basic resume-download",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic resume-download: Button / card to download a CV.",
+        "room": "resume-download",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/resume-download/basic/sparc/index.tsx",
+          "contentHash": "b7e83f55ecaad45bbd8c4f0fc895d9a4e99f92026a2059f2040c68b81b87915d"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "href",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "label",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "note",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "resume-download",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "resume-download",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "b7e83f55ecaad45bbd8c4f0fc895d9a4e99f92026a2059f2040c68b81b87915d",
+  "quality": {
+    "sizeKb": 1,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

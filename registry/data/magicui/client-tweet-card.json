@@ -1,0 +1,90 @@
+{
+  "slug": "client-tweet-card",
+  "source": "magicui",
+  "name": "Client Tweet Card",
+  "kind": "component",
+  "versions": {
+    "dfef2d84ed87bf75d6371df592b8fecc192877166f1dcbec221b0c8d92ef7012": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:client-tweet-card@0.0.0",
+        "name": "Client Tweet Card",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "A client-side version of the tweet card that displays a tweet with the author's name, handle, and profile picture.",
+        "room": "testimonials",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/client-tweet-card.json",
+          "ref": "magicui",
+          "contentHash": "dfef2d84ed87bf75d6371df592b8fecc192877166f1dcbec221b0c8d92ef7012"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react-tweet": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "room": "testimonials",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "package \"react-tweet\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "dfef2d84ed87bf75d6371df592b8fecc192877166f1dcbec221b0c8d92ef7012",
+  "quality": {}
+}

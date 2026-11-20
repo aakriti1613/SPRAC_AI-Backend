@@ -1,0 +1,99 @@
+{
+  "slug": "sidebar-09",
+  "source": "shadcn",
+  "name": "sidebar-09",
+  "kind": "component",
+  "versions": {
+    "450ac8b444c8acf2ea0a2548bbced962851a5c1dfca43ed884972e7c3e331b87": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:sidebar-09@0.0.0",
+        "name": "sidebar-09",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Collapsible nested sidebars.",
+        "room": "app-frame",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/sidebar-09.json",
+          "ref": "new-york-v4",
+          "contentHash": "450ac8b444c8acf2ea0a2548bbced962851a5c1dfca43ed884972e7c3e331b87"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:avatar",
+            "shadcn:breadcrumb",
+            "shadcn:collapsible",
+            "shadcn:dropdown-menu",
+            "shadcn:label",
+            "shadcn:separator",
+            "shadcn:sidebar",
+            "shadcn:switch"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "sidebar",
+            "dashboard"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "room": "app-frame",
+  "styleLevel": "good",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"navItems\"",
+    "contract: does not accept required prop \"user\"",
+    "contract: does not accept required prop \"onLogout\"",
+    "contract: does not accept required prop \"children\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "450ac8b444c8acf2ea0a2548bbced962851a5c1dfca43ed884972e7c3e331b87",
+  "quality": {}
+}

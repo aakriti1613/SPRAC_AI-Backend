@@ -1,0 +1,95 @@
+{
+  "slug": "landing-modern/sections/services",
+  "source": "own-templates",
+  "name": "Services section (landing-modern)",
+  "kind": "component",
+  "versions": {
+    "95963f2ac9c8b268879669b9ae894fdb7562779b2ea8c7b029340f5c7b6ec44a": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:landing-modern/sections/services@0.1.0",
+        "name": "Services section (landing-modern)",
+        "version": "0.1.0",
+        "kind": "component",
+        "summary": "Page section \"Services\" from the landing-modern landing template.",
+        "room": "services",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "landing-modern/src/components/sections/Services.jsx",
+          "contentHash": "95963f2ac9c8b268879669b9ae894fdb7562779b2ea8c7b029340f5c7b6ec44a"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "*",
+            "framer-motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "language": "js"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "legacy",
+            "section",
+            "landing-modern"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.7
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "room": "services",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "reads the template's config singleton instead of taking props (must be rewritten to accept its room's props)",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "95963f2ac9c8b268879669b9ae894fdb7562779b2ea8c7b029340f5c7b6ec44a",
+  "quality": {}
+}

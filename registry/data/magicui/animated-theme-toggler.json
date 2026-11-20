@@ -1,0 +1,74 @@
+{
+  "slug": "animated-theme-toggler",
+  "source": "magicui",
+  "name": "Theme Toggler",
+  "kind": "ui",
+  "versions": {
+    "128356fe2bbfb3c84f23f29beb4fb566b781846ed1901b4a066e4fb45012326b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:animated-theme-toggler@0.0.0",
+        "name": "Theme Toggler",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Theme toggle with View Transitions and animated clip-path masks (circle, polygons, star), optional viewport-centered origin.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/animated-theme-toggler.json",
+          "ref": "magicui",
+          "contentHash": "128356fe2bbfb3c84f23f29beb4fb566b781846ed1901b4a066e4fb45012326b"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "lucide-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "128356fe2bbfb3c84f23f29beb4fb566b781846ed1901b4a066e4fb45012326b",
+  "quality": {}
+}

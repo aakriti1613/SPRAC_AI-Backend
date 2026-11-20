@@ -1,0 +1,83 @@
+{
+  "slug": "sidebar",
+  "source": "shadcn",
+  "name": "sidebar",
+  "kind": "ui",
+  "versions": {
+    "a45a30181b78def0fc2c7b687d8b4e75b0c57e8ccad9fd50ae8a757bb1f5c028": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:sidebar@0.0.0",
+        "name": "sidebar",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"sidebar\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/sidebar.json",
+          "ref": "new-york-v4",
+          "contentHash": "a45a30181b78def0fc2c7b687d8b4e75b0c57e8ccad9fd50ae8a757bb1f5c028"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*",
+            "class-variance-authority": "*",
+            "lucide-react": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:button",
+            "shadcn:input",
+            "shadcn:separator",
+            "shadcn:sheet",
+            "shadcn:skeleton",
+            "shadcn:tooltip",
+            "shadcn:use-mobile",
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a45a30181b78def0fc2c7b687d8b4e75b0c57e8ccad9fd50ae8a757bb1f5c028",
+  "quality": {}
+}

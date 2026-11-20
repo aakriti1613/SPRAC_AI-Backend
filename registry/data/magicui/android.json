@@ -1,0 +1,72 @@
+{
+  "slug": "android",
+  "source": "magicui",
+  "name": "Android",
+  "kind": "ui",
+  "versions": {
+    "16fff4c0b2d4dc691f80bb41fa2b7384dd28609ca860856c0fcf058169458553": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:android@0.0.0",
+        "name": "Android",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A mockup of an Android device.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/android.json",
+          "ref": "magicui",
+          "contentHash": "16fff4c0b2d4dc691f80bb41fa2b7384dd28609ca860856c0fcf058169458553"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "16fff4c0b2d4dc691f80bb41fa2b7384dd28609ca860856c0fcf058169458553",
+  "quality": {}
+}

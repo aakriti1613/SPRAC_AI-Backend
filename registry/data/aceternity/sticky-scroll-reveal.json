@@ -1,0 +1,75 @@
+{
+  "slug": "sticky-scroll-reveal",
+  "source": "aceternity",
+  "name": "sticky-scroll-reveal",
+  "kind": "ui",
+  "versions": {
+    "81411264812c382c381aceb56a121e6bdc704886d106b5fdc8e715ff371e477f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:sticky-scroll-reveal@0.0.0",
+        "name": "sticky-scroll-reveal",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"sticky-scroll-reveal\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/sticky-scroll-reveal.json",
+          "ref": "aceternity",
+          "contentHash": "81411264812c382c381aceb56a121e6bdc704886d106b5fdc8e715ff371e477f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "81411264812c382c381aceb56a121e6bdc704886d106b5fdc8e715ff371e477f",
+  "quality": {}
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "text-reveal-card",
+  "source": "aceternity",
+  "name": "text-reveal-card",
+  "kind": "ui",
+  "versions": {
+    "ca9a37afe328530a6408a45a9d9aa6f645079143158eafaa1a9ce5c0708e0db5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:text-reveal-card@0.0.0",
+        "name": "text-reveal-card",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"text-reveal-card\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/text-reveal-card.json",
+          "ref": "aceternity",
+          "contentHash": "ca9a37afe328530a6408a45a9d9aa6f645079143158eafaa1a9ce5c0708e0db5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "ca9a37afe328530a6408a45a9d9aa6f645079143158eafaa1a9ce5c0708e0db5",
+  "quality": {}
+}

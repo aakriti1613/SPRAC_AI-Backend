@@ -1,0 +1,73 @@
+{
+  "slug": "background-noise-grid",
+  "source": "aceternity",
+  "name": "background-noise-grid",
+  "kind": "ui",
+  "versions": {
+    "dd786d17de9c58daf41e98ce94dfe457160a11b0644de04b68a948aaf63417ba": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:background-noise-grid@0.0.0",
+        "name": "background-noise-grid",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Background Noise Grid",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/background-noise-grid.json",
+          "ref": "aceternity",
+          "contentHash": "dd786d17de9c58daf41e98ce94dfe457160a11b0644de04b68a948aaf63417ba"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "dd786d17de9c58daf41e98ce94dfe457160a11b0644de04b68a948aaf63417ba",
+  "quality": {}
+}

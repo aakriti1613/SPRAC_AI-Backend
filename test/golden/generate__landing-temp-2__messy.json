@@ -1,0 +1,86 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "projectName": "t-messy-landing-temp-2",
+    "path": "<tmp>/t-messy-landing-temp-2",
+    "warnings": [
+      "Stripped unknown field: root.unknownTopLevel",
+      "Stripped unknown field: profile.hackerField",
+      "Fixed profile.heroSummary: truncated from 200 to 29 words",
+      "Fixed skills.Frontend: removed non-string or empty entries",
+      "Fixed projects[].type: \"spaceship\" -> \"other\"",
+      "Fixed projects[].featured: first two projects are featured",
+      "Fixed services[].icon: \"not-an-icon\" -> \"layers\"",
+      "Fixed contactLinks[].type: \"carrier-pigeon\" -> \"other\"",
+      "Added default contactLinks[].href for email",
+      "Added default meta.title",
+      "Added default meta.description",
+      "Added default footerCopyright"
+    ],
+    "templateId": "landing-temp-2",
+    "requestedTemplateId": "landing-temp-2",
+    "message": "Project \"t-messy-landing-temp-2\" generated from template \"landing-temp-2\"."
+  },
+  "files": {
+    "src/content.json": {
+      "siteName": "Priya Sharma",
+      "meta": {
+        "title": "Priya Sharma - Frontend Engineer",
+        "description": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word"
+      },
+      "profile": {
+        "firstName": "Priya",
+        "fullName": "Priya Sharma",
+        "role": "Frontend Engineer",
+        "currentTitle": "Frontend Engineer",
+        "heroHeadline": "Welcome to my portfolio",
+        "heroSummary": "word word word word word word word word word word word word word word word word word word word word word word word word word word word word word",
+        "availability": "Open to opportunities."
+      },
+      "stats": [],
+      "skills": {
+        "Frontend": [
+          "React",
+          "TypeScript"
+        ],
+        "": [
+          "empty group"
+        ]
+      },
+      "supportingSkills": [],
+      "projects": [
+        {
+          "title": "Dashboard",
+          "tech": [
+            "React"
+          ],
+          "type": "other",
+          "featured": true
+        }
+      ],
+      "experience": [],
+      "services": [
+        {
+          "icon": "layers",
+          "title": "UI",
+          "description": "Build UI"
+        }
+      ],
+      "contactLinks": [
+        {
+          "type": "other",
+          "label": "Coo",
+          "value": "x"
+        },
+        {
+          "type": "email",
+          "label": "Email",
+          "value": "p@example.com",
+          "href": "mailto:p@example.com"
+        }
+      ],
+      "footerCopyright": "© 2026 Priya Sharma. All rights reserved."
+    }
+  }
+}

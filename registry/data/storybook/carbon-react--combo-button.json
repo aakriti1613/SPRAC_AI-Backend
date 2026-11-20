@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/combo-button",
+  "source": "storybook",
+  "name": "ComboButton (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "4c81b63bc145f776a31b0fd1442a450c3619078666c6f4234d56ed42ef819b69": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/combo-button@0.0.0",
+        "name": "ComboButton (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "ComboButton from IBM Carbon (React): 5 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-combobutton--overview",
+          "ref": "@carbon/react",
+          "contentHash": "4c81b63bc145f776a31b0fd1442a450c3619078666c6f4234d56ed42ef819b69"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "4c81b63bc145f776a31b0fd1442a450c3619078666c6f4234d56ed42ef819b69",
+  "quality": {
+    "hasTests": true
+  }
+}

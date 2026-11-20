@@ -1,0 +1,72 @@
+{
+  "slug": "native-select",
+  "source": "shadcn",
+  "name": "native-select",
+  "kind": "ui",
+  "versions": {
+    "e7e13f7052cf0a2ae38d3e3be7d9485877b587f4c252fead818a897c454ae2e1": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:native-select@0.0.0",
+        "name": "native-select",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"native-select\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/native-select.json",
+          "ref": "new-york-v4",
+          "contentHash": "e7e13f7052cf0a2ae38d3e3be7d9485877b587f4c252fead818a897c454ae2e1"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e7e13f7052cf0a2ae38d3e3be7d9485877b587f4c252fead818a897c454ae2e1",
+  "quality": {}
+}

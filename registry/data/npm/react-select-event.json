@@ -1,0 +1,86 @@
+{
+  "slug": "react-select-event",
+  "source": "npm",
+  "name": "react-select-event",
+  "kind": "library",
+  "versions": {
+    "18ffd5ea8601d1dbb4f5a68cde21a2694d789d006632288a24a0dff2110ff175": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-select-event@5.5.1",
+        "name": "react-select-event",
+        "version": "5.5.1",
+        "kind": "library",
+        "summary": "Simulate react-select events for react-testing-library",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-select-event",
+          "ref": "5.5.1",
+          "contentHash": "18ffd5ea8601d1dbb4f5a68cde21a2694d789d006632288a24a0dff2110ff175"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "react-testing-library",
+            "dom-testing-library",
+            "react-select",
+            "testing",
+            "javascript",
+            "unit-testing",
+            "query:react select"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "18ffd5ea8601d1dbb4f5a68cde21a2694d789d006632288a24a0dff2110ff175",
+  "quality": {
+    "downloads": 2434356,
+    "lastPublish": "2022-08-06T16:40:12.175Z",
+    "hasTypes": true
+  }
+}

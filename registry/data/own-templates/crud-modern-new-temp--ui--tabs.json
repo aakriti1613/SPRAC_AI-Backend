@@ -1,0 +1,83 @@
+{
+  "slug": "crud-modern-new-temp/ui/tabs",
+  "source": "own-templates",
+  "name": "tabs (crud-modern template)",
+  "kind": "ui",
+  "versions": {
+    "e88084e0b0117962d75cc0e2662aa1dfbdf6beead57043eeea95734b55c48451": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/ui/tabs@0.1.0",
+        "name": "tabs (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "ui",
+        "summary": "UI primitive \"tabs\" from the crud-modern-new-temp template.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/ui/tabs.tsx",
+          "contentHash": "e88084e0b0117962d75cc0e2662aa1dfbdf6beead57043eeea95734b55c48451"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.2.0",
+            "class-variance-authority": "^0.7.1",
+            "radix-ui": "^1.4.3"
+          },
+          "peer": {},
+          "registry": [
+            "crud-modern-new-temp/src/lib/utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "tags": [
+            "legacy",
+            "ui"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e88084e0b0117962d75cc0e2662aa1dfbdf6beead57043eeea95734b55c48451",
+  "quality": {}
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "mui/base-ui",
+  "source": "github",
+  "name": "mui/base-ui",
+  "kind": "library",
+  "versions": {
+    "0ae7c1899ffcd1b271c78004cf5c0f92762277cee9b48611f077d1ecca691ad4": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:mui/base-ui@0.0.0",
+        "name": "mui/base-ui",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "Unstyled UI components for building accessible web apps and design systems. From the creators of Radix, Floating UI, and Material UI.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/mui/base-ui",
+          "ref": "master",
+          "contentHash": "0ae7c1899ffcd1b271c78004cf5c0f92762277cee9b48611f077d1ecca691ad4"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "accessibility",
+            "base-ui",
+            "components",
+            "design-system",
+            "react",
+            "react-components",
+            "ui",
+            "wai-aria",
+            "query:topic:react-components language:TypeScript stars:>2000"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "0ae7c1899ffcd1b271c78004cf5c0f92762277cee9b48611f077d1ecca691ad4",
+  "quality": {
+    "stars": 11451,
+    "lastPublish": "2026-11-18T12:21:16Z"
+  }
+}

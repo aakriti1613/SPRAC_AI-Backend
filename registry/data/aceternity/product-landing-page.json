@@ -1,0 +1,77 @@
+{
+  "slug": "product-landing-page",
+  "source": "aceternity",
+  "name": "product-landing-page",
+  "kind": "ui",
+  "versions": {
+    "ec5818651dff9a3ab36a4b62861e846d3b9f0015024336f1eedb05a79ab28935": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:product-landing-page@0.0.0",
+        "name": "product-landing-page",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Landing page for Marquee, a design tool that runs on your codebase, with a live canvas hero, interactive feature art, handoff, review comments, pricing, sign-up and tour modals, an ASCII CTA and foote",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/product-landing-page.json",
+          "ref": "aceternity",
+          "contentHash": "ec5818651dff9a3ab36a4b62861e846d3b9f0015024336f1eedb05a79ab28935"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*",
+            "@radix-ui/react-dialog": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "ec5818651dff9a3ab36a4b62861e846d3b9f0015024336f1eedb05a79ab28935",
+  "quality": {}
+}

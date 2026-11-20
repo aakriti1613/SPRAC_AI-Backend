@@ -1,0 +1,76 @@
+{
+  "slug": "chart-radar-legend",
+  "source": "shadcn",
+  "name": "chart-radar-legend",
+  "kind": "ui",
+  "versions": {
+    "d19025e0edf10535ca53e49134c9daa3fb5a46db152e94d589bdba8ec2908e7d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-radar-legend@0.0.0",
+        "name": "chart-radar-legend",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-radar-legend\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-radar-legend.json",
+          "ref": "new-york-v4",
+          "contentHash": "d19025e0edf10535ca53e49134c9daa3fb5a46db152e94d589bdba8ec2908e7d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-radar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "d19025e0edf10535ca53e49134c9daa3fb5a46db152e94d589bdba8ec2908e7d",
+  "quality": {}
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "chart-area-interactive",
+  "source": "shadcn",
+  "name": "chart-area-interactive",
+  "kind": "ui",
+  "versions": {
+    "684738e1f77c819a9e3ef99191d6cbfe83c3b07d953b40b4580b8ba388d2cb87": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-area-interactive@0.0.0",
+        "name": "chart-area-interactive",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-area-interactive\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-area-interactive.json",
+          "ref": "new-york-v4",
+          "contentHash": "684738e1f77c819a9e3ef99191d6cbfe83c3b07d953b40b4580b8ba388d2cb87"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart",
+            "shadcn:select"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-area"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "684738e1f77c819a9e3ef99191d6cbfe83c3b07d953b40b4580b8ba388d2cb87",
+  "quality": {}
+}

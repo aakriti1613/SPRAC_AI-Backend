@@ -1,0 +1,76 @@
+{
+  "slug": "grid-zoom-image",
+  "source": "aceternity",
+  "name": "Grid Zoom Image",
+  "kind": "ui",
+  "versions": {
+    "9f4ee06e22915bbc4e7989571e8d5e0016d4d44167eee5d0f52785f74d6a9d7f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:grid-zoom-image@0.0.0",
+        "name": "Grid Zoom Image",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "An image that swells into a grid of zoomed boxes around your cursor. A faster sweep spreads wider, and a soft trail follows.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/grid-zoom-image.json",
+          "ref": "aceternity",
+          "contentHash": "9f4ee06e22915bbc4e7989571e8d5e0016d4d44167eee5d0f52785f74d6a9d7f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "interactions",
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "9f4ee06e22915bbc4e7989571e8d5e0016d4d44167eee5d0f52785f74d6a9d7f",
+  "quality": {}
+}

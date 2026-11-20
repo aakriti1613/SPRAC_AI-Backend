@@ -1,0 +1,76 @@
+{
+  "slug": "chart-bar-label",
+  "source": "shadcn",
+  "name": "chart-bar-label",
+  "kind": "ui",
+  "versions": {
+    "5f9adf55d6837c3dbb5f3431c80bedd204e0201b23d5e512086a0a7e6486638f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-bar-label@0.0.0",
+        "name": "chart-bar-label",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-bar-label\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-bar-label.json",
+          "ref": "new-york-v4",
+          "contentHash": "5f9adf55d6837c3dbb5f3431c80bedd204e0201b23d5e512086a0a7e6486638f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-bar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "5f9adf55d6837c3dbb5f3431c80bedd204e0201b23d5e512086a0a7e6486638f",
+  "quality": {}
+}

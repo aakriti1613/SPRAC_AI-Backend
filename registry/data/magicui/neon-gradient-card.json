@@ -1,0 +1,86 @@
+{
+  "slug": "neon-gradient-card",
+  "source": "magicui",
+  "name": "Neon Gradient Card",
+  "kind": "component",
+  "versions": {
+    "e7008833e45841fef02337bde91716586ed057aa3af34c4305eed793418aca6c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:neon-gradient-card@0.0.0",
+        "name": "Neon Gradient Card",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "A beautiful neon card effect",
+        "room": "projects",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/neon-gradient-card.json",
+          "ref": "magicui",
+          "contentHash": "e7008833e45841fef02337bde91716586ed057aa3af34c4305eed793418aca6c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "room": "projects",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "e7008833e45841fef02337bde91716586ed057aa3af34c4305eed793418aca6c",
+  "quality": {}
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "gravity-trail",
+  "source": "aceternity",
+  "name": "Gravity Trail",
+  "kind": "ui",
+  "versions": {
+    "724b73857daeac486ede6c60907e0cf9d3ebff81549e4d429d345bd7ee5ce0cd": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:gravity-trail@0.0.0",
+        "name": "Gravity Trail",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Images drop from your cursor as you move, flung with its speed, and fall under gravity out of the box. No walls, no bounce.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/gravity-trail.json",
+          "ref": "aceternity",
+          "contentHash": "724b73857daeac486ede6c60907e0cf9d3ebff81549e4d429d345bd7ee5ce0cd"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "interactions",
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "724b73857daeac486ede6c60907e0cf9d3ebff81549e4d429d345bd7ee5ce0cd",
+  "quality": {}
+}

@@ -1,0 +1,81 @@
+{
+  "slug": "bvaughn/react-virtualized",
+  "source": "github",
+  "name": "bvaughn/react-virtualized",
+  "kind": "library",
+  "versions": {
+    "183379afa8cc39c757a7e6376414d7059610eba2c5b6d4566ed3227453b9dfe9": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:bvaughn/react-virtualized@0.0.0",
+        "name": "bvaughn/react-virtualized",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "React components for efficiently rendering large lists and tabular data",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/bvaughn/react-virtualized",
+          "ref": "main",
+          "contentHash": "183379afa8cc39c757a7e6376414d7059610eba2c5b6d4566ed3227453b9dfe9"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "grid",
+            "list",
+            "listview",
+            "performance",
+            "react",
+            "react-components",
+            "tabular-data",
+            "virtualization",
+            "windowing",
+            "query:topic:react-components language:TypeScript stars:>2000"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "183379afa8cc39c757a7e6376414d7059610eba2c5b6d4566ed3227453b9dfe9",
+  "quality": {
+    "stars": 27071,
+    "lastPublish": "2026-11-14T20:51:08Z"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "sparcVersion": 1,
+  "websiteType": "landing",
+  "styleLevel": "basic",
+  "industry": "healthcare",
+  "brand": { "name": "Sunrise Clinic", "logoText": "SC" },
+  "theme": { "primary": "#0f766e", "mode": "light", "radius": "md", "density": "comfortable", "buttonSize": "lg", "font": "system" },
+  "rooms": { "enabled": ["about", "stats", "pricing", "team", "testimonials", "faq", "cta-banner", "location-map", "newsletter"] },
+  "meta": { "title": "Sunrise Clinic — Family care in Pune", "description": "Friendly family clinic in Pune: consultations, diagnostics and pharmacy under one roof." },
+  "nav": { "cta": { "label": "Book a visit", "href": "#contact-form" } },
+  "footer": {
+    "text": "Family care since 2012.",
+    "links": [{ "label": "Privacy", "href": "/privacy" }],
+    "socialLinks": [
+      { "type": "phone", "label": "Call", "href": "tel:+912000000000" },
+      { "type": "email", "label": "Email", "href": "mailto:hello@sunrise.example" }
+    ]
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Open 7 days a week",
+      "title": "Care for the whole family, close to home",
+      "highlight": "whole family",
+      "subtitle": "Walk in or book online. Doctors, diagnostics and pharmacy in one place.",
+      "primaryCta": { "label": "Book a visit", "href": "#contact-form" },
+      "secondaryCta": { "label": "Our services", "href": "#services" }
+    },
+    "stats": {
+      "items": [
+        { "value": "14 yrs", "label": "Serving Pune" },
+        { "value": "40k+", "label": "Patients treated" },
+        { "value": "4.8★", "label": "Average rating" }
+      ]
+    },
+    "about": {
+      "heading": "About the clinic",
+      "body": "Sunrise Clinic is a neighbourhood clinic with experienced doctors, an in-house lab and a pharmacy, so most visits take less than an hour."
+    },
+    "services": {
+      "heading": "Services",
+      "subtitle": "Everything you need for everyday health.",
+      "items": [
+        { "title": "General consultation", "description": "Same-day appointments with family doctors.", "icon": "Heart" },
+        { "title": "Diagnostics", "description": "Blood tests and reports within 24 hours.", "icon": "Activity" },
+        { "title": "Pharmacy", "description": "Medicines available right after your visit.", "icon": "Package" },
+        { "title": "Child care", "description": "Vaccinations and check-ups for kids.", "icon": "Users" }
+      ]
+    },
+    "pricing": {
+      "heading": "Simple pricing",
+      "subtitle": "No hidden charges.",
+      "plans": [
+        { "name": "Consultation", "price": "₹500", "period": "per visit", "features": ["15-minute visit", "Prescription", "Follow-up call"], "cta": { "label": "Book", "href": "#contact-form" } },
+        { "name": "Family plan", "price": "₹4,999", "period": "per year", "features": ["Unlimited consultations", "2 health check-ups", "10% off at pharmacy"], "cta": { "label": "Join", "href": "#contact-form" }, "highlighted": true }
+      ]
+    },
+    "team": {
+      "heading": "Our doctors",
+      "members": [
+        { "name": "Dr. Kavya Iyer", "role": "Family physician" },
+        { "name": "Dr. Rahul Menon", "role": "Paediatrician" },
+        { "name": "Dr. Sana Shaikh", "role": "Pathologist" }
+      ]
+    },
+    "testimonials": {
+      "heading": "What patients say",
+      "items": [
+        { "quote": "Quick, kind and no long waits. Our go-to clinic.", "author": "Neha P.", "role": "Parent of two" },
+        { "quote": "Reports came the same evening. Very professional.", "author": "Arvind K." }
+      ]
+    },
+    "faq": {
+      "heading": "Questions",
+      "items": [
+        { "question": "Do I need an appointment?", "answer": "Walk-ins are welcome, but booking saves time." },
+        { "question": "Do you accept insurance?", "answer": "Yes, most major insurers are accepted at the front desk." }
+      ]
+    },
+    "cta-banner": { "title": "Feeling unwell?", "subtitle": "See a doctor today.", "cta": { "label": "Book a visit", "href": "#contact-form" } },
+    "location-map": { "heading": "Visit us", "address": "12 Example Road, Kothrud, Pune 411038", "hours": ["Mon–Sat 9am–8pm", "Sun 10am–2pm"] },
+    "contact-form": { "heading": "Book a visit", "text": "Tell us when you'd like to come in and we'll confirm by phone." },
+    "newsletter": { "heading": "Health tips, once a month", "text": "No spam. Unsubscribe anytime." }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/pagination-nav",
+  "source": "storybook",
+  "name": "PaginationNav (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "75f2a354570793fd628424a84f3b36c65dccc69fd97af61b4b922d1e475a3bd7": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/pagination-nav@0.0.0",
+        "name": "PaginationNav (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "PaginationNav from IBM Carbon (React): 1 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-paginationnav--overview",
+          "ref": "@carbon/react",
+          "contentHash": "75f2a354570793fd628424a84f3b36c65dccc69fd97af61b4b922d1e475a3bd7"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "75f2a354570793fd628424a84f3b36c65dccc69fd97af61b4b922d1e475a3bd7",
+  "quality": {
+    "hasTests": true
+  }
+}

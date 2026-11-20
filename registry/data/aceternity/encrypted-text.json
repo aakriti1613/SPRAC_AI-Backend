@@ -1,0 +1,75 @@
+{
+  "slug": "encrypted-text",
+  "source": "aceternity",
+  "name": "encrypted-text",
+  "kind": "ui",
+  "versions": {
+    "b20c3d8a0de50cd378ec8d8514a356bbb599e3fad2cd4bbdfc9ec3c8b3a0ca39": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:encrypted-text@0.0.0",
+        "name": "encrypted-text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"encrypted-text\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/encrypted-text.json",
+          "ref": "aceternity",
+          "contentHash": "b20c3d8a0de50cd378ec8d8514a356bbb599e3fad2cd4bbdfc9ec3c8b3a0ca39"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "b20c3d8a0de50cd378ec8d8514a356bbb599e3fad2cd4bbdfc9ec3c8b3a0ca39",
+  "quality": {}
+}

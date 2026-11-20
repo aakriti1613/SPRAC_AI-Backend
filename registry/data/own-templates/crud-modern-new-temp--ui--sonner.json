@@ -1,0 +1,81 @@
+{
+  "slug": "crud-modern-new-temp/ui/sonner",
+  "source": "own-templates",
+  "name": "sonner (crud-modern template)",
+  "kind": "ui",
+  "versions": {
+    "9ccca6327a8c2f6907352a8ff4d47fbff9547996c76694fe6e1edca8728d4e55": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/ui/sonner@0.1.0",
+        "name": "sonner (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "ui",
+        "summary": "UI primitive \"sonner\" from the crud-modern-new-temp template.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/ui/sonner.tsx",
+          "contentHash": "9ccca6327a8c2f6907352a8ff4d47fbff9547996c76694fe6e1edca8728d4e55"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "lucide-react": "^0.564.0",
+            "react": "^19.2.0",
+            "sonner": "^2.0.7"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "tags": [
+            "legacy",
+            "ui"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "9ccca6327a8c2f6907352a8ff4d47fbff9547996c76694fe6e1edca8728d4e55",
+  "quality": {}
+}

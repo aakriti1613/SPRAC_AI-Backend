@@ -1,0 +1,28 @@
+{
+  "id": "booking",
+  "name": "Booking / appointment site",
+  "description": "Public booking page: choose a service, pick a free time, enter details and get a confirmation.",
+  "status": "active",
+  "release": "v2",
+  "audience": "Clinics, salons, tutors, gyms",
+  "industryBased": true,
+  "industries": ["healthcare", "school", "generic"],
+  "maxStyleLevel": "amazing",
+  "configFile": "booking-config.json",
+  "existingTemplates": [],
+  "rooms": {
+    "required": ["navbar", "hero", "services-list", "slot-picker", "booking-form", "booking-confirmation", "footer", "not-found"],
+    "optional": ["team", "testimonials", "faq", "location-map"],
+    "defaultOn": ["faq"]
+  },
+  "industryDefaults": {
+    "healthcare": ["team", "location-map", "faq"],
+    "school": ["team", "faq"],
+    "generic": ["testimonials", "faq"]
+  },
+  "pages": [
+    { "id": "home", "path": "/", "title": "Book (one page)", "rooms": ["navbar", "hero", "services-list", "slot-picker", "booking-form", "team", "testimonials", "faq", "location-map", "footer"] },
+    { "id": "booked", "path": "/booked", "title": "Booking confirmed", "rooms": ["navbar", "booking-confirmation", "footer"] },
+    { "id": "not-found", "path": "*", "title": "404", "rooms": ["not-found"] }
+  ]
+}

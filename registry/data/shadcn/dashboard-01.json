@@ -1,0 +1,124 @@
+{
+  "slug": "dashboard-01",
+  "source": "shadcn",
+  "name": "dashboard-01",
+  "kind": "component",
+  "versions": {
+    "67127e41bb0dfc0f139b598db42a59361569107bbd017b7a26da4c16a3bc8329": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:dashboard-01@0.0.0",
+        "name": "dashboard-01",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "A dashboard with sidebar, charts and data table.",
+        "room": "app-frame",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/dashboard-01.json",
+          "ref": "new-york-v4",
+          "contentHash": "67127e41bb0dfc0f139b598db42a59361569107bbd017b7a26da4c16a3bc8329"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@dnd-kit/core": "*",
+            "@dnd-kit/modifiers": "*",
+            "@dnd-kit/sortable": "*",
+            "@dnd-kit/utilities": "*",
+            "@tabler/icons-react": "*",
+            "@tanstack/react-table": "*",
+            "zod": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:avatar",
+            "shadcn:badge",
+            "shadcn:breadcrumb",
+            "shadcn:button",
+            "shadcn:card",
+            "shadcn:chart",
+            "shadcn:checkbox",
+            "shadcn:drawer",
+            "shadcn:dropdown-menu",
+            "shadcn:input",
+            "shadcn:label",
+            "shadcn:select",
+            "shadcn:separator",
+            "shadcn:sheet",
+            "shadcn:sidebar",
+            "shadcn:sonner",
+            "shadcn:table",
+            "shadcn:tabs",
+            "shadcn:toggle-group"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "dashboard"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "room": "app-frame",
+  "styleLevel": "good",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "package \"@dnd-kit/core\" is not allowed at style \"good\"",
+    "package \"@dnd-kit/modifiers\" is not allowed at style \"good\"",
+    "package \"@dnd-kit/sortable\" is not allowed at style \"good\"",
+    "package \"@dnd-kit/utilities\" is not allowed at style \"good\"",
+    "package \"@tabler/icons-react\" is not allowed at style \"good\"",
+    "package \"@tanstack/react-table\" is not allowed at style \"good\"",
+    "package \"zod\" is not allowed at style \"good\"",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"navItems\"",
+    "contract: does not accept required prop \"user\"",
+    "contract: does not accept required prop \"onLogout\"",
+    "contract: does not accept required prop \"children\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "67127e41bb0dfc0f139b598db42a59361569107bbd017b7a26da4c16a3bc8329",
+  "quality": {}
+}

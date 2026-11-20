@@ -1,0 +1,139 @@
+{
+  "slug": "cart/good/sparc",
+  "source": "own-library",
+  "name": "Good cart",
+  "kind": "component",
+  "versions": {
+    "ffdd8a155fab4a475921518abe55a3869426c545d49ed36877636d90711b5765": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:cart/good/sparc@1.0.0",
+        "name": "Good cart",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good cart: The cart: lines, quantity buttons, total and a 'Checkout' button.",
+        "room": "cart",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "ecommerce"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/cart/good/sparc/index.tsx",
+          "contentHash": "ffdd8a155fab4a475921518abe55a3869426c545d49ed36877636d90711b5765"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "checkoutHref",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "currency",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "lines",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "onQty",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "onRemove",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "shopHref",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "subtotal",
+              "kind": "number",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/money",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "commerce",
+          "tags": [
+            "cart",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-19T11-06-31-950Z-330d3d"
+    }
+  },
+  "room": "cart",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "ffdd8a155fab4a475921518abe55a3869426c545d49ed36877636d90711b5765",
+  "quality": {
+    "sizeKb": 2,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

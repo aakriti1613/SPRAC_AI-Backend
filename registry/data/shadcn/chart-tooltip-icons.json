@@ -1,0 +1,76 @@
+{
+  "slug": "chart-tooltip-icons",
+  "source": "shadcn",
+  "name": "chart-tooltip-icons",
+  "kind": "ui",
+  "versions": {
+    "6ba415c152ff4d851feb362aa519243119394f2d9b2a39ab4ec2cd5a7f8ffb6e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-tooltip-icons@0.0.0",
+        "name": "chart-tooltip-icons",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-tooltip-icons\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-tooltip-icons.json",
+          "ref": "new-york-v4",
+          "contentHash": "6ba415c152ff4d851feb362aa519243119394f2d9b2a39ab4ec2cd5a7f8ffb6e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-tooltip"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "6ba415c152ff4d851feb362aa519243119394f2d9b2a39ab4ec2cd5a7f8ffb6e",
+  "quality": {}
+}

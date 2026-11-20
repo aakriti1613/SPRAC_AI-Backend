@@ -1,0 +1,75 @@
+{
+  "slug": "cards-demo-1",
+  "source": "aceternity",
+  "name": "cards-demo-1",
+  "kind": "ui",
+  "versions": {
+    "7619aff076eb5ac2ede9b8d0a20730618a75c21dd2d3183195a9d4fa4b3f2bb2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:cards-demo-1@0.0.0",
+        "name": "cards-demo-1",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Background Overlay Card",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/cards-demo-1.json",
+          "ref": "aceternity",
+          "contentHash": "7619aff076eb5ac2ede9b8d0a20730618a75c21dd2d3183195a9d4fa4b3f2bb2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react-icons": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "7619aff076eb5ac2ede9b8d0a20730618a75c21dd2d3183195a9d4fa4b3f2bb2",
+  "quality": {}
+}

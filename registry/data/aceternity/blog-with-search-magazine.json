@@ -1,0 +1,76 @@
+{
+  "slug": "blog-with-search-magazine",
+  "source": "aceternity",
+  "name": "blog-with-search-magazine",
+  "kind": "ui",
+  "versions": {
+    "a6b80b63f272a9f0606b6ab1df6f43ad3099687ffa7307f177dab3fab068c038": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:blog-with-search-magazine@0.0.0",
+        "name": "blog-with-search-magazine",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Blog With Search — magazine layout with cover story and card grid",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/blog-with-search-magazine.json",
+          "ref": "aceternity",
+          "contentHash": "a6b80b63f272a9f0606b6ab1df6f43ad3099687ffa7307f177dab3fab068c038"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "fuzzy-search": "*",
+            "date-fns": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "a6b80b63f272a9f0606b6ab1df6f43ad3099687ffa7307f177dab3fab068c038",
+  "quality": {}
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "spinner",
+  "source": "shadcn",
+  "name": "spinner",
+  "kind": "ui",
+  "versions": {
+    "a5b8998ca35bd5cc298e282516472f2426679aed444fb71882ad2a791aebdd4b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:spinner@0.0.0",
+        "name": "spinner",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"spinner\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/spinner.json",
+          "ref": "new-york-v4",
+          "contentHash": "a5b8998ca35bd5cc298e282516472f2426679aed444fb71882ad2a791aebdd4b"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "class-variance-authority": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a5b8998ca35bd5cc298e282516472f2426679aed444fb71882ad2a791aebdd4b",
+  "quality": {}
+}

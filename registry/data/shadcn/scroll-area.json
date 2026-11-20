@@ -1,0 +1,76 @@
+{
+  "slug": "scroll-area",
+  "source": "shadcn",
+  "name": "scroll-area",
+  "kind": "ui",
+  "versions": {
+    "c06289ab9f49b3b838b3fc01a34cbb483eb0ce4beade7f6846560ba958f6a0f0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:scroll-area@0.0.0",
+        "name": "scroll-area",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"scroll-area\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/scroll-area.json",
+          "ref": "new-york-v4",
+          "contentHash": "c06289ab9f49b3b838b3fc01a34cbb483eb0ce4beade7f6846560ba958f6a0f0"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "also-in:crud-modern-new-temp"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "c06289ab9f49b3b838b3fc01a34cbb483eb0ce4beade7f6846560ba958f6a0f0",
+  "quality": {}
+}

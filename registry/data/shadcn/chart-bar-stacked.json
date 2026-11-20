@@ -1,0 +1,76 @@
+{
+  "slug": "chart-bar-stacked",
+  "source": "shadcn",
+  "name": "chart-bar-stacked",
+  "kind": "ui",
+  "versions": {
+    "3918bdeabb615b3c52c90773b0aa7e73b184c86c1f19c1838a08e88183255c76": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-bar-stacked@0.0.0",
+        "name": "chart-bar-stacked",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-bar-stacked\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-bar-stacked.json",
+          "ref": "new-york-v4",
+          "contentHash": "3918bdeabb615b3c52c90773b0aa7e73b184c86c1f19c1838a08e88183255c76"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-bar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "3918bdeabb615b3c52c90773b0aa7e73b184c86c1f19c1838a08e88183255c76",
+  "quality": {}
+}

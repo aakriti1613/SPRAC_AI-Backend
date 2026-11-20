@@ -1,0 +1,73 @@
+{
+  "slug": "simple-blog-with-grid",
+  "source": "aceternity",
+  "name": "simple-blog-with-grid",
+  "kind": "ui",
+  "versions": {
+    "771ed1051120650d31199090b20c3836b338933781a66d90f90d170a24056173": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:simple-blog-with-grid@0.0.0",
+        "name": "simple-blog-with-grid",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Simple Blog With Grid",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/simple-blog-with-grid.json",
+          "ref": "aceternity",
+          "contentHash": "771ed1051120650d31199090b20c3836b338933781a66d90f90d170a24056173"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "771ed1051120650d31199090b20c3836b338933781a66d90f90d170a24056173",
+  "quality": {}
+}

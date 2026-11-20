@@ -1,0 +1,18 @@
+{
+  "temp1": {
+    "status": 200,
+    "templateId": "portal-admin"
+  },
+  "Template 1": {
+    "status": 200,
+    "templateId": "portal-admin"
+  },
+  "topbar temp": {
+    "status": 200,
+    "templateId": "crud-modern-new-temp"
+  },
+  "topbar_temp": {
+    "status": 200,
+    "templateId": "crud-modern-new-temp"
+  }
+}

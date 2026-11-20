@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/definition-tooltip",
+  "source": "storybook",
+  "name": "DefinitionTooltip (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "884ec182a0ffb79de17d4fc368e47223025fa057aa7e92c998e79c22c8174929": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/definition-tooltip@0.0.0",
+        "name": "DefinitionTooltip (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "DefinitionTooltip from IBM Carbon (React): 2 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-definitiontooltip--overview",
+          "ref": "@carbon/react",
+          "contentHash": "884ec182a0ffb79de17d4fc368e47223025fa057aa7e92c998e79c22c8174929"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "884ec182a0ffb79de17d4fc368e47223025fa057aa7e92c998e79c22c8174929",
+  "quality": {
+    "hasTests": true
+  }
+}

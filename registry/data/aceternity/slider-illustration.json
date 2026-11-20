@@ -1,0 +1,76 @@
+{
+  "slug": "slider-illustration",
+  "source": "aceternity",
+  "name": "slider-illustration",
+  "kind": "ui",
+  "versions": {
+    "01b30c6ef95982136dd0268e9d99873cf1d56928514b2ab88e725134a56af2cf": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:slider-illustration@0.0.0",
+        "name": "slider-illustration",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Pricing copy with inline badge, text highlights, and draggable slider with floating segment preview",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/slider-illustration.json",
+          "ref": "aceternity",
+          "contentHash": "01b30c6ef95982136dd0268e9d99873cf1d56928514b2ab88e725134a56af2cf"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "01b30c6ef95982136dd0268e9d99873cf1d56928514b2ab88e725134a56af2cf",
+  "quality": {}
+}

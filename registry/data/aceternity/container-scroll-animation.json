@@ -1,0 +1,75 @@
+{
+  "slug": "container-scroll-animation",
+  "source": "aceternity",
+  "name": "container-scroll-animation",
+  "kind": "ui",
+  "versions": {
+    "7f73cd4185ccb8cdf2fac87008d0eb39297d0298630cfff99f8589faa60c4ddf": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:container-scroll-animation@0.0.0",
+        "name": "container-scroll-animation",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"container-scroll-animation\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/container-scroll-animation.json",
+          "ref": "aceternity",
+          "contentHash": "7f73cd4185ccb8cdf2fac87008d0eb39297d0298630cfff99f8589faa60c4ddf"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "7f73cd4185ccb8cdf2fac87008d0eb39297d0298630cfff99f8589faa60c4ddf",
+  "quality": {}
+}

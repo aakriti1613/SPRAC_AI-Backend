@@ -1,0 +1,75 @@
+{
+  "cdlVersion": 1,
+  "id": "own:crud-modern/stat-card@0.1.0",
+  "name": "StatCard (as it is today)",
+  "version": "0.1.0",
+  "kind": "component",
+  "summary": "Gradient KPI tile with trend arrow and sparkline, animated on mount.",
+  "room": "dashboard-stat-card",
+  "styleLevel": "basic",
+  "websiteTypes": [
+    "admin-portal"
+  ],
+  "source": {
+    "type": "own-template",
+    "url": "platform-backend-main/templates/crud-modern-new-temp",
+    "path": "src/components/widgets/StatCard.tsx"
+  },
+  "interface": {
+    "props": [
+      {
+        "name": "label",
+        "kind": "string",
+        "required": true
+      },
+      {
+        "name": "value",
+        "kind": "unknown",
+        "required": true
+      },
+      {
+        "name": "icon",
+        "kind": "object",
+        "required": true
+      },
+      {
+        "name": "spark",
+        "kind": "array",
+        "required": false
+      },
+      {
+        "name": "trend",
+        "kind": "number",
+        "required": false
+      },
+      {
+        "name": "index",
+        "kind": "number",
+        "required": false
+      }
+    ]
+  },
+  "requires": {
+    "npm": {
+      "react": "^19.0.0",
+      "framer-motion": "^11.15.0",
+      "lucide-react": "*"
+    },
+    "peer": {},
+    "registry": [],
+    "env": []
+  },
+  "compat": {
+    "react": ">=19",
+    "tailwind": "4",
+    "language": "ts"
+  },
+  "license": "own",
+  "trust": "candidate",
+  "provenance": {
+    "interface": {
+      "by": "parser",
+      "confidence": 1
+    }
+  }
+}

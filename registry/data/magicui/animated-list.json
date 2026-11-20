@@ -1,0 +1,89 @@
+{
+  "slug": "animated-list",
+  "source": "magicui",
+  "name": "Animated List",
+  "kind": "component",
+  "versions": {
+    "83fdf8b36738c0cbdfc57420711ae397259e908dbd437349d00e735357f10d21": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:animated-list@0.0.0",
+        "name": "Animated List",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "A list that animates each item in sequence with a delay. Used to showcase notifications or events on your landing page.",
+        "room": "notifications",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/animated-list.json",
+          "ref": "magicui",
+          "contentHash": "83fdf8b36738c0cbdfc57420711ae397259e908dbd437349d00e735357f10d21"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "room": "notifications",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "contract: does not accept required prop \"items\"",
+    "contract: does not accept required prop \"onMarkRead\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "83fdf8b36738c0cbdfc57420711ae397259e908dbd437349d00e735357f10d21",
+  "quality": {}
+}

@@ -1,0 +1,87 @@
+{
+  "slug": "@trackunit/react-chart-components",
+  "source": "npm",
+  "name": "@trackunit/react-chart-components",
+  "kind": "library",
+  "versions": {
+    "db6c57c53fd6a8a13b91bba432bb4b514b4eb61fd08adddf8d64007575e34905": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:@trackunit/react-chart-components@2.17.52",
+        "name": "@trackunit/react-chart-components",
+        "version": "2.17.52",
+        "kind": "library",
+        "summary": "The `@trackunit/react-chart-components` package is the home of the chart components for Trackunits design system.",
+        "room": "dashboard-chart",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/@trackunit/react-chart-components",
+          "ref": "2.17.52",
+          "contentHash": "db6c57c53fd6a8a13b91bba432bb4b514b4eb61fd08adddf8d64007575e34905"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "^19.0.0",
+            "graphql": "^16.10.0",
+            "@apollo/client": "^3.13.8",
+            "@tanstack/react-router": "^1.114.29"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.0.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "dashboard-chart",
+          "tags": [
+            "query:react chart"
+          ]
+        },
+        "license": "SEE LICENSE IN LICENSE.txt",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "dashboard-chart",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"SEE LICENSE IN LICENSE.txt\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "db6c57c53fd6a8a13b91bba432bb4b514b4eb61fd08adddf8d64007575e34905",
+  "quality": {
+    "downloads": 11700,
+    "lastPublish": "2026-11-18T11:30:01.375Z",
+    "hasTypes": true
+  }
+}

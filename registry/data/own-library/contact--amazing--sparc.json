@@ -1,0 +1,119 @@
+{
+  "slug": "contact/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing contact",
+  "kind": "component",
+  "versions": {
+    "79c8c6607dff9562e6c8cf4d71b3c78e3ffd495240dd51431a809a8367b9801b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:contact/amazing/sparc@1.0.0",
+        "name": "Amazing contact",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing contact: Contact details (email, phone, profiles) without a form.",
+        "room": "contact",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/contact/amazing/sparc/index.tsx",
+          "contentHash": "79c8c6607dff9562e6c8cf4d71b3c78e3ffd495240dd51431a809a8367b9801b"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "availability",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "links",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "text",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "contact",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "contact",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "79c8c6607dff9562e6c8cf4d71b3c78e3ffd495240dd51431a809a8367b9801b",
+  "quality": {
+    "sizeKb": 45.9,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "projectName": "t-preset-crm-portal-admin",
+    "path": "<tmp>/t-preset-crm-portal-admin",
+    "warnings": [],
+    "templateId": "portal-admin",
+    "requestedTemplateId": "portal-admin",
+    "message": "Project \"t-preset-crm-portal-admin\" generated from template \"portal-admin\"."
+  },
+  "files": {
+    "src/portal-config.json": {
+      "portalName": "Acme Admin",
+      "logo": {
+        "src": "",
+        "alt": "Acme Admin",
+        "width": 140,
+        "text": "AA"
+      },
+      "theme": {
+        "mode": "system",
+        "tokens": {
+          "primary": "221 83% 53%",
+          "ring": "221 83% 53%",
+          "radius": "0.75rem",
+          "brand-primary": "#2563eb",
+          "brand-accent": "#3f76ed",
+          "gradient-start": "#2563eb",
+          "gradient-end": "#1e51c1",
+          "primary-hover": "221 73% 44%",
+          "primary-light": "222 86% 95%",
+          "sidebar-ring": "221 83% 53%",
+          "auth-panel-orb": "221 83% 53%",
+          "brand-primary-hover": "#1e51c1",
+          "brand-primary-light": "#e5ecfd",
+          "brand-primary-rgb": "37, 99, 235",
+          "brand-accent-2": "#b9cdf9",
+          "brand-accent-rgb": "63, 118, 237",
+          "brand-accent-2-rgb": "185, 205, 249",
+          "chart-primary": "#2563eb",
+          "chart-secondary": "#3f76ed",
+          "chart-tertiary": "#b9cdf9"
+        },
+        "name": "blue",
+        "primary": "#2563eb",
+        "primaryHover": "#1e51c1",
+        "primaryLight": "#e5ecfd",
+        "accent": "#3f76ed"
+      },
+      "dashboard": {
+        "enabled": true,
+        "template": "stats-overview",
+        "style": "crm",
+        "heroTitle": "Manage your customers with ease",
+        "heroSubtitle": "Track relationships, deals, follow-ups, and revenue operations from one place.",
+        "primaryActions": [
+          {
+            "title": "Customers",
+            "description": "Manage customers records",
+            "icon": "Users",
+            "href": "/organization/crud/customers",
+            "gradient": "gradient-primary"
+          },
+          {
+            "title": "Deals",
+            "description": "Manage deals records",
+            "icon": "BadgeIndianRupee",
+            "href": "/organization/crud/deals",
+            "gradient": "gradient-primary"
+          }
+        ],
+        "secondaryActions": [],
+        "sectionTitle": "Workspace Modules",
+        "emptyTitle": "No modules configured",
+        "emptyDescription": "Add CRUD modules in the platform wizard to populate this dashboard."
+      },
+      "navigation": [
+        {
+          "label": "Dashboard",
+          "icon": "LayoutDashboard",
+          "path": "/organization/dashboard",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Customers",
+          "icon": "Users",
+          "path": "/organization/crud/customers",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Deals",
+          "icon": "BadgeIndianRupee",
+          "path": "/organization/crud/deals",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Profile",
+          "icon": "UserRound",
+          "path": "/organization/profile",
+          "permission": "dashboard:read"
+        }
+      ],
+      "entities": [],
+      "appName": "Acme Admin",
+      "industry": "crm",
+      "themePreset": "blue",
+      "runtime": {
+        "legacyRoutesEnabled": false,
+        "blockMobile": false
+      },
+      "auth": {
+        "screens": {
+          "login": true,
+          "signup": true,
+          "forgotPassword": false
+        },
+        "method": "email-password"
+      },
+      "footer": {
+        "text": "Customer operations workspace"
+      },
+      "company": {
+        "name": "Acme Admin",
+        "website": "",
+        "supportEmail": "",
+        "address": ""
+      },
+      "loginPage": {
+        "portalName": "Acme Admin",
+        "badge": "Customer Management",
+        "headline": "Manage your customers with ease",
+        "highlightText": "customers",
+        "description": "Track relationships, deals, follow-ups, and revenue operations from one place.",
+        "features": [
+          {
+            "title": "Secure Access",
+            "description": "Enterprise-grade authentication for authorized users."
+          },
+          {
+            "title": "Self Service",
+            "description": "Manage records, workflows, and operations from one dashboard."
+          }
+        ],
+        "footerText": "Customer operations workspace"
+      },
+      "generatedModules": [
+        {
+          "id": "customers",
+          "tableName": "customers",
+          "singularName": "Customer",
+          "pluralName": "Customers",
+          "icon": "Users",
+          "permissions": {
+            "read": "customers:read",
+            "write": "customers:write",
+            "delete": "customers:delete"
+          },
+          "fields": [
+            {
+              "key": "name",
+              "label": "Customer Name",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "email",
+              "label": "Email",
+              "type": "email",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "phone",
+              "label": "Phone",
+              "type": "phone",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "segment",
+              "label": "Segment",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Enterprise",
+                "Mid Market",
+                "SMB",
+                "Partner"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "stage",
+              "label": "Lifecycle Stage",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Lead",
+                "Qualified",
+                "Customer",
+                "Churn Risk"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "name",
+            "email",
+            "phone",
+            "stage"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        },
+        {
+          "id": "deals",
+          "tableName": "deals",
+          "singularName": "Deal",
+          "pluralName": "Deals",
+          "icon": "BadgeIndianRupee",
+          "permissions": {
+            "read": "deals:read",
+            "write": "deals:write",
+            "delete": "deals:delete"
+          },
+          "fields": [
+            {
+              "key": "name",
+              "label": "Deal Name",
+              "type": "text",
+              "required": true,
+              "width": "full",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "company",
+              "label": "Company",
+              "type": "text",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "value",
+              "label": "Value",
+              "type": "currency",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "stage",
+              "label": "Stage",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Discovery",
+                "Proposal",
+                "Negotiation",
+                "Won",
+                "Lost"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "expected_close",
+              "label": "Expected Close",
+              "type": "date",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "name",
+            "company",
+            "value",
+            "stage"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        }
+      ]
+    },
+    "supabase/schema.sql": "CREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE TABLE IF NOT EXISTS organizations (\n  id          uuid primary key default gen_random_uuid(),\n  name        text not null,\n  created_at  timestamptz not null default now(),\n  updated_at  timestamptz not null default now()\n);\n\nCREATE TABLE IF NOT EXISTS organization_users (\n  id                        uuid primary key default gen_random_uuid(),\n  auth_user_id              uuid unique,\n  first_name                text default '',\n  last_name                 text default '',\n  email                     text not null unique,\n  phone_number              text default '',\n  country_code              text default '+1',\n  organization_id           uuid references organizations(id) on delete cascade,\n  role                      text not null default 'Organization User',\n  status                    text not null default 'Active',\n  account_ids               jsonb not null default '[]',\n  accounts                  jsonb not null default '[]',\n  is_acknowledged           boolean not null default true,\n  is_two_factor_enabled     boolean not null default false,\n  requires_password_change  boolean not null default false,\n  subscription_id           text,\n  profile_photo_url         text default '',\n  created_at                timestamptz not null default now(),\n  updated_at                timestamptz not null default now()\n);\n\nDO $$\nDECLARE t text;\nBEGIN\n  FOREACH t IN ARRAY ARRAY['organizations','organization_users']\n  LOOP\n    EXECUTE format('ALTER TABLE %I ENABLE ROW LEVEL SECURITY;', t);\n    EXECUTE format('DROP POLICY IF EXISTS \"authenticated_system_access\" ON %I;', t);\n    EXECUTE format(\n      'CREATE POLICY \"authenticated_system_access\" ON %I FOR ALL TO authenticated USING (true) WITH CHECK (true);', t\n    );\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO authenticated;', t);\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO service_role;', t);\n  END LOOP;\nEND $$;\n\nCREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE OR REPLACE FUNCTION public.set_updated_at()\nRETURNS TRIGGER AS $$\nBEGIN\n  NEW.updated_at = now();\n  RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TABLE IF NOT EXISTS public.\"customers\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"name\" TEXT NOT NULL,\n  \"email\" TEXT,\n  \"phone\" TEXT,\n  \"segment\" TEXT,\n  \"stage\" TEXT\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"name\" TEXT;\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"email\" TEXT;\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"phone\" TEXT;\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"segment\" TEXT;\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"stage\" TEXT;\n\nALTER TABLE public.\"customers\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_customers\" ON public.\"customers\";\nCREATE POLICY \"authenticated_full_access_customers\"\n  ON public.\"customers\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"customers\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"customers\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"customers_set_updated_at\" ON public.\"customers\";\nCREATE TRIGGER \"customers_set_updated_at\"\n  BEFORE UPDATE ON public.\"customers\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE TABLE IF NOT EXISTS public.\"deals\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"name\" TEXT NOT NULL,\n  \"company\" TEXT,\n  \"value\" NUMERIC,\n  \"stage\" TEXT,\n  \"expected_close\" DATE\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"deals\" ADD COLUMN IF NOT EXISTS \"name\" TEXT;\nALTER TABLE public.\"deals\" ADD COLUMN IF NOT EXISTS \"company\" TEXT;\nALTER TABLE public.\"deals\" ADD COLUMN IF NOT EXISTS \"value\" NUMERIC;\nALTER TABLE public.\"deals\" ADD COLUMN IF NOT EXISTS \"stage\" TEXT;\nALTER TABLE public.\"deals\" ADD COLUMN IF NOT EXISTS \"expected_close\" DATE;\n\nALTER TABLE public.\"deals\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_deals\" ON public.\"deals\";\nCREATE POLICY \"authenticated_full_access_deals\"\n  ON public.\"deals\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"deals\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"deals\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"deals_set_updated_at\" ON public.\"deals\";\nCREATE TRIGGER \"deals_set_updated_at\"\n  BEFORE UPDATE ON public.\"deals\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE OR REPLACE FUNCTION public.portal_group_count(\n  p_table text, p_column text, p_limit int DEFAULT 8\n)\nRETURNS TABLE(label text, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT COALESCE(NULLIF(%1$I::text, %3$L), %4$L) AS label, count(*)::bigint AS value\n       FROM public.%2$I\n      GROUP BY 1 ORDER BY 2 DESC LIMIT %5$s',\n    p_column, p_table, '', 'Unspecified', GREATEST(1, LEAST(p_limit, 50))\n  );\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_sum(p_table text, p_column text)\nRETURNS numeric\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE result numeric;\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN 0; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN 0; END IF;\n  EXECUTE format('SELECT COALESCE(SUM(%1$I), 0) FROM public.%2$I', p_column, p_table) INTO result;\n  RETURN result;\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_time_series(\n  p_table text, p_column text, p_bucket text DEFAULT 'day'\n)\nRETURNS TABLE(bucket timestamptz, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE b text;\nBEGIN\n  b := lower(coalesce(p_bucket, 'day'));\n  IF b NOT IN ('day', 'week', 'month') THEN b := 'day'; END IF;\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT date_trunc(%3$L, %1$I)::timestamptz AS bucket, count(*)::bigint AS value\n       FROM public.%2$I WHERE %1$I IS NOT NULL\n      GROUP BY 1 ORDER BY 1',\n    p_column, p_table, b\n  );\nEND;\n$$;\n\nGRANT EXECUTE ON FUNCTION public.portal_group_count(text, text, int) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_sum(text, text) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_time_series(text, text, text) TO authenticated, service_role;\n\n-- Tell PostgREST to refresh its schema cache so newly added tables/columns are\n-- immediately usable via the REST API (prevents stale \"schema cache\" errors).\nNOTIFY pgrst, 'reload schema';\n",
+    "supabase/seed.sql": "-- Production-generated portals do not include sample business records.\n-- Provisioning creates only the initial admin user and required system profile.\n"
+  }
+}

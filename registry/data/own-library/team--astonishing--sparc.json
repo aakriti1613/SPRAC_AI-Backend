@@ -1,0 +1,109 @@
+{
+  "slug": "team/astonishing/sparc",
+  "source": "own-library",
+  "name": "Astonishing team",
+  "kind": "component",
+  "versions": {
+    "854be62bba4c84d47559b24d77e750177fa0ed8db6dc65012a559358faba5070": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:team/astonishing/sparc@1.0.0",
+        "name": "Astonishing team",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Astonishing team: Team member cards.",
+        "room": "team",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/team/astonishing/sparc/index.tsx",
+          "contentHash": "854be62bba4c84d47559b24d77e750177fa0ed8db6dc65012a559358faba5070"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "members",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "team",
+            "astonishing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "team",
+  "styleLevel": "astonishing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "854be62bba4c84d47559b24d77e750177fa0ed8db6dc65012a559358faba5070",
+  "quality": {
+    "sizeKb": 47.8,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

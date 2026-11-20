@@ -1,0 +1,76 @@
+{
+  "slug": "uber/baseweb",
+  "source": "github",
+  "name": "uber/baseweb",
+  "kind": "library",
+  "versions": {
+    "1633928e86435595701a6e30e1c5789bf5d4c9c41af91fd695374b89674f0f30": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:uber/baseweb@0.0.0",
+        "name": "uber/baseweb",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "A React Component library implementing the Base design language",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/uber/baseweb",
+          "ref": "main",
+          "contentHash": "1633928e86435595701a6e30e1c5789bf5d4c9c41af91fd695374b89674f0f30"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "component-library",
+            "design-systems",
+            "react",
+            "react-components",
+            "query:topic:react-components language:TypeScript stars:>2000"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "1633928e86435595701a6e30e1c5789bf5d4c9c41af91fd695374b89674f0f30",
+  "quality": {
+    "stars": 9030,
+    "lastPublish": "2026-09-25T20:47:48Z"
+  }
+}

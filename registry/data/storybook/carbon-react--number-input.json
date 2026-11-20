@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/number-input",
+  "source": "storybook",
+  "name": "NumberInput (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "a229117fa579403c4bea696e5c97725b2cb0c18656b71d98f43e91f8671d2365": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/number-input@0.0.0",
+        "name": "NumberInput (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "NumberInput from IBM Carbon (React): 6 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-numberinput--overview",
+          "ref": "@carbon/react",
+          "contentHash": "a229117fa579403c4bea696e5c97725b2cb0c18656b71d98f43e91f8671d2365"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a229117fa579403c4bea696e5c97725b2cb0c18656b71d98f43e91f8671d2365",
+  "quality": {
+    "hasTests": true
+  }
+}

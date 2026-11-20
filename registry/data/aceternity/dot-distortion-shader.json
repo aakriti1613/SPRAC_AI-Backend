@@ -1,0 +1,75 @@
+{
+  "slug": "dot-distortion-shader",
+  "source": "aceternity",
+  "name": "dot-distortion-shader",
+  "kind": "ui",
+  "versions": {
+    "3db84532e3d50588361cef963ce141bfae134e682ee1f4abcdc08defc099aceb": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:dot-distortion-shader@0.0.0",
+        "name": "dot-distortion-shader",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A dot distortion shader for creating dynamic background effects.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/dot-distortion-shader.json",
+          "ref": "aceternity",
+          "contentHash": "3db84532e3d50588361cef963ce141bfae134e682ee1f4abcdc08defc099aceb"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "3db84532e3d50588361cef963ce141bfae134e682ee1f4abcdc08defc099aceb",
+  "quality": {}
+}

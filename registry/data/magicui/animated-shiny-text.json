@@ -1,0 +1,72 @@
+{
+  "slug": "animated-shiny-text",
+  "source": "magicui",
+  "name": "Animated Shiny Text",
+  "kind": "ui",
+  "versions": {
+    "832dfb521b297c26cf930f8f9a4695343cb7a2f9db062a7c33361223e55a7c1c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:animated-shiny-text@0.0.0",
+        "name": "Animated Shiny Text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A light glare effect which pans across text making it appear as if it is shimmering.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/animated-shiny-text.json",
+          "ref": "magicui",
+          "contentHash": "832dfb521b297c26cf930f8f9a4695343cb7a2f9db062a7c33361223e55a7c1c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "832dfb521b297c26cf930f8f9a4695343cb7a2f9db062a7c33361223e55a7c1c",
+  "quality": {}
+}

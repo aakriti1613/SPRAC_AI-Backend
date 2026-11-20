@@ -1,0 +1,95 @@
+{
+  "slug": "sidebar",
+  "source": "aceternity",
+  "name": "sidebar",
+  "kind": "component",
+  "versions": {
+    "ef80ef0e5cd5264e7723b8ab02016a5b7a141d7e847deaf05166cf1f2d04c900": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:sidebar@0.0.0",
+        "name": "sidebar",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"sidebar\".",
+        "room": "app-frame",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/sidebar.json",
+          "ref": "aceternity",
+          "contentHash": "ef80ef0e5cd5264e7723b8ab02016a5b7a141d7e847deaf05166cf1f2d04c900"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@tabler/icons-react": "*",
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "app-frame",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"navItems\"",
+    "contract: does not accept required prop \"user\"",
+    "contract: does not accept required prop \"onLogout\"",
+    "contract: does not accept required prop \"children\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "ef80ef0e5cd5264e7723b8ab02016a5b7a141d7e847deaf05166cf1f2d04c900",
+  "quality": {}
+}

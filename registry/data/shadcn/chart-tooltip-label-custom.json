@@ -1,0 +1,76 @@
+{
+  "slug": "chart-tooltip-label-custom",
+  "source": "shadcn",
+  "name": "chart-tooltip-label-custom",
+  "kind": "ui",
+  "versions": {
+    "fddbe2bf994fffa2f3ba28bc84e1392f47c8b40b4bb97000279f2d55f1aad71e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-tooltip-label-custom@0.0.0",
+        "name": "chart-tooltip-label-custom",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-tooltip-label-custom\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-tooltip-label-custom.json",
+          "ref": "new-york-v4",
+          "contentHash": "fddbe2bf994fffa2f3ba28bc84e1392f47c8b40b4bb97000279f2d55f1aad71e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-tooltip"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "fddbe2bf994fffa2f3ba28bc84e1392f47c8b40b4bb97000279f2d55f1aad71e",
+  "quality": {}
+}

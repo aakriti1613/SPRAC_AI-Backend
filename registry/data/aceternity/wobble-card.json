@@ -1,0 +1,75 @@
+{
+  "slug": "wobble-card",
+  "source": "aceternity",
+  "name": "wobble-card",
+  "kind": "ui",
+  "versions": {
+    "6c57fbddc4ac3d00d02e16e8cc88ac83148a39b613824cc1cb0a9de2cc0375d0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:wobble-card@0.0.0",
+        "name": "wobble-card",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"wobble-card\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/wobble-card.json",
+          "ref": "aceternity",
+          "contentHash": "6c57fbddc4ac3d00d02e16e8cc88ac83148a39b613824cc1cb0a9de2cc0375d0"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "6c57fbddc4ac3d00d02e16e8cc88ac83148a39b613824cc1cb0a9de2cc0375d0",
+  "quality": {}
+}

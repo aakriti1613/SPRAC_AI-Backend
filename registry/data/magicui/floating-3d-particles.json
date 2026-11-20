@@ -1,0 +1,72 @@
+{
+  "slug": "floating-3d-particles",
+  "source": "magicui",
+  "name": "Floating 3D Particles",
+  "kind": "ui",
+  "versions": {
+    "155bcf376487a59ae760f57c96436e0fc67fb9353d80e63950b68026da107865": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:floating-3d-particles@0.0.0",
+        "name": "Floating 3D Particles",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A canvas-based pseudo-3D particle field with perspective projection, continuous rotation and buoyant drift.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/floating-3d-particles.json",
+          "ref": "magicui",
+          "contentHash": "155bcf376487a59ae760f57c96436e0fc67fb9353d80e63950b68026da107865"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "155bcf376487a59ae760f57c96436e0fc67fb9353d80e63950b68026da107865",
+  "quality": {}
+}

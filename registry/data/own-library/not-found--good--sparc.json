@@ -1,0 +1,113 @@
+{
+  "slug": "not-found/good/sparc",
+  "source": "own-library",
+  "name": "Good not-found",
+  "kind": "component",
+  "versions": {
+    "3dc65325f7795de034164a9d3e8e20a3abb9da120b5cb4dd04e5432abf08a6fa": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:not-found/good/sparc@1.0.0",
+        "name": "Good not-found",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good not-found: 404 page.",
+        "room": "not-found",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal",
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/not-found/good/sparc/index.tsx",
+          "contentHash": "3dc65325f7795de034164a9d3e8e20a3abb9da120b5cb4dd04e5432abf08a6fa"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "homeHref",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "message",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "feedback",
+          "tags": [
+            "not-found",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "not-found",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "3dc65325f7795de034164a9d3e8e20a3abb9da120b5cb4dd04e5432abf08a6fa",
+  "quality": {
+    "sizeKb": 1.3,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

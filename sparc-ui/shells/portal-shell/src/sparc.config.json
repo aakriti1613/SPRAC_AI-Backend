@@ -1,0 +1,69 @@
+{
+  "sparcVersion": 1,
+  "websiteType": "admin-portal",
+  "styleLevel": "basic",
+  "industry": "healthcare",
+  "brand": { "name": "Sunrise Clinic", "logoText": "SC" },
+  "theme": { "primary": "#0f766e", "mode": "light", "radius": "md", "density": "comfortable", "buttonSize": "md", "font": "system" },
+  "rooms": {
+    "enabled": [
+      "signup",
+      "forgot-password",
+      "dashboard-chart",
+      "export-button",
+      "settings",
+      "users-roles",
+      "file-upload",
+      "notifications",
+      "activity-log"
+    ]
+  },
+  "loginPage": {
+    "badge": "Care Operations",
+    "headline": "Coordinate patient care with clarity",
+    "description": "Track patients, appointments and fees from one secure portal.",
+    "features": [
+      { "title": "Secure access", "description": "Only your team can sign in.", "icon": "ShieldCheck" },
+      { "title": "Everything in one place", "description": "Patients, visits and payments together.", "icon": "LayoutGrid" }
+    ]
+  },
+  "roles": ["Admin", "Doctor", "Front desk"],
+  "modules": [
+    {
+      "id": "patients",
+      "tableName": "patients",
+      "singularName": "Patient",
+      "pluralName": "Patients",
+      "icon": "UserRound",
+      "fields": [
+        { "key": "name", "label": "Patient name", "type": "text", "required": true, "width": "half" },
+        { "key": "mobile", "label": "Mobile", "type": "phone", "required": false, "width": "half" },
+        { "key": "email", "label": "Email", "type": "email", "required": false, "width": "half" },
+        { "key": "visit_date", "label": "Visit date", "type": "date", "required": false, "width": "half" },
+        { "key": "care_status", "label": "Care status", "type": "select", "required": true, "options": ["New", "In Care", "Follow Up", "Closed"], "width": "half" },
+        { "key": "insured", "label": "Has insurance", "type": "toggle", "required": false, "width": "half" },
+        { "key": "photo", "label": "Photo", "type": "image", "required": false, "width": "full" },
+        { "key": "notes", "label": "Notes", "type": "textarea", "required": false, "width": "full" }
+      ],
+      "listColumns": ["name", "mobile", "visit_date", "care_status"],
+      "tableFeatures": { "sort": true, "filter": true, "search": true, "pagination": true, "export": true }
+    },
+    {
+      "id": "appointments",
+      "tableName": "appointments",
+      "singularName": "Appointment",
+      "pluralName": "Appointments",
+      "icon": "CalendarClock",
+      "fields": [
+        { "key": "patient_name", "label": "Patient name", "type": "text", "required": true, "width": "half" },
+        { "key": "appointment_date", "label": "Appointment date", "type": "date", "required": true, "width": "half" },
+        { "key": "department", "label": "Department", "type": "select", "required": false, "options": ["OPD", "Diagnostics", "Pharmacy", "Follow Up"], "width": "half" },
+        { "key": "status", "label": "Status", "type": "select", "required": false, "options": ["Scheduled", "Completed", "Cancelled"], "width": "half" },
+        { "key": "fee", "label": "Fee", "type": "currency", "required": false, "width": "half" },
+        { "key": "tags", "label": "Tags", "type": "tags", "required": false, "width": "half" }
+      ],
+      "listColumns": ["patient_name", "appointment_date", "department", "status", "fee"],
+      "tableFeatures": { "sort": true, "filter": true, "search": true, "pagination": true, "export": true }
+    }
+  ]
+}

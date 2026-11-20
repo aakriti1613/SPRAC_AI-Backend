@@ -1,0 +1,75 @@
+{
+  "slug": "logos-with-blur-flip",
+  "source": "aceternity",
+  "name": "logos-with-blur-flip",
+  "kind": "ui",
+  "versions": {
+    "d30cc661f3164cc323d5e1bf4d21c1af05035fa61b98fe10bc3031479ba60b34": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:logos-with-blur-flip@0.0.0",
+        "name": "logos-with-blur-flip",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Logos With Blur Flip",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/logos-with-blur-flip.json",
+          "ref": "aceternity",
+          "contentHash": "d30cc661f3164cc323d5e1bf4d21c1af05035fa61b98fe10bc3031479ba60b34"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "d30cc661f3164cc323d5e1bf4d21c1af05035fa61b98fe10bc3031479ba60b34",
+  "quality": {}
+}

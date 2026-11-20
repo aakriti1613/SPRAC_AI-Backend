@@ -1,0 +1,73 @@
+{
+  "slug": "background-grid-with-dots",
+  "source": "aceternity",
+  "name": "background-grid-with-dots",
+  "kind": "ui",
+  "versions": {
+    "8b843bb3a80b03b69c34068c7d0f5d8334d6fdfee0a90e6f84956cd7d37553a4": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:background-grid-with-dots@0.0.0",
+        "name": "background-grid-with-dots",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Background Grid with Dots",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/background-grid-with-dots.json",
+          "ref": "aceternity",
+          "contentHash": "8b843bb3a80b03b69c34068c7d0f5d8334d6fdfee0a90e6f84956cd7d37553a4"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "8b843bb3a80b03b69c34068c7d0f5d8334d6fdfee0a90e6f84956cd7d37553a4",
+  "quality": {}
+}

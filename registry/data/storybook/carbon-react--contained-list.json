@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/contained-list",
+  "source": "storybook",
+  "name": "ContainedList (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "c6bda40fd20f1428abbdf05e64acb72df41c32c96ecd722bc7391f5bc207bd3c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/contained-list@0.0.0",
+        "name": "ContainedList (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "ContainedList from IBM Carbon (React): 11 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-containedlist--overview",
+          "ref": "@carbon/react",
+          "contentHash": "c6bda40fd20f1428abbdf05e64acb72df41c32c96ecd722bc7391f5bc207bd3c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "c6bda40fd20f1428abbdf05e64acb72df41c32c96ecd722bc7391f5bc207bd3c",
+  "quality": {
+    "hasTests": true
+  }
+}

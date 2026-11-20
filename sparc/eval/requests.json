@@ -1,0 +1,39 @@
+{
+  "note": "The 30 website requests used in the Phase 8 evaluation (SPARC vs templates-only vs AI-writes-all-code). type/industry = what a person would expect. mustInclude = library modules an admin portal should contain. keywords = plain words a good site for this request should mention. style = the style level asked for.",
+  "requests": [
+    { "id": "r01", "description": "A clinic website to manage patients and their appointments", "type": "admin-portal", "industry": "healthcare", "style": "good", "mustInclude": ["patients", "appointments"], "keywords": ["patient", "appointment"] },
+    { "id": "r02", "description": "Dental practice portal for patient records and prescriptions", "type": "admin-portal", "industry": "healthcare", "style": "amazing", "mustInclude": ["patients", "prescriptions"], "keywords": ["patient", "prescription"] },
+    { "id": "r03", "description": "Manage doctors, their schedules and patient appointments", "type": "admin-portal", "industry": "healthcare", "style": "basic", "mustInclude": ["doctors", "appointments"], "keywords": ["doctor", "appointment"] },
+    { "id": "r04", "description": "A CRM to track leads and deals through the sales pipeline", "type": "admin-portal", "industry": "crm", "style": "good", "mustInclude": ["leads", "deals"], "keywords": ["lead", "deal"] },
+    { "id": "r05", "description": "Support desk to handle customer tickets and complaints", "type": "admin-portal", "industry": "crm", "style": "amazing", "mustInclude": ["tickets"], "keywords": ["ticket"] },
+    { "id": "r06", "description": "HR system for employees, leave requests and attendance", "type": "admin-portal", "industry": "hrms", "style": "good", "mustInclude": ["employees", "leave-requests", "attendance"], "keywords": ["employee", "leave", "attendance"] },
+    { "id": "r07", "description": "Run payroll and manage employee records", "type": "admin-portal", "industry": "hrms", "style": "basic", "mustInclude": ["employees", "payroll"], "keywords": ["employee", "payroll"] },
+    { "id": "r08", "description": "School admin to manage students, fees and exam results", "type": "admin-portal", "industry": "school", "style": "amazing", "mustInclude": ["students", "fees", "exams"], "keywords": ["student", "fee", "exam"] },
+    { "id": "r09", "description": "Coaching institute portal for students, teachers and courses", "type": "admin-portal", "industry": "school", "style": "good", "mustInclude": ["students", "teachers", "courses"], "keywords": ["student", "teacher", "course"] },
+    { "id": "r10", "description": "Online shop back office for products, orders and suppliers", "type": "admin-portal", "industry": "inventory", "style": "good", "mustInclude": ["products", "orders", "suppliers"], "keywords": ["product", "order", "supplier"] },
+    { "id": "r11", "description": "Warehouse inventory with stock movements and products", "type": "admin-portal", "industry": "inventory", "style": "basic", "mustInclude": ["products", "stock-movements"], "keywords": ["product", "stock"] },
+    { "id": "r12", "description": "Procurement tool for vendors, purchase orders and invoices", "type": "admin-portal", "industry": "erp", "style": "amazing", "mustInclude": ["vendors", "purchase-orders", "invoices"], "keywords": ["vendor", "purchase", "invoice"] },
+
+    { "id": "r13", "description": "I am Aditi, a frontend developer, I want a personal portfolio", "type": "portfolio", "industry": "generic", "style": "astonishing", "mustInclude": [], "keywords": ["aditi", "project", "contact"] },
+    { "id": "r14", "description": "A resume website to show my projects and skills", "type": "portfolio", "industry": "generic", "style": "good", "mustInclude": [], "keywords": ["project", "skill", "resume"] },
+    { "id": "r15", "description": "A portfolio for a wedding photographer with a gallery and contact form", "type": "portfolio", "industry": "generic", "style": "amazing", "mustInclude": [], "keywords": ["photo", "contact"] },
+    { "id": "r16", "description": "A data scientist portfolio with projects, skills and my education", "type": "portfolio", "industry": "generic", "style": "basic", "mustInclude": [], "keywords": ["project", "skill", "education"] },
+    { "id": "r17", "description": "A UX designer portfolio that shows my case studies and experience", "type": "portfolio", "industry": "generic", "style": "astonishing", "mustInclude": [], "keywords": ["project", "experience", "contact"] },
+    { "id": "r18", "description": "A freelance writer site with writing samples and a way to contact me", "type": "portfolio", "industry": "generic", "style": "good", "mustInclude": [], "keywords": ["writing", "contact"] },
+
+    { "id": "r19", "description": "A one-page landing page for my new coaching institute", "type": "landing", "industry": "school", "style": "good", "mustInclude": [], "keywords": ["coaching", "contact"] },
+    { "id": "r20", "description": "A marketing landing page for a dental clinic", "type": "landing", "industry": "healthcare", "style": "amazing", "mustInclude": [], "keywords": ["dental", "contact"] },
+    { "id": "r21", "description": "A landing page for my yoga studio with class timings and pricing", "type": "landing", "industry": "generic", "style": "good", "mustInclude": [], "keywords": ["yoga", "pricing"] },
+    { "id": "r22", "description": "A coming soon landing page for my startup app with an email signup", "type": "landing", "industry": "generic", "style": "astonishing", "mustInclude": [], "keywords": ["coming soon", "email"] },
+    { "id": "r23", "description": "A one-page site for a neighbourhood bakery with opening hours and location", "type": "landing", "industry": "generic", "style": "basic", "mustInclude": [], "keywords": ["bakery", "hours", "location"] },
+    { "id": "r24", "description": "A landing page for a software consultancy with services and pricing", "type": "landing", "industry": "generic", "style": "amazing", "mustInclude": [], "keywords": ["service", "pricing"] },
+
+    { "id": "r25", "description": "An online store to sell handmade candles with a cart and checkout", "type": "ecommerce", "industry": "inventory", "style": "good", "mustInclude": [], "keywords": ["candle", "cart", "checkout"] },
+    { "id": "r26", "description": "Sell organic spices online with a shopping cart and payment", "type": "ecommerce", "industry": "generic", "style": "amazing", "mustInclude": [], "keywords": ["spice", "cart", "payment"] },
+    { "id": "r27", "description": "An online shop for second-hand books with checkout", "type": "ecommerce", "industry": "generic", "style": "basic", "mustInclude": [], "keywords": ["book", "checkout"] },
+
+    { "id": "r28", "description": "Let patients book appointments online for my dental clinic", "type": "booking", "industry": "healthcare", "style": "good", "mustInclude": [], "keywords": ["appointment", "book"] },
+    { "id": "r29", "description": "A salon with online booking and time slots for haircuts", "type": "booking", "industry": "generic", "style": "amazing", "mustInclude": [], "keywords": ["salon", "book", "time"] },
+    { "id": "r30", "description": "A maths tutor where students can book a session online", "type": "booking", "industry": "school", "style": "basic", "mustInclude": [], "keywords": ["tutor", "session", "book"] }
+  ]
+}

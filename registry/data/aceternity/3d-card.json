@@ -1,0 +1,88 @@
+{
+  "slug": "3d-card",
+  "source": "aceternity",
+  "name": "3d-card",
+  "kind": "component",
+  "versions": {
+    "5ca4873af12620df79a46a47df30c1e270e1fc221c78e1169e4b196a30dadd5b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:3d-card@0.0.0",
+        "name": "3d-card",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"3d-card\".",
+        "room": "projects",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/3d-card.json",
+          "ref": "aceternity",
+          "contentHash": "5ca4873af12620df79a46a47df30c1e270e1fc221c78e1169e4b196a30dadd5b"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "projects",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "5ca4873af12620df79a46a47df30c1e270e1fc221c78e1169e4b196a30dadd5b",
+  "quality": {}
+}

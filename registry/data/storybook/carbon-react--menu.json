@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/menu",
+  "source": "storybook",
+  "name": "Menu (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "64017baee6237f3dacaa5fc0674c0f1b2a47f6489a085e757e44436d7c212c91": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/menu@0.0.0",
+        "name": "Menu (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Menu from IBM Carbon (React): 1 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-menu--overview",
+          "ref": "@carbon/react",
+          "contentHash": "64017baee6237f3dacaa5fc0674c0f1b2a47f6489a085e757e44436d7c212c91"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "64017baee6237f3dacaa5fc0674c0f1b2a47f6489a085e757e44436d7c212c91",
+  "quality": {
+    "hasTests": true
+  }
+}

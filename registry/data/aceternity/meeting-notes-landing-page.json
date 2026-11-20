@@ -1,0 +1,75 @@
+{
+  "slug": "meeting-notes-landing-page",
+  "source": "aceternity",
+  "name": "meeting-notes-landing-page",
+  "kind": "ui",
+  "versions": {
+    "e49c77c18e56a7709ea4e55bee48ec8e939c1137306117eb0a7e4f6bd0301e02": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:meeting-notes-landing-page@0.0.0",
+        "name": "meeting-notes-landing-page",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Landing page for Parley, an on-device meeting notes app for Mac, with a tabbed app-window hero, animated features, how it works, devices, team, CTA, logo wall and footer",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/meeting-notes-landing-page.json",
+          "ref": "aceternity",
+          "contentHash": "e49c77c18e56a7709ea4e55bee48ec8e939c1137306117eb0a7e4f6bd0301e02"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "e49c77c18e56a7709ea4e55bee48ec8e939c1137306117eb0a7e4f6bd0301e02",
+  "quality": {}
+}

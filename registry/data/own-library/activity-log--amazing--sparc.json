@@ -1,0 +1,112 @@
+{
+  "slug": "activity-log/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing activity-log",
+  "kind": "component",
+  "versions": {
+    "9364dd0f0ce98c029b84ec420c2635f9597c27080baea0738c205a683dd5b4c2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:activity-log/amazing/sparc@1.0.0",
+        "name": "Amazing activity-log",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing activity-log: Recent activity list.",
+        "room": "activity-log",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/activity-log/amazing/sparc/index.tsx",
+          "contentHash": "9364dd0f0ce98c029b84ec420c2635f9597c27080baea0738c205a683dd5b4c2"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "loading",
+              "kind": "boolean",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/format",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "activity-log",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "activity-log",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "9364dd0f0ce98c029b84ec420c2635f9597c27080baea0738c205a683dd5b4c2",
+  "quality": {
+    "sizeKb": 45.7,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

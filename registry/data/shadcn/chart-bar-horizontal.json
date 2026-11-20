@@ -1,0 +1,76 @@
+{
+  "slug": "chart-bar-horizontal",
+  "source": "shadcn",
+  "name": "chart-bar-horizontal",
+  "kind": "ui",
+  "versions": {
+    "376652120437ebe269d25fb0ee7f53cb37aec583aaf57ac5f525f610a4bec0a4": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-bar-horizontal@0.0.0",
+        "name": "chart-bar-horizontal",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-bar-horizontal\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-bar-horizontal.json",
+          "ref": "new-york-v4",
+          "contentHash": "376652120437ebe269d25fb0ee7f53cb37aec583aaf57ac5f525f610a4bec0a4"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-bar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "376652120437ebe269d25fb0ee7f53cb37aec583aaf57ac5f525f610a4bec0a4",
+  "quality": {}
+}

@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "../../../theme/sparc.css";
+
+/* Components live outside this folder; tell Tailwind to scan them. */
+@source "../../../library";
+@source "../../../core";
+@source "./";

@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "types": ["vite/client", "node"],
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": ["./core/*"],
+      "@library/*": ["./library/*"],
+      "@contracts": ["./contracts/rooms.d.ts"],
+      "@blueprints/*": ["../sparc/blueprints/*"]
+    }
+  },
+  "include": ["contracts", "core", "library", "shells", "test", "vite.shared.ts", "vitest.config.ts"]
+}

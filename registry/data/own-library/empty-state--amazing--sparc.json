@@ -1,0 +1,122 @@
+{
+  "slug": "empty-state/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing empty-state",
+  "kind": "component",
+  "versions": {
+    "73f2aae4a1fc26249080433dd7ccc55895077486527b7685e59577a9beb84812": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:empty-state/amazing/sparc@1.0.0",
+        "name": "Amazing empty-state",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing empty-state: Shown when a list has no records yet.",
+        "room": "empty-state",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/empty-state/amazing/sparc/index.tsx",
+          "contentHash": "73f2aae4a1fc26249080433dd7ccc55895077486527b7685e59577a9beb84812"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "actionLabel",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "icon",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "message",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "onAction",
+              "kind": "function",
+              "required": false
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "feedback",
+          "tags": [
+            "empty-state",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "empty-state",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "73f2aae4a1fc26249080433dd7ccc55895077486527b7685e59577a9beb84812",
+  "quality": {
+    "sizeKb": 45.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

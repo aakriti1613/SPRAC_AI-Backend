@@ -1,0 +1,76 @@
+{
+  "slug": "tooltip",
+  "source": "shadcn",
+  "name": "tooltip",
+  "kind": "ui",
+  "versions": {
+    "36f81d4d7db04e6307ee0f2f4eac4599901a7ddb4e3ac28b8e98fb6b67edb509": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:tooltip@0.0.0",
+        "name": "tooltip",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"tooltip\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/tooltip.json",
+          "ref": "new-york-v4",
+          "contentHash": "36f81d4d7db04e6307ee0f2f4eac4599901a7ddb4e3ac28b8e98fb6b67edb509"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "also-in:crud-modern-new-temp"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "36f81d4d7db04e6307ee0f2f4eac4599901a7ddb4e3ac28b8e98fb6b67edb509",
+  "quality": {}
+}

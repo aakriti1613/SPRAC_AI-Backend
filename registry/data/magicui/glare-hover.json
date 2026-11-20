@@ -1,0 +1,72 @@
+{
+  "slug": "glare-hover",
+  "source": "magicui",
+  "name": "Glare Hover",
+  "kind": "ui",
+  "versions": {
+    "421f89b5abd487b83e15887f995d2e7011b1a52bdd8f90607b4c534e0ff46625": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:glare-hover@0.0.0",
+        "name": "Glare Hover",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A diagonal glare on hover using a ::before gradient and CSS variables (angle, size, duration, color).",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/glare-hover.json",
+          "ref": "magicui",
+          "contentHash": "421f89b5abd487b83e15887f995d2e7011b1a52bdd8f90607b4c534e0ff46625"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "421f89b5abd487b83e15887f995d2e7011b1a52bdd8f90607b4c534e0ff46625",
+  "quality": {}
+}

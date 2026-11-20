@@ -1,0 +1,76 @@
+{
+  "slug": "chart-line-dots-custom",
+  "source": "shadcn",
+  "name": "chart-line-dots-custom",
+  "kind": "ui",
+  "versions": {
+    "c78f371ee932ad9c9b3dff53213e478baed6a9586c0629260ef8fa23706028c9": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-line-dots-custom@0.0.0",
+        "name": "chart-line-dots-custom",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-line-dots-custom\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-line-dots-custom.json",
+          "ref": "new-york-v4",
+          "contentHash": "c78f371ee932ad9c9b3dff53213e478baed6a9586c0629260ef8fa23706028c9"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-line"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "c78f371ee932ad9c9b3dff53213e478baed6a9586c0629260ef8fa23706028c9",
+  "quality": {}
+}

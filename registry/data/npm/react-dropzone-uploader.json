@@ -1,0 +1,93 @@
+{
+  "slug": "react-dropzone-uploader",
+  "source": "npm",
+  "name": "react-dropzone-uploader",
+  "kind": "library",
+  "versions": {
+    "b43c01ce58cabeb1f36bfe0525c70eb00c2be1a72582640067f431e6166fdcd2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-dropzone-uploader@2.11.0",
+        "name": "react-dropzone-uploader",
+        "version": "2.11.0",
+        "kind": "library",
+        "summary": "React file dropzone and uploader: fully customizable, progress indicators, upload cancellation and restart, zero deps and excellent TypeScript support",
+        "room": "file-upload",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-dropzone-uploader",
+          "ref": "2.11.0",
+          "contentHash": "b43c01ce58cabeb1f36bfe0525c70eb00c2be1a72582640067f431e6166fdcd2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">=16.2.0",
+            "react-dom": ">=16.2.0",
+            "prop-types": ">=15.5.10"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">=16.2.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "file-upload",
+          "tags": [
+            "react",
+            "react-component",
+            "file",
+            "HTML5",
+            "input",
+            "dropzone",
+            "uploader",
+            "progress",
+            "query:react dropzone"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "file-upload",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "b43c01ce58cabeb1f36bfe0525c70eb00c2be1a72582640067f431e6166fdcd2",
+  "quality": {
+    "downloads": 155307,
+    "lastPublish": "2019-11-13T02:09:42.366Z",
+    "hasTypes": true
+  }
+}

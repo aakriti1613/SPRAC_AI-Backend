@@ -1,0 +1,75 @@
+{
+  "slug": "sparkles-text",
+  "source": "magicui",
+  "name": "Sparkles Text",
+  "kind": "ui",
+  "versions": {
+    "6346349f9d8d84a4ba587ccd7e4e37a9d10e86200c723d62a5d59c49ebfe4136": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:sparkles-text@0.0.0",
+        "name": "Sparkles Text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A dynamic text that generates continuous sparkles with smooth transitions, perfect for highlighting text with animated stars.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/sparkles-text.json",
+          "ref": "magicui",
+          "contentHash": "6346349f9d8d84a4ba587ccd7e4e37a9d10e86200c723d62a5d59c49ebfe4136"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "6346349f9d8d84a4ba587ccd7e4e37a9d10e86200c723d62a5d59c49ebfe4136",
+  "quality": {}
+}

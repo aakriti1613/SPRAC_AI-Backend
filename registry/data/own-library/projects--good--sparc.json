@@ -1,0 +1,108 @@
+{
+  "slug": "projects/good/sparc",
+  "source": "own-library",
+  "name": "Good projects",
+  "kind": "component",
+  "versions": {
+    "e23410925d6ea6cfa290bc2b83a5eebf369dd32319d0987f1d028ff07dc1e3d9": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:projects/good/sparc@1.0.0",
+        "name": "Good projects",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good projects: Grid or list of portfolio projects.",
+        "room": "projects",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/projects/good/sparc/index.tsx",
+          "contentHash": "e23410925d6ea6cfa290bc2b83a5eebf369dd32319d0987f1d028ff07dc1e3d9"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "projects",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "projects",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "e23410925d6ea6cfa290bc2b83a5eebf369dd32319d0987f1d028ff07dc1e3d9",
+  "quality": {
+    "sizeKb": 1.7,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

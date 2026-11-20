@@ -1,0 +1,87 @@
+{
+  "slug": "@material/react-dialog",
+  "source": "npm",
+  "name": "@material/react-dialog",
+  "kind": "library",
+  "versions": {
+    "5c9f742370d0b2da3c05e13ecd9f474fdeb56483bf83c59b56999e972e15181a": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:@material/react-dialog@0.15.0",
+        "name": "@material/react-dialog",
+        "version": "0.15.0",
+        "kind": "library",
+        "summary": "Material Components React Dialog",
+        "room": "confirm-dialog",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/@material/react-dialog",
+          "ref": "0.15.0",
+          "contentHash": "5c9f742370d0b2da3c05e13ecd9f474fdeb56483bf83c59b56999e972e15181a"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "^16.4.2"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^16.4.2",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "confirm-dialog",
+          "tags": [
+            "mdc web react",
+            "material components react",
+            "material design",
+            "dialog",
+            "query:react dialog"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "confirm-dialog",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "5c9f742370d0b2da3c05e13ecd9f474fdeb56483bf83c59b56999e972e15181a",
+  "quality": {
+    "downloads": 5285,
+    "lastPublish": "2019-07-22T22:42:57.376Z",
+    "hasTypes": true
+  }
+}

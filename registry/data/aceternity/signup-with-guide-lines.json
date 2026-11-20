@@ -1,0 +1,94 @@
+{
+  "slug": "signup-with-guide-lines",
+  "source": "aceternity",
+  "name": "signup-with-guide-lines",
+  "kind": "component",
+  "versions": {
+    "d89f6cfd13c97a0b91e5671f302b0b631f0e71d23899153de506cbef8c833b07": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:signup-with-guide-lines@0.0.0",
+        "name": "signup-with-guide-lines",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Signup form in a card between full-width guide lines, with GitHub sign up, email and password fields, and a verify-email step",
+        "room": "signup",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/signup-with-guide-lines.json",
+          "ref": "aceternity",
+          "contentHash": "d89f6cfd13c97a0b91e5671f302b0b631f0e71d23899153de506cbef8c833b07"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "signup",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"onSubmit\"",
+    "contract: does not accept required prop \"submitting\"",
+    "contract: does not accept required prop \"loginHref\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "d89f6cfd13c97a0b91e5671f302b0b631f0e71d23899153de506cbef8c833b07",
+  "quality": {}
+}

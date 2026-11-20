@@ -1,0 +1,73 @@
+{
+  "slug": "stars-background",
+  "source": "aceternity",
+  "name": "stars-background",
+  "kind": "ui",
+  "versions": {
+    "4b4f854a3e6c0e779f68313fed47d3d0fc4a8f0462dd2d7bf07f7b58c0097039": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:stars-background@0.0.0",
+        "name": "stars-background",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"stars-background\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/stars-background.json",
+          "ref": "aceternity",
+          "contentHash": "4b4f854a3e6c0e779f68313fed47d3d0fc4a8f0462dd2d7bf07f7b58c0097039"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "4b4f854a3e6c0e779f68313fed47d3d0fc4a8f0462dd2d7bf07f7b58c0097039",
+  "quality": {}
+}

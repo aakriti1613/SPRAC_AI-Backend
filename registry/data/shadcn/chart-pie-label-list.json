@@ -1,0 +1,76 @@
+{
+  "slug": "chart-pie-label-list",
+  "source": "shadcn",
+  "name": "chart-pie-label-list",
+  "kind": "ui",
+  "versions": {
+    "a10b7cedada085d8c02717c8284b4d9932d1608f717fc7c9fe97a0d70d8be11c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-pie-label-list@0.0.0",
+        "name": "chart-pie-label-list",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-pie-label-list\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-pie-label-list.json",
+          "ref": "new-york-v4",
+          "contentHash": "a10b7cedada085d8c02717c8284b4d9932d1608f717fc7c9fe97a0d70d8be11c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-pie"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a10b7cedada085d8c02717c8284b4d9932d1608f717fc7c9fe97a0d70d8be11c",
+  "quality": {}
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "shimmer-button",
+  "source": "magicui",
+  "name": "Shimmer Button",
+  "kind": "ui",
+  "versions": {
+    "b4ac601f9f48dd5e8e16fc6a6c9061504d11b2c73da80db0f940eb034ac72856": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:shimmer-button@0.0.0",
+        "name": "Shimmer Button",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A button with a shimmering light which travels around the perimeter.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/shimmer-button.json",
+          "ref": "magicui",
+          "contentHash": "b4ac601f9f48dd5e8e16fc6a6c9061504d11b2c73da80db0f940eb034ac72856"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "b4ac601f9f48dd5e8e16fc6a6c9061504d11b2c73da80db0f940eb034ac72856",
+  "quality": {}
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "blog-content-centered",
+  "source": "aceternity",
+  "name": "blog-content-centered",
+  "kind": "ui",
+  "versions": {
+    "c1f53f0be14435c486d872b8ad837ca771c4b864789cbc1b45ac2357e29e756b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:blog-content-centered@0.0.0",
+        "name": "blog-content-centered",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Blog Content Centered",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/blog-content-centered.json",
+          "ref": "aceternity",
+          "contentHash": "c1f53f0be14435c486d872b8ad837ca771c4b864789cbc1b45ac2357e29e756b"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react-markdown": "*",
+            "date-fns": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "c1f53f0be14435c486d872b8ad837ca771c4b864789cbc1b45ac2357e29e756b",
+  "quality": {}
+}

@@ -1,0 +1,278 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "slug": "preset-crm",
+    "portalUrl": "/portal/preset-crm",
+    "shortPortalUrl": "/p/preset-crm"
+  },
+  "stored": {
+    "version": 1,
+    "templateId": "portal-admin",
+    "slug": "preset-crm",
+    "portalName": "preset-crm",
+    "appName": "Acme Admin",
+    "type": "admin",
+    "industry": "crm",
+    "themePreset": "blue",
+    "themeColor": "#2563eb",
+    "logoUrl": "",
+    "logoText": "AA",
+    "loginPage": {
+      "portalName": "Acme Admin",
+      "badge": "Customer Management",
+      "headline": "Manage your customers with ease",
+      "highlightText": "customers",
+      "description": "Track relationships, deals, follow-ups, and revenue operations from one place.",
+      "features": [
+        {
+          "title": "Secure Access",
+          "description": "Enterprise-grade authentication for authorized users."
+        },
+        {
+          "title": "Self Service",
+          "description": "Manage records, workflows, and operations from one dashboard."
+        }
+      ],
+      "footerText": "Customer operations workspace"
+    },
+    "footer": {
+      "text": "Customer operations workspace"
+    },
+    "company": {
+      "name": "Acme Admin",
+      "website": "",
+      "supportEmail": "",
+      "address": ""
+    },
+    "auth": {
+      "screens": {
+        "login": true,
+        "signup": true,
+        "forgotPassword": false
+      },
+      "method": "email-password"
+    },
+    "dashboard": {
+      "enabled": true,
+      "template": "stats-overview"
+    },
+    "profile": {
+      "enabled": true
+    },
+    "modules": [
+      {
+        "id": "customers",
+        "singularName": "Customer",
+        "pluralName": "Customers",
+        "icon": "Users",
+        "fields": [
+          {
+            "id": "field-9ftiew",
+            "key": "name",
+            "label": "Customer Name",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-y6l6e6",
+            "key": "email",
+            "label": "Email",
+            "type": "email",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-zah0qt",
+            "key": "phone",
+            "label": "Phone",
+            "type": "phone",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-jszub5",
+            "key": "segment",
+            "label": "Segment",
+            "type": "select",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "Enterprise",
+              "Mid Market",
+              "SMB",
+              "Partner"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-2jmht4",
+            "key": "stage",
+            "label": "Lifecycle Stage",
+            "type": "select",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "Lead",
+              "Qualified",
+              "Customer",
+              "Churn Risk"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "name",
+          "email",
+          "phone",
+          "stage"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        },
+        "collapsed": false
+      },
+      {
+        "id": "deals",
+        "singularName": "Deal",
+        "pluralName": "Deals",
+        "icon": "BadgeIndianRupee",
+        "fields": [
+          {
+            "id": "field-3o5qhg",
+            "key": "name",
+            "label": "Deal Name",
+            "type": "text",
+            "required": true,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-kl2zkz",
+            "key": "company",
+            "label": "Company",
+            "type": "text",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-qtd0xt",
+            "key": "value",
+            "label": "Value",
+            "type": "currency",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-78oj9q",
+            "key": "stage",
+            "label": "Stage",
+            "type": "select",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "Discovery",
+              "Proposal",
+              "Negotiation",
+              "Won",
+              "Lost"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-n59imz",
+            "key": "expected_close",
+            "label": "Expected Close",
+            "type": "date",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "name",
+          "company",
+          "value",
+          "stage"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        },
+        "collapsed": false
+      }
+    ],
+    "createdAt": "<iso>",
+    "updatedAt": "<iso>"
+  }
+}

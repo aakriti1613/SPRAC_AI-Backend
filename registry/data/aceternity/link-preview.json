@@ -1,0 +1,77 @@
+{
+  "slug": "link-preview",
+  "source": "aceternity",
+  "name": "link-preview",
+  "kind": "ui",
+  "versions": {
+    "4f233707a2907941ca5a3d6ddd437db6e2a4b66f751b8ab3d41fddb33fcc2b4e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:link-preview@0.0.0",
+        "name": "link-preview",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"link-preview\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/link-preview.json",
+          "ref": "aceternity",
+          "contentHash": "4f233707a2907941ca5a3d6ddd437db6e2a4b66f751b8ab3d41fddb33fcc2b4e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@radix-ui/react-hover-card": "*",
+            "qss": "*",
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "4f233707a2907941ca5a3d6ddd437db6e2a4b66f751b8ab3d41fddb33fcc2b4e",
+  "quality": {}
+}

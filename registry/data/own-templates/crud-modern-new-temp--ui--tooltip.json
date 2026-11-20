@@ -1,0 +1,82 @@
+{
+  "slug": "crud-modern-new-temp/ui/tooltip",
+  "source": "own-templates",
+  "name": "tooltip (crud-modern template)",
+  "kind": "ui",
+  "versions": {
+    "0abba11d24586727778f5773418c9a6e7503a48af112833b414a9fd219d6900e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/ui/tooltip@0.1.0",
+        "name": "tooltip (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "ui",
+        "summary": "UI primitive \"tooltip\" from the crud-modern-new-temp template.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/ui/tooltip.tsx",
+          "contentHash": "0abba11d24586727778f5773418c9a6e7503a48af112833b414a9fd219d6900e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.2.0",
+            "radix-ui": "^1.4.3"
+          },
+          "peer": {},
+          "registry": [
+            "crud-modern-new-temp/src/lib/utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "tags": [
+            "legacy",
+            "ui"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "0abba11d24586727778f5773418c9a6e7503a48af112833b414a9fd219d6900e",
+  "quality": {}
+}

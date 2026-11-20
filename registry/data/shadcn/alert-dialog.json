@@ -1,0 +1,75 @@
+{
+  "slug": "alert-dialog",
+  "source": "shadcn",
+  "name": "alert-dialog",
+  "kind": "ui",
+  "versions": {
+    "c912ad93e44b416108b85c1342a50258c4929ca46dfd513df568b08f191f3517": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:alert-dialog@0.0.0",
+        "name": "alert-dialog",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"alert-dialog\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/alert-dialog.json",
+          "ref": "new-york-v4",
+          "contentHash": "c912ad93e44b416108b85c1342a50258c4929ca46dfd513df568b08f191f3517"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:button",
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "c912ad93e44b416108b85c1342a50258c4929ca46dfd513df568b08f191f3517",
+  "quality": {}
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "cards-demo-2",
+  "source": "aceternity",
+  "name": "cards-demo-2",
+  "kind": "ui",
+  "versions": {
+    "66735391712502f78388d56115f8eb0814ec9d23f1f4b41cd4500ce20eea1590": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:cards-demo-2@0.0.0",
+        "name": "cards-demo-2",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Content Card",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/cards-demo-2.json",
+          "ref": "aceternity",
+          "contentHash": "66735391712502f78388d56115f8eb0814ec9d23f1f4b41cd4500ce20eea1590"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "66735391712502f78388d56115f8eb0814ec9d23f1f4b41cd4500ce20eea1590",
+  "quality": {}
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "services-list/good/sparc",
+  "source": "own-library",
+  "name": "Good services-list",
+  "kind": "component",
+  "versions": {
+    "56caf1b7f9a0acfaaeb2868cba03739005956dfd094e3259bf3eb457d8405c32": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:services-list/good/sparc@1.0.0",
+        "name": "Good services-list",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good services-list: The services a customer can book; they pick one.",
+        "room": "services-list",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "booking"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/services-list/good/sparc/index.tsx",
+          "contentHash": "56caf1b7f9a0acfaaeb2868cba03739005956dfd094e3259bf3eb457d8405c32"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "currency",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "onSelect",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "selectedId",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "services",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "subtitle",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/money",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "booking",
+          "tags": [
+            "services-list",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-19T11-06-31-950Z-330d3d"
+    }
+  },
+  "room": "services-list",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "56caf1b7f9a0acfaaeb2868cba03739005956dfd094e3259bf3eb457d8405c32",
+  "quality": {
+    "sizeKb": 1.7,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

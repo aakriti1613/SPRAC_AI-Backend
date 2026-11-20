@@ -1,0 +1,111 @@
+{
+  "slug": "resume-download/good/sparc",
+  "source": "own-library",
+  "name": "Good resume-download",
+  "kind": "component",
+  "versions": {
+    "3cc9f0c34d7e023a92f039d7cfb36a3f4ff2b9566b605c6462a5685387a9322f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:resume-download/good/sparc@1.0.0",
+        "name": "Good resume-download",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good resume-download: Button / card to download a CV.",
+        "room": "resume-download",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/resume-download/good/sparc/index.tsx",
+          "contentHash": "3cc9f0c34d7e023a92f039d7cfb36a3f4ff2b9566b605c6462a5685387a9322f"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "href",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "label",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "note",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "resume-download",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "resume-download",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "3cc9f0c34d7e023a92f039d7cfb36a3f4ff2b9566b605c6462a5685387a9322f",
+  "quality": {
+    "sizeKb": 1.3,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

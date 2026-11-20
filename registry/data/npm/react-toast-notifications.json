@@ -1,0 +1,89 @@
+{
+  "slug": "react-toast-notifications",
+  "source": "npm",
+  "name": "react-toast-notifications",
+  "kind": "library",
+  "versions": {
+    "3fe04922d524a7768c43ffa70891a52f4c31c06f5a9355aedf237f1d01608dba": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-toast-notifications@2.5.1",
+        "name": "react-toast-notifications",
+        "version": "2.5.1",
+        "kind": "library",
+        "summary": "A configurable, composable, toast notification system for react.",
+        "room": "notifications",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-toast-notifications",
+          "ref": "2.5.1",
+          "contentHash": "3fe04922d524a7768c43ffa70891a52f4c31c06f5a9355aedf237f1d01608dba"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "^16.8.0 || ^17.0.0",
+            "react-dom": "^16.8.0 || ^17.0.0"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^16.8.0 || ^17.0.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "notifications",
+          "tags": [
+            "react",
+            "toast",
+            "toasts",
+            "notification",
+            "notifications",
+            "query:react toast"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "notifications",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "3fe04922d524a7768c43ffa70891a52f4c31c06f5a9355aedf237f1d01608dba",
+  "quality": {
+    "downloads": 210211,
+    "lastPublish": "2021-07-08T21:43:03.663Z",
+    "hasTypes": true
+  }
+}

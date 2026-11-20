@@ -1,0 +1,75 @@
+{
+  "slug": "box-illustration",
+  "source": "aceternity",
+  "name": "box-illustration",
+  "kind": "ui",
+  "versions": {
+    "098a5711db1438889d605b4976a777d6d4995f9095f17d86581314eb76966da9": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:box-illustration@0.0.0",
+        "name": "box-illustration",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Interactive box illustration with popout cards on hover",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/box-illustration.json",
+          "ref": "aceternity",
+          "contentHash": "098a5711db1438889d605b4976a777d6d4995f9095f17d86581314eb76966da9"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "098a5711db1438889d605b4976a777d6d4995f9095f17d86581314eb76966da9",
+  "quality": {}
+}

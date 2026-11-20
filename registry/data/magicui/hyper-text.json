@@ -1,0 +1,75 @@
+{
+  "slug": "hyper-text",
+  "source": "magicui",
+  "name": "Hyper Text",
+  "kind": "ui",
+  "versions": {
+    "66ebb89d7a31c651470ae0b7ac29fffd73efea2e1ecd5ae3b476f6df85d42f52": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:hyper-text@0.0.0",
+        "name": "Hyper Text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A text animation that scrambles letters before revealing the final text.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/hyper-text.json",
+          "ref": "magicui",
+          "contentHash": "66ebb89d7a31c651470ae0b7ac29fffd73efea2e1ecd5ae3b476f6df85d42f52"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "66ebb89d7a31c651470ae0b7ac29fffd73efea2e1ecd5ae3b476f6df85d42f52",
+  "quality": {}
+}

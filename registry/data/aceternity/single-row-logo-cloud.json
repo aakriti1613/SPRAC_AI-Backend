@@ -1,0 +1,75 @@
+{
+  "slug": "single-row-logo-cloud",
+  "source": "aceternity",
+  "name": "single-row-logo-cloud",
+  "kind": "ui",
+  "versions": {
+    "f31b914502c1a2ab19dab3a777c510d130d05445d200eb084d58620ff9f450c7": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:single-row-logo-cloud@0.0.0",
+        "name": "single-row-logo-cloud",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A single row logo cloud with 5 logos that flips in an interval.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/single-row-logo-cloud.json",
+          "ref": "aceternity",
+          "contentHash": "f31b914502c1a2ab19dab3a777c510d130d05445d200eb084d58620ff9f450c7"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "f31b914502c1a2ab19dab3a777c510d130d05445d200eb084d58620ff9f450c7",
+  "quality": {}
+}

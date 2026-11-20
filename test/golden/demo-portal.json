@@ -1,0 +1,991 @@
+{
+  "config": {
+    "version": 1,
+    "templateId": "insurance-portal",
+    "slug": "demo-admin",
+    "portalName": "demo-admin",
+    "appName": "Acme Insurance Admin",
+    "type": "insurance",
+    "industry": "generic",
+    "themePreset": "custom",
+    "themeColor": "#059669",
+    "logoUrl": "",
+    "logoText": "AI",
+    "loginPage": {
+      "portalName": "Acme Insurance Admin",
+      "badge": "Business Operations",
+      "headline": "Run your operations from one focused workspace",
+      "highlightText": "operations",
+      "description": "Manage records, tasks, approvals, and daily workflows from one secure dashboard.",
+      "features": [
+        {
+          "title": "Secure Access",
+          "description": "Enterprise-grade authentication for authorized users."
+        },
+        {
+          "title": "Self Service",
+          "description": "Manage records, workflows, and operations from one dashboard."
+        }
+      ],
+      "footerText": "Powered by your operations team"
+    },
+    "footer": {
+      "text": "Powered by your operations team"
+    },
+    "company": {
+      "name": "Acme Insurance Admin",
+      "website": "",
+      "supportEmail": "",
+      "address": ""
+    },
+    "auth": {
+      "screens": {
+        "login": true,
+        "signup": true,
+        "forgotPassword": true
+      },
+      "method": "email-password"
+    },
+    "dashboard": {
+      "enabled": true,
+      "template": "stats-overview"
+    },
+    "profile": {
+      "enabled": true
+    },
+    "modules": [
+      {
+        "id": "agents",
+        "singularName": "Agent",
+        "pluralName": "Agents",
+        "icon": "Users",
+        "fields": [
+          {
+            "id": "<uuid>",
+            "key": "name",
+            "label": "Agent Name",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "email",
+            "label": "Email",
+            "type": "email",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "license_number",
+            "label": "License Number",
+            "type": "text",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "region",
+            "label": "Region",
+            "type": "select",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "North",
+              "South",
+              "East",
+              "West",
+              "Central"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "active",
+            "label": "Active",
+            "type": "toggle",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "joined_on",
+            "label": "Joined On",
+            "type": "date",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "portfolio_value",
+            "label": "Portfolio Value",
+            "type": "currency",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "rating",
+            "label": "Rating",
+            "type": "number",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {
+              "min": 1,
+              "max": 5
+            },
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "avatar",
+            "label": "Avatar",
+            "type": "image",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": false
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "specialties",
+            "label": "Specialties",
+            "type": "tags",
+            "required": false,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "name",
+          "region",
+          "portfolio_value",
+          "active"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        }
+      },
+      {
+        "id": "policies",
+        "singularName": "Policy",
+        "pluralName": "Policies",
+        "icon": "FileText",
+        "fields": [
+          {
+            "id": "<uuid>",
+            "key": "policy_number",
+            "label": "Policy Number",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "holder_name",
+            "label": "Holder Name",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "holder_email",
+            "label": "Holder Email",
+            "type": "email",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "product",
+            "label": "Product",
+            "type": "select",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "Health",
+              "Motor",
+              "Life",
+              "Travel",
+              "Property"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "premium",
+            "label": "Premium",
+            "type": "currency",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "sum_insured",
+            "label": "Sum Insured",
+            "type": "currency",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "start_date",
+            "label": "Start Date",
+            "type": "date",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "renewal_date",
+            "label": "Renewal Date",
+            "type": "date",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "status",
+            "label": "Status",
+            "type": "select",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "Active",
+              "Pending",
+              "Lapsed",
+              "Claimed"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "documents",
+            "label": "Documents",
+            "type": "file",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": false
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "nominee",
+            "label": "Nominee",
+            "type": "text",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "auto_renew",
+            "label": "Auto Renew",
+            "type": "checkbox",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "policy_number",
+          "holder_name",
+          "product",
+          "premium",
+          "status"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        }
+      },
+      {
+        "id": "claims",
+        "singularName": "Claim",
+        "pluralName": "Claims",
+        "icon": "ClipboardList",
+        "fields": [
+          {
+            "id": "<uuid>",
+            "key": "claim_number",
+            "label": "Claim Number",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "policy_number",
+            "label": "Policy Number",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "claimant_name",
+            "label": "Claimant Name",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "amount",
+            "label": "Amount",
+            "type": "currency",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "incident_date",
+            "label": "Incident Date",
+            "type": "date",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "status",
+            "label": "Status",
+            "type": "select",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "Submitted",
+              "Under Review",
+              "Approved",
+              "Rejected",
+              "Paid"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "urgent",
+            "label": "Urgent",
+            "type": "checkbox",
+            "required": false,
+            "width": "third",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "notes",
+            "label": "Notes",
+            "type": "textarea",
+            "required": false,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "claim_number",
+          "policy_number",
+          "claimant_name",
+          "amount",
+          "status"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        }
+      }
+    ],
+    "createdAt": "<iso>",
+    "updatedAt": "<iso>"
+  },
+  "data": {
+    "agents.json": [
+      {
+        "id": "<uuid>",
+        "name": "Aarav Mehta",
+        "email": "aarav.mehta@acme.test",
+        "license_number": "AG-MH-2041",
+        "region": "West",
+        "active": true,
+        "joined_on": "2022-03-14",
+        "portfolio_value": 8200000,
+        "rating": 5,
+        "avatar": "",
+        "specialties": [
+          "Health",
+          "Life"
+        ],
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "name": "Ananya Rao",
+        "email": "ananya.rao@acme.test",
+        "license_number": "AG-KA-1172",
+        "region": "South",
+        "active": true,
+        "joined_on": "2021-11-08",
+        "portfolio_value": 10400000,
+        "rating": 5,
+        "avatar": "",
+        "specialties": [
+          "Motor",
+          "Travel"
+        ],
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "name": "Ishaan Kapoor",
+        "email": "ishaan.kapoor@acme.test",
+        "license_number": "AG-DL-9044",
+        "region": "North",
+        "active": true,
+        "joined_on": "2023-01-20",
+        "portfolio_value": 6100000,
+        "rating": 4,
+        "avatar": "",
+        "specialties": [
+          "Life"
+        ],
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "name": "Meera Iyer",
+        "email": "meera.iyer@acme.test",
+        "license_number": "AG-TN-5580",
+        "region": "South",
+        "active": false,
+        "joined_on": "2020-06-12",
+        "portfolio_value": 7300000,
+        "rating": 4,
+        "avatar": "",
+        "specialties": [
+          "Health",
+          "Property"
+        ],
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "name": "Kabir Singh",
+        "email": "kabir.singh@acme.test",
+        "license_number": "AG-PB-7719",
+        "region": "North",
+        "active": true,
+        "joined_on": "2022-09-01",
+        "portfolio_value": 5600000,
+        "rating": 3,
+        "avatar": "",
+        "specialties": [
+          "Motor"
+        ],
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "name": "Priya Nair",
+        "email": "priya.nair@acme.test",
+        "license_number": "AG-KL-3821",
+        "region": "South",
+        "active": true,
+        "joined_on": "2019-04-18",
+        "portfolio_value": 12900000,
+        "rating": 5,
+        "avatar": "",
+        "specialties": [
+          "Health",
+          "Travel"
+        ],
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "name": "Rohan Desai",
+        "email": "rohan.desai@acme.test",
+        "license_number": "AG-GJ-2398",
+        "region": "West",
+        "active": true,
+        "joined_on": "2023-07-05",
+        "portfolio_value": 4200000,
+        "rating": 4,
+        "avatar": "",
+        "specialties": [
+          "Property"
+        ],
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "name": "Saanvi Gupta",
+        "email": "saanvi.gupta@acme.test",
+        "license_number": "AG-UP-6140",
+        "region": "Central",
+        "active": true,
+        "joined_on": "2021-02-27",
+        "portfolio_value": 9100000,
+        "rating": 5,
+        "avatar": "",
+        "specialties": [
+          "Life",
+          "Health"
+        ],
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      }
+    ],
+    "claims.json": [
+      {
+        "id": "<uuid>",
+        "claim_number": "CLM-9001",
+        "policy_number": "POL-2026-1001",
+        "claimant_name": "Nikhil Verma",
+        "amount": 86000,
+        "incident_date": "2026-02-14",
+        "status": "Under Review",
+        "urgent": false,
+        "notes": "Hospitalization claim under review.",
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "claim_number": "CLM-9002",
+        "policy_number": "POL-2026-1002",
+        "claimant_name": "Diya Shah",
+        "amount": 42000,
+        "incident_date": "2026-03-08",
+        "status": "Approved",
+        "urgent": false,
+        "notes": "Garage estimate verified.",
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "claim_number": "CLM-9003",
+        "policy_number": "POL-2026-1004",
+        "claimant_name": "Sara Khan",
+        "amount": 18000,
+        "incident_date": "2026-03-21",
+        "status": "Paid",
+        "urgent": false,
+        "notes": "Flight delay reimbursement paid.",
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "claim_number": "CLM-9004",
+        "policy_number": "POL-2026-1005",
+        "claimant_name": "Vivaan Joshi",
+        "amount": 240000,
+        "incident_date": "2026-01-19",
+        "status": "Submitted",
+        "urgent": true,
+        "notes": "Water damage assessment pending.",
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "claim_number": "CLM-9005",
+        "policy_number": "POL-2026-1006",
+        "claimant_name": "Tara Bose",
+        "amount": 67000,
+        "incident_date": "2026-04-18",
+        "status": "Under Review",
+        "urgent": true,
+        "notes": "Cashless approval requested.",
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "claim_number": "CLM-9006",
+        "policy_number": "POL-2026-1007",
+        "claimant_name": "Aditya Kulkarni",
+        "amount": 31000,
+        "incident_date": "2026-02-02",
+        "status": "Rejected",
+        "urgent": false,
+        "notes": "Policy lapsed at incident date.",
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "claim_number": "CLM-9007",
+        "policy_number": "POL-2026-1008",
+        "claimant_name": "Zoya Ali",
+        "amount": 125000,
+        "incident_date": "2026-05-14",
+        "status": "Approved",
+        "urgent": false,
+        "notes": "Documents complete.",
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "claim_number": "CLM-9008",
+        "policy_number": "POL-2026-1003",
+        "claimant_name": "Arjun Menon",
+        "amount": 54000,
+        "incident_date": "2026-01-28",
+        "status": "Submitted",
+        "urgent": false,
+        "notes": "Waiting for medical reports.",
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      }
+    ],
+    "policies.json": [
+      {
+        "id": "<uuid>",
+        "policy_number": "POL-2026-1001",
+        "holder_name": "Nikhil Verma",
+        "holder_email": "nikhil.verma@example.test",
+        "product": "Health",
+        "premium": 24500,
+        "sum_insured": 800000,
+        "start_date": "2026-01-05",
+        "renewal_date": "2027-01-05",
+        "status": "Active",
+        "documents": "health-policy-1001.pdf",
+        "nominee": "Ritu Verma",
+        "auto_renew": true,
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "policy_number": "POL-2026-1002",
+        "holder_name": "Diya Shah",
+        "holder_email": "diya.shah@example.test",
+        "product": "Motor",
+        "premium": 18600,
+        "sum_insured": 650000,
+        "start_date": "2026-02-11",
+        "renewal_date": "2027-02-11",
+        "status": "Active",
+        "documents": "motor-policy-1002.pdf",
+        "nominee": "Kunal Shah",
+        "auto_renew": true,
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "policy_number": "POL-2026-1003",
+        "holder_name": "Arjun Menon",
+        "holder_email": "arjun.menon@example.test",
+        "product": "Life",
+        "premium": 42000,
+        "sum_insured": 2500000,
+        "start_date": "2025-10-20",
+        "renewal_date": "2026-10-20",
+        "status": "Pending",
+        "documents": "life-policy-1003.pdf",
+        "nominee": "Lakshmi Menon",
+        "auto_renew": false,
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "policy_number": "POL-2026-1004",
+        "holder_name": "Sara Khan",
+        "holder_email": "sara.khan@example.test",
+        "product": "Travel",
+        "premium": 7200,
+        "sum_insured": 500000,
+        "start_date": "2026-03-02",
+        "renewal_date": "2026-06-02",
+        "status": "Active",
+        "documents": "travel-policy-1004.pdf",
+        "nominee": "Imran Khan",
+        "auto_renew": false,
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "policy_number": "POL-2026-1005",
+        "holder_name": "Vivaan Joshi",
+        "holder_email": "vivaan.joshi@example.test",
+        "product": "Property",
+        "premium": 56000,
+        "sum_insured": 4200000,
+        "start_date": "2025-12-15",
+        "renewal_date": "2026-12-15",
+        "status": "Active",
+        "documents": "property-policy-1005.pdf",
+        "nominee": "Maya Joshi",
+        "auto_renew": true,
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "policy_number": "POL-2026-1006",
+        "holder_name": "Tara Bose",
+        "holder_email": "tara.bose@example.test",
+        "product": "Health",
+        "premium": 31200,
+        "sum_insured": 1200000,
+        "start_date": "2026-04-01",
+        "renewal_date": "2027-04-01",
+        "status": "Active",
+        "documents": "health-policy-1006.pdf",
+        "nominee": "Dev Bose",
+        "auto_renew": true,
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "policy_number": "POL-2026-1007",
+        "holder_name": "Aditya Kulkarni",
+        "holder_email": "aditya.kulkarni@example.test",
+        "product": "Motor",
+        "premium": 15800,
+        "sum_insured": 550000,
+        "start_date": "2025-08-18",
+        "renewal_date": "2026-08-18",
+        "status": "Lapsed",
+        "documents": "motor-policy-1007.pdf",
+        "nominee": "Neha Kulkarni",
+        "auto_renew": false,
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      },
+      {
+        "id": "<uuid>",
+        "policy_number": "POL-2026-1008",
+        "holder_name": "Zoya Ali",
+        "holder_email": "zoya.ali@example.test",
+        "product": "Life",
+        "premium": 38500,
+        "sum_insured": 1800000,
+        "start_date": "2026-05-10",
+        "renewal_date": "2027-05-10",
+        "status": "Active",
+        "documents": "life-policy-1008.pdf",
+        "nominee": "Amin Ali",
+        "auto_renew": true,
+        "createdAt": "<iso>",
+        "updatedAt": "<iso>"
+      }
+    ]
+  }
+}

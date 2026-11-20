@@ -1,0 +1,83 @@
+{
+  "slug": "crud-modern-new-temp/ui/checkbox",
+  "source": "own-templates",
+  "name": "checkbox (crud-modern template)",
+  "kind": "ui",
+  "versions": {
+    "e73fff32c98ab47597205f3cb6b4f989b74246e6be384c6d9101c8973dfcdc20": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/ui/checkbox@0.1.0",
+        "name": "checkbox (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "ui",
+        "summary": "UI primitive \"checkbox\" from the crud-modern-new-temp template.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/ui/checkbox.tsx",
+          "contentHash": "e73fff32c98ab47597205f3cb6b4f989b74246e6be384c6d9101c8973dfcdc20"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.2.0",
+            "lucide-react": "^0.564.0",
+            "radix-ui": "^1.4.3"
+          },
+          "peer": {},
+          "registry": [
+            "crud-modern-new-temp/src/lib/utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "tags": [
+            "legacy",
+            "ui"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e73fff32c98ab47597205f3cb6b4f989b74246e6be384c6d9101c8973dfcdc20",
+  "quality": {}
+}

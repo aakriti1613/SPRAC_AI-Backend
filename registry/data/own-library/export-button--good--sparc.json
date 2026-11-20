@@ -1,0 +1,111 @@
+{
+  "slug": "export-button/good/sparc",
+  "source": "own-library",
+  "name": "Good export-button",
+  "kind": "component",
+  "versions": {
+    "93e19b9b2a455de2943976b268cf9a40ee2a8b79ce8361f4e70ba04307f0246c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:export-button/good/sparc@1.0.0",
+        "name": "Good export-button",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good export-button: Export the current list (e.g. to Excel). The shell builds the file.",
+        "room": "export-button",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/export-button/good/sparc/index.tsx",
+          "contentHash": "93e19b9b2a455de2943976b268cf9a40ee2a8b79ce8361f4e70ba04307f0246c"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "busy",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "label",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "onExport",
+              "kind": "function",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "export-button",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "export-button",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "93e19b9b2a455de2943976b268cf9a40ee2a8b79ce8361f4e70ba04307f0246c",
+  "quality": {
+    "sizeKb": 1.2,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

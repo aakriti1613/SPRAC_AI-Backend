@@ -1,0 +1,112 @@
+{
+  "slug": "resume-download/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing resume-download",
+  "kind": "component",
+  "versions": {
+    "2878ab436591c30409388467cd2d230775aa9f8a34a633418dde1899fe63390a": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:resume-download/amazing/sparc@1.0.0",
+        "name": "Amazing resume-download",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing resume-download: Button / card to download a CV.",
+        "room": "resume-download",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/resume-download/amazing/sparc/index.tsx",
+          "contentHash": "2878ab436591c30409388467cd2d230775aa9f8a34a633418dde1899fe63390a"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "href",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "label",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "note",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "resume-download",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "resume-download",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "2878ab436591c30409388467cd2d230775aa9f8a34a633418dde1899fe63390a",
+  "quality": {
+    "sizeKb": 45.7,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

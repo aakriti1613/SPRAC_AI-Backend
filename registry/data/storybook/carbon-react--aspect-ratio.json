@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/aspect-ratio",
+  "source": "storybook",
+  "name": "AspectRatio (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "2e01a643b0dabe578be5e2fb367e5ec45f796a4910babbe897d2deb0da138a84": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/aspect-ratio@0.0.0",
+        "name": "AspectRatio (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "AspectRatio from IBM Carbon (React): 1 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-aspectratio--overview",
+          "ref": "@carbon/react",
+          "contentHash": "2e01a643b0dabe578be5e2fb367e5ec45f796a4910babbe897d2deb0da138a84"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "2e01a643b0dabe578be5e2fb367e5ec45f796a4910babbe897d2deb0da138a84",
+  "quality": {
+    "hasTests": true
+  }
+}

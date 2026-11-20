@@ -1,0 +1,128 @@
+{
+  "slug": "contact-form/good/sparc",
+  "source": "own-library",
+  "name": "Good contact-form",
+  "kind": "component",
+  "versions": {
+    "100a6f00685535a005fef0da08652f5df2b940e3b3f365a54173b78cda900efb": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:contact-form/good/sparc@1.0.0",
+        "name": "Good contact-form",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good contact-form: Name / email / message form. The shell sends it; the component only shows it.",
+        "room": "contact-form",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/contact-form/good/sparc/index.tsx",
+          "contentHash": "100a6f00685535a005fef0da08652f5df2b940e3b3f365a54173b78cda900efb"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "onSubmit",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "sent",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "submitting",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "text",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "contact-form",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "contact-form",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "100a6f00685535a005fef0da08652f5df2b940e3b3f365a54173b78cda900efb",
+  "quality": {
+    "sizeKb": 1.9,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

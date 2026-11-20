@@ -1,0 +1,76 @@
+{
+  "slug": "matrix-trail",
+  "source": "aceternity",
+  "name": "Matrix Trail",
+  "kind": "ui",
+  "versions": {
+    "a14bd3fdb1a1d360190c0fc3339cd00d3ac8dc55d7ffcdf7acf034cc8349eba6": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:matrix-trail@0.0.0",
+        "name": "Matrix Trail",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A subtle field of characters with thin lines raining down, Matrix style. Move over it and the characters light up behind your cursor, leaving a trail that fades away.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/matrix-trail.json",
+          "ref": "aceternity",
+          "contentHash": "a14bd3fdb1a1d360190c0fc3339cd00d3ac8dc55d7ffcdf7acf034cc8349eba6"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "interactions",
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "a14bd3fdb1a1d360190c0fc3339cd00d3ac8dc55d7ffcdf7acf034cc8349eba6",
+  "quality": {}
+}

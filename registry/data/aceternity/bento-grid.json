@@ -1,0 +1,92 @@
+{
+  "slug": "bento-grid",
+  "source": "aceternity",
+  "name": "bento-grid",
+  "kind": "component",
+  "versions": {
+    "380ae1df5613e4e61414b92ec68c9ed7ce12ba85a30812ee4416f3ca299d0d36": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:bento-grid@0.0.0",
+        "name": "bento-grid",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"bento-grid\".",
+        "room": "services",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/bento-grid.json",
+          "ref": "aceternity",
+          "contentHash": "380ae1df5613e4e61414b92ec68c9ed7ce12ba85a30812ee4416f3ca299d0d36"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "services",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"astonishing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "380ae1df5613e4e61414b92ec68c9ed7ce12ba85a30812ee4416f3ca299d0d36",
+  "quality": {}
+}

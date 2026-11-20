@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/content-switcher",
+  "source": "storybook",
+  "name": "ContentSwitcher (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "83e9ade1a3b0ba7ee8493b642fbdcf5b72c0f2ef1c525998582960b26e9e795c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/content-switcher@0.0.0",
+        "name": "ContentSwitcher (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "ContentSwitcher from IBM Carbon (React): 6 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-contentswitcher--overview",
+          "ref": "@carbon/react",
+          "contentHash": "83e9ade1a3b0ba7ee8493b642fbdcf5b72c0f2ef1c525998582960b26e9e795c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "83e9ade1a3b0ba7ee8493b642fbdcf5b72c0f2ef1c525998582960b26e9e795c",
+  "quality": {
+    "hasTests": true
+  }
+}

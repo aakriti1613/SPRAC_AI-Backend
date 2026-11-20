@@ -1,0 +1,78 @@
+{
+  "slug": "inference-landing-page",
+  "source": "aceternity",
+  "name": "inference-landing-page",
+  "kind": "ui",
+  "versions": {
+    "9941373c93250a7c7ce2964497b42480ca15d81e94dac4f1a5e92eebbc160001": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:inference-landing-page@0.0.0",
+        "name": "inference-landing-page",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Dark landing page for Kestrel, a global AI inference platform, with a dashboard hero, feature tabs, a draggable workflow canvas, a live network map, a code demo, a model catalog, pricing, a dithered C",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/inference-landing-page.json",
+          "ref": "aceternity",
+          "contentHash": "9941373c93250a7c7ce2964497b42480ca15d81e94dac4f1a5e92eebbc160001"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*",
+            "class-variance-authority": "*",
+            "liveline": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "9941373c93250a7c7ce2964497b42480ca15d81e94dac4f1a5e92eebbc160001",
+  "quality": {}
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "progress",
+  "source": "shadcn",
+  "name": "progress",
+  "kind": "ui",
+  "versions": {
+    "4a5d39016266f747f06c3c4cdba2799ce57aa17101c1d09796430e8adae2a9d3": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:progress@0.0.0",
+        "name": "progress",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"progress\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/progress.json",
+          "ref": "new-york-v4",
+          "contentHash": "4a5d39016266f747f06c3c4cdba2799ce57aa17101c1d09796430e8adae2a9d3"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "4a5d39016266f747f06c3c4cdba2799ce57aa17101c1d09796430e8adae2a9d3",
+  "quality": {}
+}

@@ -1,0 +1,77 @@
+{
+  "slug": "paper-plane-send",
+  "source": "aceternity",
+  "name": "Paper Plane Send",
+  "kind": "ui",
+  "versions": {
+    "f010055fffb0537524d1cb22ad24939b7836e1efb2f3fc678b31cc630fa190dd": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:paper-plane-send@0.0.0",
+        "name": "Paper Plane Send",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A note field that prints your note on a sheet, folds it into a paper plane and flies it into the Send button. The button then opens into a receipt from the person who got it.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/paper-plane-send.json",
+          "ref": "aceternity",
+          "contentHash": "f010055fffb0537524d1cb22ad24939b7836e1efb2f3fc678b31cc630fa190dd"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "three": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "interactions",
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "f010055fffb0537524d1cb22ad24939b7836e1efb2f3fc678b31cc630fa190dd",
+  "quality": {}
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "not-found/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing not-found",
+  "kind": "component",
+  "versions": {
+    "b7ac3889a059335f41e210f95b0fcd0ed4a9a9948f351f3d42218e080829cfc1": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:not-found/amazing/sparc@1.0.0",
+        "name": "Amazing not-found",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing not-found: 404 page.",
+        "room": "not-found",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal",
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/not-found/amazing/sparc/index.tsx",
+          "contentHash": "b7ac3889a059335f41e210f95b0fcd0ed4a9a9948f351f3d42218e080829cfc1"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "homeHref",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "message",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "feedback",
+          "tags": [
+            "not-found",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "not-found",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "b7ac3889a059335f41e210f95b0fcd0ed4a9a9948f351f3d42218e080829cfc1",
+  "quality": {
+    "sizeKb": 45.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

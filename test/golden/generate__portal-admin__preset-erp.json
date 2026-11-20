@@ -1,0 +1,314 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "projectName": "t-preset-erp-portal-admin",
+    "path": "<tmp>/t-preset-erp-portal-admin",
+    "warnings": [],
+    "templateId": "portal-admin",
+    "requestedTemplateId": "portal-admin",
+    "message": "Project \"t-preset-erp-portal-admin\" generated from template \"portal-admin\"."
+  },
+  "files": {
+    "src/portal-config.json": {
+      "portalName": "Acme Admin",
+      "logo": {
+        "src": "",
+        "alt": "Acme Admin",
+        "width": 140,
+        "text": "AA"
+      },
+      "theme": {
+        "mode": "system",
+        "tokens": {
+          "primary": "215 25% 27%",
+          "ring": "215 25% 27%",
+          "radius": "0.75rem",
+          "brand-primary": "#334155",
+          "brand-accent": "#4b5869",
+          "gradient-start": "#334155",
+          "gradient-end": "#2a3546",
+          "primary-hover": "216 25% 22%",
+          "primary-light": "225 9% 91%",
+          "sidebar-ring": "215 25% 27%",
+          "auth-panel-orb": "215 25% 27%",
+          "brand-primary-hover": "#2a3546",
+          "brand-primary-light": "#e7e8eb",
+          "brand-primary-rgb": "51, 65, 85",
+          "brand-accent-2": "#bec2c9",
+          "brand-accent-rgb": "75, 88, 105",
+          "brand-accent-2-rgb": "190, 194, 201",
+          "chart-primary": "#334155",
+          "chart-secondary": "#4b5869",
+          "chart-tertiary": "#bec2c9"
+        },
+        "name": "blue",
+        "primary": "#334155",
+        "primaryHover": "#2a3546",
+        "primaryLight": "#e7e8eb",
+        "accent": "#4b5869"
+      },
+      "dashboard": {
+        "enabled": true,
+        "template": "stats-overview",
+        "style": "erp",
+        "heroTitle": "Bring vendors, purchases, and operations together",
+        "heroSubtitle": "Coordinate enterprise records, procurement workflows, and approvals from one system.",
+        "primaryActions": [
+          {
+            "title": "Vendors",
+            "description": "Manage vendors records",
+            "icon": "Factory",
+            "href": "/organization/crud/vendors",
+            "gradient": "gradient-primary"
+          },
+          {
+            "title": "Purchase Orders",
+            "description": "Manage purchase orders records",
+            "icon": "ShoppingCart",
+            "href": "/organization/crud/purchase-orders",
+            "gradient": "gradient-primary"
+          }
+        ],
+        "secondaryActions": [],
+        "sectionTitle": "Workspace Modules",
+        "emptyTitle": "No modules configured",
+        "emptyDescription": "Add CRUD modules in the platform wizard to populate this dashboard."
+      },
+      "navigation": [
+        {
+          "label": "Dashboard",
+          "icon": "LayoutDashboard",
+          "path": "/organization/dashboard",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Vendors",
+          "icon": "Factory",
+          "path": "/organization/crud/vendors",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Purchase Orders",
+          "icon": "ShoppingCart",
+          "path": "/organization/crud/purchase-orders",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Profile",
+          "icon": "UserRound",
+          "path": "/organization/profile",
+          "permission": "dashboard:read"
+        }
+      ],
+      "entities": [],
+      "appName": "Acme Admin",
+      "industry": "erp",
+      "themePreset": "blue",
+      "runtime": {
+        "legacyRoutesEnabled": false,
+        "blockMobile": false
+      },
+      "auth": {
+        "screens": {
+          "login": true,
+          "signup": true,
+          "forgotPassword": false
+        },
+        "method": "email-password"
+      },
+      "footer": {
+        "text": "Enterprise operations portal"
+      },
+      "company": {
+        "name": "Acme Admin",
+        "website": "",
+        "supportEmail": "",
+        "address": ""
+      },
+      "loginPage": {
+        "portalName": "Acme Admin",
+        "badge": "Enterprise Operations",
+        "headline": "Bring vendors, purchases, and operations together",
+        "highlightText": "operations",
+        "description": "Coordinate enterprise records, procurement workflows, and approvals from one system.",
+        "features": [
+          {
+            "title": "Secure Access",
+            "description": "Enterprise-grade authentication for authorized users."
+          },
+          {
+            "title": "Self Service",
+            "description": "Manage records, workflows, and operations from one dashboard."
+          }
+        ],
+        "footerText": "Enterprise operations portal"
+      },
+      "generatedModules": [
+        {
+          "id": "vendors",
+          "tableName": "vendors",
+          "singularName": "Vendor",
+          "pluralName": "Vendors",
+          "icon": "Factory",
+          "permissions": {
+            "read": "vendors:read",
+            "write": "vendors:write",
+            "delete": "vendors:delete"
+          },
+          "fields": [
+            {
+              "key": "name",
+              "label": "Vendor Name",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "email",
+              "label": "Contact Email",
+              "type": "email",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "gst_number",
+              "label": "GST Number",
+              "type": "text",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "payment_terms",
+              "label": "Payment Terms",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Immediate",
+                "Net 15",
+                "Net 30",
+                "Net 45"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "status",
+              "label": "Status",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Active",
+                "On Hold",
+                "Inactive"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "name",
+            "email",
+            "payment_terms",
+            "status"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        },
+        {
+          "id": "purchase-orders",
+          "tableName": "purchase_orders",
+          "singularName": "Purchase Order",
+          "pluralName": "Purchase Orders",
+          "icon": "ShoppingCart",
+          "permissions": {
+            "read": "purchase_orders:read",
+            "write": "purchase_orders:write",
+            "delete": "purchase_orders:delete"
+          },
+          "fields": [
+            {
+              "key": "po_number",
+              "label": "PO Number",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "vendor",
+              "label": "Vendor",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "amount",
+              "label": "Amount",
+              "type": "currency",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "order_date",
+              "label": "Order Date",
+              "type": "date",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "status",
+              "label": "Status",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Draft",
+                "Issued",
+                "Received",
+                "Closed"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "po_number",
+            "vendor",
+            "amount",
+            "status"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        }
+      ]
+    },
+    "supabase/schema.sql": "CREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE TABLE IF NOT EXISTS organizations (\n  id          uuid primary key default gen_random_uuid(),\n  name        text not null,\n  created_at  timestamptz not null default now(),\n  updated_at  timestamptz not null default now()\n);\n\nCREATE TABLE IF NOT EXISTS organization_users (\n  id                        uuid primary key default gen_random_uuid(),\n  auth_user_id              uuid unique,\n  first_name                text default '',\n  last_name                 text default '',\n  email                     text not null unique,\n  phone_number              text default '',\n  country_code              text default '+1',\n  organization_id           uuid references organizations(id) on delete cascade,\n  role                      text not null default 'Organization User',\n  status                    text not null default 'Active',\n  account_ids               jsonb not null default '[]',\n  accounts                  jsonb not null default '[]',\n  is_acknowledged           boolean not null default true,\n  is_two_factor_enabled     boolean not null default false,\n  requires_password_change  boolean not null default false,\n  subscription_id           text,\n  profile_photo_url         text default '',\n  created_at                timestamptz not null default now(),\n  updated_at                timestamptz not null default now()\n);\n\nDO $$\nDECLARE t text;\nBEGIN\n  FOREACH t IN ARRAY ARRAY['organizations','organization_users']\n  LOOP\n    EXECUTE format('ALTER TABLE %I ENABLE ROW LEVEL SECURITY;', t);\n    EXECUTE format('DROP POLICY IF EXISTS \"authenticated_system_access\" ON %I;', t);\n    EXECUTE format(\n      'CREATE POLICY \"authenticated_system_access\" ON %I FOR ALL TO authenticated USING (true) WITH CHECK (true);', t\n    );\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO authenticated;', t);\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO service_role;', t);\n  END LOOP;\nEND $$;\n\nCREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE OR REPLACE FUNCTION public.set_updated_at()\nRETURNS TRIGGER AS $$\nBEGIN\n  NEW.updated_at = now();\n  RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TABLE IF NOT EXISTS public.\"vendors\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"name\" TEXT NOT NULL,\n  \"email\" TEXT,\n  \"gst_number\" TEXT,\n  \"payment_terms\" TEXT,\n  \"status\" TEXT\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"vendors\" ADD COLUMN IF NOT EXISTS \"name\" TEXT;\nALTER TABLE public.\"vendors\" ADD COLUMN IF NOT EXISTS \"email\" TEXT;\nALTER TABLE public.\"vendors\" ADD COLUMN IF NOT EXISTS \"gst_number\" TEXT;\nALTER TABLE public.\"vendors\" ADD COLUMN IF NOT EXISTS \"payment_terms\" TEXT;\nALTER TABLE public.\"vendors\" ADD COLUMN IF NOT EXISTS \"status\" TEXT;\n\nALTER TABLE public.\"vendors\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_vendors\" ON public.\"vendors\";\nCREATE POLICY \"authenticated_full_access_vendors\"\n  ON public.\"vendors\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"vendors\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"vendors\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"vendors_set_updated_at\" ON public.\"vendors\";\nCREATE TRIGGER \"vendors_set_updated_at\"\n  BEFORE UPDATE ON public.\"vendors\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE TABLE IF NOT EXISTS public.\"purchase_orders\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"po_number\" TEXT NOT NULL,\n  \"vendor\" TEXT NOT NULL,\n  \"amount\" NUMERIC,\n  \"order_date\" DATE,\n  \"status\" TEXT\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"purchase_orders\" ADD COLUMN IF NOT EXISTS \"po_number\" TEXT;\nALTER TABLE public.\"purchase_orders\" ADD COLUMN IF NOT EXISTS \"vendor\" TEXT;\nALTER TABLE public.\"purchase_orders\" ADD COLUMN IF NOT EXISTS \"amount\" NUMERIC;\nALTER TABLE public.\"purchase_orders\" ADD COLUMN IF NOT EXISTS \"order_date\" DATE;\nALTER TABLE public.\"purchase_orders\" ADD COLUMN IF NOT EXISTS \"status\" TEXT;\n\nALTER TABLE public.\"purchase_orders\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_purchase_orders\" ON public.\"purchase_orders\";\nCREATE POLICY \"authenticated_full_access_purchase_orders\"\n  ON public.\"purchase_orders\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"purchase_orders\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"purchase_orders\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"purchase_orders_set_updated_at\" ON public.\"purchase_orders\";\nCREATE TRIGGER \"purchase_orders_set_updated_at\"\n  BEFORE UPDATE ON public.\"purchase_orders\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE OR REPLACE FUNCTION public.portal_group_count(\n  p_table text, p_column text, p_limit int DEFAULT 8\n)\nRETURNS TABLE(label text, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT COALESCE(NULLIF(%1$I::text, %3$L), %4$L) AS label, count(*)::bigint AS value\n       FROM public.%2$I\n      GROUP BY 1 ORDER BY 2 DESC LIMIT %5$s',\n    p_column, p_table, '', 'Unspecified', GREATEST(1, LEAST(p_limit, 50))\n  );\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_sum(p_table text, p_column text)\nRETURNS numeric\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE result numeric;\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN 0; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN 0; END IF;\n  EXECUTE format('SELECT COALESCE(SUM(%1$I), 0) FROM public.%2$I', p_column, p_table) INTO result;\n  RETURN result;\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_time_series(\n  p_table text, p_column text, p_bucket text DEFAULT 'day'\n)\nRETURNS TABLE(bucket timestamptz, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE b text;\nBEGIN\n  b := lower(coalesce(p_bucket, 'day'));\n  IF b NOT IN ('day', 'week', 'month') THEN b := 'day'; END IF;\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT date_trunc(%3$L, %1$I)::timestamptz AS bucket, count(*)::bigint AS value\n       FROM public.%2$I WHERE %1$I IS NOT NULL\n      GROUP BY 1 ORDER BY 1',\n    p_column, p_table, b\n  );\nEND;\n$$;\n\nGRANT EXECUTE ON FUNCTION public.portal_group_count(text, text, int) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_sum(text, text) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_time_series(text, text, text) TO authenticated, service_role;\n\n-- Tell PostgREST to refresh its schema cache so newly added tables/columns are\n-- immediately usable via the REST API (prevents stale \"schema cache\" errors).\nNOTIFY pgrst, 'reload schema';\n",
+    "supabase/seed.sql": "-- Production-generated portals do not include sample business records.\n-- Provisioning creates only the initial admin user and required system profile.\n"
+  }
+}

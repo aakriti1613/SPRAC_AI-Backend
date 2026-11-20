@@ -1,0 +1,79 @@
+{
+  "slug": "carbon-react/dropdown",
+  "source": "storybook",
+  "name": "Dropdown (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "b41db7ac2bb3f01ca9e9a81a1b540ebc6101b5de35f67f76b5bdece43b87a991": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/dropdown@0.0.0",
+        "name": "Dropdown (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Dropdown from IBM Carbon (React): 9 stories, documented.",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-dropdown--overview",
+          "ref": "@carbon/react",
+          "contentHash": "b41db7ac2bb3f01ca9e9a81a1b540ebc6101b5de35f67f76b5bdece43b87a991"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "b41db7ac2bb3f01ca9e9a81a1b540ebc6101b5de35f67f76b5bdece43b87a991",
+  "quality": {
+    "hasTests": true
+  }
+}

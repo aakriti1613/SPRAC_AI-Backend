@@ -1,0 +1,93 @@
+{
+  "slug": "sidebar-14",
+  "source": "shadcn",
+  "name": "sidebar-14",
+  "kind": "component",
+  "versions": {
+    "a87ce97f7609c7593c8f6b42c9736663d7d54dc4f3a789e8ab196ce24a581b08": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:sidebar-14@0.0.0",
+        "name": "sidebar-14",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "A sidebar on the right.",
+        "room": "app-frame",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/sidebar-14.json",
+          "ref": "new-york-v4",
+          "contentHash": "a87ce97f7609c7593c8f6b42c9736663d7d54dc4f3a789e8ab196ce24a581b08"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:breadcrumb",
+            "shadcn:sidebar"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "sidebar",
+            "dashboard"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "room": "app-frame",
+  "styleLevel": "good",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"navItems\"",
+    "contract: does not accept required prop \"user\"",
+    "contract: does not accept required prop \"onLogout\"",
+    "contract: does not accept required prop \"children\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "a87ce97f7609c7593c8f6b42c9736663d7d54dc4f3a789e8ab196ce24a581b08",
+  "quality": {}
+}

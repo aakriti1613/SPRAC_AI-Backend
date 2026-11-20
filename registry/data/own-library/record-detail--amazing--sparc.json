@@ -1,0 +1,123 @@
+{
+  "slug": "record-detail/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing record-detail",
+  "kind": "component",
+  "versions": {
+    "5255798a6094cdf62db76edc5d7a13e34240f743bfd4c7aa2ca6b590a43343a2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:record-detail/amazing/sparc@1.0.0",
+        "name": "Amazing record-detail",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing record-detail: Read-only view of one record.",
+        "room": "record-detail",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/record-detail/amazing/sparc/index.tsx",
+          "contentHash": "5255798a6094cdf62db76edc5d7a13e34240f743bfd4c7aa2ca6b590a43343a2"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "fields",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "onDelete",
+              "kind": "function",
+              "required": false
+            },
+            {
+              "name": "onEdit",
+              "kind": "function",
+              "required": false
+            },
+            {
+              "name": "record",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/format",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "record-detail",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "record-detail",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "5255798a6094cdf62db76edc5d7a13e34240f743bfd4c7aa2ca6b590a43343a2",
+  "quality": {
+    "sizeKb": 45.8,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

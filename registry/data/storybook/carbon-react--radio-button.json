@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/radio-button",
+  "source": "storybook",
+  "name": "RadioButton (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "43e2e188edf84387bb46ead526fc17c2658b59ae2f3eeff01b5f3673601a86ad": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/radio-button@0.0.0",
+        "name": "RadioButton (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "RadioButton from IBM Carbon (React): 4 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-radiobutton--overview",
+          "ref": "@carbon/react",
+          "contentHash": "43e2e188edf84387bb46ead526fc17c2658b59ae2f3eeff01b5f3673601a86ad"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "43e2e188edf84387bb46ead526fc17c2658b59ae2f3eeff01b5f3673601a86ad",
+  "quality": {
+    "hasTests": true
+  }
+}

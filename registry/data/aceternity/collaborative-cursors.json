@@ -1,0 +1,76 @@
+{
+  "slug": "collaborative-cursors",
+  "source": "aceternity",
+  "name": "collaborative-cursors",
+  "kind": "ui",
+  "versions": {
+    "d005c3642049c5846fe8a3d22ede6b2e07eb0475b16d123424dcd39e0ad26970": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:collaborative-cursors@0.0.0",
+        "name": "collaborative-cursors",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Collaborative Cursors",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/collaborative-cursors.json",
+          "ref": "aceternity",
+          "contentHash": "d005c3642049c5846fe8a3d22ede6b2e07eb0475b16d123424dcd39e0ad26970"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "d005c3642049c5846fe8a3d22ede6b2e07eb0475b16d123424dcd39e0ad26970",
+  "quality": {}
+}

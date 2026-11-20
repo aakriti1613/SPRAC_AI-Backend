@@ -1,0 +1,76 @@
+{
+  "slug": "chart-pie-label",
+  "source": "shadcn",
+  "name": "chart-pie-label",
+  "kind": "ui",
+  "versions": {
+    "d2d47b4b20870c03d3c6ac2a097b3ec8858ba5a37bc4f818cac6899aaa20623f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-pie-label@0.0.0",
+        "name": "chart-pie-label",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-pie-label\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-pie-label.json",
+          "ref": "new-york-v4",
+          "contentHash": "d2d47b4b20870c03d3c6ac2a097b3ec8858ba5a37bc4f818cac6899aaa20623f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-pie"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "d2d47b4b20870c03d3c6ac2a097b3ec8858ba5a37bc4f818cac6899aaa20623f",
+  "quality": {}
+}

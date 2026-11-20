@@ -1,0 +1,72 @@
+{
+  "slug": "collapsible",
+  "source": "shadcn",
+  "name": "collapsible",
+  "kind": "ui",
+  "versions": {
+    "f23df643ca7721fd11e848e62697f8f7d337ad2afb1ffeba76b589adbfedd8b9": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:collapsible@0.0.0",
+        "name": "collapsible",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"collapsible\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/collapsible.json",
+          "ref": "new-york-v4",
+          "contentHash": "f23df643ca7721fd11e848e62697f8f7d337ad2afb1ffeba76b589adbfedd8b9"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "f23df643ca7721fd11e848e62697f8f7d337ad2afb1ffeba76b589adbfedd8b9",
+  "quality": {}
+}

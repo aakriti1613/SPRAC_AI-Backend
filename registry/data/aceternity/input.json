@@ -1,0 +1,75 @@
+{
+  "slug": "input",
+  "source": "aceternity",
+  "name": "input",
+  "kind": "ui",
+  "versions": {
+    "dbe689b84e5e89f6ef046a1760473789cbe06e7d6c51d07f5beecbff128ccf07": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:input@0.0.0",
+        "name": "input",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"input\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/input.json",
+          "ref": "aceternity",
+          "contentHash": "dbe689b84e5e89f6ef046a1760473789cbe06e7d6c51d07f5beecbff128ccf07"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "dbe689b84e5e89f6ef046a1760473789cbe06e7d6c51d07f5beecbff128ccf07",
+  "quality": {}
+}

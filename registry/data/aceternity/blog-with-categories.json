@@ -1,0 +1,73 @@
+{
+  "slug": "blog-with-categories",
+  "source": "aceternity",
+  "name": "blog-with-categories",
+  "kind": "ui",
+  "versions": {
+    "abf9919d306b86a019907d709efed266f9f9e049bd0b34272e491d901b284c32": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:blog-with-categories@0.0.0",
+        "name": "blog-with-categories",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Blog listing with three featured cards and a denser four-column grid below, category labels on each post",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/blog-with-categories.json",
+          "ref": "aceternity",
+          "contentHash": "abf9919d306b86a019907d709efed266f9f9e049bd0b34272e491d901b284c32"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "abf9919d306b86a019907d709efed266f9f9e049bd0b34272e491d901b284c32",
+  "quality": {}
+}

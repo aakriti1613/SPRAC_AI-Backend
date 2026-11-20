@@ -1,0 +1,75 @@
+{
+  "slug": "text-animation-flipping-words-demo",
+  "source": "aceternity",
+  "name": "text-animation-flipping-words-demo",
+  "kind": "ui",
+  "versions": {
+    "6835c50b2295521150fef429c686ed0f1ed9ad49a97ac6083b6b35fc443947ea": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:text-animation-flipping-words-demo@0.0.0",
+        "name": "text-animation-flipping-words-demo",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Text Animation Flipping Words Demo",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/text-animation-flipping-words-demo.json",
+          "ref": "aceternity",
+          "contentHash": "6835c50b2295521150fef429c686ed0f1ed9ad49a97ac6083b6b35fc443947ea"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "6835c50b2295521150fef429c686ed0f1ed9ad49a97ac6083b6b35fc443947ea",
+  "quality": {}
+}

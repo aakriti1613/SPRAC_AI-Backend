@@ -1,0 +1,114 @@
+{
+  "slug": "navbar/basic/sparc",
+  "source": "own-library",
+  "name": "Basic navbar",
+  "kind": "component",
+  "versions": {
+    "0090e0eb0c31e559862e5305b44061a926e5204ebcb554cfd4c6e3c7f5c6bfa0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:navbar/basic/sparc@1.0.0",
+        "name": "Basic navbar",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic navbar: Top navigation bar with brand, links and an optional button.",
+        "room": "navbar",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/navbar/basic/sparc/index.tsx",
+          "contentHash": "0090e0eb0c31e559862e5305b44061a926e5204ebcb554cfd4c6e3c7f5c6bfa0"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "brand",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "cta",
+              "kind": "object",
+              "required": false
+            },
+            {
+              "name": "links",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "layout",
+          "tags": [
+            "navbar",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "navbar",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "0090e0eb0c31e559862e5305b44061a926e5204ebcb554cfd4c6e3c7f5c6bfa0",
+  "quality": {
+    "sizeKb": 1.4,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

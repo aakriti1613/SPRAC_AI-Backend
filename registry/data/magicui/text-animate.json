@@ -1,0 +1,75 @@
+{
+  "slug": "text-animate",
+  "source": "magicui",
+  "name": "Text Animate",
+  "kind": "ui",
+  "versions": {
+    "ad7fa08429bc02b9e493b9b6ce0fdc3459869fdb37264de818ab138131b6307f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:text-animate@0.0.0",
+        "name": "Text Animate",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A text animation component that animates text using a variety of different animations.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/text-animate.json",
+          "ref": "magicui",
+          "contentHash": "ad7fa08429bc02b9e493b9b6ce0fdc3459869fdb37264de818ab138131b6307f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "ad7fa08429bc02b9e493b9b6ce0fdc3459869fdb37264de818ab138131b6307f",
+  "quality": {}
+}

@@ -1,0 +1,50 @@
+{
+  "name": "sparc-ui",
+  "private": true,
+  "version": "0.1.0",
+  "description": "SPARC AI frontend pieces: shells (dhaancha), shared core and the component library.",
+  "type": "module",
+  "scripts": {
+    "dev:portal": "vite --config shells/portal-shell/vite.config.ts",
+    "dev:site": "vite --config shells/site-shell/vite.config.ts",
+    "build:portal": "vite build --config shells/portal-shell/vite.config.ts",
+    "build:site": "vite build --config shells/site-shell/vite.config.ts",
+    "build": "npm run build:portal && npm run build:site",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "check": "npm run typecheck && npm run test && npm run build",
+    "dev:site:landing": "vite --config shells/site-shell/vite.config.ts --mode landing --port 4321",
+    "dev:site:store": "vite --config shells/site-shell/vite.config.ts --mode store --port 4322",
+    "dev:site:booking": "vite --config shells/site-shell/vite.config.ts --mode booking --port 4323",
+    "library:measure": "node scripts/measure-library.mjs",
+    "library:generate": "node scripts/gen-library.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.564.0",
+    "motion": "^12.43.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.5",
+    "tailwind-merge": "^3.7.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.12",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^5.2.0",
+    "axe-core": "^4.14.1",
+    "esbuild": "^0.28.2",
+    "jsdom": "^26.1.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.8",
+    "vitest": "^3.2.7"
+  }
+}

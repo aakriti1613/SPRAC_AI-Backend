@@ -1,0 +1,78 @@
+{
+  "slug": "react-bootstrap/react-bootstrap",
+  "source": "github",
+  "name": "react-bootstrap/react-bootstrap",
+  "kind": "library",
+  "versions": {
+    "2fa87abdaef6edcc3a255748aba6835ef9fe1941e2bf1a76266333189c8bef2a": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:react-bootstrap/react-bootstrap@0.0.0",
+        "name": "react-bootstrap/react-bootstrap",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "Bootstrap components built with React",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/react-bootstrap/react-bootstrap",
+          "ref": "master",
+          "contentHash": "2fa87abdaef6edcc3a255748aba6835ef9fe1941e2bf1a76266333189c8bef2a"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "bootstrap",
+            "hacktoberfest",
+            "javascript",
+            "react",
+            "react-components",
+            "typescript",
+            "query:topic:react-components language:TypeScript stars:>2000"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "2fa87abdaef6edcc3a255748aba6835ef9fe1941e2bf1a76266333189c8bef2a",
+  "quality": {
+    "stars": 22616,
+    "lastPublish": "2026-11-18T06:05:58Z"
+  }
+}

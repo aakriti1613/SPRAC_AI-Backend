@@ -1,0 +1,76 @@
+{
+  "slug": "ribbon-gradient-shader",
+  "source": "aceternity",
+  "name": "ribbon-gradient-shader",
+  "kind": "ui",
+  "versions": {
+    "85d69d5c2f1728e840305c6d5d5236bef3bef9faea3ccd5afc620f7fb9bc69d3": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:ribbon-gradient-shader@0.0.0",
+        "name": "ribbon-gradient-shader",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Hero with an animated WebGL ribbon gradient sweeping behind a grouped issue table",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/ribbon-gradient-shader.json",
+          "ref": "aceternity",
+          "contentHash": "85d69d5c2f1728e840305c6d5d5236bef3bef9faea3ccd5afc620f7fb9bc69d3"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "85d69d5c2f1728e840305c6d5d5236bef3bef9faea3ccd5afc620f7fb9bc69d3",
+  "quality": {}
+}

@@ -1,0 +1,78 @@
+{
+  "slug": "liquid-carousel",
+  "source": "aceternity",
+  "name": "Liquid Carousel",
+  "kind": "ui",
+  "versions": {
+    "bdc7162fdba2af2c9f1acae4771737a35f7e84446cb993c1ce7f34fde1d39c18": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:liquid-carousel@0.0.0",
+        "name": "Liquid Carousel",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "An image carousel where each slide is a sheet of liquid. On next it ripples, pulls off the card with a gooey edge and drops that break away, and shows the next slide below. Click, swipe or use the arr",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/liquid-carousel.json",
+          "ref": "aceternity",
+          "contentHash": "bdc7162fdba2af2c9f1acae4771737a35f7e84446cb993c1ce7f34fde1d39c18"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "three": "*",
+            "torph": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "interactions",
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "bdc7162fdba2af2c9f1acae4771737a35f7e84446cb993c1ce7f34fde1d39c18",
+  "quality": {}
+}

@@ -1,0 +1,73 @@
+{
+  "slug": "faqs-with-grid",
+  "source": "aceternity",
+  "name": "faqs-with-grid",
+  "kind": "ui",
+  "versions": {
+    "d1dd991610c0c2991efa8edd0c686fed0ddee7d373c6136526567776960dbfb5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:faqs-with-grid@0.0.0",
+        "name": "faqs-with-grid",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Faqs With Grid",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/faqs-with-grid.json",
+          "ref": "aceternity",
+          "contentHash": "d1dd991610c0c2991efa8edd0c686fed0ddee7d373c6136526567776960dbfb5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "d1dd991610c0c2991efa8edd0c686fed0ddee7d373c6136526567776960dbfb5",
+  "quality": {}
+}

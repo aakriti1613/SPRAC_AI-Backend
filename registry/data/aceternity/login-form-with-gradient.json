@@ -1,0 +1,94 @@
+{
+  "slug": "login-form-with-gradient",
+  "source": "aceternity",
+  "name": "login-form-with-gradient",
+  "kind": "component",
+  "versions": {
+    "1798e3834c12a75d339d7aa83666273f2dc2f457beaba12b55cc2a2fddd092c2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:login-form-with-gradient@0.0.0",
+        "name": "login-form-with-gradient",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Login Form With Gradient",
+        "room": "login",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/login-form-with-gradient.json",
+          "ref": "aceternity",
+          "contentHash": "1798e3834c12a75d339d7aa83666273f2dc2f457beaba12b55cc2a2fddd092c2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@radix-ui/react-label": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "login",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@radix-ui/react-label\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"headline\"",
+    "contract: does not accept required prop \"onSubmit\"",
+    "contract: does not accept required prop \"submitting\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "1798e3834c12a75d339d7aa83666273f2dc2f457beaba12b55cc2a2fddd092c2",
+  "quality": {}
+}

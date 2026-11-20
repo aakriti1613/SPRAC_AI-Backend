@@ -1,0 +1,93 @@
+{
+  "slug": "masonry-bento-grid-with-images",
+  "source": "aceternity",
+  "name": "masonry-bento-grid-with-images",
+  "kind": "component",
+  "versions": {
+    "d9a404ebbd6542c72a2aabc244540c739dbe8236da4e88e4db8a55fac8767f96": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:masonry-bento-grid-with-images@0.0.0",
+        "name": "masonry-bento-grid-with-images",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Masonry Bento Grid With Images, useful for showcasing brands or products",
+        "room": "services",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/masonry-bento-grid-with-images.json",
+          "ref": "aceternity",
+          "contentHash": "d9a404ebbd6542c72a2aabc244540c739dbe8236da4e88e4db8a55fac8767f96"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "services",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "d9a404ebbd6542c72a2aabc244540c739dbe8236da4e88e4db8a55fac8767f96",
+  "quality": {}
+}

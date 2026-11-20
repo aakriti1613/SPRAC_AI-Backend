@@ -1,0 +1,76 @@
+{
+  "slug": "inline-icon-illustration",
+  "source": "aceternity",
+  "name": "inline-icon-illustration",
+  "kind": "ui",
+  "versions": {
+    "5dd980d0bdb77f3fd3feab51d319fd6341700a4a779dca874bc1d1bc8a39ca51": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:inline-icon-illustration@0.0.0",
+        "name": "inline-icon-illustration",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Headline with inline logo badge, periodic wiggle, and dashed connector to icon callouts",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/inline-icon-illustration.json",
+          "ref": "aceternity",
+          "contentHash": "5dd980d0bdb77f3fd3feab51d319fd6341700a4a779dca874bc1d1bc8a39ca51"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "5dd980d0bdb77f3fd3feab51d319fd6341700a4a779dca874bc1d1bc8a39ca51",
+  "quality": {}
+}

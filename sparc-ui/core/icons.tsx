@@ -1,0 +1,98 @@
+// Icons by name. Configs store icon NAMES (e.g. "Users"); components draw them
+// with <Icon name="Users" />. A fixed list keeps bundles small (importing all
+// of lucide would add hundreds of KB). Unknown names fall back to a box.
+import {
+  Activity,
+  ArrowDown,
+  ArrowUp,
+  AtSign,
+  Award,
+  BadgeIndianRupee,
+  Bell,
+  BookOpen,
+  Box,
+  Boxes,
+  BriefcaseBusiness,
+  CalendarClock,
+  Camera,
+  ChartNoAxesColumn,
+  Check,
+  ChevronLeft,
+  ChevronRight,
+  CircleCheck,
+  ClipboardList,
+  Code,
+  Database,
+  Download,
+  Eye,
+  Factory,
+  FileText,
+  Globe,
+  GraduationCap,
+  Heart,
+  Image,
+  Inbox,
+  Landmark,
+  Layers,
+  LayoutDashboard,
+  LayoutGrid,
+  Lock,
+  LogOut,
+  Mail,
+  MapPin,
+  Menu,
+  Minus,
+  Package,
+  Pencil,
+  Phone,
+  Plus,
+  Rocket,
+  School,
+  Search,
+  Settings,
+  ShieldCheck,
+  ShoppingCart,
+  Sparkles,
+  Star,
+  Trash2,
+  TrendingDown,
+  TrendingUp,
+  Truck,
+  Upload,
+  UserCheck,
+  UserRound,
+  Users,
+  X,
+  Zap,
+  type LucideIcon,
+} from "lucide-react";
+
+export const ICONS: Record<string, LucideIcon> = {
+  Activity, ArrowDown, ArrowUp, AtSign, Award, BadgeIndianRupee, Bell, BookOpen, Box, Boxes, BriefcaseBusiness,
+  CalendarClock, Camera, ChartNoAxesColumn, Check, ChevronLeft, ChevronRight, CircleCheck, ClipboardList, Code,
+  Database, Download, Eye, Factory, FileText, Globe, GraduationCap, Heart, Image, Inbox, Landmark, Layers,
+  LayoutDashboard, LayoutGrid, Lock, LogOut, Mail, MapPin, Menu, Minus, Package, Pencil, Phone, Plus, Rocket,
+  School, Search, Settings, ShieldCheck, ShoppingCart, Sparkles, Star, Trash2, TrendingDown, TrendingUp, Truck,
+  Upload, UserCheck, UserRound, Users, X, Zap,
+  // friendly aliases used by older configs / content.json files
+  code: Code, globe: Globe, shield: ShieldCheck, zap: Zap, rocket: Rocket, layers: Layers, lock: Lock,
+  users: Users, star: Star, sparkles: Sparkles, award: Award, heart: Heart, "check-circle": CircleCheck,
+  "trending-up": TrendingUp, bolt: Zap,
+};
+
+/** Icon for a social / contact link type. */
+export const SOCIAL_ICONS: Record<string, string> = {
+  email: "Mail",
+  phone: "Phone",
+  github: "Code",
+  linkedin: "BriefcaseBusiness",
+  twitter: "AtSign",
+  instagram: "Camera",
+  website: "Globe",
+  other: "Globe",
+};
+
+export function Icon({ name, className, label }: { name?: string; className?: string; label?: string }) {
+  const Cmp = (name && ICONS[name]) || Box;
+  return <Cmp className={className ?? "h-4 w-4"} aria-hidden={label ? undefined : true} aria-label={label} />;
+}

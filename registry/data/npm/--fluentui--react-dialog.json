@@ -1,0 +1,84 @@
+{
+  "slug": "@fluentui/react-dialog",
+  "source": "npm",
+  "name": "@fluentui/react-dialog",
+  "kind": "library",
+  "versions": {
+    "2deea2c15332b33e5fdbb09f2229134e74bc7c330081b9b66fe2c4d1c21d0f87": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:@fluentui/react-dialog@9.18.6",
+        "name": "@fluentui/react-dialog",
+        "version": "9.18.6",
+        "kind": "library",
+        "summary": "Dialog component for Fluent UI React",
+        "room": "confirm-dialog",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/@fluentui/react-dialog",
+          "ref": "9.18.6",
+          "contentHash": "2deea2c15332b33e5fdbb09f2229134e74bc7c330081b9b66fe2c4d1c21d0f87"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">=16.14.0 <20.0.0",
+            "@types/react": ">=16.14.0 <20.0.0"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">=16.14.0 <20.0.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "confirm-dialog",
+          "tags": [
+            "query:react dialog"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "confirm-dialog",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "2deea2c15332b33e5fdbb09f2229134e74bc7c330081b9b66fe2c4d1c21d0f87",
+  "quality": {
+    "downloads": 2337379,
+    "lastPublish": "2026-10-19T14:58:05.804Z",
+    "hasTypes": true
+  }
+}

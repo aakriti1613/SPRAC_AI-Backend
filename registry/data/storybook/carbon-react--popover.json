@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/popover",
+  "source": "storybook",
+  "name": "Popover (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "a5b16a7f2d25b3551da7551385542e56b1c6b6e92769460a79c2186aed8eb1d8": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/popover@0.0.0",
+        "name": "Popover (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Popover from IBM Carbon (React): 6 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-popover--overview",
+          "ref": "@carbon/react",
+          "contentHash": "a5b16a7f2d25b3551da7551385542e56b1c6b6e92769460a79c2186aed8eb1d8"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a5b16a7f2d25b3551da7551385542e56b1c6b6e92769460a79c2186aed8eb1d8",
+  "quality": {
+    "hasTests": true
+  }
+}

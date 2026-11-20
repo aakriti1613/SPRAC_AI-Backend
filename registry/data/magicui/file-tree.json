@@ -1,0 +1,72 @@
+{
+  "slug": "file-tree",
+  "source": "magicui",
+  "name": "File Tree",
+  "kind": "ui",
+  "versions": {
+    "e7d3a4309479ebcc1a3a8646757bd30fc284743f913d222746f90a7789036b8e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:file-tree@0.0.0",
+        "name": "File Tree",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A component used to showcase the folder and file structure of a directory.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/file-tree.json",
+          "ref": "magicui",
+          "contentHash": "e7d3a4309479ebcc1a3a8646757bd30fc284743f913d222746f90a7789036b8e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e7d3a4309479ebcc1a3a8646757bd30fc284743f913d222746f90a7789036b8e",
+  "quality": {}
+}

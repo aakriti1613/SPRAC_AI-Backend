@@ -1,0 +1,79 @@
+{
+  "slug": "carbon-react/toggle",
+  "source": "storybook",
+  "name": "Toggle (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "b1e325d50348e282be10202f1b47a61c349f891b241d037d2908e7039e4dfbcb": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/toggle@0.0.0",
+        "name": "Toggle (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Toggle from IBM Carbon (React): 5 stories, documented.",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-toggle--overview",
+          "ref": "@carbon/react",
+          "contentHash": "b1e325d50348e282be10202f1b47a61c349f891b241d037d2908e7039e4dfbcb"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "b1e325d50348e282be10202f1b47a61c349f891b241d037d2908e7039e4dfbcb",
+  "quality": {
+    "hasTests": true
+  }
+}

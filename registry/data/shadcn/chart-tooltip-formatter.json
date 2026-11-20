@@ -1,0 +1,76 @@
+{
+  "slug": "chart-tooltip-formatter",
+  "source": "shadcn",
+  "name": "chart-tooltip-formatter",
+  "kind": "ui",
+  "versions": {
+    "aec9798b267fc5add29b89e9c4c5a8161855f90a43e848c1453addc960d2f9c6": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-tooltip-formatter@0.0.0",
+        "name": "chart-tooltip-formatter",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-tooltip-formatter\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-tooltip-formatter.json",
+          "ref": "new-york-v4",
+          "contentHash": "aec9798b267fc5add29b89e9c4c5a8161855f90a43e848c1453addc960d2f9c6"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-tooltip"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "aec9798b267fc5add29b89e9c4c5a8161855f90a43e848c1453addc960d2f9c6",
+  "quality": {}
+}

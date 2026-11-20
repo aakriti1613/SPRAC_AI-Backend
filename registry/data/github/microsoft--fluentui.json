@@ -1,0 +1,79 @@
+{
+  "slug": "microsoft/fluentui",
+  "source": "github",
+  "name": "microsoft/fluentui",
+  "kind": "library",
+  "versions": {
+    "2f86460d0ec476f1e19a5e0bd4bd3e9955f4aa9b5c84db6127a32097baad4cd5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:microsoft/fluentui@0.0.0",
+        "name": "microsoft/fluentui",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "Fluent UI web represents a collection of utilities, React components, and web components for building web applications.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/microsoft/fluentui",
+          "ref": "master",
+          "contentHash": "2f86460d0ec476f1e19a5e0bd4bd3e9955f4aa9b5c84db6127a32097baad4cd5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "components",
+            "fluent",
+            "microsoft",
+            "office-ui-fabric",
+            "react",
+            "react-components",
+            "query:topic:react-components language:TypeScript stars:>2000"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "2f86460d0ec476f1e19a5e0bd4bd3e9955f4aa9b5c84db6127a32097baad4cd5",
+  "quality": {
+    "stars": 20417,
+    "lastPublish": "2026-11-18T11:56:08Z"
+  }
+}

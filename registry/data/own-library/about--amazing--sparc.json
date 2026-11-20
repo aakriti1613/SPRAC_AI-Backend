@@ -1,0 +1,118 @@
+{
+  "slug": "about/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing about",
+  "kind": "component",
+  "versions": {
+    "d78c5923ba1cdb0c0ece4dcf1fb07730ce66bf4ed4ef59de63b9751bd078ebba": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:about/amazing/sparc@1.0.0",
+        "name": "Amazing about",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing about: About section: heading, paragraph, photo and highlights.",
+        "room": "about",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/about/amazing/sparc/index.tsx",
+          "contentHash": "d78c5923ba1cdb0c0ece4dcf1fb07730ce66bf4ed4ef59de63b9751bd078ebba"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "body",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "highlights",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "image",
+              "kind": "object",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "about",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "about",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "d78c5923ba1cdb0c0ece4dcf1fb07730ce66bf4ed4ef59de63b9751bd078ebba",
+  "quality": {
+    "sizeKb": 45.8,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

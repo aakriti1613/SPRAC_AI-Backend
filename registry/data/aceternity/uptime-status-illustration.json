@@ -1,0 +1,75 @@
+{
+  "slug": "uptime-status-illustration",
+  "source": "aceternity",
+  "name": "uptime-status-illustration",
+  "kind": "ui",
+  "versions": {
+    "00a3df880af84ba5fd140b34c45c0cdd78b49c08648455d0ff23fc0c5283c3af": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:uptime-status-illustration@0.0.0",
+        "name": "uptime-status-illustration",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Interactive Uptime Status Illustration",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/uptime-status-illustration.json",
+          "ref": "aceternity",
+          "contentHash": "00a3df880af84ba5fd140b34c45c0cdd78b49c08648455d0ff23fc0c5283c3af"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "00a3df880af84ba5fd140b34c45c0cdd78b49c08648455d0ff23fc0c5283c3af",
+  "quality": {}
+}

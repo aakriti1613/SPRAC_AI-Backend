@@ -1,0 +1,320 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "projectName": "t-preset-hrms-portal-admin",
+    "path": "<tmp>/t-preset-hrms-portal-admin",
+    "warnings": [],
+    "templateId": "portal-admin",
+    "requestedTemplateId": "portal-admin",
+    "message": "Project \"t-preset-hrms-portal-admin\" generated from template \"portal-admin\"."
+  },
+  "files": {
+    "src/portal-config.json": {
+      "portalName": "Acme Admin",
+      "logo": {
+        "src": "",
+        "alt": "Acme Admin",
+        "width": 140,
+        "text": "AA"
+      },
+      "theme": {
+        "mode": "system",
+        "tokens": {
+          "primary": "262 83% 58%",
+          "ring": "262 83% 58%",
+          "radius": "0.75rem",
+          "brand-primary": "#7c3aed",
+          "brand-accent": "#8c52ef",
+          "gradient-start": "#7c3aed",
+          "gradient-end": "#6630c2",
+          "primary-hover": "262 60% 47%",
+          "primary-light": "262 85% 95%",
+          "sidebar-ring": "262 83% 58%",
+          "auth-panel-orb": "262 83% 58%",
+          "brand-primary-hover": "#6630c2",
+          "brand-primary-light": "#efe7fd",
+          "brand-primary-rgb": "124, 58, 237",
+          "brand-accent-2": "#d5c0f9",
+          "brand-accent-rgb": "140, 82, 239",
+          "brand-accent-2-rgb": "213, 192, 249",
+          "chart-primary": "#7c3aed",
+          "chart-secondary": "#8c52ef",
+          "chart-tertiary": "#d5c0f9"
+        },
+        "name": "blue",
+        "primary": "#7c3aed",
+        "primaryHover": "#6630c2",
+        "primaryLight": "#efe7fd",
+        "accent": "#8c52ef"
+      },
+      "dashboard": {
+        "enabled": true,
+        "template": "stats-overview",
+        "style": "hrms",
+        "heroTitle": "Manage employees, leave, and HR workflows",
+        "heroSubtitle": "Keep employee records, approvals, and HR operations organized in one secure portal.",
+        "primaryActions": [
+          {
+            "title": "Employees",
+            "description": "Manage employees records",
+            "icon": "UserCheck",
+            "href": "/organization/crud/employees",
+            "gradient": "gradient-primary"
+          },
+          {
+            "title": "Leave Requests",
+            "description": "Manage leave requests records",
+            "icon": "CalendarClock",
+            "href": "/organization/crud/leave-requests",
+            "gradient": "gradient-primary"
+          }
+        ],
+        "secondaryActions": [],
+        "sectionTitle": "Workspace Modules",
+        "emptyTitle": "No modules configured",
+        "emptyDescription": "Add CRUD modules in the platform wizard to populate this dashboard."
+      },
+      "navigation": [
+        {
+          "label": "Dashboard",
+          "icon": "LayoutDashboard",
+          "path": "/organization/dashboard",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Employees",
+          "icon": "UserCheck",
+          "path": "/organization/crud/employees",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Leave Requests",
+          "icon": "CalendarClock",
+          "path": "/organization/crud/leave-requests",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Profile",
+          "icon": "UserRound",
+          "path": "/organization/profile",
+          "permission": "dashboard:read"
+        }
+      ],
+      "entities": [],
+      "appName": "Acme Admin",
+      "industry": "hrms",
+      "themePreset": "blue",
+      "runtime": {
+        "legacyRoutesEnabled": false,
+        "blockMobile": false
+      },
+      "auth": {
+        "screens": {
+          "login": true,
+          "signup": true,
+          "forgotPassword": false
+        },
+        "method": "email-password"
+      },
+      "footer": {
+        "text": "People operations portal"
+      },
+      "company": {
+        "name": "Acme Admin",
+        "website": "",
+        "supportEmail": "",
+        "address": ""
+      },
+      "loginPage": {
+        "portalName": "Acme Admin",
+        "badge": "People Operations",
+        "headline": "Manage employees, leave, and HR workflows",
+        "highlightText": "employees",
+        "description": "Keep employee records, approvals, and HR operations organized in one secure portal.",
+        "features": [
+          {
+            "title": "Secure Access",
+            "description": "Enterprise-grade authentication for authorized users."
+          },
+          {
+            "title": "Self Service",
+            "description": "Manage records, workflows, and operations from one dashboard."
+          }
+        ],
+        "footerText": "People operations portal"
+      },
+      "generatedModules": [
+        {
+          "id": "employees",
+          "tableName": "employees",
+          "singularName": "Employee",
+          "pluralName": "Employees",
+          "icon": "UserCheck",
+          "permissions": {
+            "read": "employees:read",
+            "write": "employees:write",
+            "delete": "employees:delete"
+          },
+          "fields": [
+            {
+              "key": "name",
+              "label": "Employee Name",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "email",
+              "label": "Work Email",
+              "type": "email",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "department",
+              "label": "Department",
+              "type": "select",
+              "required": false,
+              "options": [
+                "People",
+                "Finance",
+                "Sales",
+                "Operations",
+                "Engineering"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "joining_date",
+              "label": "Joining Date",
+              "type": "date",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "status",
+              "label": "Employment Status",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Active",
+                "On Leave",
+                "Exited"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "name",
+            "email",
+            "department",
+            "status"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        },
+        {
+          "id": "leave-requests",
+          "tableName": "leave_requests",
+          "singularName": "Leave Request",
+          "pluralName": "Leave Requests",
+          "icon": "CalendarClock",
+          "permissions": {
+            "read": "leave_requests:read",
+            "write": "leave_requests:write",
+            "delete": "leave_requests:delete"
+          },
+          "fields": [
+            {
+              "key": "employee_name",
+              "label": "Employee Name",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "leave_type",
+              "label": "Leave Type",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Casual",
+                "Sick",
+                "Earned",
+                "Unpaid"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "from_date",
+              "label": "From Date",
+              "type": "date",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "to_date",
+              "label": "To Date",
+              "type": "date",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "status",
+              "label": "Approval Status",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Pending",
+                "Approved",
+                "Rejected"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "employee_name",
+            "leave_type",
+            "from_date",
+            "status"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        }
+      ]
+    },
+    "supabase/schema.sql": "CREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE TABLE IF NOT EXISTS organizations (\n  id          uuid primary key default gen_random_uuid(),\n  name        text not null,\n  created_at  timestamptz not null default now(),\n  updated_at  timestamptz not null default now()\n);\n\nCREATE TABLE IF NOT EXISTS organization_users (\n  id                        uuid primary key default gen_random_uuid(),\n  auth_user_id              uuid unique,\n  first_name                text default '',\n  last_name                 text default '',\n  email                     text not null unique,\n  phone_number              text default '',\n  country_code              text default '+1',\n  organization_id           uuid references organizations(id) on delete cascade,\n  role                      text not null default 'Organization User',\n  status                    text not null default 'Active',\n  account_ids               jsonb not null default '[]',\n  accounts                  jsonb not null default '[]',\n  is_acknowledged           boolean not null default true,\n  is_two_factor_enabled     boolean not null default false,\n  requires_password_change  boolean not null default false,\n  subscription_id           text,\n  profile_photo_url         text default '',\n  created_at                timestamptz not null default now(),\n  updated_at                timestamptz not null default now()\n);\n\nDO $$\nDECLARE t text;\nBEGIN\n  FOREACH t IN ARRAY ARRAY['organizations','organization_users']\n  LOOP\n    EXECUTE format('ALTER TABLE %I ENABLE ROW LEVEL SECURITY;', t);\n    EXECUTE format('DROP POLICY IF EXISTS \"authenticated_system_access\" ON %I;', t);\n    EXECUTE format(\n      'CREATE POLICY \"authenticated_system_access\" ON %I FOR ALL TO authenticated USING (true) WITH CHECK (true);', t\n    );\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO authenticated;', t);\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO service_role;', t);\n  END LOOP;\nEND $$;\n\nCREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE OR REPLACE FUNCTION public.set_updated_at()\nRETURNS TRIGGER AS $$\nBEGIN\n  NEW.updated_at = now();\n  RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TABLE IF NOT EXISTS public.\"employees\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"name\" TEXT NOT NULL,\n  \"email\" TEXT NOT NULL,\n  \"department\" TEXT,\n  \"joining_date\" DATE,\n  \"status\" TEXT\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"employees\" ADD COLUMN IF NOT EXISTS \"name\" TEXT;\nALTER TABLE public.\"employees\" ADD COLUMN IF NOT EXISTS \"email\" TEXT;\nALTER TABLE public.\"employees\" ADD COLUMN IF NOT EXISTS \"department\" TEXT;\nALTER TABLE public.\"employees\" ADD COLUMN IF NOT EXISTS \"joining_date\" DATE;\nALTER TABLE public.\"employees\" ADD COLUMN IF NOT EXISTS \"status\" TEXT;\n\nALTER TABLE public.\"employees\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_employees\" ON public.\"employees\";\nCREATE POLICY \"authenticated_full_access_employees\"\n  ON public.\"employees\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"employees\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"employees\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"employees_set_updated_at\" ON public.\"employees\";\nCREATE TRIGGER \"employees_set_updated_at\"\n  BEFORE UPDATE ON public.\"employees\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE TABLE IF NOT EXISTS public.\"leave_requests\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"employee_name\" TEXT NOT NULL,\n  \"leave_type\" TEXT,\n  \"from_date\" DATE,\n  \"to_date\" DATE,\n  \"status\" TEXT\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"leave_requests\" ADD COLUMN IF NOT EXISTS \"employee_name\" TEXT;\nALTER TABLE public.\"leave_requests\" ADD COLUMN IF NOT EXISTS \"leave_type\" TEXT;\nALTER TABLE public.\"leave_requests\" ADD COLUMN IF NOT EXISTS \"from_date\" DATE;\nALTER TABLE public.\"leave_requests\" ADD COLUMN IF NOT EXISTS \"to_date\" DATE;\nALTER TABLE public.\"leave_requests\" ADD COLUMN IF NOT EXISTS \"status\" TEXT;\n\nALTER TABLE public.\"leave_requests\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_leave_requests\" ON public.\"leave_requests\";\nCREATE POLICY \"authenticated_full_access_leave_requests\"\n  ON public.\"leave_requests\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"leave_requests\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"leave_requests\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"leave_requests_set_updated_at\" ON public.\"leave_requests\";\nCREATE TRIGGER \"leave_requests_set_updated_at\"\n  BEFORE UPDATE ON public.\"leave_requests\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE OR REPLACE FUNCTION public.portal_group_count(\n  p_table text, p_column text, p_limit int DEFAULT 8\n)\nRETURNS TABLE(label text, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT COALESCE(NULLIF(%1$I::text, %3$L), %4$L) AS label, count(*)::bigint AS value\n       FROM public.%2$I\n      GROUP BY 1 ORDER BY 2 DESC LIMIT %5$s',\n    p_column, p_table, '', 'Unspecified', GREATEST(1, LEAST(p_limit, 50))\n  );\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_sum(p_table text, p_column text)\nRETURNS numeric\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE result numeric;\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN 0; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN 0; END IF;\n  EXECUTE format('SELECT COALESCE(SUM(%1$I), 0) FROM public.%2$I', p_column, p_table) INTO result;\n  RETURN result;\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_time_series(\n  p_table text, p_column text, p_bucket text DEFAULT 'day'\n)\nRETURNS TABLE(bucket timestamptz, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE b text;\nBEGIN\n  b := lower(coalesce(p_bucket, 'day'));\n  IF b NOT IN ('day', 'week', 'month') THEN b := 'day'; END IF;\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT date_trunc(%3$L, %1$I)::timestamptz AS bucket, count(*)::bigint AS value\n       FROM public.%2$I WHERE %1$I IS NOT NULL\n      GROUP BY 1 ORDER BY 1',\n    p_column, p_table, b\n  );\nEND;\n$$;\n\nGRANT EXECUTE ON FUNCTION public.portal_group_count(text, text, int) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_sum(text, text) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_time_series(text, text, text) TO authenticated, service_role;\n\n-- Tell PostgREST to refresh its schema cache so newly added tables/columns are\n-- immediately usable via the REST API (prevents stale \"schema cache\" errors).\nNOTIFY pgrst, 'reload schema';\n",
+    "supabase/seed.sql": "-- Production-generated portals do not include sample business records.\n-- Provisioning creates only the initial admin user and required system profile.\n"
+  }
+}

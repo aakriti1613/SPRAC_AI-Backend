@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/error-boundary",
+  "source": "storybook",
+  "name": "ErrorBoundary (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "fd5ddd00449295f548ce89733d4131c39d0e71d778f29bac13b600fb8dd699e2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/error-boundary@0.0.0",
+        "name": "ErrorBoundary (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "ErrorBoundary from IBM Carbon (React): 2 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-errorboundary--overview",
+          "ref": "@carbon/react",
+          "contentHash": "fd5ddd00449295f548ce89733d4131c39d0e71d778f29bac13b600fb8dd699e2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "fd5ddd00449295f548ce89733d4131c39d0e71d778f29bac13b600fb8dd699e2",
+  "quality": {
+    "hasTests": true
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "slug": "@rc-component/select",
+  "source": "npm",
+  "name": "@rc-component/select",
+  "kind": "library",
+  "versions": {
+    "84544658d7a2e960003fddc5616050df71f8b3b63ddc2cca39e66ff85444c667": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:@rc-component/select@1.12.0",
+        "name": "@rc-component/select",
+        "version": "1.12.0",
+        "kind": "library",
+        "summary": "React Select",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/@rc-component/select",
+          "ref": "1.12.0",
+          "contentHash": "84544658d7a2e960003fddc5616050df71f8b3b63ddc2cca39e66ff85444c667"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "*",
+            "react-dom": "*"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "*",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "react",
+            "react-component",
+            "react-select",
+            "select",
+            "query:react select"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "84544658d7a2e960003fddc5616050df71f8b3b63ddc2cca39e66ff85444c667",
+  "quality": {
+    "downloads": 7951585,
+    "lastPublish": "2026-10-13T08:51:09.713Z",
+    "hasTypes": true
+  }
+}

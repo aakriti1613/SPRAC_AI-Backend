@@ -1,0 +1,76 @@
+{
+  "slug": "chart-area-icons",
+  "source": "shadcn",
+  "name": "chart-area-icons",
+  "kind": "ui",
+  "versions": {
+    "d8fa4d459f7441ff36f1bcf7db6e19bc2c72311cc8b0a85491a1b116f0b6e14d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-area-icons@0.0.0",
+        "name": "chart-area-icons",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-area-icons\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-area-icons.json",
+          "ref": "new-york-v4",
+          "contentHash": "d8fa4d459f7441ff36f1bcf7db6e19bc2c72311cc8b0a85491a1b116f0b6e14d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-area"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "d8fa4d459f7441ff36f1bcf7db6e19bc2c72311cc8b0a85491a1b116f0b6e14d",
+  "quality": {}
+}

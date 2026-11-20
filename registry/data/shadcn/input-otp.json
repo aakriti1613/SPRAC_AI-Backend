@@ -1,0 +1,74 @@
+{
+  "slug": "input-otp",
+  "source": "shadcn",
+  "name": "input-otp",
+  "kind": "ui",
+  "versions": {
+    "08c545dc78a372392eac4c74ec45d7cac3dc50f55a4fd30ac813705286f7eafc": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:input-otp@0.0.0",
+        "name": "input-otp",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"input-otp\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/input-otp.json",
+          "ref": "new-york-v4",
+          "contentHash": "08c545dc78a372392eac4c74ec45d7cac3dc50f55a4fd30ac813705286f7eafc"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "input-otp": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "08c545dc78a372392eac4c74ec45d7cac3dc50f55a4fd30ac813705286f7eafc",
+  "quality": {}
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "rainbow-button",
+  "source": "magicui",
+  "name": "Rainbow Button",
+  "kind": "ui",
+  "versions": {
+    "6e7ccd5ed592f3b5718970950e27a14a178a4798a382404278222b8611c6682b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:rainbow-button@0.0.0",
+        "name": "Rainbow Button",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "An animated button with a rainbow effect.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/rainbow-button.json",
+          "ref": "magicui",
+          "contentHash": "6e7ccd5ed592f3b5718970950e27a14a178a4798a382404278222b8611c6682b"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "6e7ccd5ed592f3b5718970950e27a14a178a4798a382404278222b8611c6682b",
+  "quality": {}
+}

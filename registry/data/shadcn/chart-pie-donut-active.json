@@ -1,0 +1,76 @@
+{
+  "slug": "chart-pie-donut-active",
+  "source": "shadcn",
+  "name": "chart-pie-donut-active",
+  "kind": "ui",
+  "versions": {
+    "17612de2e4fd164432a7c54de7058e65979a4061f194f6382a4d1ab73deeb019": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-pie-donut-active@0.0.0",
+        "name": "chart-pie-donut-active",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-pie-donut-active\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-pie-donut-active.json",
+          "ref": "new-york-v4",
+          "contentHash": "17612de2e4fd164432a7c54de7058e65979a4061f194f6382a4d1ab73deeb019"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-pie"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "17612de2e4fd164432a7c54de7058e65979a4061f194f6382a4d1ab73deeb019",
+  "quality": {}
+}

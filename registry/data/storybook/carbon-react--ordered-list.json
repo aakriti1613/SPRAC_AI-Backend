@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/ordered-list",
+  "source": "storybook",
+  "name": "OrderedList (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "79587bfdfe19d612155cdafaa96415d23db08ede0dc5c903f8da8afbebdcbc6d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/ordered-list@0.0.0",
+        "name": "OrderedList (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "OrderedList from IBM Carbon (React): 3 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-orderedlist--overview",
+          "ref": "@carbon/react",
+          "contentHash": "79587bfdfe19d612155cdafaa96415d23db08ede0dc5c903f8da8afbebdcbc6d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "79587bfdfe19d612155cdafaa96415d23db08ede0dc5c903f8da8afbebdcbc6d",
+  "quality": {
+    "hasTests": true
+  }
+}

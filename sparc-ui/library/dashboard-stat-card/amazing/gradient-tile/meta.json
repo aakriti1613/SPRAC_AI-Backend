@@ -1,0 +1,4 @@
+{
+  "derivedFrom": "legacy:crud-modern-new-temp/widgets/stat-card@0.1.0",
+  "description": "Gradient KPI tile promoted from the prototype's crud-modern StatCard. Cleaning: accepts the dashboard-stat-card contract (icon by name, value as text), uses theme tokens instead of fixed colours, respects reduce-motion; the sparkline was dropped because the contract does not provide that data."
+}

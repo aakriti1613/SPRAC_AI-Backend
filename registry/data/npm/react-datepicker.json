@@ -1,0 +1,90 @@
+{
+  "slug": "react-datepicker",
+  "source": "npm",
+  "name": "react-datepicker",
+  "kind": "library",
+  "versions": {
+    "468533904270a0c46f929e8a51750718e0af1bdeb94f609447276615d7ce1318": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-datepicker@9.1.0",
+        "name": "react-datepicker",
+        "version": "9.1.0",
+        "kind": "library",
+        "summary": "A simple and reusable datepicker component for React",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-datepicker",
+          "ref": "9.1.0",
+          "contentHash": "468533904270a0c46f929e8a51750718e0af1bdeb94f609447276615d7ce1318"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "^16.9.0 || ^17 || ^18 || ^19 || ^19.0.0-rc",
+            "react-dom": "^16.9.0 || ^17 || ^18 || ^19 || ^19.0.0-rc",
+            "date-fns-tz": "^3.0.0"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^16.9.0 || ^17 || ^18 || ^19 || ^19.0.0-rc",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "react",
+            "datepicker",
+            "calendar",
+            "date",
+            "react-component",
+            "query:react datepicker"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "468533904270a0c46f929e8a51750718e0af1bdeb94f609447276615d7ce1318",
+  "quality": {
+    "downloads": 26862310,
+    "lastPublish": "2025-12-19T08:41:59.004Z",
+    "hasTypes": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "safari",
+  "source": "magicui",
+  "name": "Safari",
+  "kind": "ui",
+  "versions": {
+    "d9785a684005b254dd73fad0d9cf849d31b9c5beb7eea196247b95a656562692": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:safari@0.0.0",
+        "name": "Safari",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A safari browser mockup to showcase your website.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/safari.json",
+          "ref": "magicui",
+          "contentHash": "d9785a684005b254dd73fad0d9cf849d31b9c5beb7eea196247b95a656562692"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "d9785a684005b254dd73fad0d9cf849d31b9c5beb7eea196247b95a656562692",
+  "quality": {}
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "empty-state-vertical-grid",
+  "source": "aceternity",
+  "name": "empty-state-vertical-grid",
+  "kind": "ui",
+  "versions": {
+    "e18e50385feec8fe7de977b3a95114c77bcce7dd269acb6f4c9083932a8e454c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:empty-state-vertical-grid@0.0.0",
+        "name": "empty-state-vertical-grid",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Full-height empty state on a dotted canvas with three image cards for choosing how to start",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/empty-state-vertical-grid.json",
+          "ref": "aceternity",
+          "contentHash": "e18e50385feec8fe7de977b3a95114c77bcce7dd269acb6f4c9083932a8e454c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "e18e50385feec8fe7de977b3a95114c77bcce7dd269acb6f4c9083932a8e454c",
+  "quality": {}
+}

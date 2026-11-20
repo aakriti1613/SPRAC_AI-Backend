@@ -1,0 +1,75 @@
+{
+  "slug": "ipad-illustration",
+  "source": "aceternity",
+  "name": "ipad-illustration",
+  "kind": "ui",
+  "versions": {
+    "cdf9678926ea7078c70a6ab37867d3ecc3b75185e8c238776a7a0c6c24f3f0e0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:ipad-illustration@0.0.0",
+        "name": "ipad-illustration",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Interactive iPad illustration with Dynamic Island animation",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/ipad-illustration.json",
+          "ref": "aceternity",
+          "contentHash": "cdf9678926ea7078c70a6ab37867d3ecc3b75185e8c238776a7a0c6c24f3f0e0"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "cdf9678926ea7078c70a6ab37867d3ecc3b75185e8c238776a7a0c6c24f3f0e0",
+  "quality": {}
+}

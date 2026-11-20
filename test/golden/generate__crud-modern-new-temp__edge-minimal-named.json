@@ -1,0 +1,173 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "projectName": "t-edge-minimal-named-crud-modern-new-temp",
+    "path": "<tmp>/t-edge-minimal-named-crud-modern-new-temp",
+    "warnings": [],
+    "templateId": "crud-modern-new-temp",
+    "requestedTemplateId": "crud-modern-new-temp",
+    "message": "Project \"t-edge-minimal-named-crud-modern-new-temp\" generated from template \"crud-modern-new-temp\"."
+  },
+  "files": {
+    "src/portal-config.json": {
+      "portalName": "Edge Minimal",
+      "appName": "Edge Minimal",
+      "industry": "generic",
+      "logo": "",
+      "logoInitials": "EM",
+      "theme": {
+        "primary": "#7c3aed",
+        "primaryHover": "#6630c2",
+        "primaryLight": "#efe7fd",
+        "accent": "#8c52ef"
+      },
+      "loginPage": {
+        "portalName": "Edge Minimal",
+        "badge": "Business Operations",
+        "headline": "Run your operations from one focused workspace",
+        "highlightText": "operations",
+        "description": "Manage records, tasks, approvals, and daily workflows from one secure dashboard.",
+        "features": [
+          {
+            "title": "Secure Access",
+            "description": "Enterprise-grade authentication for authorized users.",
+            "icon": "ShieldCheck"
+          },
+          {
+            "title": "Self Service",
+            "description": "Manage records, workflows, and operations from one dashboard.",
+            "icon": "LayoutGrid"
+          }
+        ],
+        "footerText": "Powered by your operations team"
+      },
+      "routes": {
+        "loginPath": "/login",
+        "appBasePath": "/organization",
+        "dashboardPath": "/organization/dashboard",
+        "profilePath": "/organization/profile"
+      },
+      "dashboard": {
+        "enabled": true,
+        "label": "Dashboard",
+        "icon": "LayoutDashboard",
+        "title": "Edge Minimal",
+        "description": "Edge Minimal operational overview",
+        "widgets": [
+          "module-counts",
+          "currency-sum",
+          "status-breakdown",
+          "created-trend"
+        ]
+      },
+      "footer": {
+        "text": "Powered by your operations team"
+      },
+      "company": {
+        "name": "Edge Minimal",
+        "website": "",
+        "address": ""
+      },
+      "support": {
+        "email": "",
+        "phone": "",
+        "helpUrl": ""
+      },
+      "featureFlags": {
+        "profile": true,
+        "signup": true
+      },
+      "generatedModules": [
+        {
+          "id": "things",
+          "tableName": "things",
+          "singularName": "Thing",
+          "pluralName": "Things",
+          "icon": "Database",
+          "permissions": {
+            "read": "things:read",
+            "write": "things:write",
+            "delete": "things:delete"
+          },
+          "fields": [
+            {
+              "key": "thing_name",
+              "label": "Thing Name",
+              "type": "text",
+              "required": true,
+              "width": "full",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "weird",
+              "label": "Weird",
+              "type": "text",
+              "required": false,
+              "width": "full",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "price_tag",
+              "label": "Price Tag",
+              "type": "currency",
+              "required": false,
+              "width": "full",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "labels",
+              "label": "Labels",
+              "type": "tags",
+              "required": false,
+              "width": "full",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "kind",
+              "label": "Kind",
+              "type": "select",
+              "required": false,
+              "options": [
+                "A",
+                "B"
+              ],
+              "width": "full",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "created_by",
+              "label": "Created By",
+              "type": "text",
+              "required": false,
+              "width": "full",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "thing_name",
+            "weird",
+            "price_tag",
+            "labels",
+            "kind"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": false
+          }
+        }
+      ]
+    },
+    "supabase/schema.sql": "CREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE TABLE IF NOT EXISTS organizations (\n  id          uuid primary key default gen_random_uuid(),\n  name        text not null,\n  created_at  timestamptz not null default now(),\n  updated_at  timestamptz not null default now()\n);\n\nCREATE TABLE IF NOT EXISTS organization_users (\n  id                        uuid primary key default gen_random_uuid(),\n  auth_user_id              uuid unique,\n  first_name                text default '',\n  last_name                 text default '',\n  email                     text not null unique,\n  phone_number              text default '',\n  country_code              text default '+1',\n  organization_id           uuid references organizations(id) on delete cascade,\n  role                      text not null default 'Organization User',\n  status                    text not null default 'Active',\n  account_ids               jsonb not null default '[]',\n  accounts                  jsonb not null default '[]',\n  is_acknowledged           boolean not null default true,\n  is_two_factor_enabled     boolean not null default false,\n  requires_password_change  boolean not null default false,\n  subscription_id           text,\n  profile_photo_url         text default '',\n  created_at                timestamptz not null default now(),\n  updated_at                timestamptz not null default now()\n);\n\nDO $$\nDECLARE t text;\nBEGIN\n  FOREACH t IN ARRAY ARRAY['organizations','organization_users']\n  LOOP\n    EXECUTE format('ALTER TABLE %I ENABLE ROW LEVEL SECURITY;', t);\n    EXECUTE format('DROP POLICY IF EXISTS \"authenticated_system_access\" ON %I;', t);\n    EXECUTE format(\n      'CREATE POLICY \"authenticated_system_access\" ON %I FOR ALL TO authenticated USING (true) WITH CHECK (true);', t\n    );\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO authenticated;', t);\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO service_role;', t);\n  END LOOP;\nEND $$;\n\nCREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE OR REPLACE FUNCTION public.set_updated_at()\nRETURNS TRIGGER AS $$\nBEGIN\n  NEW.updated_at = now();\n  RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TABLE IF NOT EXISTS public.\"things\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"thing_name\" TEXT NOT NULL,\n  \"weird\" TEXT,\n  \"price_tag\" NUMERIC,\n  \"labels\" TEXT[],\n  \"kind\" TEXT\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"things\" ADD COLUMN IF NOT EXISTS \"thing_name\" TEXT;\nALTER TABLE public.\"things\" ADD COLUMN IF NOT EXISTS \"weird\" TEXT;\nALTER TABLE public.\"things\" ADD COLUMN IF NOT EXISTS \"price_tag\" NUMERIC;\nALTER TABLE public.\"things\" ADD COLUMN IF NOT EXISTS \"labels\" TEXT[];\nALTER TABLE public.\"things\" ADD COLUMN IF NOT EXISTS \"kind\" TEXT;\n\nALTER TABLE public.\"things\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_things\" ON public.\"things\";\nCREATE POLICY \"authenticated_full_access_things\"\n  ON public.\"things\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"things\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"things\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"things_set_updated_at\" ON public.\"things\";\nCREATE TRIGGER \"things_set_updated_at\"\n  BEFORE UPDATE ON public.\"things\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE OR REPLACE FUNCTION public.portal_group_count(\n  p_table text, p_column text, p_limit int DEFAULT 8\n)\nRETURNS TABLE(label text, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT COALESCE(NULLIF(%1$I::text, %3$L), %4$L) AS label, count(*)::bigint AS value\n       FROM public.%2$I\n      GROUP BY 1 ORDER BY 2 DESC LIMIT %5$s',\n    p_column, p_table, '', 'Unspecified', GREATEST(1, LEAST(p_limit, 50))\n  );\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_sum(p_table text, p_column text)\nRETURNS numeric\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE result numeric;\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN 0; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN 0; END IF;\n  EXECUTE format('SELECT COALESCE(SUM(%1$I), 0) FROM public.%2$I', p_column, p_table) INTO result;\n  RETURN result;\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_time_series(\n  p_table text, p_column text, p_bucket text DEFAULT 'day'\n)\nRETURNS TABLE(bucket timestamptz, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE b text;\nBEGIN\n  b := lower(coalesce(p_bucket, 'day'));\n  IF b NOT IN ('day', 'week', 'month') THEN b := 'day'; END IF;\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT date_trunc(%3$L, %1$I)::timestamptz AS bucket, count(*)::bigint AS value\n       FROM public.%2$I WHERE %1$I IS NOT NULL\n      GROUP BY 1 ORDER BY 1',\n    p_column, p_table, b\n  );\nEND;\n$$;\n\nGRANT EXECUTE ON FUNCTION public.portal_group_count(text, text, int) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_sum(text, text) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_time_series(text, text, text) TO authenticated, service_role;\n\n-- Tell PostgREST to refresh its schema cache so newly added tables/columns are\n-- immediately usable via the REST API (prevents stale \"schema cache\" errors).\nNOTIFY pgrst, 'reload schema';\n",
+    "supabase/seed.sql": "-- Production-generated portals do not include sample business records.\n-- Provisioning creates only the initial admin user and required system profile.\n"
+  }
+}

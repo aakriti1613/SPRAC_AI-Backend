@@ -1,0 +1,76 @@
+{
+  "slug": "keyboard",
+  "source": "aceternity",
+  "name": "keyboard",
+  "kind": "ui",
+  "versions": {
+    "230dac905e8e51de3d748ad446a4f040285b831e0f238569ec898e8ea7d90698": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:keyboard@0.0.0",
+        "name": "keyboard",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"keyboard\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/keyboard.json",
+          "ref": "aceternity",
+          "contentHash": "230dac905e8e51de3d748ad446a4f040285b831e0f238569ec898e8ea7d90698"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@tabler/icons-react": "*",
+            "motion/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "230dac905e8e51de3d748ad446a4f040285b831e0f238569ec898e8ea7d90698",
+  "quality": {}
+}

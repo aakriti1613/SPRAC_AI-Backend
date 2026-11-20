@@ -1,0 +1,72 @@
+{
+  "slug": "progressive-blur",
+  "source": "magicui",
+  "name": "Progressive Blur",
+  "kind": "ui",
+  "versions": {
+    "50cd68785e77b00f2ac0dfe50345beceaa689abed8c4807386f3b94aec809e48": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:progressive-blur@0.0.0",
+        "name": "Progressive Blur",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "The Progressive Blur component adds a smooth blur gradient effect to scrollable content, indicating more content below or above.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/progressive-blur.json",
+          "ref": "magicui",
+          "contentHash": "50cd68785e77b00f2ac0dfe50345beceaa689abed8c4807386f3b94aec809e48"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "50cd68785e77b00f2ac0dfe50345beceaa689abed8c4807386f3b94aec809e48",
+  "quality": {}
+}

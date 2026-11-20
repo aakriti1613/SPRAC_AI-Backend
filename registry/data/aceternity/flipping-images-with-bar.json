@@ -1,0 +1,75 @@
+{
+  "slug": "flipping-images-with-bar",
+  "source": "aceternity",
+  "name": "flipping-images-with-bar",
+  "kind": "ui",
+  "versions": {
+    "72a6d627945185c3fa5419b08b55bbc41955dea5c8c24ae28034fe5948bb516d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:flipping-images-with-bar@0.0.0",
+        "name": "flipping-images-with-bar",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Animated Image Carousel with Scanning Bar Reveal and Sparkle Effects",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/flipping-images-with-bar.json",
+          "ref": "aceternity",
+          "contentHash": "72a6d627945185c3fa5419b08b55bbc41955dea5c8c24ae28034fe5948bb516d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "72a6d627945185c3fa5419b08b55bbc41955dea5c8c24ae28034fe5948bb516d",
+  "quality": {}
+}

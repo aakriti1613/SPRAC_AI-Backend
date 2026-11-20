@@ -1,0 +1,88 @@
+{
+  "slug": "spotlight-new",
+  "source": "aceternity",
+  "name": "spotlight-new",
+  "kind": "component",
+  "versions": {
+    "61a5220706344136c95e0fbd9bcca41e0af7f7ef584f64da21dd844d3784fcfe": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:spotlight-new@0.0.0",
+        "name": "spotlight-new",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"spotlight-new\".",
+        "room": "hero",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/spotlight-new.json",
+          "ref": "aceternity",
+          "contentHash": "61a5220706344136c95e0fbd9bcca41e0af7f7ef584f64da21dd844d3784fcfe"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "hero",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"title\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "61a5220706344136c95e0fbd9bcca41e0af7f7ef584f64da21dd844d3784fcfe",
+  "quality": {}
+}

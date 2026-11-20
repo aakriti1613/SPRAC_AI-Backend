@@ -1,0 +1,77 @@
+{
+  "slug": "cover",
+  "source": "aceternity",
+  "name": "cover",
+  "kind": "ui",
+  "versions": {
+    "86ce3ddff2f2a41ba0d483d962f57cadd6a763c6f8bf0909f2bf40f1726cdea0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:cover@0.0.0",
+        "name": "cover",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"cover\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/cover.json",
+          "ref": "aceternity",
+          "contentHash": "86ce3ddff2f2a41ba0d483d962f57cadd6a763c6f8bf0909f2bf40f1726cdea0"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [
+            "aceternity:sparkles"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "86ce3ddff2f2a41ba0d483d962f57cadd6a763c6f8bf0909f2bf40f1726cdea0",
+  "quality": {}
+}

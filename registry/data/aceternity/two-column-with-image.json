@@ -1,0 +1,76 @@
+{
+  "slug": "two-column-with-image",
+  "source": "aceternity",
+  "name": "two-column-with-image",
+  "kind": "ui",
+  "versions": {
+    "9abeaa5137160b300654fc8b1f83591dfb94327605e01bf6a4751a2244678390": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:two-column-with-image@0.0.0",
+        "name": "two-column-with-image",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Two Column With Image",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/two-column-with-image.json",
+          "ref": "aceternity",
+          "contentHash": "9abeaa5137160b300654fc8b1f83591dfb94327605e01bf6a4751a2244678390"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react-icons": "*",
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "9abeaa5137160b300654fc8b1f83591dfb94327605e01bf6a4751a2244678390",
+  "quality": {}
+}

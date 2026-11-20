@@ -1,0 +1,79 @@
+{
+  "slug": "carbon-react/search",
+  "source": "storybook",
+  "name": "Search (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "532ab66ad6b879963cb109e480c8edd652775f47ac96418a0f45d427db8e90ec": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/search@0.0.0",
+        "name": "Search (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Search from IBM Carbon (React): 5 stories, documented.",
+        "room": "filter-bar",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-search--overview",
+          "ref": "@carbon/react",
+          "contentHash": "532ab66ad6b879963cb109e480c8edd652775f47ac96418a0f45d427db8e90ec"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "filter-bar",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "room": "filter-bar",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "532ab66ad6b879963cb109e480c8edd652775f47ac96418a0f45d427db8e90ec",
+  "quality": {
+    "hasTests": true
+  }
+}

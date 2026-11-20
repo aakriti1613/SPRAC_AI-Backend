@@ -1,0 +1,73 @@
+{
+  "slug": "draggable-card",
+  "source": "aceternity",
+  "name": "draggable-card",
+  "kind": "ui",
+  "versions": {
+    "9272de0e6a0034bbd65ccd721a62cdede1eb5ba87d2f95266f150566f71b80c2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:draggable-card@0.0.0",
+        "name": "draggable-card",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"draggable-card\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/draggable-card.json",
+          "ref": "aceternity",
+          "contentHash": "9272de0e6a0034bbd65ccd721a62cdede1eb5ba87d2f95266f150566f71b80c2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "9272de0e6a0034bbd65ccd721a62cdede1eb5ba87d2f95266f150566f71b80c2",
+  "quality": {}
+}

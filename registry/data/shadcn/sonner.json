@@ -1,0 +1,75 @@
+{
+  "slug": "sonner",
+  "source": "shadcn",
+  "name": "sonner",
+  "kind": "ui",
+  "versions": {
+    "0ad3d8d33e7ae0bfcfa44a70f70bb3c626d306b2d1e286e775efb7d0d34db1f1": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:sonner@0.0.0",
+        "name": "sonner",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"sonner\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/sonner.json",
+          "ref": "new-york-v4",
+          "contentHash": "0ad3d8d33e7ae0bfcfa44a70f70bb3c626d306b2d1e286e775efb7d0d34db1f1"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "sonner": "*",
+            "next-themes": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "also-in:crud-modern-new-temp"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "0ad3d8d33e7ae0bfcfa44a70f70bb3c626d306b2d1e286e775efb7d0d34db1f1",
+  "quality": {}
+}

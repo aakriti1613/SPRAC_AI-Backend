@@ -1,0 +1,23 @@
+{
+  "slug": "edge-dup",
+  "appName": "Edge Dup",
+  "modules": [
+    {
+      "id": "x",
+      "singularName": "X",
+      "pluralName": "Xs",
+      "fields": [
+        {
+          "key": "a",
+          "label": "A",
+          "type": "text"
+        },
+        {
+          "key": "a",
+          "label": "A2",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

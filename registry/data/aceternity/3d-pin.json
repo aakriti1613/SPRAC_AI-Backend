@@ -1,0 +1,75 @@
+{
+  "slug": "3d-pin",
+  "source": "aceternity",
+  "name": "3d-pin",
+  "kind": "ui",
+  "versions": {
+    "f664136fb2eaae3323e8bbfbc6657a662974ac733ad4b7ba10ea21373372bac3": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:3d-pin@0.0.0",
+        "name": "3d-pin",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"3d-pin\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/3d-pin.json",
+          "ref": "aceternity",
+          "contentHash": "f664136fb2eaae3323e8bbfbc6657a662974ac733ad4b7ba10ea21373372bac3"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "f664136fb2eaae3323e8bbfbc6657a662974ac733ad4b7ba10ea21373372bac3",
+  "quality": {}
+}

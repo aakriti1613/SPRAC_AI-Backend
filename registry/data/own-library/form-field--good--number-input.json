@@ -1,0 +1,130 @@
+{
+  "slug": "form-field/good/number-input",
+  "source": "own-library",
+  "name": "Good form-field (number-input)",
+  "kind": "component",
+  "versions": {
+    "62b7b0ffd73f2b10bb2cac166396d2cf37f001b3477baea9e32f3a459b6ee4a9": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:form-field/good/number-input@1.0.0",
+        "name": "Good form-field (number-input)",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good form-field: ONE input for one field type (text, currency, date…). Each component declares which field types it supports.",
+        "room": "form-field",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/form-field/good/number-input/index.tsx",
+          "contentHash": "62b7b0ffd73f2b10bb2cac166396d2cf37f001b3477baea9e32f3a459b6ee4a9"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "disabled",
+              "kind": "boolean",
+              "required": false
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "field",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "onChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "value",
+              "kind": "unknown",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [
+            "number",
+            "currency",
+            "percentage",
+            "rating"
+          ],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "form-field",
+            "good",
+            "number",
+            "currency",
+            "percentage",
+            "rating"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "form-field",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "62b7b0ffd73f2b10bb2cac166396d2cf37f001b3477baea9e32f3a459b6ee4a9",
+  "quality": {
+    "sizeKb": 1.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

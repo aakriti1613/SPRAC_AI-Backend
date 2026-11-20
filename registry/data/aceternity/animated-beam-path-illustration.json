@@ -1,0 +1,75 @@
+{
+  "slug": "animated-beam-path-illustration",
+  "source": "aceternity",
+  "name": "animated-beam-path-illustration",
+  "kind": "ui",
+  "versions": {
+    "94a6edcb50655579eabdfc18593093b7af21fedbf7f4a94843af7ba66a0bf8aa": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:animated-beam-path-illustration@0.0.0",
+        "name": "animated-beam-path-illustration",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Animated beam path illustration with glowing SVG animation following a dotted path",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/animated-beam-path-illustration.json",
+          "ref": "aceternity",
+          "contentHash": "94a6edcb50655579eabdfc18593093b7af21fedbf7f4a94843af7ba66a0bf8aa"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "94a6edcb50655579eabdfc18593093b7af21fedbf7f4a94843af7ba66a0bf8aa",
+  "quality": {}
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "background-gradient",
+  "source": "aceternity",
+  "name": "background-gradient",
+  "kind": "ui",
+  "versions": {
+    "cf4d59333bbdae00520bab3338448659ece027c0c68136e2531c78e78b19a0de": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:background-gradient@0.0.0",
+        "name": "background-gradient",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"background-gradient\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/background-gradient.json",
+          "ref": "aceternity",
+          "contentHash": "cf4d59333bbdae00520bab3338448659ece027c0c68136e2531c78e78b19a0de"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "cf4d59333bbdae00520bab3338448659ece027c0c68136e2531c78e78b19a0de",
+  "quality": {}
+}

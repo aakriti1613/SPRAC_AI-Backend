@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "templateId": "portal-admin",
+  "slug": "preset-healthcare",
+  "portalName": "preset-healthcare",
+  "appName": "Acme Admin",
+  "industry": "healthcare",
+  "themePreset": "blue",
+  "type": "admin",
+  "themeColor": "#0f766e",
+  "logoText": "AA",
+  "logoUrl": "",
+  "auth": {
+    "screens": {
+      "login": true,
+      "signup": true,
+      "forgotPassword": false
+    },
+    "method": "email-password"
+  },
+  "dashboard": {
+    "enabled": true,
+    "template": "stats-overview",
+    "style": "healthcare"
+  },
+  "loginPage": {
+    "portalName": "Acme Admin",
+    "badge": "Care Operations",
+    "headline": "Coordinate care records with clarity",
+    "highlightText": "care records",
+    "description": "Track visits, appointments, teams, and operational workflows from one secure portal.",
+    "features": [
+      {
+        "title": "Secure Access",
+        "description": "Enterprise-grade authentication for authorized users."
+      },
+      {
+        "title": "Self Service",
+        "description": "Manage records, workflows, and operations from one dashboard."
+      }
+    ],
+    "footerText": "Secure care operations portal"
+  },
+  "footer": {
+    "text": "Secure care operations portal"
+  },
+  "company": {
+    "name": "Acme Admin",
+    "website": "",
+    "supportEmail": "",
+    "address": ""
+  },
+  "profile": {
+    "enabled": true
+  },
+  "modules": [
+    {
+      "id": "patients",
+      "singularName": "Patient",
+      "pluralName": "Patients",
+      "icon": "UserRound",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "field-y2c2cx",
+          "label": "Patient Name",
+          "key": "name",
+          "type": "text",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-tmnc7x",
+          "label": "Mobile",
+          "key": "mobile",
+          "type": "phone",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-am8km1",
+          "label": "Visit Date",
+          "key": "visit_date",
+          "type": "date",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-hlpsp6",
+          "label": "Care Status",
+          "key": "care_status",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "New",
+            "In Care",
+            "Follow Up",
+            "Closed"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-y2ng6n",
+          "label": "Notes",
+          "key": "notes",
+          "type": "textarea",
+          "required": false,
+          "width": "full",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        }
+      ],
+      "listColumns": [
+        "name",
+        "mobile",
+        "visit_date",
+        "care_status"
+      ],
+      "tableFeatures": {
+        "sort": true,
+        "filter": true,
+        "search": true,
+        "pagination": true,
+        "export": true
+      }
+    },
+    {
+      "id": "appointments",
+      "singularName": "Appointment",
+      "pluralName": "Appointments",
+      "icon": "CalendarClock",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "field-awbk7v",
+          "label": "Patient Name",
+          "key": "patient_name",
+          "type": "text",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-vpp8j3",
+          "label": "Appointment Date",
+          "key": "appointment_date",
+          "type": "date",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-yzosl6",
+          "label": "Department",
+          "key": "department",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "OPD",
+            "Diagnostics",
+            "Pharmacy",
+            "Follow Up"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-6ju0d9",
+          "label": "Status",
+          "key": "status",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Scheduled",
+            "Completed",
+            "Cancelled"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        }
+      ],
+      "listColumns": [
+        "patient_name",
+        "appointment_date",
+        "department",
+        "status"
+      ],
+      "tableFeatures": {
+        "sort": true,
+        "filter": true,
+        "search": true,
+        "pagination": true,
+        "export": true
+      }
+    }
+  ]
+}

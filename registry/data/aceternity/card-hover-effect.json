@@ -1,0 +1,91 @@
+{
+  "slug": "card-hover-effect",
+  "source": "aceternity",
+  "name": "card-hover-effect",
+  "kind": "component",
+  "versions": {
+    "d5a161fe34e5efde3eebe6b6e079fc7a3cfcdaea651af2cf3aedbd6955040db3": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:card-hover-effect@0.0.0",
+        "name": "card-hover-effect",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"card-hover-effect\".",
+        "room": "services",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/card-hover-effect.json",
+          "ref": "aceternity",
+          "contentHash": "d5a161fe34e5efde3eebe6b6e079fc7a3cfcdaea651af2cf3aedbd6955040db3"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "services",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "d5a161fe34e5efde3eebe6b6e079fc7a3cfcdaea651af2cf3aedbd6955040db3",
+  "quality": {}
+}

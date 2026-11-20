@@ -1,0 +1,126 @@
+{
+  "slug": "file-upload/basic/sparc",
+  "source": "own-library",
+  "name": "Basic file-upload",
+  "kind": "component",
+  "versions": {
+    "b900405479f8391e424ebdbca40a288efa4228a1f7889a0e589934918cf62d22": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:file-upload/basic/sparc@1.0.0",
+        "name": "Basic file-upload",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic file-upload: Drop zone / picker for files. The shell uploads them.",
+        "room": "file-upload",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/file-upload/basic/sparc/index.tsx",
+          "contentHash": "b900405479f8391e424ebdbca40a288efa4228a1f7889a0e589934918cf62d22"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "accept",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "maxSizeMb",
+              "kind": "number",
+              "required": false
+            },
+            {
+              "name": "multiple",
+              "kind": "boolean",
+              "required": false
+            },
+            {
+              "name": "onUpload",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "uploading",
+              "kind": "boolean",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "file-upload",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "file-upload",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "b900405479f8391e424ebdbca40a288efa4228a1f7889a0e589934918cf62d22",
+  "quality": {
+    "sizeKb": 1.3,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "grid-pattern",
+  "source": "magicui",
+  "name": "Grid Pattern",
+  "kind": "ui",
+  "versions": {
+    "ba70987fae25bde6070ceec51a2069ef52f68c12c3195e0d59b9b07e266e3bf0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:grid-pattern@0.0.0",
+        "name": "Grid Pattern",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A background grid pattern made with SVGs, fully customizable using Tailwind CSS.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/grid-pattern.json",
+          "ref": "magicui",
+          "contentHash": "ba70987fae25bde6070ceec51a2069ef52f68c12c3195e0d59b9b07e266e3bf0"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "ba70987fae25bde6070ceec51a2069ef52f68c12c3195e0d59b9b07e266e3bf0",
+  "quality": {}
+}

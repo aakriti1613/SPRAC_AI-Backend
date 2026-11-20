@@ -1,0 +1,87 @@
+{
+  "slug": "@patternfly/react-table",
+  "source": "npm",
+  "name": "@patternfly/react-table",
+  "kind": "library",
+  "versions": {
+    "a731e89b47e80d7cc2b1cd7f0a6861d3a70dd6ca21c1c2b90705226dc76b2582": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:@patternfly/react-table@6.7.0",
+        "name": "@patternfly/react-table",
+        "version": "6.7.0",
+        "kind": "library",
+        "summary": "This library provides a set of React table components for use with the PatternFly 4",
+        "room": "data-table",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/@patternfly/react-table",
+          "ref": "6.7.0",
+          "contentHash": "a731e89b47e80d7cc2b1cd7f0a6861d3a70dd6ca21c1c2b90705226dc76b2582"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "^17 || ^18 || ^19",
+            "react-dom": "^17 || ^18 || ^19"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^17 || ^18 || ^19",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data-table",
+          "tags": [
+            "react",
+            "patternfly",
+            "table",
+            "query:react table"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "data-table",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a731e89b47e80d7cc2b1cd7f0a6861d3a70dd6ca21c1c2b90705226dc76b2582",
+  "quality": {
+    "downloads": 480651,
+    "lastPublish": "2026-10-15T19:08:06.356Z",
+    "hasTypes": true
+  }
+}

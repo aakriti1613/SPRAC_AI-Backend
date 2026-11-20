@@ -1,0 +1,73 @@
+{
+  "slug": "dither-shader",
+  "source": "aceternity",
+  "name": "dither-shader",
+  "kind": "ui",
+  "versions": {
+    "544d752e779c980074291a0de9daae9ce0ecc706880ff20042feb76bd66c8fd8": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:dither-shader@0.0.0",
+        "name": "dither-shader",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"dither-shader\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/dither-shader.json",
+          "ref": "aceternity",
+          "contentHash": "544d752e779c980074291a0de9daae9ce0ecc706880ff20042feb76bd66c8fd8"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "544d752e779c980074291a0de9daae9ce0ecc706880ff20042feb76bd66c8fd8",
+  "quality": {}
+}

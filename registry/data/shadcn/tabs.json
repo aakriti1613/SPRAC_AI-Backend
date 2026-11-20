@@ -1,0 +1,76 @@
+{
+  "slug": "tabs",
+  "source": "shadcn",
+  "name": "tabs",
+  "kind": "ui",
+  "versions": {
+    "f0b7c13bdad5f99c05091b11d4d68cf15008a92274110a430c3ee66135dba138": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:tabs@0.0.0",
+        "name": "tabs",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"tabs\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/tabs.json",
+          "ref": "new-york-v4",
+          "contentHash": "f0b7c13bdad5f99c05091b11d4d68cf15008a92274110a430c3ee66135dba138"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "also-in:crud-modern-new-temp"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "f0b7c13bdad5f99c05091b11d4d68cf15008a92274110a430c3ee66135dba138",
+  "quality": {}
+}

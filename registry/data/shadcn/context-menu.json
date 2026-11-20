@@ -1,0 +1,74 @@
+{
+  "slug": "context-menu",
+  "source": "shadcn",
+  "name": "context-menu",
+  "kind": "ui",
+  "versions": {
+    "548941515a4b94f1d8532684dffbf40d3dc3fab2100ddbb91f9e83440c275311": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:context-menu@0.0.0",
+        "name": "context-menu",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"context-menu\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/context-menu.json",
+          "ref": "new-york-v4",
+          "contentHash": "548941515a4b94f1d8532684dffbf40d3dc3fab2100ddbb91f9e83440c275311"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "548941515a4b94f1d8532684dffbf40d3dc3fab2100ddbb91f9e83440c275311",
+  "quality": {}
+}

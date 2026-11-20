@@ -1,0 +1,77 @@
+{
+  "slug": "confetti",
+  "source": "magicui",
+  "name": "Confetti",
+  "kind": "ui",
+  "versions": {
+    "af16e8f9c9d458a5600f95f47bfdc265f130e5634099ef22315d83e06ba45bde": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:confetti@0.0.0",
+        "name": "Confetti",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Confetti animations are best used to delight your users when something special happens",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/confetti.json",
+          "ref": "magicui",
+          "contentHash": "af16e8f9c9d458a5600f95f47bfdc265f130e5634099ef22315d83e06ba45bde"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "canvas-confetti": "*",
+            "@types/canvas-confetti": "*"
+          },
+          "peer": {},
+          "registry": [
+            "magicui:button"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "af16e8f9c9d458a5600f95f47bfdc265f130e5634099ef22315d83e06ba45bde",
+  "quality": {}
+}

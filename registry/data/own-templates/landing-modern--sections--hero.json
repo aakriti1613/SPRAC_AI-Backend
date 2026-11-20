@@ -1,0 +1,94 @@
+{
+  "slug": "landing-modern/sections/hero",
+  "source": "own-templates",
+  "name": "Hero section (landing-modern)",
+  "kind": "component",
+  "versions": {
+    "c64fbf2d2ce1667e515e08439bcf94caa5eaf5705eeaef559a9ef0ae8db76204": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:landing-modern/sections/hero@0.1.0",
+        "name": "Hero section (landing-modern)",
+        "version": "0.1.0",
+        "kind": "component",
+        "summary": "Page section \"Hero\" from the landing-modern landing template.",
+        "room": "hero",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "landing-modern/src/components/sections/Hero.jsx",
+          "contentHash": "c64fbf2d2ce1667e515e08439bcf94caa5eaf5705eeaef559a9ef0ae8db76204"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "*",
+            "framer-motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "language": "js"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "legacy",
+            "section",
+            "landing-modern"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.7
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "room": "hero",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "reads the template's config singleton instead of taking props (must be rewritten to accept its room's props)",
+    "contract: does not accept required prop \"title\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "c64fbf2d2ce1667e515e08439bcf94caa5eaf5705eeaef559a9ef0ae8db76204",
+  "quality": {}
+}

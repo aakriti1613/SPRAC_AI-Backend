@@ -1,0 +1,75 @@
+{
+  "slug": "background-lines--ui",
+  "source": "aceternity",
+  "name": "background-lines",
+  "kind": "ui",
+  "versions": {
+    "2ee1c6398a97aa8105a9278dd9416db13f30fccd8d0a1f503d15cd08fa6c96ae": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:background-lines--ui@0.0.0",
+        "name": "background-lines",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"background-lines\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/background-lines.json",
+          "ref": "aceternity",
+          "contentHash": "2ee1c6398a97aa8105a9278dd9416db13f30fccd8d0a1f503d15cd08fa6c96ae"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "2ee1c6398a97aa8105a9278dd9416db13f30fccd8d0a1f503d15cd08fa6c96ae",
+  "quality": {}
+}

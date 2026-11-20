@@ -1,0 +1,91 @@
+{
+  "slug": "cta-centered-masonry-gallery",
+  "source": "aceternity",
+  "name": "cta-centered-masonry-gallery",
+  "kind": "component",
+  "versions": {
+    "b4f410937c2cf1c2e481e40eb00b0e86073a004c40020a94ecace53a28ef3c68": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:cta-centered-masonry-gallery@0.0.0",
+        "name": "cta-centered-masonry-gallery",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "CTA Centered Masonry Gallery",
+        "room": "gallery",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/cta-centered-masonry-gallery.json",
+          "ref": "aceternity",
+          "contentHash": "b4f410937c2cf1c2e481e40eb00b0e86073a004c40020a94ecace53a28ef3c68"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "gallery",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"images\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "b4f410937c2cf1c2e481e40eb00b0e86073a004c40020a94ecace53a28ef3c68",
+  "quality": {}
+}

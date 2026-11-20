@@ -1,0 +1,76 @@
+{
+  "slug": "chart-area-stacked-expand",
+  "source": "shadcn",
+  "name": "chart-area-stacked-expand",
+  "kind": "ui",
+  "versions": {
+    "7762c2b619dc566cd0b2bb0102ae51040944037db6ec89a79853f8204e8d78e5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-area-stacked-expand@0.0.0",
+        "name": "chart-area-stacked-expand",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-area-stacked-expand\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-area-stacked-expand.json",
+          "ref": "new-york-v4",
+          "contentHash": "7762c2b619dc566cd0b2bb0102ae51040944037db6ec89a79853f8204e8d78e5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-area"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "7762c2b619dc566cd0b2bb0102ae51040944037db6ec89a79853f8204e8d78e5",
+  "quality": {}
+}

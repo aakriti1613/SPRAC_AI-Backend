@@ -1,0 +1,89 @@
+{
+  "slug": "react-dropzone",
+  "source": "npm",
+  "name": "react-dropzone",
+  "kind": "library",
+  "versions": {
+    "cdecf1afcb8b45e178906243a557078573feb690ea0fcdcc91d0e493ebde5e83": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-dropzone@20.2.0",
+        "name": "react-dropzone",
+        "version": "20.2.0",
+        "kind": "library",
+        "summary": "Simple HTML5 drag-drop zone with React.js",
+        "room": "file-upload",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-dropzone",
+          "ref": "20.2.0",
+          "contentHash": "cdecf1afcb8b45e178906243a557078573feb690ea0fcdcc91d0e493ebde5e83"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">= 18",
+            "@types/react": "*"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">= 18",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "file-upload",
+          "tags": [
+            "drag",
+            "drop",
+            "react",
+            "react-component",
+            "upload",
+            "query:react dropzone"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "file-upload",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "cdecf1afcb8b45e178906243a557078573feb690ea0fcdcc91d0e493ebde5e83",
+  "quality": {
+    "downloads": 75902508,
+    "lastPublish": "2026-11-08T05:42:52.122Z",
+    "hasTypes": true
+  }
+}

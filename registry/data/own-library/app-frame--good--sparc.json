@@ -1,0 +1,128 @@
+{
+  "slug": "app-frame/good/sparc",
+  "source": "own-library",
+  "name": "Good app-frame",
+  "kind": "component",
+  "versions": {
+    "257809f6871a7ba35f2008bd3644f3c7e189088ef049d41665c5a7acd9837aac": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:app-frame/good/sparc@1.0.0",
+        "name": "Good app-frame",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good app-frame: Signed-in layout: sidebar or topbar navigation, user menu, page content.",
+        "room": "app-frame",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/app-frame/good/sparc/index.tsx",
+          "contentHash": "257809f6871a7ba35f2008bd3644f3c7e189088ef049d41665c5a7acd9837aac"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "brand",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "children",
+              "kind": "node",
+              "required": true
+            },
+            {
+              "name": "navItems",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "onLogout",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "pageTitle",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "user",
+              "kind": "object",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "layout",
+          "tags": [
+            "app-frame",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "app-frame",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "257809f6871a7ba35f2008bd3644f3c7e189088ef049d41665c5a7acd9837aac",
+  "quality": {
+    "sizeKb": 2,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

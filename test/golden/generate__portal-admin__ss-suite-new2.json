@@ -1,0 +1,538 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "projectName": "t-ss-suite-new2-portal-admin",
+    "path": "<tmp>/t-ss-suite-new2-portal-admin",
+    "warnings": [],
+    "templateId": "portal-admin",
+    "requestedTemplateId": "portal-admin",
+    "message": "Project \"t-ss-suite-new2-portal-admin\" generated from template \"portal-admin\"."
+  },
+  "files": {
+    "src/portal-config.json": {
+      "portalName": "SS Suite New2",
+      "logo": {
+        "src": "",
+        "alt": "SS Suite New2",
+        "width": 140,
+        "text": "SS"
+      },
+      "theme": {
+        "mode": "system",
+        "tokens": {
+          "primary": "243 75% 59%",
+          "ring": "243 75% 59%",
+          "radius": "0.75rem",
+          "brand-primary": "#4f46e5",
+          "brand-accent": "#645ce8",
+          "gradient-start": "#4f46e5",
+          "gradient-end": "#4139bc",
+          "primary-hover": "244 53% 48%",
+          "primary-light": "243 76% 95%",
+          "sidebar-ring": "243 75% 59%",
+          "auth-panel-orb": "243 75% 59%",
+          "brand-primary-hover": "#4139bc",
+          "brand-primary-light": "#eae9fc",
+          "brand-primary-rgb": "79, 70, 229",
+          "brand-accent-2": "#c7c4f7",
+          "brand-accent-rgb": "100, 92, 232",
+          "brand-accent-2-rgb": "199, 196, 247",
+          "chart-primary": "#4f46e5",
+          "chart-secondary": "#645ce8",
+          "chart-tertiary": "#c7c4f7"
+        },
+        "name": "indigo",
+        "primary": "#4f46e5",
+        "primaryHover": "#4139bc",
+        "primaryLight": "#eae9fc",
+        "accent": "#645ce8"
+      },
+      "dashboard": {
+        "enabled": true,
+        "template": "stats-overview",
+        "style": "crm",
+        "heroTitle": "Manage leads, customers, and sales operations from one platform",
+        "heroSubtitle": "A complete CRM solution for managing customer relationships, sales opportunities, and business growth.",
+        "primaryActions": [
+          {
+            "title": "Leads",
+            "description": "Manage leads records",
+            "icon": "UserPlus",
+            "href": "/organization/crud/leads",
+            "gradient": "gradient-primary"
+          },
+          {
+            "title": "Customers",
+            "description": "Manage customers records",
+            "icon": "Users",
+            "href": "/organization/crud/customers",
+            "gradient": "gradient-primary"
+          },
+          {
+            "title": "Opportunities",
+            "description": "Manage opportunities records",
+            "icon": "Target",
+            "href": "/organization/crud/opportunities",
+            "gradient": "gradient-primary"
+          }
+        ],
+        "secondaryActions": [
+          {
+            "title": "Activities",
+            "description": "Manage activities records",
+            "icon": "Calendar",
+            "href": "/organization/crud/activities",
+            "gradient": "gradient-primary"
+          }
+        ],
+        "sectionTitle": "More Modules",
+        "emptyTitle": "No modules configured",
+        "emptyDescription": "Add CRUD modules in the platform wizard to populate this dashboard."
+      },
+      "navigation": [
+        {
+          "label": "Dashboard",
+          "icon": "LayoutDashboard",
+          "path": "/organization/dashboard",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Leads",
+          "icon": "UserPlus",
+          "path": "/organization/crud/leads",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Customers",
+          "icon": "Users",
+          "path": "/organization/crud/customers",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Opportunities",
+          "icon": "Target",
+          "path": "/organization/crud/opportunities",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Activities",
+          "icon": "Calendar",
+          "path": "/organization/crud/activities",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Profile",
+          "icon": "UserRound",
+          "path": "/organization/profile",
+          "permission": "dashboard:read"
+        }
+      ],
+      "entities": [],
+      "appName": "SS Suite New2",
+      "industry": "crm",
+      "themePreset": "indigo",
+      "runtime": {
+        "legacyRoutesEnabled": false,
+        "blockMobile": false
+      },
+      "auth": {
+        "screens": {
+          "login": true,
+          "signup": true,
+          "forgotPassword": false
+        },
+        "method": "email-password"
+      },
+      "footer": {
+        "text": "Powered by SS Suite Technologies"
+      },
+      "company": {
+        "name": "SS Suite Technologies",
+        "website": "https://sssuite.com",
+        "supportEmail": "support@sssuite.com",
+        "address": ""
+      },
+      "loginPage": {
+        "portalName": "SS Suite New2",
+        "badge": "Customer Relationship Management",
+        "headline": "Manage leads, customers, and sales operations from one platform",
+        "highlightText": "customers",
+        "description": "A complete CRM solution for managing customer relationships, sales opportunities, and business growth.",
+        "features": [
+          {
+            "title": "Lead Management",
+            "description": "Capture, organize, and convert prospects efficiently."
+          },
+          {
+            "title": "Sales Pipeline",
+            "description": "Track opportunities from first contact to successful closure."
+          },
+          {
+            "title": "Customer Insights",
+            "description": "Maintain complete customer records and communication history."
+          }
+        ],
+        "footerText": "Powered by SS Suite Technologies"
+      },
+      "generatedModules": [
+        {
+          "id": "leads",
+          "tableName": "leads",
+          "singularName": "Lead",
+          "pluralName": "Leads",
+          "icon": "UserPlus",
+          "permissions": {
+            "read": "leads:read",
+            "write": "leads:write",
+            "delete": "leads:delete"
+          },
+          "fields": [
+            {
+              "key": "lead_name",
+              "label": "Lead Name",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "email",
+              "label": "Email",
+              "type": "email",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "type": "phone",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "company_name",
+              "label": "Company Name",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "lead_source",
+              "label": "Lead Source",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Website",
+                "Referral",
+                "LinkedIn",
+                "Advertisement",
+                "Cold Outreach"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "status",
+              "label": "Status",
+              "type": "select",
+              "required": true,
+              "options": [
+                "New",
+                "Contacted",
+                "Qualified",
+                "Proposal Sent",
+                "Won",
+                "Lost"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "lead_name",
+            "company_name",
+            "email",
+            "status"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        },
+        {
+          "id": "customers",
+          "tableName": "customers",
+          "singularName": "Customer",
+          "pluralName": "Customers",
+          "icon": "Users",
+          "permissions": {
+            "read": "customers:read",
+            "write": "customers:write",
+            "delete": "customers:delete"
+          },
+          "fields": [
+            {
+              "key": "customer_name",
+              "label": "Customer Name",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "email",
+              "label": "Email",
+              "type": "email",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "phone",
+              "label": "Phone Number",
+              "type": "phone",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "tier",
+              "label": "Customer Tier",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Bronze",
+                "Silver",
+                "Gold",
+                "Enterprise"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "active",
+              "label": "Active Customer",
+              "type": "toggle",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "tags",
+              "label": "Tags",
+              "type": "tags",
+              "required": false,
+              "width": "full",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "customer_name",
+            "email",
+            "phone",
+            "tier",
+            "active"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        },
+        {
+          "id": "opportunities",
+          "tableName": "opportunities",
+          "singularName": "Opportunity",
+          "pluralName": "Opportunities",
+          "icon": "Target",
+          "permissions": {
+            "read": "opportunities:read",
+            "write": "opportunities:write",
+            "delete": "opportunities:delete"
+          },
+          "fields": [
+            {
+              "key": "opportunity_name",
+              "label": "Opportunity Name",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "customer",
+              "label": "Customer",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "stage",
+              "label": "Stage",
+              "type": "select",
+              "required": true,
+              "options": [
+                "Discovery",
+                "Qualification",
+                "Proposal",
+                "Negotiation",
+                "Closed Won",
+                "Closed Lost"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "deal_value",
+              "label": "Deal Value",
+              "type": "currency",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "expected_close_date",
+              "label": "Expected Close Date",
+              "type": "date",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "opportunity_name",
+            "customer",
+            "stage",
+            "deal_value",
+            "expected_close_date"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        },
+        {
+          "id": "activities",
+          "tableName": "activities",
+          "singularName": "Activity",
+          "pluralName": "Activities",
+          "icon": "Calendar",
+          "permissions": {
+            "read": "activities:read",
+            "write": "activities:write",
+            "delete": "activities:delete"
+          },
+          "fields": [
+            {
+              "key": "activity_title",
+              "label": "Activity Title",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "activity_type",
+              "label": "Activity Type",
+              "type": "radio",
+              "required": true,
+              "options": [
+                "Call",
+                "Meeting",
+                "Email",
+                "Demo",
+                "Follow Up"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "assigned_to",
+              "label": "Assigned To",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "due_date",
+              "label": "Due Date",
+              "type": "date",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "completed",
+              "label": "Completed",
+              "type": "checkbox",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "description",
+              "label": "Description",
+              "type": "textarea",
+              "required": false,
+              "width": "full",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "activity_title",
+            "activity_type",
+            "assigned_to",
+            "due_date",
+            "completed"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        }
+      ]
+    },
+    "supabase/schema.sql": "CREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE TABLE IF NOT EXISTS organizations (\n  id          uuid primary key default gen_random_uuid(),\n  name        text not null,\n  created_at  timestamptz not null default now(),\n  updated_at  timestamptz not null default now()\n);\n\nCREATE TABLE IF NOT EXISTS organization_users (\n  id                        uuid primary key default gen_random_uuid(),\n  auth_user_id              uuid unique,\n  first_name                text default '',\n  last_name                 text default '',\n  email                     text not null unique,\n  phone_number              text default '',\n  country_code              text default '+1',\n  organization_id           uuid references organizations(id) on delete cascade,\n  role                      text not null default 'Organization User',\n  status                    text not null default 'Active',\n  account_ids               jsonb not null default '[]',\n  accounts                  jsonb not null default '[]',\n  is_acknowledged           boolean not null default true,\n  is_two_factor_enabled     boolean not null default false,\n  requires_password_change  boolean not null default false,\n  subscription_id           text,\n  profile_photo_url         text default '',\n  created_at                timestamptz not null default now(),\n  updated_at                timestamptz not null default now()\n);\n\nDO $$\nDECLARE t text;\nBEGIN\n  FOREACH t IN ARRAY ARRAY['organizations','organization_users']\n  LOOP\n    EXECUTE format('ALTER TABLE %I ENABLE ROW LEVEL SECURITY;', t);\n    EXECUTE format('DROP POLICY IF EXISTS \"authenticated_system_access\" ON %I;', t);\n    EXECUTE format(\n      'CREATE POLICY \"authenticated_system_access\" ON %I FOR ALL TO authenticated USING (true) WITH CHECK (true);', t\n    );\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO authenticated;', t);\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO service_role;', t);\n  END LOOP;\nEND $$;\n\nCREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE OR REPLACE FUNCTION public.set_updated_at()\nRETURNS TRIGGER AS $$\nBEGIN\n  NEW.updated_at = now();\n  RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TABLE IF NOT EXISTS public.\"leads\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"lead_name\" TEXT NOT NULL,\n  \"email\" TEXT NOT NULL,\n  \"phone\" TEXT NOT NULL,\n  \"company_name\" TEXT NOT NULL,\n  \"lead_source\" TEXT NOT NULL,\n  \"status\" TEXT NOT NULL\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"leads\" ADD COLUMN IF NOT EXISTS \"lead_name\" TEXT;\nALTER TABLE public.\"leads\" ADD COLUMN IF NOT EXISTS \"email\" TEXT;\nALTER TABLE public.\"leads\" ADD COLUMN IF NOT EXISTS \"phone\" TEXT;\nALTER TABLE public.\"leads\" ADD COLUMN IF NOT EXISTS \"company_name\" TEXT;\nALTER TABLE public.\"leads\" ADD COLUMN IF NOT EXISTS \"lead_source\" TEXT;\nALTER TABLE public.\"leads\" ADD COLUMN IF NOT EXISTS \"status\" TEXT;\n\nALTER TABLE public.\"leads\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_leads\" ON public.\"leads\";\nCREATE POLICY \"authenticated_full_access_leads\"\n  ON public.\"leads\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"leads\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"leads\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"leads_set_updated_at\" ON public.\"leads\";\nCREATE TRIGGER \"leads_set_updated_at\"\n  BEFORE UPDATE ON public.\"leads\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE TABLE IF NOT EXISTS public.\"customers\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"customer_name\" TEXT NOT NULL,\n  \"email\" TEXT NOT NULL,\n  \"phone\" TEXT NOT NULL,\n  \"tier\" TEXT NOT NULL,\n  \"active\" BOOLEAN,\n  \"tags\" TEXT[]\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"customer_name\" TEXT;\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"email\" TEXT;\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"phone\" TEXT;\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"tier\" TEXT;\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"active\" BOOLEAN;\nALTER TABLE public.\"customers\" ADD COLUMN IF NOT EXISTS \"tags\" TEXT[];\n\nALTER TABLE public.\"customers\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_customers\" ON public.\"customers\";\nCREATE POLICY \"authenticated_full_access_customers\"\n  ON public.\"customers\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"customers\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"customers\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"customers_set_updated_at\" ON public.\"customers\";\nCREATE TRIGGER \"customers_set_updated_at\"\n  BEFORE UPDATE ON public.\"customers\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE TABLE IF NOT EXISTS public.\"opportunities\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"opportunity_name\" TEXT NOT NULL,\n  \"customer\" TEXT NOT NULL,\n  \"stage\" TEXT NOT NULL,\n  \"deal_value\" NUMERIC NOT NULL,\n  \"expected_close_date\" DATE NOT NULL\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"opportunities\" ADD COLUMN IF NOT EXISTS \"opportunity_name\" TEXT;\nALTER TABLE public.\"opportunities\" ADD COLUMN IF NOT EXISTS \"customer\" TEXT;\nALTER TABLE public.\"opportunities\" ADD COLUMN IF NOT EXISTS \"stage\" TEXT;\nALTER TABLE public.\"opportunities\" ADD COLUMN IF NOT EXISTS \"deal_value\" NUMERIC;\nALTER TABLE public.\"opportunities\" ADD COLUMN IF NOT EXISTS \"expected_close_date\" DATE;\n\nALTER TABLE public.\"opportunities\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_opportunities\" ON public.\"opportunities\";\nCREATE POLICY \"authenticated_full_access_opportunities\"\n  ON public.\"opportunities\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"opportunities\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"opportunities\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"opportunities_set_updated_at\" ON public.\"opportunities\";\nCREATE TRIGGER \"opportunities_set_updated_at\"\n  BEFORE UPDATE ON public.\"opportunities\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE TABLE IF NOT EXISTS public.\"activities\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"activity_title\" TEXT NOT NULL,\n  \"activity_type\" TEXT NOT NULL,\n  \"assigned_to\" TEXT NOT NULL,\n  \"due_date\" DATE NOT NULL,\n  \"completed\" BOOLEAN,\n  \"description\" TEXT\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"activities\" ADD COLUMN IF NOT EXISTS \"activity_title\" TEXT;\nALTER TABLE public.\"activities\" ADD COLUMN IF NOT EXISTS \"activity_type\" TEXT;\nALTER TABLE public.\"activities\" ADD COLUMN IF NOT EXISTS \"assigned_to\" TEXT;\nALTER TABLE public.\"activities\" ADD COLUMN IF NOT EXISTS \"due_date\" DATE;\nALTER TABLE public.\"activities\" ADD COLUMN IF NOT EXISTS \"completed\" BOOLEAN;\nALTER TABLE public.\"activities\" ADD COLUMN IF NOT EXISTS \"description\" TEXT;\n\nALTER TABLE public.\"activities\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_activities\" ON public.\"activities\";\nCREATE POLICY \"authenticated_full_access_activities\"\n  ON public.\"activities\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"activities\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"activities\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"activities_set_updated_at\" ON public.\"activities\";\nCREATE TRIGGER \"activities_set_updated_at\"\n  BEFORE UPDATE ON public.\"activities\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE OR REPLACE FUNCTION public.portal_group_count(\n  p_table text, p_column text, p_limit int DEFAULT 8\n)\nRETURNS TABLE(label text, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT COALESCE(NULLIF(%1$I::text, %3$L), %4$L) AS label, count(*)::bigint AS value\n       FROM public.%2$I\n      GROUP BY 1 ORDER BY 2 DESC LIMIT %5$s',\n    p_column, p_table, '', 'Unspecified', GREATEST(1, LEAST(p_limit, 50))\n  );\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_sum(p_table text, p_column text)\nRETURNS numeric\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE result numeric;\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN 0; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN 0; END IF;\n  EXECUTE format('SELECT COALESCE(SUM(%1$I), 0) FROM public.%2$I', p_column, p_table) INTO result;\n  RETURN result;\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_time_series(\n  p_table text, p_column text, p_bucket text DEFAULT 'day'\n)\nRETURNS TABLE(bucket timestamptz, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE b text;\nBEGIN\n  b := lower(coalesce(p_bucket, 'day'));\n  IF b NOT IN ('day', 'week', 'month') THEN b := 'day'; END IF;\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT date_trunc(%3$L, %1$I)::timestamptz AS bucket, count(*)::bigint AS value\n       FROM public.%2$I WHERE %1$I IS NOT NULL\n      GROUP BY 1 ORDER BY 1',\n    p_column, p_table, b\n  );\nEND;\n$$;\n\nGRANT EXECUTE ON FUNCTION public.portal_group_count(text, text, int) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_sum(text, text) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_time_series(text, text, text) TO authenticated, service_role;\n\n-- Tell PostgREST to refresh its schema cache so newly added tables/columns are\n-- immediately usable via the REST API (prevents stale \"schema cache\" errors).\nNOTIFY pgrst, 'reload schema';\n",
+    "supabase/seed.sql": "-- Production-generated portals do not include sample business records.\n-- Provisioning creates only the initial admin user and required system profile.\n"
+  }
+}

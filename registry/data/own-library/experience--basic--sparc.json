@@ -1,0 +1,106 @@
+{
+  "slug": "experience/basic/sparc",
+  "source": "own-library",
+  "name": "Basic experience",
+  "kind": "component",
+  "versions": {
+    "aa814597b7c081b29752d9a7e4781e361c3dce0d1cfe643da85450c74136a691": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:experience/basic/sparc@1.0.0",
+        "name": "Basic experience",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic experience: Work experience timeline.",
+        "room": "experience",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/experience/basic/sparc/index.tsx",
+          "contentHash": "aa814597b7c081b29752d9a7e4781e361c3dce0d1cfe643da85450c74136a691"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "experience",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "experience",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "aa814597b7c081b29752d9a7e4781e361c3dce0d1cfe643da85450c74136a691",
+  "quality": {
+    "sizeKb": 1.2,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

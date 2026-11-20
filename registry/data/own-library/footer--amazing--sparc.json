@@ -1,0 +1,125 @@
+{
+  "slug": "footer/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing footer",
+  "kind": "component",
+  "versions": {
+    "73652df4c4dc080197db4ae3f72c3ede8ff4481d4be47b8ddb2491b12794341d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:footer/amazing/sparc@1.0.0",
+        "name": "Amazing footer",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing footer: Page footer with brand, short text, links and copyright.",
+        "room": "footer",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/footer/amazing/sparc/index.tsx",
+          "contentHash": "73652df4c4dc080197db4ae3f72c3ede8ff4481d4be47b8ddb2491b12794341d"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "brand",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "copyright",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "links",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "socialLinks",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "text",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "layout",
+          "tags": [
+            "footer",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "footer",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "73652df4c4dc080197db4ae3f72c3ede8ff4481d4be47b8ddb2491b12794341d",
+  "quality": {
+    "sizeKb": 46,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

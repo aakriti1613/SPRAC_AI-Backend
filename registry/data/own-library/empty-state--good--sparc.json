@@ -1,0 +1,121 @@
+{
+  "slug": "empty-state/good/sparc",
+  "source": "own-library",
+  "name": "Good empty-state",
+  "kind": "component",
+  "versions": {
+    "ad016595441d1996a75986929404d6a603131851788560fb48bb6251910a3597": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:empty-state/good/sparc@1.0.0",
+        "name": "Good empty-state",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good empty-state: Shown when a list has no records yet.",
+        "room": "empty-state",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/empty-state/good/sparc/index.tsx",
+          "contentHash": "ad016595441d1996a75986929404d6a603131851788560fb48bb6251910a3597"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "actionLabel",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "icon",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "message",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "onAction",
+              "kind": "function",
+              "required": false
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "feedback",
+          "tags": [
+            "empty-state",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "empty-state",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "ad016595441d1996a75986929404d6a603131851788560fb48bb6251910a3597",
+  "quality": {
+    "sizeKb": 1.3,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

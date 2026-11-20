@@ -1,0 +1,104 @@
+{
+  "slug": "@patternfly/react-charts",
+  "source": "npm",
+  "name": "@patternfly/react-charts",
+  "kind": "library",
+  "versions": {
+    "95a33f25d2a4c7e46a7aed5e991b2ecf63d38f50a5a5375c661f8cc357f87191": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:@patternfly/react-charts@8.7.0",
+        "name": "@patternfly/react-charts",
+        "version": "8.7.0",
+        "kind": "library",
+        "summary": "This library provides a set of React chart components for use with the PatternFly reference implementation.",
+        "room": "dashboard-chart",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/@patternfly/react-charts",
+          "ref": "8.7.0",
+          "contentHash": "95a33f25d2a4c7e46a7aed5e991b2ecf63d38f50a5a5375c661f8cc357f87191"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "^17 || ^18 || ^19",
+            "echarts": "^5.6.0 || ^6.0.0",
+            "react-dom": "^17 || ^18 || ^19",
+            "victory-bar": "^37.3.6",
+            "victory-pie": "^37.3.6",
+            "victory-area": "^37.3.6",
+            "victory-axis": "^37.3.6",
+            "victory-core": "^37.3.6",
+            "victory-line": "^37.3.6",
+            "victory-chart": "^37.3.6",
+            "victory-group": "^37.3.6",
+            "victory-stack": "^37.3.6",
+            "victory-legend": "^37.3.6",
+            "victory-scatter": "^37.3.6",
+            "victory-tooltip": "^37.3.6",
+            "victory-box-plot": "^37.3.6",
+            "victory-zoom-container": "^37.3.6",
+            "victory-create-container": "^37.3.6",
+            "victory-cursor-container": "^37.3.6",
+            "victory-voronoi-container": "^37.3.6"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^17 || ^18 || ^19",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "dashboard-chart",
+          "tags": [
+            "react",
+            "patternfly",
+            "query:react chart"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "dashboard-chart",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "95a33f25d2a4c7e46a7aed5e991b2ecf63d38f50a5a5375c661f8cc357f87191",
+  "quality": {
+    "downloads": 220732,
+    "lastPublish": "2026-10-15T19:09:03.153Z",
+    "hasTypes": true
+  }
+}

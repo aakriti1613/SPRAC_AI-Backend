@@ -1,0 +1,75 @@
+{
+  "slug": "lines-gradient-shader",
+  "source": "aceternity",
+  "name": "lines-gradient-shader",
+  "kind": "ui",
+  "versions": {
+    "9f693bdbc48e0c565f2d15ea4fc43ac17dcf4b5f5e33d71384334129264e034e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:lines-gradient-shader@0.0.0",
+        "name": "lines-gradient-shader",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A lines gradient shader for creating animated gradient backgrounds.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/lines-gradient-shader.json",
+          "ref": "aceternity",
+          "contentHash": "9f693bdbc48e0c565f2d15ea4fc43ac17dcf4b5f5e33d71384334129264e034e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "9f693bdbc48e0c565f2d15ea4fc43ac17dcf4b5f5e33d71384334129264e034e",
+  "quality": {}
+}

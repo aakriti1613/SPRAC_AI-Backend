@@ -1,0 +1,76 @@
+{
+  "slug": "chart-radar-lines-only",
+  "source": "shadcn",
+  "name": "chart-radar-lines-only",
+  "kind": "ui",
+  "versions": {
+    "95a8db6a26d632ae09f2905ab27bc15203e8c4b382c7df69c3b93c1783748eea": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-radar-lines-only@0.0.0",
+        "name": "chart-radar-lines-only",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-radar-lines-only\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-radar-lines-only.json",
+          "ref": "new-york-v4",
+          "contentHash": "95a8db6a26d632ae09f2905ab27bc15203e8c4b382c7df69c3b93c1783748eea"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-radar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "95a8db6a26d632ae09f2905ab27bc15203e8c4b382c7df69c3b93c1783748eea",
+  "quality": {}
+}

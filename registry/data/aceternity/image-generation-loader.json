@@ -1,0 +1,73 @@
+{
+  "slug": "image-generation-loader",
+  "source": "aceternity",
+  "name": "image-generation-loader",
+  "kind": "ui",
+  "versions": {
+    "5e43b7801c69f50d741795607fa95f4bb48f5f65598281a1bb88991c7b951b9d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:image-generation-loader@0.0.0",
+        "name": "image-generation-loader",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"image-generation-loader\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/image-generation-loader.json",
+          "ref": "aceternity",
+          "contentHash": "5e43b7801c69f50d741795607fa95f4bb48f5f65598281a1bb88991c7b951b9d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "5e43b7801c69f50d741795607fa95f4bb48f5f65598281a1bb88991c7b951b9d",
+  "quality": {}
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "ant-design/ant-design-mobile",
+  "source": "github",
+  "name": "ant-design/ant-design-mobile",
+  "kind": "library",
+  "versions": {
+    "0f3ee7dc27778666feb64211aae2f3ca0d26113e049acffcc4cd9472b67c2aad": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:ant-design/ant-design-mobile@0.0.0",
+        "name": "ant-design/ant-design-mobile",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "Essential UI blocks for building mobile web apps.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/ant-design/ant-design-mobile",
+          "ref": "master",
+          "contentHash": "0f3ee7dc27778666feb64211aae2f3ca0d26113e049acffcc4cd9472b67c2aad"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "ant-design",
+            "antd",
+            "antd-mobile",
+            "javascript",
+            "mobile",
+            "react",
+            "react-components",
+            "typescript",
+            "query:topic:react-components language:TypeScript stars:>2000"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "0f3ee7dc27778666feb64211aae2f3ca0d26113e049acffcc4cd9472b67c2aad",
+  "quality": {
+    "stars": 12102,
+    "lastPublish": "2026-09-14T09:06:19Z"
+  }
+}

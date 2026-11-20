@@ -1,0 +1,242 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "projectName": "t-preset-inventory-crud-modern-new-temp",
+    "path": "<tmp>/t-preset-inventory-crud-modern-new-temp",
+    "warnings": [],
+    "templateId": "crud-modern-new-temp",
+    "requestedTemplateId": "crud-modern-new-temp",
+    "message": "Project \"t-preset-inventory-crud-modern-new-temp\" generated from template \"crud-modern-new-temp\"."
+  },
+  "files": {
+    "src/portal-config.json": {
+      "portalName": "preset-inventory",
+      "appName": "Acme Admin",
+      "industry": "inventory",
+      "logo": "",
+      "logoInitials": "AA",
+      "theme": {
+        "primary": "#059669",
+        "primaryHover": "#047b56",
+        "primaryLight": "#e1f2ed",
+        "accent": "#23a37b"
+      },
+      "loginPage": {
+        "portalName": "Acme Admin",
+        "badge": "Inventory Control",
+        "headline": "Track stock, products, and movement in real time",
+        "highlightText": "stock",
+        "description": "Manage inventory records, stock movement, suppliers, and reorder workflows from one place.",
+        "features": [
+          {
+            "title": "Secure Access",
+            "description": "Enterprise-grade authentication for authorized users.",
+            "icon": "ShieldCheck"
+          },
+          {
+            "title": "Self Service",
+            "description": "Manage records, workflows, and operations from one dashboard.",
+            "icon": "LayoutGrid"
+          }
+        ],
+        "footerText": "Inventory operations portal"
+      },
+      "routes": {
+        "loginPath": "/login",
+        "appBasePath": "/organization",
+        "dashboardPath": "/organization/dashboard",
+        "profilePath": "/organization/profile"
+      },
+      "dashboard": {
+        "enabled": true,
+        "label": "Dashboard",
+        "icon": "LayoutDashboard",
+        "title": "Acme Admin",
+        "description": "Acme Admin operational overview",
+        "widgets": [
+          "module-counts",
+          "currency-sum",
+          "status-breakdown",
+          "created-trend"
+        ]
+      },
+      "footer": {
+        "text": "Inventory operations portal"
+      },
+      "company": {
+        "name": "Acme Admin",
+        "website": "",
+        "address": ""
+      },
+      "support": {
+        "email": "",
+        "phone": "",
+        "helpUrl": ""
+      },
+      "featureFlags": {
+        "profile": true,
+        "signup": true
+      },
+      "generatedModules": [
+        {
+          "id": "products",
+          "tableName": "products",
+          "singularName": "Product",
+          "pluralName": "Products",
+          "icon": "Package",
+          "permissions": {
+            "read": "products:read",
+            "write": "products:write",
+            "delete": "products:delete"
+          },
+          "fields": [
+            {
+              "key": "name",
+              "label": "Product Name",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "sku",
+              "label": "SKU",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "category",
+              "label": "Category",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Raw Material",
+                "Finished Goods",
+                "Packaging",
+                "Spare Parts"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "stock_quantity",
+              "label": "Stock Quantity",
+              "type": "number",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "reorder_level",
+              "label": "Reorder Level",
+              "type": "number",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "name",
+            "sku",
+            "category",
+            "stock_quantity"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        },
+        {
+          "id": "stock-movements",
+          "tableName": "stock_movements",
+          "singularName": "Stock Movement",
+          "pluralName": "Stock Movements",
+          "icon": "Truck",
+          "permissions": {
+            "read": "stock_movements:read",
+            "write": "stock_movements:write",
+            "delete": "stock_movements:delete"
+          },
+          "fields": [
+            {
+              "key": "sku",
+              "label": "Product SKU",
+              "type": "text",
+              "required": true,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "movement_type",
+              "label": "Movement Type",
+              "type": "select",
+              "required": false,
+              "options": [
+                "Inward",
+                "Outward",
+                "Adjustment"
+              ],
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "quantity",
+              "label": "Quantity",
+              "type": "number",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "movement_date",
+              "label": "Movement Date",
+              "type": "date",
+              "required": false,
+              "width": "half",
+              "placeholder": "",
+              "helpText": ""
+            },
+            {
+              "key": "reference",
+              "label": "Reference",
+              "type": "text",
+              "required": false,
+              "width": "full",
+              "placeholder": "",
+              "helpText": ""
+            }
+          ],
+          "listColumns": [
+            "sku",
+            "movement_type",
+            "quantity",
+            "movement_date"
+          ],
+          "tableFeatures": {
+            "sort": true,
+            "filter": true,
+            "search": true,
+            "pagination": true,
+            "export": true
+          }
+        }
+      ]
+    },
+    "supabase/schema.sql": "CREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE TABLE IF NOT EXISTS organizations (\n  id          uuid primary key default gen_random_uuid(),\n  name        text not null,\n  created_at  timestamptz not null default now(),\n  updated_at  timestamptz not null default now()\n);\n\nCREATE TABLE IF NOT EXISTS organization_users (\n  id                        uuid primary key default gen_random_uuid(),\n  auth_user_id              uuid unique,\n  first_name                text default '',\n  last_name                 text default '',\n  email                     text not null unique,\n  phone_number              text default '',\n  country_code              text default '+1',\n  organization_id           uuid references organizations(id) on delete cascade,\n  role                      text not null default 'Organization User',\n  status                    text not null default 'Active',\n  account_ids               jsonb not null default '[]',\n  accounts                  jsonb not null default '[]',\n  is_acknowledged           boolean not null default true,\n  is_two_factor_enabled     boolean not null default false,\n  requires_password_change  boolean not null default false,\n  subscription_id           text,\n  profile_photo_url         text default '',\n  created_at                timestamptz not null default now(),\n  updated_at                timestamptz not null default now()\n);\n\nDO $$\nDECLARE t text;\nBEGIN\n  FOREACH t IN ARRAY ARRAY['organizations','organization_users']\n  LOOP\n    EXECUTE format('ALTER TABLE %I ENABLE ROW LEVEL SECURITY;', t);\n    EXECUTE format('DROP POLICY IF EXISTS \"authenticated_system_access\" ON %I;', t);\n    EXECUTE format(\n      'CREATE POLICY \"authenticated_system_access\" ON %I FOR ALL TO authenticated USING (true) WITH CHECK (true);', t\n    );\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO authenticated;', t);\n    EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON %I TO service_role;', t);\n  END LOOP;\nEND $$;\n\nCREATE EXTENSION IF NOT EXISTS \"pgcrypto\";\n\nCREATE OR REPLACE FUNCTION public.set_updated_at()\nRETURNS TRIGGER AS $$\nBEGIN\n  NEW.updated_at = now();\n  RETURN NEW;\nEND;\n$$ LANGUAGE plpgsql;\n\nCREATE TABLE IF NOT EXISTS public.\"products\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"name\" TEXT NOT NULL,\n  \"sku\" TEXT NOT NULL,\n  \"category\" TEXT,\n  \"stock_quantity\" NUMERIC,\n  \"reorder_level\" NUMERIC\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"products\" ADD COLUMN IF NOT EXISTS \"name\" TEXT;\nALTER TABLE public.\"products\" ADD COLUMN IF NOT EXISTS \"sku\" TEXT;\nALTER TABLE public.\"products\" ADD COLUMN IF NOT EXISTS \"category\" TEXT;\nALTER TABLE public.\"products\" ADD COLUMN IF NOT EXISTS \"stock_quantity\" NUMERIC;\nALTER TABLE public.\"products\" ADD COLUMN IF NOT EXISTS \"reorder_level\" NUMERIC;\n\nALTER TABLE public.\"products\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_products\" ON public.\"products\";\nCREATE POLICY \"authenticated_full_access_products\"\n  ON public.\"products\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"products\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"products\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"products_set_updated_at\" ON public.\"products\";\nCREATE TRIGGER \"products_set_updated_at\"\n  BEFORE UPDATE ON public.\"products\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE TABLE IF NOT EXISTS public.\"stock_movements\" (\n  \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n  \"created_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"updated_at\" TIMESTAMPTZ NOT NULL DEFAULT now(),\n  \"created_by\" UUID DEFAULT auth.uid() REFERENCES auth.users(id) ON DELETE SET NULL,\n  \"sku\" TEXT NOT NULL,\n  \"movement_type\" TEXT,\n  \"quantity\" NUMERIC,\n  \"movement_date\" DATE,\n  \"reference\" TEXT\n);\n\n-- Backfill any columns missing from a pre-existing table (see alterColumnsSql).\nALTER TABLE public.\"stock_movements\" ADD COLUMN IF NOT EXISTS \"sku\" TEXT;\nALTER TABLE public.\"stock_movements\" ADD COLUMN IF NOT EXISTS \"movement_type\" TEXT;\nALTER TABLE public.\"stock_movements\" ADD COLUMN IF NOT EXISTS \"quantity\" NUMERIC;\nALTER TABLE public.\"stock_movements\" ADD COLUMN IF NOT EXISTS \"movement_date\" DATE;\nALTER TABLE public.\"stock_movements\" ADD COLUMN IF NOT EXISTS \"reference\" TEXT;\n\nALTER TABLE public.\"stock_movements\" ENABLE ROW LEVEL SECURITY;\n\nDROP POLICY IF EXISTS \"authenticated_full_access_stock_movements\" ON public.\"stock_movements\";\nCREATE POLICY \"authenticated_full_access_stock_movements\"\n  ON public.\"stock_movements\"\n  FOR ALL\n  TO authenticated\n  USING (true)\n  WITH CHECK (true);\n\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"stock_movements\" TO authenticated;\nGRANT SELECT, INSERT, UPDATE, DELETE ON public.\"stock_movements\" TO service_role;\n\nDROP TRIGGER IF EXISTS \"stock_movements_set_updated_at\" ON public.\"stock_movements\";\nCREATE TRIGGER \"stock_movements_set_updated_at\"\n  BEFORE UPDATE ON public.\"stock_movements\"\n  FOR EACH ROW\n  EXECUTE FUNCTION public.set_updated_at();\n\nCREATE OR REPLACE FUNCTION public.portal_group_count(\n  p_table text, p_column text, p_limit int DEFAULT 8\n)\nRETURNS TABLE(label text, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT COALESCE(NULLIF(%1$I::text, %3$L), %4$L) AS label, count(*)::bigint AS value\n       FROM public.%2$I\n      GROUP BY 1 ORDER BY 2 DESC LIMIT %5$s',\n    p_column, p_table, '', 'Unspecified', GREATEST(1, LEAST(p_limit, 50))\n  );\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_sum(p_table text, p_column text)\nRETURNS numeric\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE result numeric;\nBEGIN\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN 0; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN 0; END IF;\n  EXECUTE format('SELECT COALESCE(SUM(%1$I), 0) FROM public.%2$I', p_column, p_table) INTO result;\n  RETURN result;\nEND;\n$$;\n\nCREATE OR REPLACE FUNCTION public.portal_time_series(\n  p_table text, p_column text, p_bucket text DEFAULT 'day'\n)\nRETURNS TABLE(bucket timestamptz, value bigint)\nLANGUAGE plpgsql STABLE SECURITY INVOKER AS $$\nDECLARE b text;\nBEGIN\n  b := lower(coalesce(p_bucket, 'day'));\n  IF b NOT IN ('day', 'week', 'month') THEN b := 'day'; END IF;\n  IF to_regclass('public.' || quote_ident(p_table)) IS NULL THEN RETURN; END IF;\n  IF NOT EXISTS (\n    SELECT 1 FROM information_schema.columns\n    WHERE table_schema = 'public' AND table_name = p_table AND column_name = p_column\n  ) THEN RETURN; END IF;\n  RETURN QUERY EXECUTE format(\n    'SELECT date_trunc(%3$L, %1$I)::timestamptz AS bucket, count(*)::bigint AS value\n       FROM public.%2$I WHERE %1$I IS NOT NULL\n      GROUP BY 1 ORDER BY 1',\n    p_column, p_table, b\n  );\nEND;\n$$;\n\nGRANT EXECUTE ON FUNCTION public.portal_group_count(text, text, int) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_sum(text, text) TO authenticated, service_role;\nGRANT EXECUTE ON FUNCTION public.portal_time_series(text, text, text) TO authenticated, service_role;\n\n-- Tell PostgREST to refresh its schema cache so newly added tables/columns are\n-- immediately usable via the REST API (prevents stale \"schema cache\" errors).\nNOTIFY pgrst, 'reload schema';\n",
+    "supabase/seed.sql": "-- Production-generated portals do not include sample business records.\n-- Provisioning creates only the initial admin user and required system profile.\n"
+  }
+}

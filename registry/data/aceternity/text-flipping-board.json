@@ -1,0 +1,75 @@
+{
+  "slug": "text-flipping-board",
+  "source": "aceternity",
+  "name": "text-flipping-board",
+  "kind": "ui",
+  "versions": {
+    "435f3d4cb09c5e6127677ae2ec3a85ee07855b58ddaa0f12ba53ea818de64ce7": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:text-flipping-board@0.0.0",
+        "name": "text-flipping-board",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"text-flipping-board\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/text-flipping-board.json",
+          "ref": "aceternity",
+          "contentHash": "435f3d4cb09c5e6127677ae2ec3a85ee07855b58ddaa0f12ba53ea818de64ce7"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "435f3d4cb09c5e6127677ae2ec3a85ee07855b58ddaa0f12ba53ea818de64ce7",
+  "quality": {}
+}

@@ -1,0 +1,666 @@
+{
+  "about/amazing/sparc": {
+    "sizeKb": 45.8,
+    "budgetKb": 60
+  },
+  "about/astonishing/sparc": {
+    "sizeKb": 47.6,
+    "budgetKb": 150
+  },
+  "about/basic/sparc": {
+    "sizeKb": 1.1,
+    "budgetKb": 15
+  },
+  "about/good/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 20
+  },
+  "activity-log/amazing/sparc": {
+    "sizeKb": 45.7,
+    "budgetKb": 60
+  },
+  "activity-log/basic/sparc": {
+    "sizeKb": 1.1,
+    "budgetKb": 15
+  },
+  "activity-log/good/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 20
+  },
+  "app-frame/amazing/sparc": {
+    "sizeKb": 46.3,
+    "budgetKb": 60
+  },
+  "app-frame/basic/sparc": {
+    "sizeKb": 1.7,
+    "budgetKb": 15
+  },
+  "app-frame/good/sparc": {
+    "sizeKb": 2,
+    "budgetKb": 20
+  },
+  "booking-confirmation/basic/sparc": {
+    "sizeKb": 1.1,
+    "budgetKb": 15
+  },
+  "booking-confirmation/good/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 20
+  },
+  "booking-form/basic/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 15
+  },
+  "booking-form/good/sparc": {
+    "sizeKb": 1.9,
+    "budgetKb": 20
+  },
+  "cart/basic/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 15
+  },
+  "cart/good/sparc": {
+    "sizeKb": 2,
+    "budgetKb": 20
+  },
+  "checkout-payment/basic/sparc": {
+    "sizeKb": 2.2,
+    "budgetKb": 15
+  },
+  "checkout-payment/good/sparc": {
+    "sizeKb": 2.6,
+    "budgetKb": 20
+  },
+  "confirm-dialog/basic/sparc": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "confirm-dialog/good/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "contact-form/basic/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 15
+  },
+  "contact-form/good/sparc": {
+    "sizeKb": 1.9,
+    "budgetKb": 20
+  },
+  "contact/amazing/sparc": {
+    "sizeKb": 45.9,
+    "budgetKb": 60
+  },
+  "contact/astonishing/sparc": {
+    "sizeKb": 47.7,
+    "budgetKb": 150
+  },
+  "contact/basic/sparc": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "contact/good/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "cta-banner/amazing/sparc": {
+    "sizeKb": 45.7,
+    "budgetKb": 60
+  },
+  "cta-banner/astonishing/sparc": {
+    "sizeKb": 47.5,
+    "budgetKb": 150
+  },
+  "cta-banner/basic/sparc": {
+    "sizeKb": 1,
+    "budgetKb": 15
+  },
+  "cta-banner/good/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 20
+  },
+  "dashboard-chart/amazing/sparc": {
+    "sizeKb": 46.2,
+    "budgetKb": 60
+  },
+  "dashboard-chart/basic/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 15
+  },
+  "dashboard-chart/good/sparc": {
+    "sizeKb": 2,
+    "budgetKb": 20
+  },
+  "dashboard-stat-card/amazing/gradient-tile": {
+    "sizeKb": 45.5,
+    "budgetKb": 60
+  },
+  "dashboard-stat-card/amazing/sparc": {
+    "sizeKb": 45.8,
+    "budgetKb": 60
+  },
+  "dashboard-stat-card/basic/sparc": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "dashboard-stat-card/good/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 20
+  },
+  "data-table/basic/sparc": {
+    "sizeKb": 1.8,
+    "budgetKb": 15
+  },
+  "data-table/good/sparc": {
+    "sizeKb": 2.2,
+    "budgetKb": 20
+  },
+  "education/amazing/sparc": {
+    "sizeKb": 45.9,
+    "budgetKb": 60
+  },
+  "education/astonishing/sparc": {
+    "sizeKb": 47.7,
+    "budgetKb": 150
+  },
+  "education/basic/sparc": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "education/good/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "empty-state/amazing/sparc": {
+    "sizeKb": 45.6,
+    "budgetKb": 60
+  },
+  "empty-state/basic/sparc": {
+    "sizeKb": 1,
+    "budgetKb": 15
+  },
+  "empty-state/good/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 20
+  },
+  "experience/amazing/sparc": {
+    "sizeKb": 45.9,
+    "budgetKb": 60
+  },
+  "experience/astonishing/sparc": {
+    "sizeKb": 47.7,
+    "budgetKb": 150
+  },
+  "experience/basic/sparc": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "experience/good/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "export-button/basic/sparc": {
+    "sizeKb": 0.8,
+    "budgetKb": 15
+  },
+  "export-button/good/sparc": {
+    "sizeKb": 1.2,
+    "budgetKb": 20
+  },
+  "faq/amazing/sparc": {
+    "sizeKb": 45.8,
+    "budgetKb": 60
+  },
+  "faq/astonishing/sparc": {
+    "sizeKb": 47.6,
+    "budgetKb": 150
+  },
+  "faq/basic/sparc": {
+    "sizeKb": 1.1,
+    "budgetKb": 15
+  },
+  "faq/good/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 20
+  },
+  "file-upload/basic/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "file-upload/good/sparc": {
+    "sizeKb": 1.7,
+    "budgetKb": 20
+  },
+  "filter-bar/basic/sparc": {
+    "sizeKb": 1.1,
+    "budgetKb": 15
+  },
+  "filter-bar/good/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 20
+  },
+  "footer/amazing/sparc": {
+    "sizeKb": 46,
+    "budgetKb": 60
+  },
+  "footer/astonishing/sparc": {
+    "sizeKb": 47.8,
+    "budgetKb": 150
+  },
+  "footer/basic/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "footer/good/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "forgot-password/basic/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 15
+  },
+  "forgot-password/good/sparc": {
+    "sizeKb": 2,
+    "budgetKb": 20
+  },
+  "form-field/basic/boolean": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "form-field/basic/choice": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "form-field/basic/date-time": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "form-field/basic/file-url": {
+    "sizeKb": 1.1,
+    "budgetKb": 15
+  },
+  "form-field/basic/json": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "form-field/basic/multi-choice": {
+    "sizeKb": 1.7,
+    "budgetKb": 15
+  },
+  "form-field/basic/number-input": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "form-field/basic/text-input": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "form-field/basic/textarea": {
+    "sizeKb": 1,
+    "budgetKb": 15
+  },
+  "form-field/good/boolean": {
+    "sizeKb": 1.5,
+    "budgetKb": 20
+  },
+  "form-field/good/choice": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "form-field/good/date-time": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "form-field/good/file-url": {
+    "sizeKb": 1.5,
+    "budgetKb": 20
+  },
+  "form-field/good/json": {
+    "sizeKb": 1.7,
+    "budgetKb": 20
+  },
+  "form-field/good/multi-choice": {
+    "sizeKb": 2,
+    "budgetKb": 20
+  },
+  "form-field/good/number-input": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "form-field/good/text-input": {
+    "sizeKb": 1.5,
+    "budgetKb": 20
+  },
+  "form-field/good/textarea": {
+    "sizeKb": 1.4,
+    "budgetKb": 20
+  },
+  "gallery/amazing/sparc": {
+    "sizeKb": 45.8,
+    "budgetKb": 60
+  },
+  "gallery/astonishing/sparc": {
+    "sizeKb": 47.6,
+    "budgetKb": 150
+  },
+  "gallery/basic/sparc": {
+    "sizeKb": 1.1,
+    "budgetKb": 15
+  },
+  "gallery/good/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 20
+  },
+  "hero/amazing/sparc": {
+    "sizeKb": 46,
+    "budgetKb": 60
+  },
+  "hero/astonishing/sparc": {
+    "sizeKb": 47.8,
+    "budgetKb": 150
+  },
+  "hero/basic/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "hero/good/sparc": {
+    "sizeKb": 1.7,
+    "budgetKb": 20
+  },
+  "location-map/amazing/sparc": {
+    "sizeKb": 46,
+    "budgetKb": 60
+  },
+  "location-map/astonishing/sparc": {
+    "sizeKb": 47.8,
+    "budgetKb": 150
+  },
+  "location-map/basic/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "location-map/good/sparc": {
+    "sizeKb": 1.7,
+    "budgetKb": 20
+  },
+  "login/basic/sparc": {
+    "sizeKb": 1.9,
+    "budgetKb": 15
+  },
+  "login/good/sparc": {
+    "sizeKb": 2.3,
+    "budgetKb": 20
+  },
+  "navbar/amazing/sparc": {
+    "sizeKb": 46.1,
+    "budgetKb": 60
+  },
+  "navbar/astonishing/sparc": {
+    "sizeKb": 47.9,
+    "budgetKb": 150
+  },
+  "navbar/basic/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 15
+  },
+  "navbar/good/sparc": {
+    "sizeKb": 1.8,
+    "budgetKb": 20
+  },
+  "newsletter/basic/sparc": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "newsletter/good/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 20
+  },
+  "not-found/amazing/sparc": {
+    "sizeKb": 45.6,
+    "budgetKb": 60
+  },
+  "not-found/astonishing/sparc": {
+    "sizeKb": 47.4,
+    "budgetKb": 150
+  },
+  "not-found/basic/sparc": {
+    "sizeKb": 0.9,
+    "budgetKb": 15
+  },
+  "not-found/good/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 20
+  },
+  "notifications/amazing/sparc": {
+    "sizeKb": 45.9,
+    "budgetKb": 60
+  },
+  "notifications/basic/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "notifications/good/sparc": {
+    "sizeKb": 1.7,
+    "budgetKb": 20
+  },
+  "order-confirmation/basic/sparc": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "order-confirmation/good/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "pricing/amazing/sparc": {
+    "sizeKb": 46,
+    "budgetKb": 60
+  },
+  "pricing/astonishing/sparc": {
+    "sizeKb": 47.8,
+    "budgetKb": 150
+  },
+  "pricing/basic/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "pricing/good/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "product-list/basic/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 15
+  },
+  "product-list/good/sparc": {
+    "sizeKb": 1.9,
+    "budgetKb": 20
+  },
+  "product-page/basic/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 15
+  },
+  "product-page/good/sparc": {
+    "sizeKb": 1.8,
+    "budgetKb": 20
+  },
+  "profile/basic/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 15
+  },
+  "profile/good/sparc": {
+    "sizeKb": 1.8,
+    "budgetKb": 20
+  },
+  "projects/amazing/sparc": {
+    "sizeKb": 46,
+    "budgetKb": 60
+  },
+  "projects/astonishing/sparc": {
+    "sizeKb": 47.8,
+    "budgetKb": 150
+  },
+  "projects/basic/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "projects/good/sparc": {
+    "sizeKb": 1.7,
+    "budgetKb": 20
+  },
+  "record-detail/amazing/sparc": {
+    "sizeKb": 45.8,
+    "budgetKb": 60
+  },
+  "record-detail/basic/sparc": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "record-detail/good/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "record-form/basic/sparc": {
+    "sizeKb": 1,
+    "budgetKb": 15
+  },
+  "record-form/good/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 20
+  },
+  "resume-download/amazing/sparc": {
+    "sizeKb": 45.7,
+    "budgetKb": 60
+  },
+  "resume-download/astonishing/sparc": {
+    "sizeKb": 47.4,
+    "budgetKb": 150
+  },
+  "resume-download/basic/sparc": {
+    "sizeKb": 1,
+    "budgetKb": 15
+  },
+  "resume-download/good/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 20
+  },
+  "services-list/basic/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 15
+  },
+  "services-list/good/sparc": {
+    "sizeKb": 1.7,
+    "budgetKb": 20
+  },
+  "services/amazing/sparc": {
+    "sizeKb": 45.8,
+    "budgetKb": 60
+  },
+  "services/astonishing/sparc": {
+    "sizeKb": 47.5,
+    "budgetKb": 150
+  },
+  "services/basic/sparc": {
+    "sizeKb": 1.1,
+    "budgetKb": 15
+  },
+  "services/good/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 20
+  },
+  "settings/basic/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 15
+  },
+  "settings/good/sparc": {
+    "sizeKb": 1.8,
+    "budgetKb": 20
+  },
+  "signup/basic/sparc": {
+    "sizeKb": 1.7,
+    "budgetKb": 15
+  },
+  "signup/good/sparc": {
+    "sizeKb": 2.1,
+    "budgetKb": 20
+  },
+  "skills/amazing/sparc": {
+    "sizeKb": 45.8,
+    "budgetKb": 60
+  },
+  "skills/astonishing/sparc": {
+    "sizeKb": 47.6,
+    "budgetKb": 150
+  },
+  "skills/basic/sparc": {
+    "sizeKb": 1.1,
+    "budgetKb": 15
+  },
+  "skills/good/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 20
+  },
+  "slot-picker/basic/sparc": {
+    "sizeKb": 1.5,
+    "budgetKb": 15
+  },
+  "slot-picker/good/sparc": {
+    "sizeKb": 1.9,
+    "budgetKb": 20
+  },
+  "stats/amazing/sparc": {
+    "sizeKb": 45.6,
+    "budgetKb": 60
+  },
+  "stats/astonishing/sparc": {
+    "sizeKb": 47.4,
+    "budgetKb": 150
+  },
+  "stats/basic/sparc": {
+    "sizeKb": 0.9,
+    "budgetKb": 15
+  },
+  "stats/good/sparc": {
+    "sizeKb": 1.3,
+    "budgetKb": 20
+  },
+  "team/amazing/sparc": {
+    "sizeKb": 46,
+    "budgetKb": 60
+  },
+  "team/astonishing/sparc": {
+    "sizeKb": 47.8,
+    "budgetKb": 150
+  },
+  "team/basic/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 15
+  },
+  "team/good/sparc": {
+    "sizeKb": 1.7,
+    "budgetKb": 20
+  },
+  "testimonials/amazing/sparc": {
+    "sizeKb": 45.9,
+    "budgetKb": 60
+  },
+  "testimonials/astonishing/sparc": {
+    "sizeKb": 47.7,
+    "budgetKb": 150
+  },
+  "testimonials/basic/sparc": {
+    "sizeKb": 1.2,
+    "budgetKb": 15
+  },
+  "testimonials/good/sparc": {
+    "sizeKb": 1.6,
+    "budgetKb": 20
+  },
+  "users-roles/basic/sparc": {
+    "sizeKb": 1.4,
+    "budgetKb": 15
+  },
+  "users-roles/good/sparc": {
+    "sizeKb": 1.8,
+    "budgetKb": 20
+  }
+}

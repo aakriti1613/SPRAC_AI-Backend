@@ -1,0 +1,88 @@
+{
+  "slug": "rc-select",
+  "source": "npm",
+  "name": "rc-select",
+  "kind": "library",
+  "versions": {
+    "c0b15eac667ceee275c3741b79540062a6bb8d650f6f74e48fbce86dbc3907a8": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:rc-select@14.16.8",
+        "name": "rc-select",
+        "version": "14.16.8",
+        "kind": "library",
+        "summary": "React Select",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/rc-select",
+          "ref": "14.16.8",
+          "contentHash": "c0b15eac667ceee275c3741b79540062a6bb8d650f6f74e48fbce86dbc3907a8"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "*",
+            "react-dom": "*"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "*",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "react",
+            "react-component",
+            "react-select",
+            "select",
+            "query:react select"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "c0b15eac667ceee275c3741b79540062a6bb8d650f6f74e48fbce86dbc3907a8",
+  "quality": {
+    "downloads": 12916229,
+    "lastPublish": "2025-05-15T08:00:11.837Z",
+    "hasTypes": true
+  }
+}

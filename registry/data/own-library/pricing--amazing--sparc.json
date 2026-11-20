@@ -1,0 +1,114 @@
+{
+  "slug": "pricing/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing pricing",
+  "kind": "component",
+  "versions": {
+    "c616f4731de56e7a1d8fd4b49f8a1b372c5b4fb79e707b694b63b420e8ee75a1": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:pricing/amazing/sparc@1.0.0",
+        "name": "Amazing pricing",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing pricing: Pricing plans side by side.",
+        "room": "pricing",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/pricing/amazing/sparc/index.tsx",
+          "contentHash": "c616f4731de56e7a1d8fd4b49f8a1b372c5b4fb79e707b694b63b420e8ee75a1"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "plans",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "subtitle",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "pricing",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "pricing",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "c616f4731de56e7a1d8fd4b49f8a1b372c5b4fb79e707b694b63b420e8ee75a1",
+  "quality": {
+    "sizeKb": 46,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

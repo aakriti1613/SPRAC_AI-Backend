@@ -1,0 +1,80 @@
+{
+  "slug": "carbon-react/pagination",
+  "source": "storybook",
+  "name": "Pagination (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "a2a60018660152e88cd0992367a51c3b876633ee88d3e5145d0b2a7a0b6b1425": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/pagination@0.0.0",
+        "name": "Pagination (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Pagination from IBM Carbon (React): 7 stories, documented.",
+        "room": "data-table",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-pagination--overview",
+          "ref": "@carbon/react",
+          "contentHash": "a2a60018660152e88cd0992367a51c3b876633ee88d3e5145d0b2a7a0b6b1425"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "data-table",
+          "tags": [
+            "carbon-react",
+            "manifest",
+            "play-fn"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "room": "data-table",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a2a60018660152e88cd0992367a51c3b876633ee88d3e5145d0b2a7a0b6b1425",
+  "quality": {
+    "hasTests": true
+  }
+}

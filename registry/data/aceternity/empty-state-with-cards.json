@@ -1,0 +1,75 @@
+{
+  "slug": "empty-state-with-cards",
+  "source": "aceternity",
+  "name": "empty-state-with-cards",
+  "kind": "ui",
+  "versions": {
+    "5eccf75148865517e148bd93eca4301791d0ebf3ca666d5eac30a2af0a443c4f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:empty-state-with-cards@0.0.0",
+        "name": "empty-state-with-cards",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Empty project state with corner grid lines, CTAs, and fanned template thumbnails",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/empty-state-with-cards.json",
+          "ref": "aceternity",
+          "contentHash": "5eccf75148865517e148bd93eca4301791d0ebf3ca666d5eac30a2af0a443c4f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "5eccf75148865517e148bd93eca4301791d0ebf3ca666d5eac30a2af0a443c4f",
+  "quality": {}
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "skills/basic/sparc",
+  "source": "own-library",
+  "name": "Basic skills",
+  "kind": "component",
+  "versions": {
+    "8adebd540fdb9e9c875e3767f2e59cb8278ac94b0df4b8c9ac9431df20483197": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:skills/basic/sparc@1.0.0",
+        "name": "Basic skills",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic skills: Skills grouped by area.",
+        "room": "skills",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/skills/basic/sparc/index.tsx",
+          "contentHash": "8adebd540fdb9e9c875e3767f2e59cb8278ac94b0df4b8c9ac9431df20483197"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "groups",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "skills",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "skills",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "8adebd540fdb9e9c875e3767f2e59cb8278ac94b0df4b8c9ac9431df20483197",
+  "quality": {
+    "sizeKb": 1.1,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

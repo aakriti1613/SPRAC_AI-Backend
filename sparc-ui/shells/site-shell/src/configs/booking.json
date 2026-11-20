@@ -1,0 +1,127 @@
+{
+  "sparcVersion": 1,
+  "websiteType": "booking",
+  "styleLevel": "good",
+  "industry": "healthcare",
+  "brand": {
+    "name": "Sunrise Clinic",
+    "logoText": "SC"
+  },
+  "theme": {
+    "primary": "#0f766e",
+    "mode": "light",
+    "radius": "md",
+    "density": "comfortable",
+    "buttonSize": "md",
+    "font": "system"
+  },
+  "rooms": {
+    "enabled": [
+      "team",
+      "faq",
+      "location-map"
+    ]
+  },
+  "meta": {
+    "title": "Sunrise Clinic - Book an appointment",
+    "description": "Book a visit online in under a minute."
+  },
+  "booking": {
+    "currency": "INR",
+    "services": [
+      {
+        "id": "general-consultation",
+        "name": "General consultation",
+        "description": "See a doctor about anything that worries you.",
+        "durationMin": 30,
+        "price": 500
+      },
+      {
+        "id": "health-checkup",
+        "name": "Full health check-up",
+        "description": "Blood tests, ECG and a doctor's review.",
+        "durationMin": 60,
+        "price": 1800
+      },
+      {
+        "id": "vaccination",
+        "name": "Vaccination",
+        "description": "Walk-in friendly. We keep the common vaccines.",
+        "durationMin": 15,
+        "price": 0
+      }
+    ],
+    "availability": {
+      "days": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "open": "09:00",
+      "close": "17:00",
+      "stepMin": 30,
+      "leadHours": 2,
+      "horizonDays": 30
+    }
+  },
+  "nav": {
+    "cta": {
+      "label": "Book now",
+      "href": "#services"
+    }
+  },
+  "footer": {
+    "text": "Family care since 2012.",
+    "socialLinks": [
+      {
+        "type": "phone",
+        "label": "Call",
+        "href": "tel:+912000000000"
+      }
+    ]
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Open Monday to Saturday",
+      "title": "Book your visit in a minute",
+      "highlight": "in a minute",
+      "subtitle": "Pick a service, choose a time, done. No phone calls.",
+      "primaryCta": {
+        "label": "Book now",
+        "href": "#services"
+      }
+    },
+    "team": {
+      "heading": "Our doctors",
+      "members": [
+        {
+          "name": "Dr. Kavya Iyer",
+          "role": "Physician"
+        },
+        {
+          "name": "Dr. Arjun Mehta",
+          "role": "Paediatrician"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Before you come",
+      "items": [
+        {
+          "question": "Do I need to bring anything?",
+          "answer": "Your previous reports, if you have them."
+        }
+      ]
+    },
+    "location-map": {
+      "heading": "Find us",
+      "address": "12 Example Road, Pune",
+      "hours": [
+        "Mon-Sat 9 AM - 5 PM"
+      ]
+    }
+  }
+}

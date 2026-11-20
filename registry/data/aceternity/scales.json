@@ -1,0 +1,73 @@
+{
+  "slug": "scales",
+  "source": "aceternity",
+  "name": "scales",
+  "kind": "ui",
+  "versions": {
+    "8870e13de857b0f6886ddfae6492c54562d963361230af8e37c11956a9e6092b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:scales@0.0.0",
+        "name": "scales",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"scales\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/scales.json",
+          "ref": "aceternity",
+          "contentHash": "8870e13de857b0f6886ddfae6492c54562d963361230af8e37c11956a9e6092b"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "8870e13de857b0f6886ddfae6492c54562d963361230af8e37c11956a9e6092b",
+  "quality": {}
+}

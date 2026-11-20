@@ -1,0 +1,93 @@
+{
+  "slug": "login-signup-minimal",
+  "source": "aceternity",
+  "name": "login-signup-minimal",
+  "kind": "component",
+  "versions": {
+    "ceaad8a02f5afee5958b9a05a83677c557f1c9b83344a437c9d0efe639e4d96e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:login-signup-minimal@0.0.0",
+        "name": "login-signup-minimal",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Login Signup Minimal",
+        "room": "login",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/login-signup-minimal.json",
+          "ref": "aceternity",
+          "contentHash": "ceaad8a02f5afee5958b9a05a83677c557f1c9b83344a437c9d0efe639e4d96e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "login",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"headline\"",
+    "contract: does not accept required prop \"onSubmit\"",
+    "contract: does not accept required prop \"submitting\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "ceaad8a02f5afee5958b9a05a83677c557f1c9b83344a437c9d0efe639e4d96e",
+  "quality": {}
+}

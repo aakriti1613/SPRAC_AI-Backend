@@ -1,0 +1,118 @@
+{
+  "slug": "location-map/astonishing/sparc",
+  "source": "own-library",
+  "name": "Astonishing location-map",
+  "kind": "component",
+  "versions": {
+    "fdcf790eb7259db6fb4eb706a0350121605b5e23e013c0e636f1010f86266be3": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:location-map/astonishing/sparc@1.0.0",
+        "name": "Astonishing location-map",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Astonishing location-map: Address with an embedded map.",
+        "room": "location-map",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/location-map/astonishing/sparc/index.tsx",
+          "contentHash": "fdcf790eb7259db6fb4eb706a0350121605b5e23e013c0e636f1010f86266be3"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "address",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "hours",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "mapEmbedUrl",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "location-map",
+            "astonishing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "location-map",
+  "styleLevel": "astonishing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "fdcf790eb7259db6fb4eb706a0350121605b5e23e013c0e636f1010f86266be3",
+  "quality": {
+    "sizeKb": 47.8,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

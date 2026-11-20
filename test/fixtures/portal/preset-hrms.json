@@ -1,0 +1,271 @@
+{
+  "version": 1,
+  "templateId": "portal-admin",
+  "slug": "preset-hrms",
+  "portalName": "preset-hrms",
+  "appName": "Acme Admin",
+  "industry": "hrms",
+  "themePreset": "blue",
+  "type": "admin",
+  "themeColor": "#7c3aed",
+  "logoText": "AA",
+  "logoUrl": "",
+  "auth": {
+    "screens": {
+      "login": true,
+      "signup": true,
+      "forgotPassword": false
+    },
+    "method": "email-password"
+  },
+  "dashboard": {
+    "enabled": true,
+    "template": "stats-overview",
+    "style": "hrms"
+  },
+  "loginPage": {
+    "portalName": "Acme Admin",
+    "badge": "People Operations",
+    "headline": "Manage employees, leave, and HR workflows",
+    "highlightText": "employees",
+    "description": "Keep employee records, approvals, and HR operations organized in one secure portal.",
+    "features": [
+      {
+        "title": "Secure Access",
+        "description": "Enterprise-grade authentication for authorized users."
+      },
+      {
+        "title": "Self Service",
+        "description": "Manage records, workflows, and operations from one dashboard."
+      }
+    ],
+    "footerText": "People operations portal"
+  },
+  "footer": {
+    "text": "People operations portal"
+  },
+  "company": {
+    "name": "Acme Admin",
+    "website": "",
+    "supportEmail": "",
+    "address": ""
+  },
+  "profile": {
+    "enabled": true
+  },
+  "modules": [
+    {
+      "id": "employees",
+      "singularName": "Employee",
+      "pluralName": "Employees",
+      "icon": "UserCheck",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "field-rrue66",
+          "label": "Employee Name",
+          "key": "name",
+          "type": "text",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-r03czg",
+          "label": "Work Email",
+          "key": "email",
+          "type": "email",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-x9js2o",
+          "label": "Department",
+          "key": "department",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "People",
+            "Finance",
+            "Sales",
+            "Operations",
+            "Engineering"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-ak1fe8",
+          "label": "Joining Date",
+          "key": "joining_date",
+          "type": "date",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-fg3kto",
+          "label": "Employment Status",
+          "key": "status",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Active",
+            "On Leave",
+            "Exited"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        }
+      ],
+      "listColumns": [
+        "name",
+        "email",
+        "department",
+        "status"
+      ],
+      "tableFeatures": {
+        "sort": true,
+        "filter": true,
+        "search": true,
+        "pagination": true,
+        "export": true
+      }
+    },
+    {
+      "id": "leave-requests",
+      "singularName": "Leave Request",
+      "pluralName": "Leave Requests",
+      "icon": "CalendarClock",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "field-nyy98m",
+          "label": "Employee Name",
+          "key": "employee_name",
+          "type": "text",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-26rxoa",
+          "label": "Leave Type",
+          "key": "leave_type",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Casual",
+            "Sick",
+            "Earned",
+            "Unpaid"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-lo364k",
+          "label": "From Date",
+          "key": "from_date",
+          "type": "date",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-wri20b",
+          "label": "To Date",
+          "key": "to_date",
+          "type": "date",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-4loygn",
+          "label": "Approval Status",
+          "key": "status",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Pending",
+            "Approved",
+            "Rejected"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        }
+      ],
+      "listColumns": [
+        "employee_name",
+        "leave_type",
+        "from_date",
+        "status"
+      ],
+      "tableFeatures": {
+        "sort": true,
+        "filter": true,
+        "search": true,
+        "pagination": true,
+        "export": true
+      }
+    }
+  ]
+}

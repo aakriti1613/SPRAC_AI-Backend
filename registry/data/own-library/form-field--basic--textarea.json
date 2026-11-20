@@ -1,0 +1,124 @@
+{
+  "slug": "form-field/basic/textarea",
+  "source": "own-library",
+  "name": "Basic form-field (textarea)",
+  "kind": "component",
+  "versions": {
+    "6b9653eca151b84b6b427fe33d84de665ac16619b2e4eff66e78cb4025fa3772": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:form-field/basic/textarea@1.0.0",
+        "name": "Basic form-field (textarea)",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic form-field: ONE input for one field type (text, currency, date…). Each component declares which field types it supports.",
+        "room": "form-field",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/form-field/basic/textarea/index.tsx",
+          "contentHash": "6b9653eca151b84b6b427fe33d84de665ac16619b2e4eff66e78cb4025fa3772"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "disabled",
+              "kind": "boolean",
+              "required": false
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "field",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "onChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "value",
+              "kind": "unknown",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [
+            "textarea"
+          ],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "form-field",
+            "basic",
+            "textarea"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "form-field",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "6b9653eca151b84b6b427fe33d84de665ac16619b2e4eff66e78cb4025fa3772",
+  "quality": {
+    "sizeKb": 1,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

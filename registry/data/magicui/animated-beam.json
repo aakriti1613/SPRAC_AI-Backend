@@ -1,0 +1,75 @@
+{
+  "slug": "animated-beam",
+  "source": "magicui",
+  "name": "Animated Beam",
+  "kind": "ui",
+  "versions": {
+    "75c071d92e3357d18188c8210c58bbfc9fd5c2f955fdb7b96e182f2d5648f4d2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:animated-beam@0.0.0",
+        "name": "Animated Beam",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "An animated beam of light which travels along a path. Useful for showcasing the integration features of a website.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/animated-beam.json",
+          "ref": "magicui",
+          "contentHash": "75c071d92e3357d18188c8210c58bbfc9fd5c2f955fdb7b96e182f2d5648f4d2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "75c071d92e3357d18188c8210c58bbfc9fd5c2f955fdb7b96e182f2d5648f4d2",
+  "quality": {}
+}

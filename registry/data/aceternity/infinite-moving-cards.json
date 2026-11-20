@@ -1,0 +1,89 @@
+{
+  "slug": "infinite-moving-cards",
+  "source": "aceternity",
+  "name": "infinite-moving-cards",
+  "kind": "component",
+  "versions": {
+    "3641730ae4d3919b4a024d6a1b2cd25bbdfa00098740c004bcf36b6d2b070763": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:infinite-moving-cards@0.0.0",
+        "name": "infinite-moving-cards",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"infinite-moving-cards\".",
+        "room": "testimonials",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/infinite-moving-cards.json",
+          "ref": "aceternity",
+          "contentHash": "3641730ae4d3919b4a024d6a1b2cd25bbdfa00098740c004bcf36b6d2b070763"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "testimonials",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "3641730ae4d3919b4a024d6a1b2cd25bbdfa00098740c004bcf36b6d2b070763",
+  "quality": {}
+}

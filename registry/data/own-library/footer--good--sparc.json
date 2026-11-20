@@ -1,0 +1,124 @@
+{
+  "slug": "footer/good/sparc",
+  "source": "own-library",
+  "name": "Good footer",
+  "kind": "component",
+  "versions": {
+    "8b5503a8842542c7f8c30be75a5fa432e7b420e15e39dbe0e4b471e12641cd02": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:footer/good/sparc@1.0.0",
+        "name": "Good footer",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good footer: Page footer with brand, short text, links and copyright.",
+        "room": "footer",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/footer/good/sparc/index.tsx",
+          "contentHash": "8b5503a8842542c7f8c30be75a5fa432e7b420e15e39dbe0e4b471e12641cd02"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "brand",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "copyright",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "links",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "socialLinks",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "text",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "layout",
+          "tags": [
+            "footer",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "footer",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "8b5503a8842542c7f8c30be75a5fa432e7b420e15e39dbe0e4b471e12641cd02",
+  "quality": {
+    "sizeKb": 1.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

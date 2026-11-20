@@ -1,0 +1,261 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "slug": "preset-healthcare",
+    "portalUrl": "/portal/preset-healthcare",
+    "shortPortalUrl": "/p/preset-healthcare"
+  },
+  "stored": {
+    "version": 1,
+    "templateId": "portal-admin",
+    "slug": "preset-healthcare",
+    "portalName": "preset-healthcare",
+    "appName": "Acme Admin",
+    "type": "admin",
+    "industry": "healthcare",
+    "themePreset": "blue",
+    "themeColor": "#0f766e",
+    "logoUrl": "",
+    "logoText": "AA",
+    "loginPage": {
+      "portalName": "Acme Admin",
+      "badge": "Care Operations",
+      "headline": "Coordinate care records with clarity",
+      "highlightText": "care records",
+      "description": "Track visits, appointments, teams, and operational workflows from one secure portal.",
+      "features": [
+        {
+          "title": "Secure Access",
+          "description": "Enterprise-grade authentication for authorized users."
+        },
+        {
+          "title": "Self Service",
+          "description": "Manage records, workflows, and operations from one dashboard."
+        }
+      ],
+      "footerText": "Secure care operations portal"
+    },
+    "footer": {
+      "text": "Secure care operations portal"
+    },
+    "company": {
+      "name": "Acme Admin",
+      "website": "",
+      "supportEmail": "",
+      "address": ""
+    },
+    "auth": {
+      "screens": {
+        "login": true,
+        "signup": true,
+        "forgotPassword": false
+      },
+      "method": "email-password"
+    },
+    "dashboard": {
+      "enabled": true,
+      "template": "stats-overview"
+    },
+    "profile": {
+      "enabled": true
+    },
+    "modules": [
+      {
+        "id": "patients",
+        "singularName": "Patient",
+        "pluralName": "Patients",
+        "icon": "UserRound",
+        "fields": [
+          {
+            "id": "field-y2c2cx",
+            "key": "name",
+            "label": "Patient Name",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-tmnc7x",
+            "key": "mobile",
+            "label": "Mobile",
+            "type": "phone",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-am8km1",
+            "key": "visit_date",
+            "label": "Visit Date",
+            "type": "date",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-hlpsp6",
+            "key": "care_status",
+            "label": "Care Status",
+            "type": "select",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "New",
+              "In Care",
+              "Follow Up",
+              "Closed"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-y2ng6n",
+            "key": "notes",
+            "label": "Notes",
+            "type": "textarea",
+            "required": false,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "name",
+          "mobile",
+          "visit_date",
+          "care_status"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        },
+        "collapsed": false
+      },
+      {
+        "id": "appointments",
+        "singularName": "Appointment",
+        "pluralName": "Appointments",
+        "icon": "CalendarClock",
+        "fields": [
+          {
+            "id": "field-awbk7v",
+            "key": "patient_name",
+            "label": "Patient Name",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-vpp8j3",
+            "key": "appointment_date",
+            "label": "Appointment Date",
+            "type": "date",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-yzosl6",
+            "key": "department",
+            "label": "Department",
+            "type": "select",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "OPD",
+              "Diagnostics",
+              "Pharmacy",
+              "Follow Up"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-6ju0d9",
+            "key": "status",
+            "label": "Status",
+            "type": "select",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "Scheduled",
+              "Completed",
+              "Cancelled"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "patient_name",
+          "appointment_date",
+          "department",
+          "status"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        },
+        "collapsed": false
+      }
+    ],
+    "createdAt": "<iso>",
+    "updatedAt": "<iso>"
+  }
+}

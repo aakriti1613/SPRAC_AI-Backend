@@ -1,0 +1,78 @@
+{
+  "slug": "calendar",
+  "source": "shadcn",
+  "name": "calendar",
+  "kind": "ui",
+  "versions": {
+    "5189ca1883668d111a645ea1b4f9e7ceac75915c55c14a571251c576b0c869a1": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:calendar@0.0.0",
+        "name": "calendar",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"calendar\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/calendar.json",
+          "ref": "new-york-v4",
+          "contentHash": "5189ca1883668d111a645ea1b4f9e7ceac75915c55c14a571251c576b0c869a1"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react-day-picker": "*",
+            "date-fns": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:button",
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "also-in:crud-modern-new-temp"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "5189ca1883668d111a645ea1b4f9e7ceac75915c55c14a571251c576b0c869a1",
+  "quality": {}
+}

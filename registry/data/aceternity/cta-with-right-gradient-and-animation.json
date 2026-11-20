@@ -1,0 +1,90 @@
+{
+  "slug": "cta-with-right-gradient-and-animation",
+  "source": "aceternity",
+  "name": "cta-with-right-gradient-and-animation",
+  "kind": "component",
+  "versions": {
+    "e17eb63e8911891d5cd3de517e380506ca935afafc289a6f64d9ab40dc42e027": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:cta-with-right-gradient-and-animation@0.0.0",
+        "name": "cta-with-right-gradient-and-animation",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "CTA With Right Gradient And Animation",
+        "room": "cta-banner",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/cta-with-right-gradient-and-animation.json",
+          "ref": "aceternity",
+          "contentHash": "e17eb63e8911891d5cd3de517e380506ca935afafc289a6f64d9ab40dc42e027"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "cta-banner",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"title\"",
+    "contract: does not accept required prop \"cta\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "e17eb63e8911891d5cd3de517e380506ca935afafc289a6f64d9ab40dc42e027",
+  "quality": {}
+}

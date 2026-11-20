@@ -1,0 +1,76 @@
+{
+  "slug": "chart-radar-icons",
+  "source": "shadcn",
+  "name": "chart-radar-icons",
+  "kind": "ui",
+  "versions": {
+    "4b7a01345f25b7682aafba52d52dfa67a12414f10eed5045be97bc10a56cccfc": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-radar-icons@0.0.0",
+        "name": "chart-radar-icons",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-radar-icons\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-radar-icons.json",
+          "ref": "new-york-v4",
+          "contentHash": "4b7a01345f25b7682aafba52d52dfa67a12414f10eed5045be97bc10a56cccfc"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-radar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "4b7a01345f25b7682aafba52d52dfa67a12414f10eed5045be97bc10a56cccfc",
+  "quality": {}
+}

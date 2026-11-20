@@ -1,0 +1,666 @@
+{
+  "about/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "about/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "about/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "about/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "activity-log/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "activity-log/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "activity-log/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "app-frame/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "app-frame/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "app-frame/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "booking-confirmation/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "booking-confirmation/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "booking-form/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "booking-form/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "cart/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "cart/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "checkout-payment/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "checkout-payment/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "confirm-dialog/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "confirm-dialog/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "contact-form/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "contact-form/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "contact/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "contact/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "contact/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "contact/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "cta-banner/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "cta-banner/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "cta-banner/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "cta-banner/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "dashboard-chart/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "dashboard-chart/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "dashboard-chart/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "dashboard-stat-card/amazing/gradient-tile": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "dashboard-stat-card/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "dashboard-stat-card/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "dashboard-stat-card/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "data-table/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "data-table/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "education/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "education/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "education/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "education/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "empty-state/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "empty-state/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "empty-state/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "experience/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "experience/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "experience/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "experience/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "export-button/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "export-button/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "faq/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "faq/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "faq/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "faq/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "file-upload/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "file-upload/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "filter-bar/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "filter-bar/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "footer/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "footer/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "footer/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "footer/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "forgot-password/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "forgot-password/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/basic/boolean": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/basic/choice": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/basic/date-time": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/basic/file-url": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/basic/json": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/basic/multi-choice": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/basic/number-input": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/basic/text-input": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/basic/textarea": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/good/boolean": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/good/choice": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/good/date-time": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/good/file-url": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/good/json": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/good/multi-choice": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/good/number-input": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/good/text-input": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "form-field/good/textarea": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "gallery/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "gallery/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "gallery/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "gallery/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "hero/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "hero/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "hero/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "hero/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "location-map/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "location-map/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "location-map/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "location-map/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "login/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "login/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "navbar/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "navbar/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "navbar/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "navbar/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "newsletter/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "newsletter/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "not-found/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "not-found/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "not-found/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "not-found/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "notifications/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "notifications/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "notifications/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "order-confirmation/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "order-confirmation/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "pricing/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "pricing/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "pricing/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "pricing/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "product-list/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "product-list/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "product-page/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "product-page/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "profile/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "profile/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "projects/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "projects/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "projects/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "projects/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "record-detail/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "record-detail/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "record-detail/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "record-form/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "record-form/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "resume-download/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "resume-download/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "resume-download/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "resume-download/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "services-list/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "services-list/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "services/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "services/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "services/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "services/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "settings/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "settings/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "signup/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "signup/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "skills/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "skills/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "skills/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "skills/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "slot-picker/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "slot-picker/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "stats/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "stats/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "stats/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "stats/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "team/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "team/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "team/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "team/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "testimonials/amazing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "testimonials/astonishing/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "testimonials/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "testimonials/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "users-roles/basic/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  },
+  "users-roles/good/sparc": {
+    "a11yViolations": 0,
+    "rules": []
+  }
+}

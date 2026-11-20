@@ -1,0 +1,76 @@
+{
+  "slug": "gooey-waitlist",
+  "source": "aceternity",
+  "name": "Gooey Waitlist",
+  "kind": "ui",
+  "versions": {
+    "9a4301bfc50961f0dbbd18a7259ab54d336755612f8dcf70388e034650ee5b56": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:gooey-waitlist@0.0.0",
+        "name": "Gooey Waitlist",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A waitlist pill that splits like liquid into an email field and a button. Letters rise into place as you type; a wrong address shakes the form.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/gooey-waitlist.json",
+          "ref": "aceternity",
+          "contentHash": "9a4301bfc50961f0dbbd18a7259ab54d336755612f8dcf70388e034650ee5b56"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "interactions",
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "9a4301bfc50961f0dbbd18a7259ab54d336755612f8dcf70388e034650ee5b56",
+  "quality": {}
+}

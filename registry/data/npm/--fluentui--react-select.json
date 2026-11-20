@@ -1,0 +1,84 @@
+{
+  "slug": "@fluentui/react-select",
+  "source": "npm",
+  "name": "@fluentui/react-select",
+  "kind": "library",
+  "versions": {
+    "3da1a8fc6684777d130bc0554d763e3c8b1fae5a3c7727299c46a5d7c79ed147": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:@fluentui/react-select@9.5.8",
+        "name": "@fluentui/react-select",
+        "version": "9.5.8",
+        "kind": "library",
+        "summary": "Fluent UI React Select component",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/@fluentui/react-select",
+          "ref": "9.5.8",
+          "contentHash": "3da1a8fc6684777d130bc0554d763e3c8b1fae5a3c7727299c46a5d7c79ed147"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">=16.14.0 <20.0.0",
+            "@types/react": ">=16.14.0 <20.0.0"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">=16.14.0 <20.0.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "query:react select"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "3da1a8fc6684777d130bc0554d763e3c8b1fae5a3c7727299c46a5d7c79ed147",
+  "quality": {
+    "downloads": 2276937,
+    "lastPublish": "2026-11-10T16:51:45.832Z",
+    "hasTypes": true
+  }
+}

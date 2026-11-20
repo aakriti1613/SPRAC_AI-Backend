@@ -1,0 +1,75 @@
+{
+  "slug": "chat-conversation",
+  "source": "aceternity",
+  "name": "chat-conversation",
+  "kind": "ui",
+  "versions": {
+    "49881ae6d0475e59d973848bc7bec55cc59be9813972e8548c4f53305affb38c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:chat-conversation@0.0.0",
+        "name": "chat-conversation",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Chat Conversation",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/chat-conversation.json",
+          "ref": "aceternity",
+          "contentHash": "49881ae6d0475e59d973848bc7bec55cc59be9813972e8548c4f53305affb38c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "49881ae6d0475e59d973848bc7bec55cc59be9813972e8548c4f53305affb38c",
+  "quality": {}
+}

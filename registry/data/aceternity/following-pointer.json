@@ -1,0 +1,75 @@
+{
+  "slug": "following-pointer",
+  "source": "aceternity",
+  "name": "following-pointer",
+  "kind": "ui",
+  "versions": {
+    "3f9aa3907caa616117f4b852fc0df807e89b9ee82b7130a94914c22561cd38c0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:following-pointer@0.0.0",
+        "name": "following-pointer",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"following-pointer\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/following-pointer.json",
+          "ref": "aceternity",
+          "contentHash": "3f9aa3907caa616117f4b852fc0df807e89b9ee82b7130a94914c22561cd38c0"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "3f9aa3907caa616117f4b852fc0df807e89b9ee82b7130a94914c22561cd38c0",
+  "quality": {}
+}

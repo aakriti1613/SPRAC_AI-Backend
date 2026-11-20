@@ -1,0 +1,75 @@
+{
+  "slug": "text-animation-typewriter-effect-demo",
+  "source": "aceternity",
+  "name": "text-animation-typewriter-effect-demo",
+  "kind": "ui",
+  "versions": {
+    "2df3434c8e178f443634886b298fd9d450d7d1cf95910fbba7b840d444985840": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:text-animation-typewriter-effect-demo@0.0.0",
+        "name": "text-animation-typewriter-effect-demo",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Text Animation Typewriter Effect Demo",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/text-animation-typewriter-effect-demo.json",
+          "ref": "aceternity",
+          "contentHash": "2df3434c8e178f443634886b298fd9d450d7d1cf95910fbba7b840d444985840"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "2df3434c8e178f443634886b298fd9d450d7d1cf95910fbba7b840d444985840",
+  "quality": {}
+}

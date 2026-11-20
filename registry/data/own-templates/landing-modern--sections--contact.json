@@ -1,0 +1,94 @@
+{
+  "slug": "landing-modern/sections/contact",
+  "source": "own-templates",
+  "name": "Contact section (landing-modern)",
+  "kind": "component",
+  "versions": {
+    "2884889cb8ffef7c1c9d4d95fd0c4ad5237cb0307da59e49336f16c4b25012c7": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:landing-modern/sections/contact@0.1.0",
+        "name": "Contact section (landing-modern)",
+        "version": "0.1.0",
+        "kind": "component",
+        "summary": "Page section \"Contact\" from the landing-modern landing template.",
+        "room": "contact",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "landing-modern/src/components/sections/Contact.jsx",
+          "contentHash": "2884889cb8ffef7c1c9d4d95fd0c4ad5237cb0307da59e49336f16c4b25012c7"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "*",
+            "framer-motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "language": "js"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "legacy",
+            "section",
+            "landing-modern"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.7
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "room": "contact",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "reads the template's config singleton instead of taking props (must be rewritten to accept its room's props)",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"links\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "2884889cb8ffef7c1c9d4d95fd0c4ad5237cb0307da59e49336f16c4b25012c7",
+  "quality": {}
+}

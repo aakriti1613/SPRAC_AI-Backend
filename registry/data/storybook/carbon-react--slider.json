@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/slider",
+  "source": "storybook",
+  "name": "Slider (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "9a8dc4df56ec7f40688f4aa280f3499ffd5e1bb16ca245b8490a5c0ee32a36b5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/slider@0.0.0",
+        "name": "Slider (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Slider from IBM Carbon (React): 10 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-slider--overview",
+          "ref": "@carbon/react",
+          "contentHash": "9a8dc4df56ec7f40688f4aa280f3499ffd5e1bb16ca245b8490a5c0ee32a36b5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "9a8dc4df56ec7f40688f4aa280f3499ffd5e1bb16ca245b8490a5c0ee32a36b5",
+  "quality": {
+    "hasTests": true
+  }
+}

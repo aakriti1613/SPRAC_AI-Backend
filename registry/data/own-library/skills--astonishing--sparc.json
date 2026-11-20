@@ -1,0 +1,107 @@
+{
+  "slug": "skills/astonishing/sparc",
+  "source": "own-library",
+  "name": "Astonishing skills",
+  "kind": "component",
+  "versions": {
+    "033d65b9cfc834d65083223537f84e1a23893c376a2e438d8bfd7debbab1713e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:skills/astonishing/sparc@1.0.0",
+        "name": "Astonishing skills",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Astonishing skills: Skills grouped by area.",
+        "room": "skills",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/skills/astonishing/sparc/index.tsx",
+          "contentHash": "033d65b9cfc834d65083223537f84e1a23893c376a2e438d8bfd7debbab1713e"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "groups",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "skills",
+            "astonishing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "skills",
+  "styleLevel": "astonishing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "033d65b9cfc834d65083223537f84e1a23893c376a2e438d8bfd7debbab1713e",
+  "quality": {
+    "sizeKb": 47.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

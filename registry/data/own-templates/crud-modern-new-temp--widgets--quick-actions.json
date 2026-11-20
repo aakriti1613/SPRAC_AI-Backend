@@ -1,0 +1,91 @@
+{
+  "slug": "crud-modern-new-temp/widgets/quick-actions",
+  "source": "own-templates",
+  "name": "QuickActions (crud-modern template)",
+  "kind": "ui",
+  "versions": {
+    "a0e7fb84df478629bf7e7f50da6605e80f0e686c395b24d3f83cf3accabee472": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/widgets/quick-actions@0.1.0",
+        "name": "QuickActions (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "ui",
+        "summary": "Dashboard widget \"QuickActions\" from the crud-modern-new-temp template.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/widgets/QuickActions.tsx",
+          "contentHash": "a0e7fb84df478629bf7e7f50da6605e80f0e686c395b24d3f83cf3accabee472"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "modules",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react-router-dom": "^7.13.0",
+            "lucide-react": "^0.564.0"
+          },
+          "peer": {},
+          "registry": [
+            "crud-modern-new-temp/src/components/ui/card",
+            "crud-modern-new-temp/src/engine/icons",
+            "crud-modern-new-temp/src/lib/config",
+            "crud-modern-new-temp/src/lib/config.types"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "tags": [
+            "legacy",
+            "widgets"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a0e7fb84df478629bf7e7f50da6605e80f0e686c395b24d3f83cf3accabee472",
+  "quality": {}
+}

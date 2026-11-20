@@ -1,0 +1,27 @@
+# Dependencies
+node_modules
+**/node_modules
+
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# Generated portals (created at runtime, pushed to GitHub separately)
+portals/
+../portals/
+
+# OS / editor junk
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Registry run log (local history, not part of the catalogue)
+registry/data/runs.jsonl
+
+# SPARC generated projects (build output; not committed)
+sparc-ui/.generated/
+
+# Scaffolder output (generated projects, pushed to GitHub separately)
+output/

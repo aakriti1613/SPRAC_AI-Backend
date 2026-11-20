@@ -1,0 +1,81 @@
+{
+  "slug": "prebuiltui/prebuiltui",
+  "source": "github",
+  "name": "prebuiltui/prebuiltui",
+  "kind": "library",
+  "versions": {
+    "a7f41c0388449179cd88d8594816d20a72268a98ab772d092482c3aa9624159a": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:prebuiltui/prebuiltui@0.0.0",
+        "name": "prebuiltui/prebuiltui",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "PrebuiltUI is a growing collection of beautifully crafted, ready-to-use UI components built with Tailwind CSS.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/prebuiltui/prebuiltui",
+          "ref": "main",
+          "contentHash": "a7f41c0388449179cd88d8594816d20a72268a98ab772d092482c3aa9624159a"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "free-templates",
+            "prebuiltui",
+            "react-components",
+            "react-template",
+            "react-templates",
+            "tailwind-components",
+            "tailwindcss-components",
+            "templates",
+            "ui-components",
+            "query:topic:tailwindcss-components stars:>500"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a7f41c0388449179cd88d8594816d20a72268a98ab772d092482c3aa9624159a",
+  "quality": {
+    "stars": 562,
+    "lastPublish": "2026-10-14T07:03:51Z"
+  }
+}

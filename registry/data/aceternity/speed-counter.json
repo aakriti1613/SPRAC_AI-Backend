@@ -1,0 +1,76 @@
+{
+  "slug": "speed-counter",
+  "source": "aceternity",
+  "name": "Speed Counter",
+  "kind": "ui",
+  "versions": {
+    "063c8e7d0634f9f10f21b07da3bdeed05cf5e6a6e15b2950d4f04fab7d870d5f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:speed-counter@0.0.0",
+        "name": "Speed Counter",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A number whose digits race sideways to the new value, each smeared by its own speed. Commas, decimals, signs, currency and locales stay right.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/speed-counter.json",
+          "ref": "aceternity",
+          "contentHash": "063c8e7d0634f9f10f21b07da3bdeed05cf5e6a6e15b2950d4f04fab7d870d5f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "interactions",
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "063c8e7d0634f9f10f21b07da3bdeed05cf5e6a6e15b2950d4f04fab7d870d5f",
+  "quality": {}
+}

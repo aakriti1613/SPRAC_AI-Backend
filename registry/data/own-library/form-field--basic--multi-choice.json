@@ -1,0 +1,128 @@
+{
+  "slug": "form-field/basic/multi-choice",
+  "source": "own-library",
+  "name": "Basic form-field (multi-choice)",
+  "kind": "component",
+  "versions": {
+    "3e6e8030f56d27d435bbd1f4d52fb1df903564d003ad7189b293e051fe6de531": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:form-field/basic/multi-choice@1.0.0",
+        "name": "Basic form-field (multi-choice)",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic form-field: ONE input for one field type (text, currency, date…). Each component declares which field types it supports.",
+        "room": "form-field",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/form-field/basic/multi-choice/index.tsx",
+          "contentHash": "3e6e8030f56d27d435bbd1f4d52fb1df903564d003ad7189b293e051fe6de531"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "disabled",
+              "kind": "boolean",
+              "required": false
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "field",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "onChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "value",
+              "kind": "unknown",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [
+            "multi-select",
+            "checkbox-group",
+            "tags"
+          ],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "form-field",
+            "basic",
+            "multi-select",
+            "checkbox-group",
+            "tags"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "form-field",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "3e6e8030f56d27d435bbd1f4d52fb1df903564d003ad7189b293e051fe6de531",
+  "quality": {
+    "sizeKb": 1.7,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

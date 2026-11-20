@@ -1,0 +1,92 @@
+{
+  "slug": "bento-grid",
+  "source": "magicui",
+  "name": "Bento Grid",
+  "kind": "component",
+  "versions": {
+    "e04444fccac1d68e7ebc02b13b6e57b854d464763d874b4b34d6a594a8762686": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:bento-grid@0.0.0",
+        "name": "Bento Grid",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Bento grid is a layout used to showcase the features of a product in a simple and elegant way.",
+        "room": "services",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/bento-grid.json",
+          "ref": "magicui",
+          "contentHash": "e04444fccac1d68e7ebc02b13b6e57b854d464763d874b4b34d6a594a8762686"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@radix-ui/react-icons": "*"
+          },
+          "peer": {},
+          "registry": [
+            "magicui:button"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "room": "services",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "package \"@radix-ui/react-icons\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "e04444fccac1d68e7ebc02b13b6e57b854d464763d874b4b34d6a594a8762686",
+  "quality": {}
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "chart-pie-donut-text",
+  "source": "shadcn",
+  "name": "chart-pie-donut-text",
+  "kind": "ui",
+  "versions": {
+    "d9bd9087e43f29f580dd16860fc6eeba55cf1098a29fa009a0426d117288fb8e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-pie-donut-text@0.0.0",
+        "name": "chart-pie-donut-text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-pie-donut-text\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-pie-donut-text.json",
+          "ref": "new-york-v4",
+          "contentHash": "d9bd9087e43f29f580dd16860fc6eeba55cf1098a29fa009a0426d117288fb8e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-pie"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "d9bd9087e43f29f580dd16860fc6eeba55cf1098a29fa009a0426d117288fb8e",
+  "quality": {}
+}

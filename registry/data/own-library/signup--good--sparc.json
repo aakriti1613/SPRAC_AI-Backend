@@ -1,0 +1,123 @@
+{
+  "slug": "signup/good/sparc",
+  "source": "own-library",
+  "name": "Good signup",
+  "kind": "component",
+  "versions": {
+    "f33b117e7c2afae82f6babf94cb46341838cfd0964691bd4816fb86a5133cc60": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:signup/good/sparc@1.0.0",
+        "name": "Good signup",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good signup: Create-account screen.",
+        "room": "signup",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/signup/good/sparc/index.tsx",
+          "contentHash": "f33b117e7c2afae82f6babf94cb46341838cfd0964691bd4816fb86a5133cc60"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "brand",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "loginHref",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "onSubmit",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "submitting",
+              "kind": "boolean",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/auth",
+            "library/_shared/basic",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "auth",
+          "tags": [
+            "signup",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "signup",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "f33b117e7c2afae82f6babf94cb46341838cfd0964691bd4816fb86a5133cc60",
+  "quality": {
+    "sizeKb": 2.1,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

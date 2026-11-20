@@ -1,0 +1,131 @@
+{
+  "sparcVersion": 1,
+  "websiteType": "ecommerce",
+  "styleLevel": "good",
+  "industry": "generic",
+  "brand": {
+    "name": "Chai & Co",
+    "logoText": "CC"
+  },
+  "theme": {
+    "primary": "#b45309",
+    "mode": "light",
+    "radius": "lg",
+    "density": "comfortable",
+    "buttonSize": "md",
+    "font": "system"
+  },
+  "rooms": {
+    "enabled": [
+      "faq",
+      "newsletter"
+    ]
+  },
+  "meta": {
+    "title": "Chai & Co. - Small-batch tea, delivered",
+    "description": "Loose-leaf teas and brewing gear from small Indian growers."
+  },
+  "store": {
+    "currency": "INR",
+    "payment": {
+      "mode": "test"
+    }
+  },
+  "nav": {
+    "cta": {
+      "label": "View cart",
+      "href": "/cart"
+    }
+  },
+  "footer": {
+    "text": "Small-batch tea since 2019.",
+    "socialLinks": [
+      {
+        "type": "email",
+        "label": "Email",
+        "href": "mailto:hello@chai.example"
+      }
+    ]
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Free shipping over ₹999",
+      "title": "Tea worth slowing down for",
+      "highlight": "slowing down",
+      "subtitle": "Loose-leaf teas from small growers in Assam, Darjeeling and the Nilgiris.",
+      "primaryCta": {
+        "label": "Shop teas",
+        "href": "#products"
+      }
+    },
+    "product-list": {
+      "heading": "Our teas",
+      "subtitle": "Packed fresh every week.",
+      "products": [
+        {
+          "id": "assam-breakfast",
+          "name": "Assam Breakfast",
+          "description": "Malty and bold. Made for milk.",
+          "price": 349,
+          "compareAtPrice": 399,
+          "category": "Black tea",
+          "badge": "Bestseller"
+        },
+        {
+          "id": "darjeeling-first-flush",
+          "name": "Darjeeling First Flush",
+          "description": "Light, floral and bright.",
+          "price": 649,
+          "category": "Black tea"
+        },
+        {
+          "id": "nilgiri-green",
+          "name": "Nilgiri Green",
+          "description": "Fresh and grassy with a soft finish.",
+          "price": 449,
+          "category": "Green tea"
+        },
+        {
+          "id": "masala-chai-blend",
+          "name": "Masala Chai Blend",
+          "description": "Cardamom, ginger and cinnamon.",
+          "price": 299,
+          "category": "Spiced",
+          "badge": "New"
+        },
+        {
+          "id": "steel-infuser",
+          "name": "Steel Infuser",
+          "description": "Fine mesh, fits any mug.",
+          "price": 199,
+          "category": "Gear"
+        },
+        {
+          "id": "gift-box",
+          "name": "Tasting Gift Box",
+          "description": "Four teas in a keepsake box.",
+          "price": 1199,
+          "category": "Gifts",
+          "inStock": false
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Questions",
+      "items": [
+        {
+          "question": "How long does delivery take?",
+          "answer": "3 to 5 working days across India."
+        },
+        {
+          "question": "Can I return a tea I do not like?",
+          "answer": "Yes, within 14 days if the pack is sealed."
+        }
+      ]
+    },
+    "newsletter": {
+      "heading": "Brewing notes",
+      "text": "One short email a month. No spam."
+    }
+  }
+}

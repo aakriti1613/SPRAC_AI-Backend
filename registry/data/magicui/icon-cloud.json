@@ -1,0 +1,76 @@
+{
+  "slug": "icon-cloud",
+  "source": "magicui",
+  "name": "Icon Cloud",
+  "kind": "ui",
+  "versions": {
+    "7bbbee2eeddeacd462fbac4fa13a68d2d435d43fd7dc8b07421a58be945ab700": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:icon-cloud@0.0.0",
+        "name": "Icon Cloud",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "An interactive 3D tag cloud component",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/icon-cloud.json",
+          "ref": "magicui",
+          "contentHash": "7bbbee2eeddeacd462fbac4fa13a68d2d435d43fd7dc8b07421a58be945ab700"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "lucide-react": "*"
+          },
+          "peer": {},
+          "registry": [
+            "magicui:button"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "7bbbee2eeddeacd462fbac4fa13a68d2d435d43fd7dc8b07421a58be945ab700",
+  "quality": {}
+}

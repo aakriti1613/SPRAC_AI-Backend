@@ -1,0 +1,73 @@
+{
+  "slug": "container-text-flip",
+  "source": "aceternity",
+  "name": "container-text-flip",
+  "kind": "ui",
+  "versions": {
+    "d14da8672944520a9704395f3137eccb09255e874b6ec2bf7b5c3c1fd00d1262": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:container-text-flip@0.0.0",
+        "name": "container-text-flip",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"container-text-flip\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/container-text-flip.json",
+          "ref": "aceternity",
+          "contentHash": "d14da8672944520a9704395f3137eccb09255e874b6ec2bf7b5c3c1fd00d1262"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "d14da8672944520a9704395f3137eccb09255e874b6ec2bf7b5c3c1fd00d1262",
+  "quality": {}
+}

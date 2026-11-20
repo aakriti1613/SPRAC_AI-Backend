@@ -1,0 +1,74 @@
+{
+  "slug": "switch",
+  "source": "shadcn",
+  "name": "switch",
+  "kind": "ui",
+  "versions": {
+    "03407aa0aa952b406d173e9a115b443c80a8e3c60fcb111d3aa0b37e0a7dcb8e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:switch@0.0.0",
+        "name": "switch",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"switch\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/switch.json",
+          "ref": "new-york-v4",
+          "contentHash": "03407aa0aa952b406d173e9a115b443c80a8e3c60fcb111d3aa0b37e0a7dcb8e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "03407aa0aa952b406d173e9a115b443c80a8e3c60fcb111d3aa0b37e0a7dcb8e",
+  "quality": {}
+}

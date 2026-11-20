@@ -1,0 +1,95 @@
+{
+  "slug": "signup-02",
+  "source": "shadcn",
+  "name": "signup-02",
+  "kind": "component",
+  "versions": {
+    "9bf1ce4f5d8c80a4e6f58fefc52a5f7f405c308c93ecc071d30c9c14a8764b7e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:signup-02@0.0.0",
+        "name": "signup-02",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "A two column signup page with a cover image.",
+        "room": "signup",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/signup-02.json",
+          "ref": "new-york-v4",
+          "contentHash": "9bf1ce4f5d8c80a4e6f58fefc52a5f7f405c308c93ecc071d30c9c14a8764b7e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:button",
+            "shadcn:field",
+            "shadcn:input",
+            "shadcn:label",
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "authentication",
+            "signup"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "room": "signup",
+  "styleLevel": "good",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"onSubmit\"",
+    "contract: does not accept required prop \"submitting\"",
+    "contract: does not accept required prop \"loginHref\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "9bf1ce4f5d8c80a4e6f58fefc52a5f7f405c308c93ecc071d30c9c14a8764b7e",
+  "quality": {}
+}

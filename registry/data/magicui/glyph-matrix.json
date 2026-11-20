@@ -1,0 +1,72 @@
+{
+  "slug": "glyph-matrix",
+  "source": "magicui",
+  "name": "Glyph Matrix",
+  "kind": "ui",
+  "versions": {
+    "ec2e242d8ae5d376e64b931e331194bc7c711f33501be97182d2ef9267f2b6b9": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:glyph-matrix@0.0.0",
+        "name": "Glyph Matrix",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "An animated grid of subtly shifting glyphs with fade effect and theme support.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/glyph-matrix.json",
+          "ref": "magicui",
+          "contentHash": "ec2e242d8ae5d376e64b931e331194bc7c711f33501be97182d2ef9267f2b6b9"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "ec2e242d8ae5d376e64b931e331194bc7c711f33501be97182d2ef9267f2b6b9",
+  "quality": {}
+}

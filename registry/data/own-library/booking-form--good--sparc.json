@@ -1,0 +1,126 @@
+{
+  "slug": "booking-form/good/sparc",
+  "source": "own-library",
+  "name": "Good booking-form",
+  "kind": "component",
+  "versions": {
+    "3d3b6b6f4876411f4c503dbd22cf1d32e2e4b3fedf9e04e175ff2c49b9692748": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:booking-form/good/sparc@1.0.0",
+        "name": "Good booking-form",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good booking-form: Name, email and phone to finish the booking. The shell saves it.",
+        "room": "booking-form",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "booking"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/booking-form/good/sparc/index.tsx",
+          "contentHash": "3d3b6b6f4876411f4c503dbd22cf1d32e2e4b3fedf9e04e175ff2c49b9692748"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "onSubmit",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "ready",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "submitting",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "summary",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "booking",
+          "tags": [
+            "booking-form",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-19T11-06-31-950Z-330d3d"
+    }
+  },
+  "room": "booking-form",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "3d3b6b6f4876411f4c503dbd22cf1d32e2e4b3fedf9e04e175ff2c49b9692748",
+  "quality": {
+    "sizeKb": 1.9,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

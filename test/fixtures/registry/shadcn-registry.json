@@ -1,0 +1,320 @@
+{
+  "name": "shadcn/ui",
+  "homepage": "https://ui.shadcn.com",
+  "items": [
+    {
+      "name": "badge",
+      "dependencies": [
+        "cn",
+        "radix-ui"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york-v4/ui/badge.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "name": "button",
+      "dependencies": [
+        "cn",
+        "radix-ui"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york-v4/ui/button.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "name": "calendar",
+      "dependencies": [
+        "cn",
+        "react-day-picker@latest",
+        "date-fns"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york-v4/ui/calendar.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "name": "card",
+      "files": [
+        {
+          "path": "registry/new-york-v4/ui/card.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui",
+      "dependencies": [
+        "cn"
+      ]
+    },
+    {
+      "name": "chart",
+      "dependencies": [
+        "cn",
+        "recharts@3.8.0",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "card"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york-v4/ui/chart.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "name": "dialog",
+      "dependencies": [
+        "cn",
+        "radix-ui"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york-v4/ui/dialog.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "name": "input",
+      "files": [
+        {
+          "path": "registry/new-york-v4/ui/input.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui",
+      "dependencies": [
+        "cn"
+      ]
+    },
+    {
+      "name": "select",
+      "dependencies": [
+        "cn",
+        "radix-ui"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york-v4/ui/select.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui"
+    },
+    {
+      "name": "sidebar",
+      "dependencies": [
+        "cn",
+        "radix-ui",
+        "class-variance-authority",
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "separator",
+        "sheet",
+        "tooltip",
+        "input",
+        "use-mobile",
+        "skeleton"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york-v4/ui/sidebar.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "tailwind": {
+        "config": {
+          "theme": {
+            "extend": {
+              "colors": {
+                "sidebar": {
+                  "DEFAULT": "hsl(var(--sidebar-background))",
+                  "foreground": "hsl(var(--sidebar-foreground))",
+                  "primary": "hsl(var(--sidebar-primary))",
+                  "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
+                  "accent": "hsl(var(--sidebar-accent))",
+                  "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
+                  "border": "hsl(var(--sidebar-border))",
+                  "ring": "hsl(var(--sidebar-ring))"
+                }
+              }
+            }
+          }
+        }
+      },
+      "cssVars": {
+        "light": {
+          "sidebar-background": "0 0% 98%",
+          "sidebar-foreground": "240 5.3% 26.1%",
+          "sidebar-primary": "240 5.9% 10%",
+          "sidebar-primary-foreground": "0 0% 98%",
+          "sidebar-accent": "240 4.8% 95.9%",
+          "sidebar-accent-foreground": "240 5.9% 10%",
+          "sidebar-border": "220 13% 91%",
+          "sidebar-ring": "217.2 91.2% 59.8%"
+        },
+        "dark": {
+          "sidebar-background": "240 5.9% 10%",
+          "sidebar-foreground": "240 4.8% 95.9%",
+          "sidebar-primary": "224.3 76.3% 48%",
+          "sidebar-primary-foreground": "0 0% 100%",
+          "sidebar-accent": "240 3.7% 15.9%",
+          "sidebar-accent-foreground": "240 4.8% 95.9%",
+          "sidebar-border": "240 3.7% 15.9%",
+          "sidebar-ring": "217.2 91.2% 59.8%"
+        }
+      },
+      "type": "registry:ui"
+    },
+    {
+      "name": "table",
+      "files": [
+        {
+          "path": "registry/new-york-v4/ui/table.tsx",
+          "type": "registry:ui"
+        }
+      ],
+      "type": "registry:ui",
+      "dependencies": [
+        "cn"
+      ]
+    },
+    {
+      "name": "dashboard-01",
+      "description": "A dashboard with sidebar, charts and data table.",
+      "dependencies": [
+        "@dnd-kit/core",
+        "@dnd-kit/modifiers",
+        "@dnd-kit/sortable",
+        "@dnd-kit/utilities",
+        "@tabler/icons-react",
+        "@tanstack/react-table",
+        "zod"
+      ],
+      "registryDependencies": [
+        "sidebar",
+        "breadcrumb",
+        "separator",
+        "label",
+        "chart",
+        "card",
+        "select",
+        "tabs",
+        "table",
+        "toggle-group",
+        "badge",
+        "button",
+        "checkbox",
+        "dropdown-menu",
+        "drawer",
+        "input",
+        "avatar",
+        "sheet",
+        "sonner"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/data.json",
+          "type": "registry:file"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/components/app-sidebar.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/components/chart-area-interactive.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/components/data-table.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/components/nav-documents.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/components/nav-main.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/components/nav-secondary.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/components/nav-user.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/components/section-cards.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/dashboard-01/components/site-header.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "1000px"
+      },
+      "categories": [
+        "dashboard"
+      ],
+      "type": "registry:block"
+    },
+    {
+      "name": "login-01",
+      "description": "A simple login form.",
+      "registryDependencies": [
+        "button",
+        "card",
+        "input",
+        "label",
+        "field"
+      ],
+      "files": [
+        {
+          "path": "registry/new-york-v4/blocks/login-01/page.tsx",
+          "type": "registry:page"
+        },
+        {
+          "path": "registry/new-york-v4/blocks/login-01/components/login-form.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "categories": [
+        "authentication",
+        "login"
+      ],
+      "type": "registry:block",
+      "dependencies": [
+        "cn"
+      ]
+    }
+  ]
+}

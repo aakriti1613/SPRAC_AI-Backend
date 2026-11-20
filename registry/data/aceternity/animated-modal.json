@@ -1,0 +1,93 @@
+{
+  "slug": "animated-modal",
+  "source": "aceternity",
+  "name": "animated-modal",
+  "kind": "component",
+  "versions": {
+    "b6c2151a741006039006aa1f09da7ac12c2e3dfd2804f4c7d790e6c0fc984b50": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:animated-modal@0.0.0",
+        "name": "animated-modal",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"animated-modal\".",
+        "room": "confirm-dialog",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/animated-modal.json",
+          "ref": "aceternity",
+          "contentHash": "b6c2151a741006039006aa1f09da7ac12c2e3dfd2804f4c7d790e6c0fc984b50"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "confirm-dialog",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"open\"",
+    "contract: does not accept required prop \"title\"",
+    "contract: does not accept required prop \"confirmLabel\"",
+    "contract: does not accept required prop \"onConfirm\"",
+    "contract: does not accept required prop \"onCancel\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "b6c2151a741006039006aa1f09da7ac12c2e3dfd2804f4c7d790e6c0fc984b50",
+  "quality": {}
+}

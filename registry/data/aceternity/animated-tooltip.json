@@ -1,0 +1,75 @@
+{
+  "slug": "animated-tooltip",
+  "source": "aceternity",
+  "name": "animated-tooltip",
+  "kind": "ui",
+  "versions": {
+    "13b47f15163be9b777bd07de4e4bef375c17a34ba9d4a423443cbe2f09f8381f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:animated-tooltip@0.0.0",
+        "name": "animated-tooltip",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"animated-tooltip\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/animated-tooltip.json",
+          "ref": "aceternity",
+          "contentHash": "13b47f15163be9b777bd07de4e4bef375c17a34ba9d4a423443cbe2f09f8381f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "13b47f15163be9b777bd07de4e4bef375c17a34ba9d4a423443cbe2f09f8381f",
+  "quality": {}
+}

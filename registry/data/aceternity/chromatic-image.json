@@ -1,0 +1,73 @@
+{
+  "slug": "chromatic-image",
+  "source": "aceternity",
+  "name": "chromatic-image",
+  "kind": "ui",
+  "versions": {
+    "3f0728811e7a3fd33ddc85bfe2be605052ee4373d4f5d5d4141359685e00e8b7": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:chromatic-image@0.0.0",
+        "name": "chromatic-image",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"chromatic-image\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/chromatic-image.json",
+          "ref": "aceternity",
+          "contentHash": "3f0728811e7a3fd33ddc85bfe2be605052ee4373d4f5d5d4141359685e00e8b7"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "3f0728811e7a3fd33ddc85bfe2be605052ee4373d4f5d5d4141359685e00e8b7",
+  "quality": {}
+}

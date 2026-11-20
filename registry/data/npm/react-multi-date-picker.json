@@ -1,0 +1,92 @@
+{
+  "slug": "react-multi-date-picker",
+  "source": "npm",
+  "name": "react-multi-date-picker",
+  "kind": "library",
+  "versions": {
+    "59829abe835de6c238a614b2b16c12c22ee0120cd840f11b1eab686a684114ff": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-multi-date-picker@4.5.2",
+        "name": "react-multi-date-picker",
+        "version": "4.5.2",
+        "kind": "library",
+        "summary": "A simple React datepicker component for working with gregorian, persian, arabic and indian calendars with the ability to select the date by single, multiple, range and multiple range pickers.",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-multi-date-picker",
+          "ref": "4.5.2",
+          "contentHash": "59829abe835de6c238a614b2b16c12c22ee0120cd840f11b1eab686a684114ff"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">=16.8.0",
+            "react-dom": ">=16.8.0"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">=16.8.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "react",
+            "multi",
+            "date",
+            "picker",
+            "datepicker",
+            "rangepicker",
+            "weekpicker",
+            "timepicker",
+            "query:react datepicker"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "59829abe835de6c238a614b2b16c12c22ee0120cd840f11b1eab686a684114ff",
+  "quality": {
+    "downloads": 694735,
+    "lastPublish": "2024-06-15T07:55:39.528Z",
+    "hasTypes": true
+  }
+}

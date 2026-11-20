@@ -1,0 +1,76 @@
+{
+  "slug": "chart-pie-interactive",
+  "source": "shadcn",
+  "name": "chart-pie-interactive",
+  "kind": "ui",
+  "versions": {
+    "7c772e175e2064a11cc8229f0afb82a57bc1fa9c2ebb68e107d53723db49362e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-pie-interactive@0.0.0",
+        "name": "chart-pie-interactive",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-pie-interactive\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-pie-interactive.json",
+          "ref": "new-york-v4",
+          "contentHash": "7c772e175e2064a11cc8229f0afb82a57bc1fa9c2ebb68e107d53723db49362e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-pie"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "7c772e175e2064a11cc8229f0afb82a57bc1fa9c2ebb68e107d53723db49362e",
+  "quality": {}
+}

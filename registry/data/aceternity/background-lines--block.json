@@ -1,0 +1,75 @@
+{
+  "slug": "background-lines--block",
+  "source": "aceternity",
+  "name": "background-lines",
+  "kind": "ui",
+  "versions": {
+    "c2c035797856ba51a016bac364d25e4e5c6df97fa1f0d0b09bd88ea14705b378": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:background-lines--block@0.0.0",
+        "name": "background-lines",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Background Lines",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/background-lines.json",
+          "ref": "aceternity",
+          "contentHash": "c2c035797856ba51a016bac364d25e4e5c6df97fa1f0d0b09bd88ea14705b378"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "c2c035797856ba51a016bac364d25e4e5c6df97fa1f0d0b09bd88ea14705b378",
+  "quality": {}
+}

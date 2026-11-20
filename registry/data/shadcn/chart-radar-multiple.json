@@ -1,0 +1,76 @@
+{
+  "slug": "chart-radar-multiple",
+  "source": "shadcn",
+  "name": "chart-radar-multiple",
+  "kind": "ui",
+  "versions": {
+    "9cc56912f6f694c97aacaa2a4eba48b757d5785125b35433ce46d75bc6aad345": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-radar-multiple@0.0.0",
+        "name": "chart-radar-multiple",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-radar-multiple\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-radar-multiple.json",
+          "ref": "new-york-v4",
+          "contentHash": "9cc56912f6f694c97aacaa2a4eba48b757d5785125b35433ce46d75bc6aad345"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-radar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "9cc56912f6f694c97aacaa2a4eba48b757d5785125b35433ce46d75bc6aad345",
+  "quality": {}
+}

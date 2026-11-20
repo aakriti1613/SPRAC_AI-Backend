@@ -1,0 +1,2609 @@
+{
+  "meta": {
+    "startedAt": "2026-11-19T13:03:41.371Z",
+    "model": "gemini-3.8-flash",
+    "requests": 30,
+    "engines": [
+      "offline"
+    ],
+    "embedder": "offline hashing embedder",
+    "gemini": {
+      "available": false,
+      "reason": "Gemini quota exhausted: {\"error\":{\"code\":429,\"message\":\"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https:"
+    },
+    "finishedAt": "2026-11-19T13:09:45.933Z"
+  },
+  "templates": {
+    "r01": {
+      "id": "r01",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "good",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "patients",
+        "appointments",
+        "doctors",
+        "prescriptions"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r02": {
+      "id": "r02",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "amazing",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "patients",
+        "appointments",
+        "doctors",
+        "prescriptions"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r03": {
+      "id": "r03",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "basic",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "patients",
+        "appointments",
+        "doctors",
+        "prescriptions"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r04": {
+      "id": "r04",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "good",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "contacts",
+        "leads",
+        "deals",
+        "customers"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r05": {
+      "id": "r05",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "amazing",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "contacts",
+        "leads",
+        "deals",
+        "customers"
+      ],
+      "moduleRecall": 0,
+      "missingModules": [
+        "tickets"
+      ],
+      "keywordCoverage": 0,
+      "ok": false,
+      "errors": [
+        "preset is missing: tickets"
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r06": {
+      "id": "r06",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "good",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "employees",
+        "leave-requests",
+        "attendance",
+        "payroll"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r07": {
+      "id": "r07",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "basic",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "employees",
+        "leave-requests",
+        "attendance",
+        "payroll"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r08": {
+      "id": "r08",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "amazing",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "students",
+        "teachers",
+        "fees",
+        "exams",
+        "courses"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r09": {
+      "id": "r09",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "good",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "students",
+        "teachers",
+        "fees",
+        "exams",
+        "courses"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r10": {
+      "id": "r10",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "good",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "products",
+        "suppliers",
+        "stock-movements",
+        "orders"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r11": {
+      "id": "r11",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "basic",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "products",
+        "suppliers",
+        "stock-movements",
+        "orders"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r12": {
+      "id": "r12",
+      "system": "templates",
+      "type": "admin-portal",
+      "style": "amazing",
+      "served": true,
+      "templates": [
+        "portal-admin",
+        "crud-modern-new-temp"
+      ],
+      "preset": [
+        "vendors",
+        "purchase-orders",
+        "invoices",
+        "expenses"
+      ],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 1,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r13": {
+      "id": "r13",
+      "system": "templates",
+      "type": "portfolio",
+      "style": "astonishing",
+      "served": true,
+      "templates": [
+        "landing-modern",
+        "landing-temp-2"
+      ],
+      "preset": [],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 0,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r14": {
+      "id": "r14",
+      "system": "templates",
+      "type": "portfolio",
+      "style": "good",
+      "served": true,
+      "templates": [
+        "landing-modern",
+        "landing-temp-2"
+      ],
+      "preset": [],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 0,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r15": {
+      "id": "r15",
+      "system": "templates",
+      "type": "portfolio",
+      "style": "amazing",
+      "served": true,
+      "templates": [
+        "landing-modern",
+        "landing-temp-2"
+      ],
+      "preset": [],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 0,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r16": {
+      "id": "r16",
+      "system": "templates",
+      "type": "portfolio",
+      "style": "basic",
+      "served": true,
+      "templates": [
+        "landing-modern",
+        "landing-temp-2"
+      ],
+      "preset": [],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 0,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r17": {
+      "id": "r17",
+      "system": "templates",
+      "type": "portfolio",
+      "style": "astonishing",
+      "served": true,
+      "templates": [
+        "landing-modern",
+        "landing-temp-2"
+      ],
+      "preset": [],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 0,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r18": {
+      "id": "r18",
+      "system": "templates",
+      "type": "portfolio",
+      "style": "good",
+      "served": true,
+      "templates": [
+        "landing-modern",
+        "landing-temp-2"
+      ],
+      "preset": [],
+      "moduleRecall": 1,
+      "missingModules": [],
+      "keywordCoverage": 0,
+      "ok": true,
+      "errors": [],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r19": {
+      "id": "r19",
+      "system": "templates",
+      "type": "landing",
+      "style": "good",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"landing\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r20": {
+      "id": "r20",
+      "system": "templates",
+      "type": "landing",
+      "style": "amazing",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"landing\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r21": {
+      "id": "r21",
+      "system": "templates",
+      "type": "landing",
+      "style": "good",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"landing\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r22": {
+      "id": "r22",
+      "system": "templates",
+      "type": "landing",
+      "style": "astonishing",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"landing\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r23": {
+      "id": "r23",
+      "system": "templates",
+      "type": "landing",
+      "style": "basic",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"landing\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r24": {
+      "id": "r24",
+      "system": "templates",
+      "type": "landing",
+      "style": "amazing",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"landing\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r25": {
+      "id": "r25",
+      "system": "templates",
+      "type": "ecommerce",
+      "style": "good",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"ecommerce\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r26": {
+      "id": "r26",
+      "system": "templates",
+      "type": "ecommerce",
+      "style": "amazing",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"ecommerce\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r27": {
+      "id": "r27",
+      "system": "templates",
+      "type": "ecommerce",
+      "style": "basic",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"ecommerce\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r28": {
+      "id": "r28",
+      "system": "templates",
+      "type": "booking",
+      "style": "good",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"booking\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r29": {
+      "id": "r29",
+      "system": "templates",
+      "type": "booking",
+      "style": "amazing",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"booking\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    },
+    "r30": {
+      "id": "r30",
+      "system": "templates",
+      "type": "booking",
+      "style": "basic",
+      "served": false,
+      "templates": [],
+      "ok": false,
+      "errors": [
+        "no template exists for \"booking\""
+      ],
+      "tokens": {
+        "calls": 0,
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "retries": 0
+      },
+      "totalMs": 0,
+      "keywordCoverage": 0,
+      "moduleRecall": 1,
+      "newCodeLines": 0,
+      "reusePct": 100
+    }
+  },
+  "sparc": {
+    "offline": {
+      "r01": {
+        "id": "r01",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "good",
+        "planMs": 17,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "appointments",
+          "bookings",
+          "patients"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 27,
+          "total": 27
+        },
+        "buildOk": true,
+        "buildMs": 4746,
+        "rawKb": 536.7,
+        "gzipKb": 158.2,
+        "ok": true,
+        "components": 14,
+        "newCodeLines": 0,
+        "newConfigLines": 246,
+        "totalLines": 9493,
+        "reusePct": 97.4,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "c661acd704ee1108",
+        "errors": [],
+        "totalMs": 7986,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r02": {
+        "id": "r02",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "amazing",
+        "planMs": 4,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "prescriptions",
+          "patients",
+          "fees"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 26,
+          "total": 26
+        },
+        "buildOk": true,
+        "buildMs": 5168,
+        "rawKb": 667.3,
+        "gzipKb": 201.6,
+        "ok": true,
+        "components": 14,
+        "newCodeLines": 0,
+        "newConfigLines": 231,
+        "totalLines": 9478,
+        "reusePct": 97.6,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "3004aa6429f3d3f2",
+        "errors": [],
+        "totalMs": 8529,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r03": {
+        "id": "r03",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "basic",
+        "planMs": 4,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "appointments",
+          "bookings",
+          "doctors",
+          "patients"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 29,
+          "total": 29
+        },
+        "buildOk": true,
+        "buildMs": 4642,
+        "rawKb": 536.1,
+        "gzipKb": 158,
+        "ok": true,
+        "components": 14,
+        "newCodeLines": 0,
+        "newConfigLines": 302,
+        "totalLines": 9549,
+        "reusePct": 96.8,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "4366c6a6d455c7fd",
+        "errors": [],
+        "totalMs": 8057,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r04": {
+        "id": "r04",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "good",
+        "planMs": 4,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "deals",
+          "leads",
+          "orders",
+          "purchase-orders"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 27,
+          "total": 27
+        },
+        "buildOk": true,
+        "buildMs": 4809,
+        "rawKb": 536.9,
+        "gzipKb": 158.2,
+        "ok": true,
+        "components": 13,
+        "newCodeLines": 0,
+        "newConfigLines": 267,
+        "totalLines": 9514,
+        "reusePct": 97.2,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "a2fa60e6a141094a",
+        "errors": [],
+        "totalMs": 7900,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r05": {
+        "id": "r05",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "amazing",
+        "planMs": 4,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "tickets",
+          "customers"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 22,
+          "total": 22
+        },
+        "buildOk": true,
+        "buildMs": 5279,
+        "rawKb": 666.6,
+        "gzipKb": 201.4,
+        "ok": true,
+        "components": 13,
+        "newCodeLines": 0,
+        "newConfigLines": 160,
+        "totalLines": 9407,
+        "reusePct": 98.3,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "dfa0bdcc80128950",
+        "errors": [],
+        "totalMs": 8743,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r06": {
+        "id": "r06",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "good",
+        "planMs": 3,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "leave-requests",
+          "employees",
+          "attendance"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 26,
+          "total": 26
+        },
+        "buildOk": true,
+        "buildMs": 4674,
+        "rawKb": 536.4,
+        "gzipKb": 158.1,
+        "ok": true,
+        "components": 14,
+        "newCodeLines": 0,
+        "newConfigLines": 208,
+        "totalLines": 9455,
+        "reusePct": 97.8,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "56c1d02b1249481a",
+        "errors": [],
+        "totalMs": 8254,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r07": {
+        "id": "r07",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "basic",
+        "planMs": 3,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "payroll",
+          "employees",
+          "fees"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 26,
+          "total": 26
+        },
+        "buildOk": true,
+        "buildMs": 4691,
+        "rawKb": 535.3,
+        "gzipKb": 157.8,
+        "ok": true,
+        "components": 14,
+        "newCodeLines": 0,
+        "newConfigLines": 219,
+        "totalLines": 9466,
+        "reusePct": 97.7,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "d0235b2a35f3dacc",
+        "errors": [],
+        "totalMs": 8009,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r08": {
+        "id": "r08",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "amazing",
+        "planMs": 3,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "exams",
+          "fees",
+          "students"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 25,
+          "total": 25
+        },
+        "buildOk": true,
+        "buildMs": 5308,
+        "rawKb": 667.1,
+        "gzipKb": 201.5,
+        "ok": true,
+        "components": 13,
+        "newCodeLines": 0,
+        "newConfigLines": 214,
+        "totalLines": 9461,
+        "reusePct": 97.7,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "0aeacf9f484f0766",
+        "errors": [],
+        "totalMs": 8601,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r09": {
+        "id": "r09",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "good",
+        "planMs": 2,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "courses",
+          "teachers",
+          "students"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 24,
+          "total": 24
+        },
+        "buildOk": true,
+        "buildMs": 4591,
+        "rawKb": 536.3,
+        "gzipKb": 158,
+        "ok": true,
+        "components": 13,
+        "newCodeLines": 0,
+        "newConfigLines": 207,
+        "totalLines": 9454,
+        "reusePct": 97.8,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "25040f0de461dcb3",
+        "errors": [],
+        "totalMs": 8174,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r10": {
+        "id": "r10",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "good",
+        "planMs": 3,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "purchase-orders",
+          "suppliers",
+          "orders",
+          "products",
+          "vendors"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 32,
+          "total": 32
+        },
+        "buildOk": true,
+        "buildMs": 4913,
+        "rawKb": 537.6,
+        "gzipKb": 158.3,
+        "ok": true,
+        "components": 13,
+        "newCodeLines": 0,
+        "newConfigLines": 337,
+        "totalLines": 9584,
+        "reusePct": 96.5,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "4550a9b1b383d00c",
+        "errors": [],
+        "totalMs": 8265,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r11": {
+        "id": "r11",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "basic",
+        "planMs": 3,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "stock-movements",
+          "products"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 21,
+          "total": 21
+        },
+        "buildOk": true,
+        "buildMs": 4785,
+        "rawKb": 534.6,
+        "gzipKb": 157.7,
+        "ok": true,
+        "components": 13,
+        "newCodeLines": 0,
+        "newConfigLines": 160,
+        "totalLines": 9407,
+        "reusePct": 98.3,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "de2f11d1b55c5e49",
+        "errors": [],
+        "totalMs": 7984,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r12": {
+        "id": "r12",
+        "system": "sparc-offline",
+        "type": "admin-portal",
+        "style": "amazing",
+        "planMs": 3,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "admin-portal",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [
+          "purchase-orders",
+          "orders",
+          "suppliers",
+          "vendors",
+          "invoices"
+        ],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 33,
+          "total": 33
+        },
+        "buildOk": true,
+        "buildMs": 5462,
+        "rawKb": 668.3,
+        "gzipKb": 201.6,
+        "ok": true,
+        "components": 15,
+        "newCodeLines": 0,
+        "newConfigLines": 326,
+        "totalLines": 9573,
+        "reusePct": 96.6,
+        "scan": {
+          "total": 1,
+          "byKind": {
+            "security": 1
+          },
+          "byRule": {
+            "hardcoded-secret": 1
+          }
+        },
+        "keywordCoverage": 1,
+        "configHash": "bdbb6a2ac9b021e7",
+        "errors": [],
+        "totalMs": 8702,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r13": {
+        "id": "r13",
+        "system": "sparc-offline",
+        "type": "portfolio",
+        "style": "astonishing",
+        "planMs": 2,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "portfolio",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 18,
+          "total": 18
+        },
+        "buildOk": true,
+        "buildMs": 4742,
+        "rawKb": 647.5,
+        "gzipKb": 193.8,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 95,
+        "totalLines": 8209,
+        "reusePct": 98.8,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "4dee51d9495a87bd",
+        "errors": [],
+        "totalMs": 8104,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r14": {
+        "id": "r14",
+        "system": "sparc-offline",
+        "type": "portfolio",
+        "style": "good",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "portfolio",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 18,
+          "total": 18
+        },
+        "buildOk": true,
+        "buildMs": 4444,
+        "rawKb": 511.5,
+        "gzipKb": 149,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 95,
+        "totalLines": 8209,
+        "reusePct": 98.8,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "fb2c0936999e8c93",
+        "errors": [],
+        "totalMs": 7716,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r15": {
+        "id": "r15",
+        "system": "sparc-offline",
+        "type": "portfolio",
+        "style": "amazing",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "portfolio",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 18,
+          "total": 18
+        },
+        "buildOk": true,
+        "buildMs": 4803,
+        "rawKb": 642.5,
+        "gzipKb": 192.2,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 95,
+        "totalLines": 8209,
+        "reusePct": 98.8,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "da5ea3589aa1133b",
+        "errors": [],
+        "totalMs": 8260,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r16": {
+        "id": "r16",
+        "system": "sparc-offline",
+        "type": "portfolio",
+        "style": "basic",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "portfolio",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 18,
+          "total": 18
+        },
+        "buildOk": true,
+        "buildMs": 4270,
+        "rawKb": 510.3,
+        "gzipKb": 148.8,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 95,
+        "totalLines": 8209,
+        "reusePct": 98.8,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "d42cee52135a916b",
+        "errors": [],
+        "totalMs": 7611,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r17": {
+        "id": "r17",
+        "system": "sparc-offline",
+        "type": "portfolio",
+        "style": "astonishing",
+        "planMs": 2,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "portfolio",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 18,
+          "total": 18
+        },
+        "buildOk": true,
+        "buildMs": 4852,
+        "rawKb": 647.6,
+        "gzipKb": 193.8,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 95,
+        "totalLines": 8209,
+        "reusePct": 98.8,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "c7af6163c78f7bb6",
+        "errors": [],
+        "totalMs": 8107,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r18": {
+        "id": "r18",
+        "system": "sparc-offline",
+        "type": "portfolio",
+        "style": "good",
+        "planMs": 0,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "portfolio",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 18,
+          "total": 18
+        },
+        "buildOk": true,
+        "buildMs": 4374,
+        "rawKb": 511.6,
+        "gzipKb": 149,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 95,
+        "totalLines": 8209,
+        "reusePct": 98.8,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "61bfb01ecc873d4b",
+        "errors": [],
+        "totalMs": 7664,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r19": {
+        "id": "r19",
+        "system": "sparc-offline",
+        "type": "landing",
+        "style": "good",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "landing",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 21,
+          "total": 21
+        },
+        "buildOk": true,
+        "buildMs": 4203,
+        "rawKb": 511.6,
+        "gzipKb": 149.1,
+        "ok": true,
+        "components": 12,
+        "newCodeLines": 0,
+        "newConfigLines": 102,
+        "totalLines": 8216,
+        "reusePct": 98.8,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "956c1c5b75279be9",
+        "errors": [],
+        "totalMs": 7469,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r20": {
+        "id": "r20",
+        "system": "sparc-offline",
+        "type": "landing",
+        "style": "amazing",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "landing",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 21,
+          "total": 21
+        },
+        "buildOk": true,
+        "buildMs": 4673,
+        "rawKb": 642.5,
+        "gzipKb": 192.2,
+        "ok": true,
+        "components": 12,
+        "newCodeLines": 0,
+        "newConfigLines": 97,
+        "totalLines": 8211,
+        "reusePct": 98.8,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "d63ef269b2c56518",
+        "errors": [],
+        "totalMs": 8022,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r21": {
+        "id": "r21",
+        "system": "sparc-offline",
+        "type": "landing",
+        "style": "good",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "landing",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 21,
+          "total": 21
+        },
+        "buildOk": true,
+        "buildMs": 4267,
+        "rawKb": 511.7,
+        "gzipKb": 149.1,
+        "ok": true,
+        "components": 12,
+        "newCodeLines": 0,
+        "newConfigLines": 102,
+        "totalLines": 8216,
+        "reusePct": 98.8,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "ce091dad9d8b30a5",
+        "errors": [],
+        "totalMs": 7508,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r22": {
+        "id": "r22",
+        "system": "sparc-offline",
+        "type": "landing",
+        "style": "astonishing",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "landing",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 17,
+          "total": 17
+        },
+        "buildOk": true,
+        "buildMs": 4943,
+        "rawKb": 647.5,
+        "gzipKb": 193.8,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 82,
+        "totalLines": 8196,
+        "reusePct": 99,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "39cd42268c554bfe",
+        "errors": [],
+        "totalMs": 8242,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r23": {
+        "id": "r23",
+        "system": "sparc-offline",
+        "type": "landing",
+        "style": "basic",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "landing",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 17,
+          "total": 17
+        },
+        "buildOk": true,
+        "buildMs": 4186,
+        "rawKb": 510.3,
+        "gzipKb": 148.7,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 82,
+        "totalLines": 8196,
+        "reusePct": 99,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "366358c24561b288",
+        "errors": [],
+        "totalMs": 7423,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r24": {
+        "id": "r24",
+        "system": "sparc-offline",
+        "type": "landing",
+        "style": "amazing",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "landing",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 17,
+          "total": 17
+        },
+        "buildOk": true,
+        "buildMs": 4960,
+        "rawKb": 642.4,
+        "gzipKb": 192.2,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 82,
+        "totalLines": 8196,
+        "reusePct": 99,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "f972250993ccb333",
+        "errors": [],
+        "totalMs": 8061,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r25": {
+        "id": "r25",
+        "system": "sparc-offline",
+        "type": "ecommerce",
+        "style": "good",
+        "planMs": 2,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "ecommerce",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 19,
+          "total": 19
+        },
+        "buildOk": true,
+        "buildMs": 4324,
+        "rawKb": 511.6,
+        "gzipKb": 149.1,
+        "ok": true,
+        "components": 12,
+        "newCodeLines": 0,
+        "newConfigLines": 92,
+        "totalLines": 8206,
+        "reusePct": 98.9,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "59468b37989a175c",
+        "errors": [],
+        "totalMs": 7691,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r26": {
+        "id": "r26",
+        "system": "sparc-offline",
+        "type": "ecommerce",
+        "style": "amazing",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "ecommerce",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 19,
+          "total": 19
+        },
+        "buildOk": true,
+        "buildMs": 4808,
+        "rawKb": 642.4,
+        "gzipKb": 192.2,
+        "ok": true,
+        "components": 12,
+        "newCodeLines": 0,
+        "newConfigLines": 92,
+        "totalLines": 8206,
+        "reusePct": 98.9,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "27b03c5804e039d4",
+        "errors": [],
+        "totalMs": 8093,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r27": {
+        "id": "r27",
+        "system": "sparc-offline",
+        "type": "ecommerce",
+        "style": "basic",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "ecommerce",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 19,
+          "total": 19
+        },
+        "buildOk": true,
+        "buildMs": 4408,
+        "rawKb": 510.3,
+        "gzipKb": 148.8,
+        "ok": true,
+        "components": 12,
+        "newCodeLines": 0,
+        "newConfigLines": 92,
+        "totalLines": 8206,
+        "reusePct": 98.9,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "fc6c474d1804fd5f",
+        "errors": [],
+        "totalMs": 7611,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r28": {
+        "id": "r28",
+        "system": "sparc-offline",
+        "type": "booking",
+        "style": "good",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "booking",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 18,
+          "total": 18
+        },
+        "buildOk": true,
+        "buildMs": 4326,
+        "rawKb": 511.7,
+        "gzipKb": 149.1,
+        "ok": true,
+        "components": 11,
+        "newCodeLines": 0,
+        "newConfigLines": 108,
+        "totalLines": 8222,
+        "reusePct": 98.7,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "35b39a228d44cdc5",
+        "errors": [],
+        "totalMs": 7642,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r29": {
+        "id": "r29",
+        "system": "sparc-offline",
+        "type": "booking",
+        "style": "amazing",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "booking",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 16,
+          "total": 16
+        },
+        "buildOk": true,
+        "buildMs": 4740,
+        "rawKb": 642.5,
+        "gzipKb": 192.2,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 103,
+        "totalLines": 8217,
+        "reusePct": 98.7,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "905f22da754e2bb9",
+        "errors": [],
+        "totalMs": 5921,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      },
+      "r30": {
+        "id": "r30",
+        "system": "sparc-offline",
+        "type": "booking",
+        "style": "basic",
+        "planMs": 1,
+        "engineUsed": "offline-rules",
+        "fallback": false,
+        "typeGot": "booking",
+        "typeCorrect": true,
+        "planOk": true,
+        "modules": [],
+        "moduleRecall": 1,
+        "checks": {
+          "passed": 16,
+          "total": 16
+        },
+        "buildOk": true,
+        "buildMs": 4331,
+        "rawKb": 510.4,
+        "gzipKb": 148.8,
+        "ok": true,
+        "components": 10,
+        "newCodeLines": 0,
+        "newConfigLines": 103,
+        "totalLines": 8217,
+        "reusePct": 98.7,
+        "scan": {
+          "total": 0,
+          "byKind": {},
+          "byRule": {}
+        },
+        "keywordCoverage": 1,
+        "configHash": "9568061f0233b30d",
+        "errors": [],
+        "totalMs": 4845,
+        "tokens": {
+          "calls": 0,
+          "input": 0,
+          "output": 0,
+          "total": 0,
+          "retries": 0
+        }
+      }
+    }
+  },
+  "ai": {},
+  "repeat": {
+    "sparcOffline": [
+      {
+        "id": "r01",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r02",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r03",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r04",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r05",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r06",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r07",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r08",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r09",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r10",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r11",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r12",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r13",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r14",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r15",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r16",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r17",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r18",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r19",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r20",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r21",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r22",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r23",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r24",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r25",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r26",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r27",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r28",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r29",
+        "runs": 3,
+        "distinct": 1
+      },
+      {
+        "id": "r30",
+        "runs": 3,
+        "distinct": 1
+      }
+    ]
+  },
+  "levels": [
+    {
+      "websiteType": "portfolio",
+      "styleLevel": "basic",
+      "ok": true,
+      "buildMs": 4351,
+      "rawKb": 510.2,
+      "gzipKb": 148.7,
+      "components": 10
+    },
+    {
+      "websiteType": "portfolio",
+      "styleLevel": "good",
+      "ok": true,
+      "buildMs": 4412,
+      "rawKb": 511.4,
+      "gzipKb": 149,
+      "components": 10
+    },
+    {
+      "websiteType": "portfolio",
+      "styleLevel": "amazing",
+      "ok": true,
+      "buildMs": 4626,
+      "rawKb": 642.3,
+      "gzipKb": 192.2,
+      "components": 10
+    },
+    {
+      "websiteType": "portfolio",
+      "styleLevel": "astonishing",
+      "ok": true,
+      "buildMs": 4721,
+      "rawKb": 647.4,
+      "gzipKb": 193.8,
+      "components": 10
+    },
+    {
+      "websiteType": "landing",
+      "styleLevel": "basic",
+      "ok": true,
+      "buildMs": 4237,
+      "rawKb": 510.3,
+      "gzipKb": 148.8,
+      "components": 12
+    },
+    {
+      "websiteType": "landing",
+      "styleLevel": "good",
+      "ok": true,
+      "buildMs": 4577,
+      "rawKb": 511.5,
+      "gzipKb": 149.1,
+      "components": 12
+    },
+    {
+      "websiteType": "landing",
+      "styleLevel": "amazing",
+      "ok": true,
+      "buildMs": 4829,
+      "rawKb": 642.4,
+      "gzipKb": 192.2,
+      "components": 12
+    },
+    {
+      "websiteType": "landing",
+      "styleLevel": "astonishing",
+      "ok": true,
+      "buildMs": 4872,
+      "rawKb": 647.5,
+      "gzipKb": 193.8,
+      "components": 12
+    },
+    {
+      "websiteType": "admin-portal",
+      "styleLevel": "basic",
+      "ok": true,
+      "buildMs": 4821,
+      "rawKb": 535,
+      "gzipKb": 157.8,
+      "components": 14
+    },
+    {
+      "websiteType": "admin-portal",
+      "styleLevel": "good",
+      "ok": true,
+      "buildMs": 4777,
+      "rawKb": 536.2,
+      "gzipKb": 158.1,
+      "components": 14
+    },
+    {
+      "websiteType": "admin-portal",
+      "styleLevel": "amazing",
+      "ok": true,
+      "buildMs": 5221,
+      "rawKb": 666.9,
+      "gzipKb": 201.5,
+      "components": 14
+    },
+    {
+      "websiteType": "ecommerce",
+      "styleLevel": "basic",
+      "ok": true,
+      "buildMs": 4324,
+      "rawKb": 510.2,
+      "gzipKb": 148.7,
+      "components": 11
+    },
+    {
+      "websiteType": "ecommerce",
+      "styleLevel": "good",
+      "ok": true,
+      "buildMs": 4378,
+      "rawKb": 511.4,
+      "gzipKb": 149,
+      "components": 11
+    },
+    {
+      "websiteType": "ecommerce",
+      "styleLevel": "amazing",
+      "ok": true,
+      "buildMs": 4938,
+      "rawKb": 642.3,
+      "gzipKb": 192.1,
+      "components": 11
+    },
+    {
+      "websiteType": "booking",
+      "styleLevel": "basic",
+      "ok": true,
+      "buildMs": 4528,
+      "rawKb": 510.4,
+      "gzipKb": 148.8,
+      "components": 11
+    },
+    {
+      "websiteType": "booking",
+      "styleLevel": "good",
+      "ok": true,
+      "buildMs": 6176,
+      "rawKb": 511.6,
+      "gzipKb": 149.1,
+      "components": 11
+    },
+    {
+      "websiteType": "booking",
+      "styleLevel": "amazing",
+      "ok": true,
+      "buildMs": 6607,
+      "rawKb": 642.5,
+      "gzipKb": 192.2,
+      "components": 11
+    }
+  ],
+  "search": {
+    "n": 32,
+    "recallAt5": 1,
+    "mrr": 1,
+    "misses": []
+  },
+  "planner": {
+    "n": 20,
+    "websiteTypeAccuracy": 1,
+    "industryAccuracy": 0.95,
+    "configValidPct": 1,
+    "modulePrecision": 0.64,
+    "moduleRecall": 1,
+    "moduleF1": 0.78,
+    "avgReuseRatio": 1,
+    "problems": []
+  }
+}

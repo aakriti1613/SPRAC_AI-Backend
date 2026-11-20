@@ -1,0 +1,77 @@
+{
+  "slug": "image-wave",
+  "source": "aceternity",
+  "name": "Image Wave",
+  "kind": "ui",
+  "versions": {
+    "a662fbec902f5ce48c95619624864a7e90dae136dd1c2629a719738570b978b5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:image-wave@0.0.0",
+        "name": "Image Wave",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "An image on a thin 3D slab that a slow wave rolls through, with light running along the crests. Drag it to turn it and see its edge and back; it keeps turning and settles back.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/image-wave.json",
+          "ref": "aceternity",
+          "contentHash": "a662fbec902f5ce48c95619624864a7e90dae136dd1c2629a719738570b978b5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "three": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "interactions",
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "a662fbec902f5ce48c95619624864a7e90dae136dd1c2629a719738570b978b5",
+  "quality": {}
+}

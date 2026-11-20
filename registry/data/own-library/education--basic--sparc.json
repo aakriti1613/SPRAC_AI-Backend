@@ -1,0 +1,106 @@
+{
+  "slug": "education/basic/sparc",
+  "source": "own-library",
+  "name": "Basic education",
+  "kind": "component",
+  "versions": {
+    "18e0f46777ac72581a9e85db0298e54b828d8cfc398e3605b19d024d8c5dcbd4": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:education/basic/sparc@1.0.0",
+        "name": "Basic education",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic education: Education timeline.",
+        "room": "education",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/education/basic/sparc/index.tsx",
+          "contentHash": "18e0f46777ac72581a9e85db0298e54b828d8cfc398e3605b19d024d8c5dcbd4"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "education",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "education",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "18e0f46777ac72581a9e85db0298e54b828d8cfc398e3605b19d024d8c5dcbd4",
+  "quality": {
+    "sizeKb": 1.2,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

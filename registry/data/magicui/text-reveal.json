@@ -1,0 +1,75 @@
+{
+  "slug": "text-reveal",
+  "source": "magicui",
+  "name": "Text Reveal",
+  "kind": "ui",
+  "versions": {
+    "9bfe0aad35dae20bb267483962325f8bb19f22dee8bf7c97e10c5e041f37c62d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:text-reveal@0.0.0",
+        "name": "Text Reveal",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Fade in text as you scroll down the page.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/text-reveal.json",
+          "ref": "magicui",
+          "contentHash": "9bfe0aad35dae20bb267483962325f8bb19f22dee8bf7c97e10c5e041f37c62d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "9bfe0aad35dae20bb267483962325f8bb19f22dee8bf7c97e10c5e041f37c62d",
+  "quality": {}
+}

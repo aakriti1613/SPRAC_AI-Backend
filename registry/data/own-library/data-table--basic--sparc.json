@@ -1,0 +1,147 @@
+{
+  "slug": "data-table/basic/sparc",
+  "source": "own-library",
+  "name": "Basic data-table",
+  "kind": "component",
+  "versions": {
+    "40ca8726ce5d63652555af0824fd9a9ef35da99c4937bd602befdfc5fbb63798": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:data-table/basic/sparc@1.0.0",
+        "name": "Basic data-table",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic data-table: List of records with sorting, paging and row actions. Data comes from the shell.",
+        "room": "data-table",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/data-table/basic/sparc/index.tsx",
+          "contentHash": "40ca8726ce5d63652555af0824fd9a9ef35da99c4937bd602befdfc5fbb63798"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "columns",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "emptyText",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "loading",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "onPageChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "onRowClick",
+              "kind": "function",
+              "required": false
+            },
+            {
+              "name": "onSortChange",
+              "kind": "function",
+              "required": false
+            },
+            {
+              "name": "page",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "rowActions",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "rows",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "sort",
+              "kind": "object",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/format",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "data-table",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "data-table",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "40ca8726ce5d63652555af0824fd9a9ef35da99c4937bd602befdfc5fbb63798",
+  "quality": {
+    "sizeKb": 1.8,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

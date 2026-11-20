@@ -1,0 +1,134 @@
+{
+  "slug": "hero/amazing/sparc",
+  "source": "own-library",
+  "name": "Amazing hero",
+  "kind": "component",
+  "versions": {
+    "67e378efdd63a0a02a707ecdb6e351e344b347daf083735ce4f831363e44fac7": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:hero/amazing/sparc@1.0.0",
+        "name": "Amazing hero",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Amazing hero: First big section: headline, sub-text, buttons, optional image.",
+        "room": "hero",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/hero/amazing/sparc/index.tsx",
+          "contentHash": "67e378efdd63a0a02a707ecdb6e351e344b347daf083735ce4f831363e44fac7"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "eyebrow",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "highlight",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "image",
+              "kind": "object",
+              "required": false
+            },
+            {
+              "name": "primaryCta",
+              "kind": "object",
+              "required": false
+            },
+            {
+              "name": "secondaryCta",
+              "kind": "object",
+              "required": false
+            },
+            {
+              "name": "subtitle",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "hero",
+            "amazing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "hero",
+  "styleLevel": "amazing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "67e378efdd63a0a02a707ecdb6e351e344b347daf083735ce4f831363e44fac7",
+  "quality": {
+    "sizeKb": 46,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

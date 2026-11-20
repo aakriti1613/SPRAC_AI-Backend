@@ -1,0 +1,90 @@
+{
+  "slug": "expandable-card-on-click",
+  "source": "aceternity",
+  "name": "expandable-card-on-click",
+  "kind": "component",
+  "versions": {
+    "5c12393681bec4c20e295aaec0787ec22e66a76a02d0af85ded1ac6d617a79bd": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:expandable-card-on-click@0.0.0",
+        "name": "expandable-card-on-click",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Expandable Card On Click",
+        "room": "projects",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/expandable-card-on-click.json",
+          "ref": "aceternity",
+          "contentHash": "5c12393681bec4c20e295aaec0787ec22e66a76a02d0af85ded1ac6d617a79bd"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "projects",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "5c12393681bec4c20e295aaec0787ec22e66a76a02d0af85ded1ac6d617a79bd",
+  "quality": {}
+}

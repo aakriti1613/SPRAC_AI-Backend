@@ -1,0 +1,75 @@
+{
+  "slug": "light-rays",
+  "source": "magicui",
+  "name": "Light Rays",
+  "kind": "ui",
+  "versions": {
+    "3c255fe79c5e0bad0f85302a7bd750cd1d73da14f3a4a1d49352dc4aa5a8da15": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:light-rays@0.0.0",
+        "name": "Light Rays",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A component with animated light rays which shine down from above.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/light-rays.json",
+          "ref": "magicui",
+          "contentHash": "3c255fe79c5e0bad0f85302a7bd750cd1d73da14f3a4a1d49352dc4aa5a8da15"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "3c255fe79c5e0bad0f85302a7bd750cd1d73da14f3a4a1d49352dc4aa5a8da15",
+  "quality": {}
+}

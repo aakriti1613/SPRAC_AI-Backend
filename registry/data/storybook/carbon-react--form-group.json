@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/form-group",
+  "source": "storybook",
+  "name": "FormGroup (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "9d27c873c44432f13d7117510294164187dc0b919dbac485f5ed72bb6e235fea": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/form-group@0.0.0",
+        "name": "FormGroup (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "FormGroup from IBM Carbon (React): 1 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-formgroup--overview",
+          "ref": "@carbon/react",
+          "contentHash": "9d27c873c44432f13d7117510294164187dc0b919dbac485f5ed72bb6e235fea"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "9d27c873c44432f13d7117510294164187dc0b919dbac485f5ed72bb6e235fea",
+  "quality": {
+    "hasTests": true
+  }
+}

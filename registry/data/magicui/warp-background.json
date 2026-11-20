@@ -1,0 +1,75 @@
+{
+  "slug": "warp-background",
+  "source": "magicui",
+  "name": "Warp Background",
+  "kind": "ui",
+  "versions": {
+    "bc9bc5d23e7cc5025601976f9c6f237eb2fb086dc4a8f36f37912deb9d471cee": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:warp-background@0.0.0",
+        "name": "Warp Background",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A card with a time warping background effect.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/warp-background.json",
+          "ref": "magicui",
+          "contentHash": "bc9bc5d23e7cc5025601976f9c6f237eb2fb086dc4a8f36f37912deb9d471cee"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "bc9bc5d23e7cc5025601976f9c6f237eb2fb086dc4a8f36f37912deb9d471cee",
+  "quality": {}
+}

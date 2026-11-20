@@ -1,0 +1,90 @@
+{
+  "slug": "minimal-hero-section-with-parallax-images",
+  "source": "aceternity",
+  "name": "minimal-hero-section-with-parallax-images",
+  "kind": "component",
+  "versions": {
+    "f88012248469972cfd1b16f888ec16194fcbd8b55234a72c93ec0d0dbd380633": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:minimal-hero-section-with-parallax-images@0.0.0",
+        "name": "minimal-hero-section-with-parallax-images",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Minimal Hero Section With Parallax Images, images are displayed on top of each other with animation. Simple hero section with Title, description, CTA Buttons and images.",
+        "room": "hero",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/minimal-hero-section-with-parallax-images.json",
+          "ref": "aceternity",
+          "contentHash": "f88012248469972cfd1b16f888ec16194fcbd8b55234a72c93ec0d0dbd380633"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "hero",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"title\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "f88012248469972cfd1b16f888ec16194fcbd8b55234a72c93ec0d0dbd380633",
+  "quality": {}
+}

@@ -1,0 +1,38 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "config": {
+      "siteName": "Portfolio",
+      "meta": {
+        "title": "Portfolio",
+        "description": "Portfolio portfolio."
+      },
+      "profile": {
+        "firstName": "Portfolio",
+        "fullName": "Portfolio",
+        "role": "",
+        "currentTitle": "",
+        "heroHeadline": "Welcome to my portfolio",
+        "heroSummary": "A short introduction about who you are and what you build.",
+        "availability": "Open to opportunities."
+      },
+      "stats": [],
+      "skills": {},
+      "supportingSkills": [],
+      "projects": [],
+      "experience": [],
+      "services": [],
+      "contactLinks": [],
+      "footerCopyright": "© 2026 Portfolio. All rights reserved."
+    },
+    "warnings": [
+      "Added default siteName",
+      "Added default profile.fullName",
+      "Added default profile.firstName",
+      "Added default meta.title",
+      "Added default meta.description",
+      "Added default footerCopyright"
+    ]
+  }
+}

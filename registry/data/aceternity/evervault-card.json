@@ -1,0 +1,90 @@
+{
+  "slug": "evervault-card",
+  "source": "aceternity",
+  "name": "evervault-card",
+  "kind": "component",
+  "versions": {
+    "9b3ff206aff69181a3e81761897802f4b1d655d83b75c09bfef2caf3f7878ec4": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:evervault-card@0.0.0",
+        "name": "evervault-card",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"evervault-card\".",
+        "room": "projects",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/evervault-card.json",
+          "ref": "aceternity",
+          "contentHash": "9b3ff206aff69181a3e81761897802f4b1d655d83b75c09bfef2caf3f7878ec4"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "projects",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "9b3ff206aff69181a3e81761897802f4b1d655d83b75c09bfef2caf3f7878ec4",
+  "quality": {}
+}

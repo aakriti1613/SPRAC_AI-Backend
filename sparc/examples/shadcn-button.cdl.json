@@ -1,0 +1,42 @@
+{
+  "cdlVersion": 1,
+  "id": "shadcn:button@latest",
+  "name": "Button",
+  "version": "0.0.0",
+  "kind": "ui",
+  "summary": "Button primitive with variants (default, outline, ghost…) built on class-variance-authority.",
+  "source": {
+    "type": "shadcn",
+    "url": "https://ui.shadcn.com/docs/components/button"
+  },
+  "requires": {
+    "npm": {
+      "class-variance-authority": "*",
+      "radix-ui": "*"
+    },
+    "peer": {},
+    "registry": [],
+    "env": []
+  },
+  "compat": {
+    "tailwind": "4",
+    "language": "ts"
+  },
+  "facets": {
+    "category": "primitive",
+    "tags": [
+      "button"
+    ]
+  },
+  "license": "MIT",
+  "trust": "candidate",
+  "provenance": {
+    "requires": {
+      "by": "registry"
+    },
+    "summary": {
+      "by": "llm",
+      "confidence": 0.8
+    }
+  }
+}

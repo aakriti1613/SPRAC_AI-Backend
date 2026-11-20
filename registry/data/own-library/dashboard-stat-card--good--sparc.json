@@ -1,0 +1,127 @@
+{
+  "slug": "dashboard-stat-card/good/sparc",
+  "source": "own-library",
+  "name": "Good dashboard-stat-card",
+  "kind": "component",
+  "versions": {
+    "8ec7b61a861e3d589972d1757384d912d950d97df2c857233d4addf9d0cd4664": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:dashboard-stat-card/good/sparc@1.0.0",
+        "name": "Good dashboard-stat-card",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good dashboard-stat-card: One KPI tile (e.g. 'Patients: 128').",
+        "room": "dashboard-stat-card",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/dashboard-stat-card/good/sparc/index.tsx",
+          "contentHash": "8ec7b61a861e3d589972d1757384d912d950d97df2c857233d4addf9d0cd4664"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "hint",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "href",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "icon",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "label",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "trend",
+              "kind": "number",
+              "required": false
+            },
+            {
+              "name": "value",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "dashboard-stat-card",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "dashboard-stat-card",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "8ec7b61a861e3d589972d1757384d912d950d97df2c857233d4addf9d0cd4664",
+  "quality": {
+    "sizeKb": 1.5,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

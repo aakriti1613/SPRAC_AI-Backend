@@ -1,0 +1,75 @@
+{
+  "slug": "moving-line",
+  "source": "aceternity",
+  "name": "moving-line",
+  "kind": "ui",
+  "versions": {
+    "93a7412954b2f2ff018933b1096591fc74ca3a43cc715b7d957f27e9f0326a18": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:moving-line@0.0.0",
+        "name": "moving-line",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"moving-line\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/moving-line.json",
+          "ref": "aceternity",
+          "contentHash": "93a7412954b2f2ff018933b1096591fc74ca3a43cc715b7d957f27e9f0326a18"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "93a7412954b2f2ff018933b1096591fc74ca3a43cc715b7d957f27e9f0326a18",
+  "quality": {}
+}

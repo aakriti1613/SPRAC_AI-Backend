@@ -1,0 +1,186 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "slug": "edge-minimal",
+    "portalUrl": "/portal/edge-minimal",
+    "shortPortalUrl": "/p/edge-minimal"
+  },
+  "stored": {
+    "version": 1,
+    "templateId": "portal-admin",
+    "slug": "edge-minimal",
+    "portalName": "Edge Minimal",
+    "appName": "Edge Minimal",
+    "type": "admin",
+    "industry": "generic",
+    "themePreset": "purple",
+    "themeColor": "#7c3aed",
+    "logoUrl": "",
+    "logoText": "EM",
+    "loginPage": {
+      "portalName": "Edge Minimal",
+      "badge": "Business Operations",
+      "headline": "Run your operations from one focused workspace",
+      "highlightText": "operations",
+      "description": "Manage records, tasks, approvals, and daily workflows from one secure dashboard.",
+      "features": [
+        {
+          "title": "Secure Access",
+          "description": "Enterprise-grade authentication for authorized users."
+        },
+        {
+          "title": "Self Service",
+          "description": "Manage records, workflows, and operations from one dashboard."
+        }
+      ],
+      "footerText": "Powered by your operations team"
+    },
+    "footer": {
+      "text": "Powered by your operations team"
+    },
+    "company": {
+      "name": "Edge Minimal",
+      "website": "",
+      "supportEmail": "",
+      "address": ""
+    },
+    "auth": {
+      "screens": {
+        "login": true,
+        "signup": true,
+        "forgotPassword": false
+      },
+      "method": "email-password"
+    },
+    "dashboard": {
+      "enabled": true,
+      "template": "stats-overview"
+    },
+    "profile": {
+      "enabled": true
+    },
+    "modules": [
+      {
+        "id": "things",
+        "singularName": "Thing",
+        "pluralName": "Things",
+        "icon": "Database",
+        "fields": [
+          {
+            "id": "<uuid>",
+            "key": "thing_name",
+            "label": "Thing Name",
+            "type": "text",
+            "required": true,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": false
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "weird",
+            "label": "Weird",
+            "type": "text",
+            "required": false,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": false
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "price_tag",
+            "label": "Price Tag",
+            "type": "currency",
+            "required": false,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {
+              "min": 0
+            },
+            "features": {
+              "filter": false
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "labels",
+            "label": "Labels",
+            "type": "tags",
+            "required": false,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": false
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "kind",
+            "label": "Kind",
+            "type": "select",
+            "required": false,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "A",
+              "B"
+            ],
+            "settings": {},
+            "features": {
+              "filter": false
+            }
+          },
+          {
+            "id": "<uuid>",
+            "key": "created_by",
+            "label": "Created By",
+            "type": "text",
+            "required": false,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": false
+            }
+          }
+        ],
+        "listColumns": [
+          "thing_name",
+          "weird",
+          "price_tag",
+          "labels",
+          "kind"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": false
+        }
+      }
+    ],
+    "createdAt": "<iso>",
+    "updatedAt": "<iso>",
+    "theme": "purple"
+  }
+}

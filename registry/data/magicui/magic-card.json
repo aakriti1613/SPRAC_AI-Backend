@@ -1,0 +1,90 @@
+{
+  "slug": "magic-card",
+  "source": "magicui",
+  "name": "Magic Card",
+  "kind": "component",
+  "versions": {
+    "3e67c5bf5f494cde507f16e18d8f9083e80ad552225c5aca5b7c4a0ea38f9240": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:magic-card@0.0.0",
+        "name": "Magic Card",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "A spotlight effect that follows your mouse cursor and highlights borders on hover.",
+        "room": "services",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/magic-card.json",
+          "ref": "magicui",
+          "contentHash": "3e67c5bf5f494cde507f16e18d8f9083e80ad552225c5aca5b7c4a0ea38f9240"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "room": "services",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "3e67c5bf5f494cde507f16e18d8f9083e80ad552225c5aca5b7c4a0ea38f9240",
+  "quality": {}
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "hover-image-links",
+  "source": "aceternity",
+  "name": "Hover Image Links",
+  "kind": "ui",
+  "versions": {
+    "6deff58fe960632cd95b618128ed5e5100a00daebafff24194dc2c63355450a6": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:hover-image-links@0.0.0",
+        "name": "Hover Image Links",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A vertical list of links. Hover one and its image appears and follows your pointer, trailing on a spring and tilting with its speed.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/hover-image-links.json",
+          "ref": "aceternity",
+          "contentHash": "6deff58fe960632cd95b618128ed5e5100a00daebafff24194dc2c63355450a6"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "interactions",
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "6deff58fe960632cd95b618128ed5e5100a00daebafff24194dc2c63355450a6",
+  "quality": {}
+}

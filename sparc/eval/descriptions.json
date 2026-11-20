@@ -1,0 +1,25 @@
+{
+  "note": "Hand-labelled website requests. `mustInclude` = modules the plan should contain; `type`/`industry` = the expected website type and industry. Used to score the planner.",
+  "cases": [
+    { "description": "A clinic website to manage patients and their appointments", "type": "admin-portal", "industry": "healthcare", "mustInclude": ["patients", "appointments"] },
+    { "description": "Dental practice portal for patient records and prescriptions", "type": "admin-portal", "industry": "healthcare", "mustInclude": ["patients", "prescriptions"] },
+    { "description": "Manage doctors, their schedules and patient appointments", "type": "admin-portal", "industry": "healthcare", "mustInclude": ["doctors", "appointments"] },
+    { "description": "A CRM to track leads and deals through the sales pipeline", "type": "admin-portal", "industry": "crm", "mustInclude": ["leads", "deals"] },
+    { "description": "Keep customer contacts and follow-up tasks", "type": "admin-portal", "industry": "crm", "mustInclude": ["contacts", "tasks"] },
+    { "description": "Support desk to handle customer tickets and complaints", "type": "admin-portal", "industry": "crm", "mustInclude": ["tickets"] },
+    { "description": "HR system for employees, leave requests and attendance", "type": "admin-portal", "industry": "hrms", "mustInclude": ["employees", "leave-requests", "attendance"] },
+    { "description": "Run payroll and manage employee records", "type": "admin-portal", "industry": "hrms", "mustInclude": ["employees", "payroll"] },
+    { "description": "School admin to manage students, fees and exam results", "type": "admin-portal", "industry": "school", "mustInclude": ["students", "fees", "exams"] },
+    { "description": "Coaching institute portal for students, teachers and courses", "type": "admin-portal", "industry": "school", "mustInclude": ["students", "teachers", "courses"] },
+    { "description": "Online shop back office for products, orders and suppliers", "type": "admin-portal", "industry": "inventory", "mustInclude": ["products", "orders", "suppliers"] },
+    { "description": "Warehouse inventory with stock movements and products", "type": "admin-portal", "industry": "inventory", "mustInclude": ["products", "stock-movements"] },
+    { "description": "Procurement tool for vendors, purchase orders and invoices", "type": "admin-portal", "industry": "erp", "mustInclude": ["vendors", "purchase-orders", "invoices"] },
+    { "description": "Track company expenses and reimbursement claims", "type": "admin-portal", "industry": "erp", "mustInclude": ["expenses"] },
+    { "description": "A booking site for salon appointments", "type": "booking", "industry": "generic", "mustInclude": [] },
+    { "description": "Manage projects with clients and deadlines", "type": "admin-portal", "industry": "generic", "mustInclude": ["projects"] },
+    { "description": "I am Aditi, a frontend developer, I want a personal portfolio", "type": "portfolio", "industry": "generic", "mustInclude": [] },
+    { "description": "A resume website to show my projects and skills", "type": "portfolio", "industry": "generic", "mustInclude": [] },
+    { "description": "A one-page landing page for my new coaching institute", "type": "landing", "industry": "school", "mustInclude": [] },
+    { "description": "A marketing landing page for a dental clinic", "type": "landing", "industry": "healthcare", "mustInclude": [] }
+  ]
+}

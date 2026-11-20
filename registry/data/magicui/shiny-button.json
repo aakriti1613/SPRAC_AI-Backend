@@ -1,0 +1,75 @@
+{
+  "slug": "shiny-button",
+  "source": "magicui",
+  "name": "Shiny Button",
+  "kind": "ui",
+  "versions": {
+    "cadb8a6613d05abb37fabf3a587d01cc0035b11c0a897811d685d904a24c50ed": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:shiny-button@0.0.0",
+        "name": "Shiny Button",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A shiny button component with dynamic styles in the dark mode or light mode.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/shiny-button.json",
+          "ref": "magicui",
+          "contentHash": "cadb8a6613d05abb37fabf3a587d01cc0035b11c0a897811d685d904a24c50ed"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "cadb8a6613d05abb37fabf3a587d01cc0035b11c0a897811d685d904a24c50ed",
+  "quality": {}
+}

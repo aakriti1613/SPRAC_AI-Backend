@@ -1,0 +1,117 @@
+{
+  "slug": "about/basic/sparc",
+  "source": "own-library",
+  "name": "Basic about",
+  "kind": "component",
+  "versions": {
+    "08e72887e49996fa20ddbf951c42a1d083031a42be0b62a4f5ecbc3a73421c40": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:about/basic/sparc@1.0.0",
+        "name": "Basic about",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic about: About section: heading, paragraph, photo and highlights.",
+        "room": "about",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/about/basic/sparc/index.tsx",
+          "contentHash": "08e72887e49996fa20ddbf951c42a1d083031a42be0b62a4f5ecbc3a73421c40"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "body",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "highlights",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "image",
+              "kind": "object",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "about",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "about",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "08e72887e49996fa20ddbf951c42a1d083031a42be0b62a4f5ecbc3a73421c40",
+  "quality": {
+    "sizeKb": 1.1,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

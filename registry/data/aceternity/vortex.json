@@ -1,0 +1,76 @@
+{
+  "slug": "vortex",
+  "source": "aceternity",
+  "name": "vortex",
+  "kind": "ui",
+  "versions": {
+    "ad3d2dc810529eb1a9de5c5b4a0b46da80fee3c7be480aa96e25a51682a8b0da": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:vortex@0.0.0",
+        "name": "vortex",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"vortex\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/vortex.json",
+          "ref": "aceternity",
+          "contentHash": "ad3d2dc810529eb1a9de5c5b4a0b46da80fee3c7be480aa96e25a51682a8b0da"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "simplex-noise": "*",
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "ad3d2dc810529eb1a9de5c5b4a0b46da80fee3c7be480aa96e25a51682a8b0da",
+  "quality": {}
+}

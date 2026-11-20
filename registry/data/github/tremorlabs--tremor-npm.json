@@ -1,0 +1,77 @@
+{
+  "slug": "tremorlabs/tremor-npm",
+  "source": "github",
+  "name": "tremorlabs/tremor-npm",
+  "kind": "library",
+  "versions": {
+    "66488b514db4e25a7129ad346e458401b4f770113dd061df49b0c488327ffa12": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "github:tremorlabs/tremor-npm@0.0.0",
+        "name": "tremorlabs/tremor-npm",
+        "version": "0.0.0",
+        "kind": "library",
+        "summary": "React components to build charts and dashboards",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "github",
+          "url": "https://github.com/tremorlabs/tremor-npm",
+          "ref": "main",
+          "contentHash": "66488b514db4e25a7129ad346e458401b4f770113dd061df49b0c488327ffa12"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "library",
+          "tags": [
+            "react-components",
+            "reactjs",
+            "tailwindcss",
+            "typescript",
+            "ui-system",
+            "query:topic:react-components language:TypeScript stars:>2000"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "github-2026-11-18T12-34-21-722Z-fc92f3"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "66488b514db4e25a7129ad346e458401b4f770113dd061df49b0c488327ffa12",
+  "quality": {
+    "stars": 16460,
+    "lastPublish": "2025-01-13T13:06:10Z"
+  }
+}

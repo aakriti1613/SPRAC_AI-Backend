@@ -1,0 +1,76 @@
+{
+  "slug": "chart-bar-active",
+  "source": "shadcn",
+  "name": "chart-bar-active",
+  "kind": "ui",
+  "versions": {
+    "e3e0fc0a1a6b95e95b667337b699777dc7e2a336f869e6d0252f3fdbc763154e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-bar-active@0.0.0",
+        "name": "chart-bar-active",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-bar-active\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-bar-active.json",
+          "ref": "new-york-v4",
+          "contentHash": "e3e0fc0a1a6b95e95b667337b699777dc7e2a336f869e6d0252f3fdbc763154e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-bar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e3e0fc0a1a6b95e95b667337b699777dc7e2a336f869e6d0252f3fdbc763154e",
+  "quality": {}
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "folder-with-files",
+  "source": "aceternity",
+  "name": "folder-with-files",
+  "kind": "ui",
+  "versions": {
+    "886564779be591ad4b31f81a37cf74494f4161b17804e59ac79c1f2c6fc2fb57": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:folder-with-files@0.0.0",
+        "name": "folder-with-files",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Folder With Files",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/folder-with-files.json",
+          "ref": "aceternity",
+          "contentHash": "886564779be591ad4b31f81a37cf74494f4161b17804e59ac79c1f2c6fc2fb57"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "886564779be591ad4b31f81a37cf74494f4161b17804e59ac79c1f2c6fc2fb57",
+  "quality": {}
+}

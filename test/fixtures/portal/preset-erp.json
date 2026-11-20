@@ -1,0 +1,266 @@
+{
+  "version": 1,
+  "templateId": "portal-admin",
+  "slug": "preset-erp",
+  "portalName": "preset-erp",
+  "appName": "Acme Admin",
+  "industry": "erp",
+  "themePreset": "blue",
+  "type": "admin",
+  "themeColor": "#334155",
+  "logoText": "AA",
+  "logoUrl": "",
+  "auth": {
+    "screens": {
+      "login": true,
+      "signup": true,
+      "forgotPassword": false
+    },
+    "method": "email-password"
+  },
+  "dashboard": {
+    "enabled": true,
+    "template": "stats-overview",
+    "style": "erp"
+  },
+  "loginPage": {
+    "portalName": "Acme Admin",
+    "badge": "Enterprise Operations",
+    "headline": "Bring vendors, purchases, and operations together",
+    "highlightText": "operations",
+    "description": "Coordinate enterprise records, procurement workflows, and approvals from one system.",
+    "features": [
+      {
+        "title": "Secure Access",
+        "description": "Enterprise-grade authentication for authorized users."
+      },
+      {
+        "title": "Self Service",
+        "description": "Manage records, workflows, and operations from one dashboard."
+      }
+    ],
+    "footerText": "Enterprise operations portal"
+  },
+  "footer": {
+    "text": "Enterprise operations portal"
+  },
+  "company": {
+    "name": "Acme Admin",
+    "website": "",
+    "supportEmail": "",
+    "address": ""
+  },
+  "profile": {
+    "enabled": true
+  },
+  "modules": [
+    {
+      "id": "vendors",
+      "singularName": "Vendor",
+      "pluralName": "Vendors",
+      "icon": "Factory",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "field-fg88u1",
+          "label": "Vendor Name",
+          "key": "name",
+          "type": "text",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-4b9yx4",
+          "label": "Contact Email",
+          "key": "email",
+          "type": "email",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-sd6n1g",
+          "label": "GST Number",
+          "key": "gst_number",
+          "type": "text",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-2odbf4",
+          "label": "Payment Terms",
+          "key": "payment_terms",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Immediate",
+            "Net 15",
+            "Net 30",
+            "Net 45"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-hd08bd",
+          "label": "Status",
+          "key": "status",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Active",
+            "On Hold",
+            "Inactive"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        }
+      ],
+      "listColumns": [
+        "name",
+        "email",
+        "payment_terms",
+        "status"
+      ],
+      "tableFeatures": {
+        "sort": true,
+        "filter": true,
+        "search": true,
+        "pagination": true,
+        "export": true
+      }
+    },
+    {
+      "id": "purchase-orders",
+      "singularName": "Purchase Order",
+      "pluralName": "Purchase Orders",
+      "icon": "ShoppingCart",
+      "collapsed": false,
+      "fields": [
+        {
+          "id": "field-6oa0od",
+          "label": "PO Number",
+          "key": "po_number",
+          "type": "text",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-wlefqf",
+          "label": "Vendor",
+          "key": "vendor",
+          "type": "text",
+          "required": true,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-bbmgyd",
+          "label": "Amount",
+          "key": "amount",
+          "type": "currency",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-sa8c2r",
+          "label": "Order Date",
+          "key": "order_date",
+          "type": "date",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        },
+        {
+          "id": "field-xwnbql",
+          "label": "Status",
+          "key": "status",
+          "type": "select",
+          "required": false,
+          "width": "half",
+          "placeholder": "",
+          "helpText": "",
+          "options": [
+            "Draft",
+            "Issued",
+            "Received",
+            "Closed"
+          ],
+          "settings": {},
+          "features": {
+            "filter": true
+          }
+        }
+      ],
+      "listColumns": [
+        "po_number",
+        "vendor",
+        "amount",
+        "status"
+      ],
+      "tableFeatures": {
+        "sort": true,
+        "filter": true,
+        "search": true,
+        "pagination": true,
+        "export": true
+      }
+    }
+  ]
+}

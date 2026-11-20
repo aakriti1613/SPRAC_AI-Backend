@@ -1,0 +1,75 @@
+{
+  "slug": "scroll-based-velocity",
+  "source": "magicui",
+  "name": "Scroll Based Velocity",
+  "kind": "ui",
+  "versions": {
+    "1b38272df0abf9a9af68a07357490f6b85ccde20a2fdb5c89a18ea24025856f5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:scroll-based-velocity@0.0.0",
+        "name": "Scroll Based Velocity",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Scrolling text whose speed changes based on scroll speed",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/scroll-based-velocity.json",
+          "ref": "magicui",
+          "contentHash": "1b38272df0abf9a9af68a07357490f6b85ccde20a2fdb5c89a18ea24025856f5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "1b38272df0abf9a9af68a07357490f6b85ccde20a2fdb5c89a18ea24025856f5",
+  "quality": {}
+}

@@ -1,0 +1,133 @@
+{
+  "slug": "booking-confirmation/good/sparc",
+  "source": "own-library",
+  "name": "Good booking-confirmation",
+  "kind": "component",
+  "versions": {
+    "72abaa490973ce40f0dedbf05aa7e17f9949dae257176d9cfd7eba481e2442a8": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:booking-confirmation/good/sparc@1.0.0",
+        "name": "Good booking-confirmation",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good booking-confirmation: 'You are booked' page with the reference number.",
+        "room": "booking-confirmation",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "booking"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/booking-confirmation/good/sparc/index.tsx",
+          "contentHash": "72abaa490973ce40f0dedbf05aa7e17f9949dae257176d9cfd7eba481e2442a8"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "email",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "homeHref",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "name",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "reference",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "serviceName",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "whenLabel",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "booking",
+          "tags": [
+            "booking-confirmation",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-19T11-06-31-950Z-330d3d"
+    }
+  },
+  "room": "booking-confirmation",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "72abaa490973ce40f0dedbf05aa7e17f9949dae257176d9cfd7eba481e2442a8",
+  "quality": {
+    "sizeKb": 1.5,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

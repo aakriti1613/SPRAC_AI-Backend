@@ -1,0 +1,76 @@
+{
+  "slug": "chart-radar-grid-circle-no-lines",
+  "source": "shadcn",
+  "name": "chart-radar-grid-circle-no-lines",
+  "kind": "ui",
+  "versions": {
+    "7191b9f96e2cff0b2b8fe467fa1c0fb64063f869b2102a9e9b870303ac044d21": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-radar-grid-circle-no-lines@0.0.0",
+        "name": "chart-radar-grid-circle-no-lines",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-radar-grid-circle-no-lines\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-radar-grid-circle-no-lines.json",
+          "ref": "new-york-v4",
+          "contentHash": "7191b9f96e2cff0b2b8fe467fa1c0fb64063f869b2102a9e9b870303ac044d21"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-radar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "7191b9f96e2cff0b2b8fe467fa1c0fb64063f869b2102a9e9b870303ac044d21",
+  "quality": {}
+}

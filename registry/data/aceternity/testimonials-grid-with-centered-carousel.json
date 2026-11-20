@@ -1,0 +1,92 @@
+{
+  "slug": "testimonials-grid-with-centered-carousel",
+  "source": "aceternity",
+  "name": "testimonials-grid-with-centered-carousel",
+  "kind": "component",
+  "versions": {
+    "332ea8967b0b81295445f9e6660c8962cfcbb665c62020ff0af09011bbf6ce20": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:testimonials-grid-with-centered-carousel@0.0.0",
+        "name": "testimonials-grid-with-centered-carousel",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Testimonials Grid With Centered Carousel",
+        "room": "testimonials",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/testimonials-grid-with-centered-carousel.json",
+          "ref": "aceternity",
+          "contentHash": "332ea8967b0b81295445f9e6660c8962cfcbb665c62020ff0af09011bbf6ce20"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@headlessui/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "testimonials",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@headlessui/react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "332ea8967b0b81295445f9e6660c8962cfcbb665c62020ff0af09011bbf6ce20",
+  "quality": {}
+}

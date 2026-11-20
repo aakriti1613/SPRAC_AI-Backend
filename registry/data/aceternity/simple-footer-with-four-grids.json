@@ -1,0 +1,89 @@
+{
+  "slug": "simple-footer-with-four-grids",
+  "source": "aceternity",
+  "name": "simple-footer-with-four-grids",
+  "kind": "component",
+  "versions": {
+    "39359a751671fef54f6886957ed21c54bc231a744e2ca4e3ed79a73c1273ae9f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:simple-footer-with-four-grids@0.0.0",
+        "name": "simple-footer-with-four-grids",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Simple Footer With Four Grids",
+        "room": "footer",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/simple-footer-with-four-grids.json",
+          "ref": "aceternity",
+          "contentHash": "39359a751671fef54f6886957ed21c54bc231a744e2ca4e3ed79a73c1273ae9f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "footer",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"copyright\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "39359a751671fef54f6886957ed21c54bc231a744e2ca4e3ed79a73c1273ae9f",
+  "quality": {}
+}

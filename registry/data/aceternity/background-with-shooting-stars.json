@@ -1,0 +1,75 @@
+{
+  "slug": "background-with-shooting-stars",
+  "source": "aceternity",
+  "name": "background-with-shooting-stars",
+  "kind": "ui",
+  "versions": {
+    "726cb06d847c0658480215452a3d9e4634f4bf2f115e9e1a7bce0ab636a31025": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:background-with-shooting-stars@0.0.0",
+        "name": "background-with-shooting-stars",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Background With Shooting Stars",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/background-with-shooting-stars.json",
+          "ref": "aceternity",
+          "contentHash": "726cb06d847c0658480215452a3d9e4634f4bf2f115e9e1a7bce0ab636a31025"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "726cb06d847c0658480215452a3d9e4634f4bf2f115e9e1a7bce0ab636a31025",
+  "quality": {}
+}

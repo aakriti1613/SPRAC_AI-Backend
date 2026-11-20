@@ -1,0 +1,77 @@
+{
+  "slug": "saas-landing-page",
+  "source": "aceternity",
+  "name": "saas-landing-page",
+  "kind": "ui",
+  "versions": {
+    "5f7ce448e88e56a022fca48aba6b10c3da7e697e9acbfe5b696f79641cdd08ac": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:saas-landing-page@0.0.0",
+        "name": "saas-landing-page",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "SaaS landing page for Folio, a research repository, with a hub hero, features, how it works, testimonials, pricing, FAQ, CTA and footer",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/saas-landing-page.json",
+          "ref": "aceternity",
+          "contentHash": "5f7ce448e88e56a022fca48aba6b10c3da7e697e9acbfe5b696f79641cdd08ac"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*",
+            "react-icons": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "5f7ce448e88e56a022fca48aba6b10c3da7e697e9acbfe5b696f79641cdd08ac",
+  "quality": {}
+}

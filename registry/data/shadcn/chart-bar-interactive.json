@@ -1,0 +1,76 @@
+{
+  "slug": "chart-bar-interactive",
+  "source": "shadcn",
+  "name": "chart-bar-interactive",
+  "kind": "ui",
+  "versions": {
+    "d67f54cfa1a398b14bbbb74a20a3e9c36c30e39055e0ae1fecbbc60372e57600": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-bar-interactive@0.0.0",
+        "name": "chart-bar-interactive",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-bar-interactive\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-bar-interactive.json",
+          "ref": "new-york-v4",
+          "contentHash": "d67f54cfa1a398b14bbbb74a20a3e9c36c30e39055e0ae1fecbbc60372e57600"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-bar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "d67f54cfa1a398b14bbbb74a20a3e9c36c30e39055e0ae1fecbbc60372e57600",
+  "quality": {}
+}

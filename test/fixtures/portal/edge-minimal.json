@@ -1,0 +1,46 @@
+{
+  "slug": "Edge Minimal!!",
+  "appName": "Edge Minimal",
+  "theme": "purple",
+  "modules": [
+    {
+      "pluralName": "Things",
+      "singularName": "Thing",
+      "fields": [
+        {
+          "label": "Thing Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "label": "Weird",
+          "type": "not-a-type"
+        },
+        {
+          "label": "Price Tag",
+          "type": "currency",
+          "settings": {
+            "min": 0
+          }
+        },
+        {
+          "label": "Labels",
+          "type": "tags"
+        },
+        {
+          "label": "Kind",
+          "type": "select",
+          "options": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "label": "Created By",
+          "key": "created_by",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "full-background-image-with-text",
+  "source": "aceternity",
+  "name": "full-background-image-with-text",
+  "kind": "ui",
+  "versions": {
+    "849d5d9824b0fe812636620e757e0b551dbe1f27248936d259f579f26b89fdf7": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:full-background-image-with-text@0.0.0",
+        "name": "full-background-image-with-text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Full Background Image With Text",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/full-background-image-with-text.json",
+          "ref": "aceternity",
+          "contentHash": "849d5d9824b0fe812636620e757e0b551dbe1f27248936d259f579f26b89fdf7"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "849d5d9824b0fe812636620e757e0b551dbe1f27248936d259f579f26b89fdf7",
+  "quality": {}
+}

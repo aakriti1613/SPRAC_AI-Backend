@@ -1,0 +1,84 @@
+{
+  "slug": "@fluentui/react-toast",
+  "source": "npm",
+  "name": "@fluentui/react-toast",
+  "kind": "library",
+  "versions": {
+    "5befb7b98a6cab4cf800d4dc954eaab802abdafae70a803f50250686dfb7c65b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:@fluentui/react-toast@9.8.5",
+        "name": "@fluentui/react-toast",
+        "version": "9.8.5",
+        "kind": "library",
+        "summary": "Toast component for Fluent UI",
+        "room": "notifications",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/@fluentui/react-toast",
+          "ref": "9.8.5",
+          "contentHash": "5befb7b98a6cab4cf800d4dc954eaab802abdafae70a803f50250686dfb7c65b"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">=16.14.0 <20.0.0",
+            "@types/react": ">=16.14.0 <20.0.0"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">=16.14.0 <20.0.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "notifications",
+          "tags": [
+            "query:react toast"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "notifications",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "5befb7b98a6cab4cf800d4dc954eaab802abdafae70a803f50250686dfb7c65b",
+  "quality": {
+    "downloads": 2325411,
+    "lastPublish": "2026-10-19T14:53:05.210Z",
+    "hasTypes": true
+  }
+}

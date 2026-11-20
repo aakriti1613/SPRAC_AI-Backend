@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/time-picker",
+  "source": "storybook",
+  "name": "TimePicker (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "19ee768f74b559b8d11996e17e7850e8aaff68ae7476229179cb2010071a61bc": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/time-picker@0.0.0",
+        "name": "TimePicker (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "TimePicker from IBM Carbon (React): 2 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-timepicker--overview",
+          "ref": "@carbon/react",
+          "contentHash": "19ee768f74b559b8d11996e17e7850e8aaff68ae7476229179cb2010071a61bc"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "19ee768f74b559b8d11996e17e7850e8aaff68ae7476229179cb2010071a61bc",
+  "quality": {
+    "hasTests": true
+  }
+}

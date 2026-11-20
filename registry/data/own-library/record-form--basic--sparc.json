@@ -1,0 +1,140 @@
+{
+  "slug": "record-form/basic/sparc",
+  "source": "own-library",
+  "name": "Basic record-form",
+  "kind": "component",
+  "versions": {
+    "aacf0318d87a5866986a86cae971445f48048d82ed6fd71c6f909d7a35214564": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:record-form/basic/sparc@1.0.0",
+        "name": "Basic record-form",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic record-form: Add / edit form for one record. Lays out the fields; each field is drawn by a form-field component.",
+        "room": "record-form",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/record-form/basic/sparc/index.tsx",
+          "contentHash": "aacf0318d87a5866986a86cae971445f48048d82ed6fd71c6f909d7a35214564"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "errors",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "fields",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "onCancel",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "onChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "onSubmit",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "renderField",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "submitting",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "values",
+              "kind": "object",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "record-form",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "record-form",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "aacf0318d87a5866986a86cae971445f48048d82ed6fd71c6f909d7a35214564",
+  "quality": {
+    "sizeKb": 1,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "slug": "rotating-tabs-with-text",
+  "source": "aceternity",
+  "name": "rotating-tabs-with-text",
+  "kind": "ui",
+  "versions": {
+    "32c24665c22cae84a77976f68b9c31593269f6cb5dd4246b40a298f6d6633b26": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:rotating-tabs-with-text@0.0.0",
+        "name": "rotating-tabs-with-text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Rotating Notification Cards with Stacked Animation",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/rotating-tabs-with-text.json",
+          "ref": "aceternity",
+          "contentHash": "32c24665c22cae84a77976f68b9c31593269f6cb5dd4246b40a298f6d6633b26"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "32c24665c22cae84a77976f68b9c31593269f6cb5dd4246b40a298f6d6633b26",
+  "quality": {}
+}

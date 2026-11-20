@@ -1,0 +1,118 @@
+{
+  "slug": "about/astonishing/sparc",
+  "source": "own-library",
+  "name": "Astonishing about",
+  "kind": "component",
+  "versions": {
+    "3d78b64fb745469d5c1310dc2ec779908b5a5881f7804d0973e4a0f4c210dbb7": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:about/astonishing/sparc@1.0.0",
+        "name": "Astonishing about",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Astonishing about: About section: heading, paragraph, photo and highlights.",
+        "room": "about",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/about/astonishing/sparc/index.tsx",
+          "contentHash": "3d78b64fb745469d5c1310dc2ec779908b5a5881f7804d0973e4a0f4c210dbb7"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "body",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "highlights",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "image",
+              "kind": "object",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "about",
+            "astonishing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "about",
+  "styleLevel": "astonishing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "3d78b64fb745469d5c1310dc2ec779908b5a5881f7804d0973e4a0f4c210dbb7",
+  "quality": {
+    "sizeKb": 47.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

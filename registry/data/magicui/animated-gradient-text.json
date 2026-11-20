@@ -1,0 +1,72 @@
+{
+  "slug": "animated-gradient-text",
+  "source": "magicui",
+  "name": "Animated Gradient Text",
+  "kind": "ui",
+  "versions": {
+    "de0ea4e237f3b1f456aba3bbce0069d65989226f0190c306897def52e4a0db6d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:animated-gradient-text@0.0.0",
+        "name": "Animated Gradient Text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "An animated gradient background which transitions between colors for text.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/animated-gradient-text.json",
+          "ref": "magicui",
+          "contentHash": "de0ea4e237f3b1f456aba3bbce0069d65989226f0190c306897def52e4a0db6d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "de0ea4e237f3b1f456aba3bbce0069d65989226f0190c306897def52e4a0db6d",
+  "quality": {}
+}

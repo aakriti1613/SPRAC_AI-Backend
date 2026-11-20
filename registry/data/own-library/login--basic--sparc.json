@@ -1,0 +1,149 @@
+{
+  "slug": "login/basic/sparc",
+  "source": "own-library",
+  "name": "Basic login",
+  "kind": "component",
+  "versions": {
+    "4f11a326198683731ac3ba4a9e48cfed33ac76cee5cc620c9fa0cc8d79278bd0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:login/basic/sparc@1.0.0",
+        "name": "Basic login",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic login: Login screen with side panel copy. The shell does the actual sign-in.",
+        "room": "login",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/login/basic/sparc/index.tsx",
+          "contentHash": "4f11a326198683731ac3ba4a9e48cfed33ac76cee5cc620c9fa0cc8d79278bd0"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "badge",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "brand",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "description",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "features",
+              "kind": "array",
+              "required": false
+            },
+            {
+              "name": "forgotPasswordHref",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "headline",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "onSubmit",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "signupHref",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "submitting",
+              "kind": "boolean",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/auth",
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "auth",
+          "tags": [
+            "login",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "login",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "4f11a326198683731ac3ba4a9e48cfed33ac76cee5cc620c9fa0cc8d79278bd0",
+  "quality": {
+    "sizeKb": 1.9,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

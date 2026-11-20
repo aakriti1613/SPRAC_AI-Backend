@@ -1,0 +1,90 @@
+{
+  "slug": "parallax-scroll-2",
+  "source": "aceternity",
+  "name": "parallax-scroll-2",
+  "kind": "component",
+  "versions": {
+    "fcea25b557e65d8cc8eef98eae5364c6a41cde291a623634915148a6197853d3": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:parallax-scroll-2@0.0.0",
+        "name": "parallax-scroll-2",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"parallax-scroll-2\".",
+        "room": "projects",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/parallax-scroll-2.json",
+          "ref": "aceternity",
+          "contentHash": "fcea25b557e65d8cc8eef98eae5364c6a41cde291a623634915148a6197853d3"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "projects",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "fcea25b557e65d8cc8eef98eae5364c6a41cde291a623634915148a6197853d3",
+  "quality": {}
+}

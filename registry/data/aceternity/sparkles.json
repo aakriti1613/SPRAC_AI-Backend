@@ -1,0 +1,78 @@
+{
+  "slug": "sparkles",
+  "source": "aceternity",
+  "name": "sparkles",
+  "kind": "ui",
+  "versions": {
+    "6cc14ec8dc8cbf1cc32282a5215776543b67de100dbfa9475a9e92c0f1175a1b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:sparkles@0.0.0",
+        "name": "sparkles",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"sparkles\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/sparkles.json",
+          "ref": "aceternity",
+          "contentHash": "6cc14ec8dc8cbf1cc32282a5215776543b67de100dbfa9475a9e92c0f1175a1b"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@tsparticles/react": "*",
+            "@tsparticles/engine": "*",
+            "@tsparticles/slim": "*",
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "6cc14ec8dc8cbf1cc32282a5215776543b67de100dbfa9475a9e92c0f1175a1b",
+  "quality": {}
+}

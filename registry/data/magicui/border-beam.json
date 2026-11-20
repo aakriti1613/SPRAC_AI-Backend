@@ -1,0 +1,75 @@
+{
+  "slug": "border-beam",
+  "source": "magicui",
+  "name": "Border Beam",
+  "kind": "ui",
+  "versions": {
+    "2c67f904244a1170cd9555a502e49b3ccfec2c5cd3148c0beddfb5afc2dbceca": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:border-beam@0.0.0",
+        "name": "Border Beam",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "An animated beam of light which travels along the border of its container.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/border-beam.json",
+          "ref": "magicui",
+          "contentHash": "2c67f904244a1170cd9555a502e49b3ccfec2c5cd3148c0beddfb5afc2dbceca"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "2c67f904244a1170cd9555a502e49b3ccfec2c5cd3148c0beddfb5afc2dbceca",
+  "quality": {}
+}

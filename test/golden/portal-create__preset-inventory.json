@@ -1,0 +1,271 @@
+{
+  "status": 200,
+  "body": {
+    "success": true,
+    "slug": "preset-inventory",
+    "portalUrl": "/portal/preset-inventory",
+    "shortPortalUrl": "/p/preset-inventory"
+  },
+  "stored": {
+    "version": 1,
+    "templateId": "portal-admin",
+    "slug": "preset-inventory",
+    "portalName": "preset-inventory",
+    "appName": "Acme Admin",
+    "type": "admin",
+    "industry": "inventory",
+    "themePreset": "blue",
+    "themeColor": "#059669",
+    "logoUrl": "",
+    "logoText": "AA",
+    "loginPage": {
+      "portalName": "Acme Admin",
+      "badge": "Inventory Control",
+      "headline": "Track stock, products, and movement in real time",
+      "highlightText": "stock",
+      "description": "Manage inventory records, stock movement, suppliers, and reorder workflows from one place.",
+      "features": [
+        {
+          "title": "Secure Access",
+          "description": "Enterprise-grade authentication for authorized users."
+        },
+        {
+          "title": "Self Service",
+          "description": "Manage records, workflows, and operations from one dashboard."
+        }
+      ],
+      "footerText": "Inventory operations portal"
+    },
+    "footer": {
+      "text": "Inventory operations portal"
+    },
+    "company": {
+      "name": "Acme Admin",
+      "website": "",
+      "supportEmail": "",
+      "address": ""
+    },
+    "auth": {
+      "screens": {
+        "login": true,
+        "signup": true,
+        "forgotPassword": false
+      },
+      "method": "email-password"
+    },
+    "dashboard": {
+      "enabled": true,
+      "template": "stats-overview"
+    },
+    "profile": {
+      "enabled": true
+    },
+    "modules": [
+      {
+        "id": "products",
+        "singularName": "Product",
+        "pluralName": "Products",
+        "icon": "Package",
+        "fields": [
+          {
+            "id": "field-pcn1if",
+            "key": "name",
+            "label": "Product Name",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-f8nqw2",
+            "key": "sku",
+            "label": "SKU",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-830ird",
+            "key": "category",
+            "label": "Category",
+            "type": "select",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "Raw Material",
+              "Finished Goods",
+              "Packaging",
+              "Spare Parts"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-n5pmg5",
+            "key": "stock_quantity",
+            "label": "Stock Quantity",
+            "type": "number",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-pe9bfh",
+            "key": "reorder_level",
+            "label": "Reorder Level",
+            "type": "number",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "name",
+          "sku",
+          "category",
+          "stock_quantity"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        },
+        "collapsed": false
+      },
+      {
+        "id": "stock-movements",
+        "singularName": "Stock Movement",
+        "pluralName": "Stock Movements",
+        "icon": "Truck",
+        "fields": [
+          {
+            "id": "field-5n1znl",
+            "key": "sku",
+            "label": "Product SKU",
+            "type": "text",
+            "required": true,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-2rcoqk",
+            "key": "movement_type",
+            "label": "Movement Type",
+            "type": "select",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [
+              "Inward",
+              "Outward",
+              "Adjustment"
+            ],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-248k2v",
+            "key": "quantity",
+            "label": "Quantity",
+            "type": "number",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-t9area",
+            "key": "movement_date",
+            "label": "Movement Date",
+            "type": "date",
+            "required": false,
+            "width": "half",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          },
+          {
+            "id": "field-l4mhvt",
+            "key": "reference",
+            "label": "Reference",
+            "type": "text",
+            "required": false,
+            "width": "full",
+            "placeholder": "",
+            "helpText": "",
+            "options": [],
+            "settings": {},
+            "features": {
+              "filter": true
+            }
+          }
+        ],
+        "listColumns": [
+          "sku",
+          "movement_type",
+          "quantity",
+          "movement_date"
+        ],
+        "tableFeatures": {
+          "sort": true,
+          "filter": true,
+          "search": true,
+          "pagination": true,
+          "export": true
+        },
+        "collapsed": false
+      }
+    ],
+    "createdAt": "<iso>",
+    "updatedAt": "<iso>"
+  }
+}

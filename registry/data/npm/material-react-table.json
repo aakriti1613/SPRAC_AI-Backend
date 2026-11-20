@@ -1,0 +1,94 @@
+{
+  "slug": "material-react-table",
+  "source": "npm",
+  "name": "material-react-table",
+  "kind": "library",
+  "versions": {
+    "87c12d344ef217549dee7fd17889862402f271d46ab212d29d6bc1da2058c281": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:material-react-table@3.2.1",
+        "name": "material-react-table",
+        "version": "3.2.1",
+        "kind": "library",
+        "summary": "A fully featured Material UI V6 implementation of TanStack React Table V8, written from the ground up in TypeScript.",
+        "room": "data-table",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/material-react-table",
+          "ref": "3.2.1",
+          "contentHash": "87c12d344ef217549dee7fd17889862402f271d46ab212d29d6bc1da2058c281"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">=18.0",
+            "react-dom": ">=18.0",
+            "@mui/material": ">=6",
+            "@emotion/react": ">=11.13",
+            "@emotion/styled": ">=11.13",
+            "@mui/icons-material": ">=6",
+            "@mui/x-date-pickers": ">=7.15"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">=18.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data-table",
+          "tags": [
+            "react-table",
+            "material-ui",
+            "material-table",
+            "tanstack table",
+            "data table",
+            "query:react table"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "data-table",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "87c12d344ef217549dee7fd17889862402f271d46ab212d29d6bc1da2058c281",
+  "quality": {
+    "downloads": 1822732,
+    "lastPublish": "2025-03-01T21:56:07.436Z",
+    "hasTypes": true
+  }
+}

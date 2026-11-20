@@ -1,0 +1,75 @@
+{
+  "slug": "lens",
+  "source": "magicui",
+  "name": "Lens",
+  "kind": "ui",
+  "versions": {
+    "d764f33dd4cebae78ae7c32387df7f75444e19ecb66fdb25ddf89a7dcc684173": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:lens@0.0.0",
+        "name": "Lens",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A interactive component that enables zooming into images, videos and other elements.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/lens.json",
+          "ref": "magicui",
+          "contentHash": "d764f33dd4cebae78ae7c32387df7f75444e19ecb66fdb25ddf89a7dcc684173"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "d764f33dd4cebae78ae7c32387df7f75444e19ecb66fdb25ddf89a7dcc684173",
+  "quality": {}
+}

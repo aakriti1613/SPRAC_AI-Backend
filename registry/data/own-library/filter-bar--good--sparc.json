@@ -1,0 +1,126 @@
+{
+  "slug": "filter-bar/good/sparc",
+  "source": "own-library",
+  "name": "Good filter-bar",
+  "kind": "component",
+  "versions": {
+    "a8b6b9a492810928f11d8478df7cc1e8c3c14b5fb1f5e565124a4228344483ed": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:filter-bar/good/sparc@1.0.0",
+        "name": "Good filter-bar",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good filter-bar: Search box and filter dropdowns above a table.",
+        "room": "filter-bar",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/filter-bar/good/sparc/index.tsx",
+          "contentHash": "a8b6b9a492810928f11d8478df7cc1e8c3c14b5fb1f5e565124a4228344483ed"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "filters",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "onFilterChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "onReset",
+              "kind": "function",
+              "required": false
+            },
+            {
+              "name": "onSearchChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "search",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "values",
+              "kind": "object",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "filter-bar",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "filter-bar",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "a8b6b9a492810928f11d8478df7cc1e8c3c14b5fb1f5e565124a4228344483ed",
+  "quality": {
+    "sizeKb": 1.5,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "slug": "services/astonishing/sparc",
+  "source": "own-library",
+  "name": "Astonishing services",
+  "kind": "component",
+  "versions": {
+    "30a669668ae8b204754298f3f73952dd0ad41ec0f4d45e3849cf3195f1d2d8eb": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:services/astonishing/sparc@1.0.0",
+        "name": "Astonishing services",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Astonishing services: Services / features grid with icons.",
+        "room": "services",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/services/astonishing/sparc/index.tsx",
+          "contentHash": "30a669668ae8b204754298f3f73952dd0ad41ec0f4d45e3849cf3195f1d2d8eb"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "subtitle",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "services",
+            "astonishing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "services",
+  "styleLevel": "astonishing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "30a669668ae8b204754298f3f73952dd0ad41ec0f4d45e3849cf3195f1d2d8eb",
+  "quality": {
+    "sizeKb": 47.5,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

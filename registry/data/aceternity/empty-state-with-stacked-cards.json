@@ -1,0 +1,75 @@
+{
+  "slug": "empty-state-with-stacked-cards",
+  "source": "aceternity",
+  "name": "empty-state-with-stacked-cards",
+  "kind": "ui",
+  "versions": {
+    "94d608aafb1f4a9ce8b703b9791539be5d886dac1b4356b74dc4d85006a0a51c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:empty-state-with-stacked-cards@0.0.0",
+        "name": "empty-state-with-stacked-cards",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Soft panel empty state with overlapping template previews and doc link",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/empty-state-with-stacked-cards.json",
+          "ref": "aceternity",
+          "contentHash": "94d608aafb1f4a9ce8b703b9791539be5d886dac1b4356b74dc4d85006a0a51c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "94d608aafb1f4a9ce8b703b9791539be5d886dac1b4356b74dc4d85006a0a51c",
+  "quality": {}
+}

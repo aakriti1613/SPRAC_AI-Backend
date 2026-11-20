@@ -1,0 +1,95 @@
+{
+  "slug": "collapsible-sidebar",
+  "source": "aceternity",
+  "name": "collapsible-sidebar",
+  "kind": "component",
+  "versions": {
+    "793e9ad871b98217660e23276a455ae63ec127ddc5060965aa7d79d90d067069": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:collapsible-sidebar@0.0.0",
+        "name": "collapsible-sidebar",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Collapsible Sidebar",
+        "room": "app-frame",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/collapsible-sidebar.json",
+          "ref": "aceternity",
+          "contentHash": "793e9ad871b98217660e23276a455ae63ec127ddc5060965aa7d79d90d067069"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "app-frame",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"navItems\"",
+    "contract: does not accept required prop \"user\"",
+    "contract: does not accept required prop \"onLogout\"",
+    "contract: does not accept required prop \"children\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "793e9ad871b98217660e23276a455ae63ec127ddc5060965aa7d79d90d067069",
+  "quality": {}
+}

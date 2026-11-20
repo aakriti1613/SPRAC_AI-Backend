@@ -1,0 +1,73 @@
+{
+  "slug": "background-with-skewed-lines",
+  "source": "aceternity",
+  "name": "background-with-skewed-lines",
+  "kind": "ui",
+  "versions": {
+    "a5f478e928579c2b8f35950669c4d9f1169bddb7fbd8c8bd5b56a77b125b871d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:background-with-skewed-lines@0.0.0",
+        "name": "background-with-skewed-lines",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Background With Skewed Lines",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/background-with-skewed-lines.json",
+          "ref": "aceternity",
+          "contentHash": "a5f478e928579c2b8f35950669c4d9f1169bddb7fbd8c8bd5b56a77b125b871d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "a5f478e928579c2b8f35950669c4d9f1169bddb7fbd8c8bd5b56a77b125b871d",
+  "quality": {}
+}

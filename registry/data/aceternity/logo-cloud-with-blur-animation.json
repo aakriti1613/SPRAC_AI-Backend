@@ -1,0 +1,75 @@
+{
+  "slug": "logo-cloud-with-blur-animation",
+  "source": "aceternity",
+  "name": "logo-cloud-with-blur-animation",
+  "kind": "ui",
+  "versions": {
+    "0895801d970626b7a0184144151fdce2d74a6cd9f28ffc834aa4b165c7904d6d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:logo-cloud-with-blur-animation@0.0.0",
+        "name": "logo-cloud-with-blur-animation",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A collection of 6 logos of modern companies, animation is staggered and logos are aligned in a grid of 3. Perfect for logo clouds that require a modern look.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/logo-cloud-with-blur-animation.json",
+          "ref": "aceternity",
+          "contentHash": "0895801d970626b7a0184144151fdce2d74a6cd9f28ffc834aa4b165c7904d6d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "0895801d970626b7a0184144151fdce2d74a6cd9f28ffc834aa4b165c7904d6d",
+  "quality": {}
+}

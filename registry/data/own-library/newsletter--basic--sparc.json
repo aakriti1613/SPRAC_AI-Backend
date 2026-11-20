@@ -1,0 +1,125 @@
+{
+  "slug": "newsletter/basic/sparc",
+  "source": "own-library",
+  "name": "Basic newsletter",
+  "kind": "component",
+  "versions": {
+    "fbb57acfb74157f3cbaa2220b7022036b4452e43726c9b5a6d1296cf349c9330": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:newsletter/basic/sparc@1.0.0",
+        "name": "Basic newsletter",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic newsletter: Email signup box.",
+        "room": "newsletter",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "landing"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/newsletter/basic/sparc/index.tsx",
+          "contentHash": "fbb57acfb74157f3cbaa2220b7022036b4452e43726c9b5a6d1296cf349c9330"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "done",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "onSubscribe",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "submitting",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "text",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "newsletter",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "newsletter",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "fbb57acfb74157f3cbaa2220b7022036b4452e43726c9b5a6d1296cf349c9330",
+  "quality": {
+    "sizeKb": 1.2,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

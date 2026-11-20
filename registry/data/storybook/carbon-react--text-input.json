@@ -1,0 +1,79 @@
+{
+  "slug": "carbon-react/text-input",
+  "source": "storybook",
+  "name": "TextInput (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "18fa30ebe126ab16b153ebe1b03ca9fcf8ca16c2d2e741940bc0f58b2f8f6b36": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/text-input@0.0.0",
+        "name": "TextInput (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "TextInput from IBM Carbon (React): 7 stories, documented.",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-textinput--overview",
+          "ref": "@carbon/react",
+          "contentHash": "18fa30ebe126ab16b153ebe1b03ca9fcf8ca16c2d2e741940bc0f58b2f8f6b36"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "18fa30ebe126ab16b153ebe1b03ca9fcf8ca16c2d2e741940bc0f58b2f8f6b36",
+  "quality": {
+    "hasTests": true
+  }
+}

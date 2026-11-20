@@ -1,0 +1,112 @@
+{
+  "slug": "resume-download/astonishing/sparc",
+  "source": "own-library",
+  "name": "Astonishing resume-download",
+  "kind": "component",
+  "versions": {
+    "ee7a104014b2de7f7b9f49fee5ae4808e48586c12f6f33ab625cdee1146a2e77": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:resume-download/astonishing/sparc@1.0.0",
+        "name": "Astonishing resume-download",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Astonishing resume-download: Button / card to download a CV.",
+        "room": "resume-download",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/resume-download/astonishing/sparc/index.tsx",
+          "contentHash": "ee7a104014b2de7f7b9f49fee5ae4808e48586c12f6f33ab625cdee1146a2e77"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "href",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "label",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "note",
+              "kind": "string",
+              "required": false
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1",
+            "motion": "^12.43.0"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "resume-download",
+            "astonishing"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "resume-download",
+  "styleLevel": "astonishing",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "ee7a104014b2de7f7b9f49fee5ae4808e48586c12f6f33ab625cdee1146a2e77",
+  "quality": {
+    "sizeKb": 47.4,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

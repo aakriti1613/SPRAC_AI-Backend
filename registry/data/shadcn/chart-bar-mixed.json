@@ -1,0 +1,76 @@
+{
+  "slug": "chart-bar-mixed",
+  "source": "shadcn",
+  "name": "chart-bar-mixed",
+  "kind": "ui",
+  "versions": {
+    "a75c6958f777afd3d8c741554dce4fe5eebed8faad881beb90af452a51d31a9c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-bar-mixed@0.0.0",
+        "name": "chart-bar-mixed",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-bar-mixed\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-bar-mixed.json",
+          "ref": "new-york-v4",
+          "contentHash": "a75c6958f777afd3d8c741554dce4fe5eebed8faad881beb90af452a51d31a9c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-bar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a75c6958f777afd3d8c741554dce4fe5eebed8faad881beb90af452a51d31a9c",
+  "quality": {}
+}

@@ -1,0 +1,79 @@
+{
+  "slug": "carbon-react/composed-modal",
+  "source": "storybook",
+  "name": "ComposedModal (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "5fda651cc86b83998d8752ee559ed02dd53e7c7337ed83f5d0b1b42b9079b645": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/composed-modal@0.0.0",
+        "name": "ComposedModal (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "ComposedModal from IBM Carbon (React): 10 stories, documented.",
+        "room": "confirm-dialog",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-composedmodal--overview",
+          "ref": "@carbon/react",
+          "contentHash": "5fda651cc86b83998d8752ee559ed02dd53e7c7337ed83f5d0b1b42b9079b645"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "confirm-dialog",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "room": "confirm-dialog",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "5fda651cc86b83998d8752ee559ed02dd53e7c7337ed83f5d0b1b42b9079b645",
+  "quality": {
+    "hasTests": true
+  }
+}

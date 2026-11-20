@@ -1,0 +1,75 @@
+{
+  "slug": "line-shadow-text",
+  "source": "magicui",
+  "name": "Line Shadow Text",
+  "kind": "ui",
+  "versions": {
+    "c4ef32e2cb4d37ca03a66e18bb7306b5f475f387bffcaf396266ef1adea25636": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:line-shadow-text@0.0.0",
+        "name": "Line Shadow Text",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A text component with a moving line shadow.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/line-shadow-text.json",
+          "ref": "magicui",
+          "contentHash": "c4ef32e2cb4d37ca03a66e18bb7306b5f475f387bffcaf396266ef1adea25636"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "c4ef32e2cb4d37ca03a66e18bb7306b5f475f387bffcaf396266ef1adea25636",
+  "quality": {}
+}

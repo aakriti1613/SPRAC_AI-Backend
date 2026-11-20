@@ -1,0 +1,86 @@
+{
+  "slug": "react-dialog-polyfill",
+  "source": "npm",
+  "name": "react-dialog-polyfill",
+  "kind": "library",
+  "versions": {
+    "89d08b71d40293b4181081a67b788489f39f9e66ee7b68cfc88d678b4a5b2e18": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-dialog-polyfill@1.3.0",
+        "name": "react-dialog-polyfill",
+        "version": "1.3.0",
+        "kind": "library",
+        "summary": "<dialog> element bundled with polyfill for React",
+        "room": "confirm-dialog",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-dialog-polyfill",
+          "ref": "1.3.0",
+          "contentHash": "89d08b71d40293b4181081a67b788489f39f9e66ee7b68cfc88d678b4a5b2e18"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "^0.13.0 || ^0.14.0 || >=15"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^0.13.0 || ^0.14.0 || >=15",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "confirm-dialog",
+          "tags": [
+            "react",
+            "reactjs",
+            "component",
+            "query:react dialog"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "confirm-dialog",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "89d08b71d40293b4181081a67b788489f39f9e66ee7b68cfc88d678b4a5b2e18",
+  "quality": {
+    "downloads": 7651,
+    "lastPublish": "2024-08-05T23:23:28.467Z",
+    "hasTypes": true
+  }
+}

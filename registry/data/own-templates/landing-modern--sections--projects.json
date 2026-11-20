@@ -1,0 +1,96 @@
+{
+  "slug": "landing-modern/sections/projects",
+  "source": "own-templates",
+  "name": "Projects section (landing-modern)",
+  "kind": "component",
+  "versions": {
+    "74b10cec5ce2ac8f1a4cc34eac132fffd19e8bde2a216701f8f8fe4e43f36741": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:landing-modern/sections/projects@0.1.0",
+        "name": "Projects section (landing-modern)",
+        "version": "0.1.0",
+        "kind": "component",
+        "summary": "Page section \"Projects\" from the landing-modern landing template.",
+        "room": "projects",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "landing-modern/src/components/sections/Projects.jsx",
+          "contentHash": "74b10cec5ce2ac8f1a4cc34eac132fffd19e8bde2a216701f8f8fe4e43f36741"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "*",
+            "gsap": "*",
+            "@gsap/react": "*",
+            "framer-motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "language": "js"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "legacy",
+            "section",
+            "landing-modern"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.7
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "room": "projects",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "reads the template's config singleton instead of taking props (must be rewritten to accept its room's props)",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "74b10cec5ce2ac8f1a4cc34eac132fffd19e8bde2a216701f8f8fe4e43f36741",
+  "quality": {}
+}

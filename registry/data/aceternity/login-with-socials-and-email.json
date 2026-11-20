@@ -1,0 +1,94 @@
+{
+  "slug": "login-with-socials-and-email",
+  "source": "aceternity",
+  "name": "login-with-socials-and-email",
+  "kind": "component",
+  "versions": {
+    "606c6ee752a3179733158979d10ea7f110bb2253dd20426b9bf9b3fddab58994": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:login-with-socials-and-email@0.0.0",
+        "name": "login-with-socials-and-email",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Login With Socials And Email",
+        "room": "login",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/login-with-socials-and-email.json",
+          "ref": "aceternity",
+          "contentHash": "606c6ee752a3179733158979d10ea7f110bb2253dd20426b9bf9b3fddab58994"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "login",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"headline\"",
+    "contract: does not accept required prop \"onSubmit\"",
+    "contract: does not accept required prop \"submitting\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "606c6ee752a3179733158979d10ea7f110bb2253dd20426b9bf9b3fddab58994",
+  "quality": {}
+}

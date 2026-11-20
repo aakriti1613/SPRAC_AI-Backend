@@ -1,0 +1,72 @@
+{
+  "slug": "pixel-image",
+  "source": "magicui",
+  "name": "Pixel Image",
+  "kind": "ui",
+  "versions": {
+    "dff955dac318ae99600c11a70c0b4de973a1a44de2528d123a19f1acaad08f24": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:pixel-image@0.0.0",
+        "name": "Pixel Image",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A component that displays an image with a pixelated effect, creating a retro aesthetic.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/pixel-image.json",
+          "ref": "magicui",
+          "contentHash": "dff955dac318ae99600c11a70c0b4de973a1a44de2528d123a19f1acaad08f24"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "dff955dac318ae99600c11a70c0b4de973a1a44de2528d123a19f1acaad08f24",
+  "quality": {}
+}

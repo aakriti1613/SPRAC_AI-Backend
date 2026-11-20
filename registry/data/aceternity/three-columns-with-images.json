@@ -1,0 +1,75 @@
+{
+  "slug": "three-columns-with-images",
+  "source": "aceternity",
+  "name": "three-columns-with-images",
+  "kind": "ui",
+  "versions": {
+    "6cf66d41f3738ce58e5f046fb09d7a2ef87728f4dc0cd416a0a6a1f32b4370ff": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:three-columns-with-images@0.0.0",
+        "name": "three-columns-with-images",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Three Columns With Images",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/three-columns-with-images.json",
+          "ref": "aceternity",
+          "contentHash": "6cf66d41f3738ce58e5f046fb09d7a2ef87728f4dc0cd416a0a6a1f32b4370ff"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "6cf66d41f3738ce58e5f046fb09d7a2ef87728f4dc0cd416a0a6a1f32b4370ff",
+  "quality": {}
+}

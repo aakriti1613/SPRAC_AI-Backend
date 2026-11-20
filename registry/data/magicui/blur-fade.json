@@ -1,0 +1,75 @@
+{
+  "slug": "blur-fade",
+  "source": "magicui",
+  "name": "Blur Fade",
+  "kind": "ui",
+  "versions": {
+    "690a2df340a81ad0d89dcf2b71e93ff84116a285bd4eaed68113c12fab0255db": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:blur-fade@0.0.0",
+        "name": "Blur Fade",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Blur fade in and out animation. Used to smoothly fade in and out content.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/blur-fade.json",
+          "ref": "magicui",
+          "contentHash": "690a2df340a81ad0d89dcf2b71e93ff84116a285bd4eaed68113c12fab0255db"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "690a2df340a81ad0d89dcf2b71e93ff84116a285bd4eaed68113c12fab0255db",
+  "quality": {}
+}

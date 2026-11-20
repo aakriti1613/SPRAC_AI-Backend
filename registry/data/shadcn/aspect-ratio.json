@@ -1,0 +1,72 @@
+{
+  "slug": "aspect-ratio",
+  "source": "shadcn",
+  "name": "aspect-ratio",
+  "kind": "ui",
+  "versions": {
+    "aa7aaad8721ba71f3cd417819b7349f84d0320e79f4b8d9fb0b4c2e2de807a09": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:aspect-ratio@0.0.0",
+        "name": "aspect-ratio",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"aspect-ratio\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/aspect-ratio.json",
+          "ref": "new-york-v4",
+          "contentHash": "aa7aaad8721ba71f3cd417819b7349f84d0320e79f4b8d9fb0b4c2e2de807a09"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "aa7aaad8721ba71f3cd417819b7349f84d0320e79f4b8d9fb0b4c2e2de807a09",
+  "quality": {}
+}

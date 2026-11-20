@@ -1,0 +1,43 @@
+{
+  "id": "portfolio",
+  "name": "Portfolio",
+  "description": "Personal site for students and freelancers: who you are, what you built, how to reach you.",
+  "status": "active",
+  "release": "v1",
+  "audience": "Students, freelancers, job seekers",
+  "industryBased": false,
+  "industries": [],
+  "maxStyleLevel": "astonishing",
+  "configFile": "content.json",
+  "existingTemplates": ["landing-modern", "landing-temp-2"],
+  "rooms": {
+    "required": ["navbar", "hero", "about", "projects", "contact", "footer", "not-found"],
+    "optional": ["skills", "experience", "education", "services", "stats", "testimonials", "resume-download", "contact-form"],
+    "defaultOn": ["skills", "experience", "education"]
+  },
+  "industryDefaults": {},
+  "pages": [
+    {
+      "id": "home",
+      "path": "/",
+      "title": "Home (one long page)",
+      "rooms": [
+        "navbar",
+        "hero",
+        "stats",
+        "about",
+        "skills",
+        "experience",
+        "education",
+        "projects",
+        "services",
+        "testimonials",
+        "resume-download",
+        "contact",
+        "contact-form",
+        "footer"
+      ]
+    },
+    { "id": "not-found", "path": "*", "title": "404", "rooms": ["not-found"] }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "textarea",
+  "source": "shadcn",
+  "name": "textarea",
+  "kind": "ui",
+  "versions": {
+    "47cefa52c9c779c7c462dfa46fb98dc7f561113d374dd846f51a5fd83f57c301": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:textarea@0.0.0",
+        "name": "textarea",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"textarea\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/textarea.json",
+          "ref": "new-york-v4",
+          "contentHash": "47cefa52c9c779c7c462dfa46fb98dc7f561113d374dd846f51a5fd83f57c301"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "also-in:crud-modern-new-temp"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "47cefa52c9c779c7c462dfa46fb98dc7f561113d374dd846f51a5fd83f57c301",
+  "quality": {}
+}

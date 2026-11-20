@@ -1,0 +1,76 @@
+{
+  "slug": "chart-radar-grid-fill",
+  "source": "shadcn",
+  "name": "chart-radar-grid-fill",
+  "kind": "ui",
+  "versions": {
+    "b1cc313b08f7dbda44612dffd96f1fa4ca48ef0430d61c03020ea091b7dcddf5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-radar-grid-fill@0.0.0",
+        "name": "chart-radar-grid-fill",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-radar-grid-fill\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-radar-grid-fill.json",
+          "ref": "new-york-v4",
+          "contentHash": "b1cc313b08f7dbda44612dffd96f1fa4ca48ef0430d61c03020ea091b7dcddf5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-radar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "b1cc313b08f7dbda44612dffd96f1fa4ca48ef0430d61c03020ea091b7dcddf5",
+  "quality": {}
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "slot-picker/basic/sparc",
+  "source": "own-library",
+  "name": "Basic slot-picker",
+  "kind": "component",
+  "versions": {
+    "7b627c33a5218d7e058b13b6931c70c866776e5a01610d2181bb1845b25e97d8": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:slot-picker/basic/sparc@1.0.0",
+        "name": "Basic slot-picker",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic slot-picker: Pick a day and a free time.",
+        "room": "slot-picker",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "booking"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/slot-picker/basic/sparc/index.tsx",
+          "contentHash": "7b627c33a5218d7e058b13b6931c70c866776e5a01610d2181bb1845b25e97d8"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "closedMessage",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "date",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "maxDate",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "minDate",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "onDateChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "onSelect",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "selectedSlotId",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "serviceName",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "slots",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "booking",
+          "tags": [
+            "slot-picker",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-19T11-06-31-950Z-330d3d"
+    }
+  },
+  "room": "slot-picker",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "7b627c33a5218d7e058b13b6931c70c866776e5a01610d2181bb1845b25e97d8",
+  "quality": {
+    "sizeKb": 1.5,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "drawer",
+  "source": "shadcn",
+  "name": "drawer",
+  "kind": "ui",
+  "versions": {
+    "d1c1b7324bfed83e39dc2e0ef4d7978b48cac5454a4b99cd2c1b881278ee2f61": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:drawer@0.0.0",
+        "name": "drawer",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"drawer\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/drawer.json",
+          "ref": "new-york-v4",
+          "contentHash": "d1c1b7324bfed83e39dc2e0ef4d7978b48cac5454a4b99cd2c1b881278ee2f61"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "vaul": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "d1c1b7324bfed83e39dc2e0ef4d7978b48cac5454a4b99cd2c1b881278ee2f61",
+  "quality": {}
+}

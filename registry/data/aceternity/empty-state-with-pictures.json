@@ -1,0 +1,75 @@
+{
+  "slug": "empty-state-with-pictures",
+  "source": "aceternity",
+  "name": "empty-state-with-pictures",
+  "kind": "ui",
+  "versions": {
+    "f7536fa49fc98ed34f0da13b1c656c3ece0c39ccda9130e9afb8f8259b6f894e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:empty-state-with-pictures@0.0.0",
+        "name": "empty-state-with-pictures",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Centered empty state with stacked photo frames and gentle motion",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/empty-state-with-pictures.json",
+          "ref": "aceternity",
+          "contentHash": "f7536fa49fc98ed34f0da13b1c656c3ece0c39ccda9130e9afb8f8259b6f894e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "f7536fa49fc98ed34f0da13b1c656c3ece0c39ccda9130e9afb8f8259b6f894e",
+  "quality": {}
+}

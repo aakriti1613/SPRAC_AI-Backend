@@ -1,0 +1,95 @@
+{
+  "slug": "crud-modern-new-temp/ui/empty-state",
+  "source": "own-templates",
+  "name": "empty-state (crud-modern template)",
+  "kind": "ui",
+  "versions": {
+    "76f8b41094766253ea521ee272f75bee55a77ddb1dc6a0c5183f4371d58ca6ac": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "legacy:crud-modern-new-temp/ui/empty-state@0.1.0",
+        "name": "empty-state (crud-modern template)",
+        "version": "0.1.0",
+        "kind": "ui",
+        "summary": "UI primitive \"empty-state\" from the crud-modern-new-temp template.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/templates",
+          "path": "crud-modern-new-temp/src/components/ui/empty-state.tsx",
+          "contentHash": "76f8b41094766253ea521ee272f75bee55a77ddb1dc6a0c5183f4371d58ca6ac"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "action",
+              "kind": "unknown",
+              "required": false
+            },
+            {
+              "name": "description",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "framer-motion": "^11.15.0"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.2.0",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "tags": [
+            "legacy",
+            "ui"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 0.8
+          }
+        }
+      },
+      "firstSeenRun": "own-templates-2026-11-18T12-33-57-985Z-b1e802"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "76f8b41094766253ea521ee272f75bee55a77ddb1dc6a0c5183f4371d58ca6ac",
+  "quality": {}
+}

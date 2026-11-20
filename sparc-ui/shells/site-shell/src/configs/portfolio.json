@@ -1,0 +1,94 @@
+{
+  "sparcVersion": 1,
+  "websiteType": "portfolio",
+  "styleLevel": "basic",
+  "brand": { "name": "Aditi Verma", "logoText": "AV" },
+  "theme": { "primary": "#7c3aed", "mode": "light", "radius": "lg", "density": "comfortable", "buttonSize": "md", "font": "system" },
+  "rooms": { "enabled": ["skills", "experience", "education", "stats", "resume-download", "contact-form"] },
+  "meta": { "title": "Aditi Verma — Frontend Developer", "description": "Portfolio of Aditi Verma, a frontend developer who builds fast, accessible web apps." },
+  "nav": { "cta": { "label": "Hire me", "href": "#contact" } },
+  "footer": {
+    "text": "Built with SPARC AI.",
+    "socialLinks": [
+      { "type": "email", "label": "Email", "href": "mailto:aditi@example.com" },
+      { "type": "github", "label": "GitHub", "href": "https://github.com/example" },
+      { "type": "linkedin", "label": "LinkedIn", "href": "https://linkedin.com/in/example" }
+    ]
+  },
+  "sections": {
+    "hero": {
+      "eyebrow": "Frontend developer · Pune",
+      "title": "I build fast, friendly web apps",
+      "highlight": "fast, friendly",
+      "subtitle": "Final-year B.Tech CSE student who loves React, TypeScript and clean design.",
+      "primaryCta": { "label": "See my projects", "href": "#projects" },
+      "secondaryCta": { "label": "Contact me", "href": "#contact" }
+    },
+    "stats": {
+      "items": [
+        { "value": "12+", "label": "Projects shipped" },
+        { "value": "3", "label": "Internships" },
+        { "value": "8.9", "label": "CGPA" }
+      ]
+    },
+    "about": {
+      "heading": "About me",
+      "body": "I enjoy turning messy requirements into simple interfaces. During my internships I built dashboards used by hundreds of people every day, and I care a lot about accessibility and performance.",
+      "highlights": [
+        { "value": "React", "label": "Daily driver" },
+        { "value": "Open source", "label": "Weekend hobby" }
+      ]
+    },
+    "skills": {
+      "heading": "Skills",
+      "groups": [
+        { "name": "Frontend", "items": ["React", "TypeScript", "Tailwind CSS", "Vite"] },
+        { "name": "Backend", "items": ["Node.js", "Express", "PostgreSQL", "Supabase"] },
+        { "name": "Tools", "items": ["Git", "Figma", "Vitest", "Playwright"] }
+      ]
+    },
+    "experience": {
+      "heading": "Experience",
+      "items": [
+        {
+          "title": "Frontend Intern",
+          "organization": "Acme Analytics",
+          "period": "May 2026 – Jul 2026",
+          "location": "Remote",
+          "description": "Built the reporting dashboard in React.",
+          "bullets": ["Cut page load time by 35%", "Added keyboard navigation to every table"]
+        },
+        {
+          "title": "Web Developer (part-time)",
+          "organization": "College Tech Club",
+          "period": "2025 – Present",
+          "bullets": ["Maintain the club website", "Mentor 20 juniors in React"]
+        }
+      ]
+    },
+    "education": {
+      "heading": "Education",
+      "items": [{ "title": "B.Tech, Computer Science", "organization": "Example Institute of Technology", "period": "2023 – 2027", "description": "CGPA 8.9" }]
+    },
+    "projects": {
+      "heading": "Projects",
+      "items": [
+        { "title": "SPARC AI", "description": "Builds full-stack websites from a short config by reusing tested components.", "tags": ["React", "Node.js", "Supabase"], "featured": true, "repoHref": "https://github.com/example/sparc" },
+        { "title": "Study Buddy", "description": "Pomodoro timer and notes app for exam season.", "tags": ["TypeScript", "PWA"], "href": "https://example.com/study-buddy" },
+        { "title": "Campus Map", "description": "Interactive map of college buildings with search.", "tags": ["Leaflet", "React"] }
+      ]
+    },
+    "resume-download": { "label": "Download my CV", "href": "/aditi-verma-cv.pdf", "note": "Updated November 2026" },
+    "contact": {
+      "heading": "Contact",
+      "text": "Open to internships and full-time roles from June 2027.",
+      "availability": "Available from June 2027",
+      "links": [
+        { "type": "email", "label": "aditi@example.com", "href": "mailto:aditi@example.com" },
+        { "type": "linkedin", "label": "LinkedIn", "href": "https://linkedin.com/in/example" },
+        { "type": "github", "label": "GitHub", "href": "https://github.com/example" }
+      ]
+    },
+    "contact-form": { "heading": "Say hello", "text": "I usually reply within a day." }
+  }
+}

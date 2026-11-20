@@ -1,0 +1,75 @@
+{
+  "slug": "centered-with-logo",
+  "source": "aceternity",
+  "name": "centered-with-logo",
+  "kind": "ui",
+  "versions": {
+    "d0af4fcaad4e813a4f133b5710c445bad61fade625fb4a36989a4f1d94c97f11": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:centered-with-logo@0.0.0",
+        "name": "centered-with-logo",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Centered With Logo",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/centered-with-logo.json",
+          "ref": "aceternity",
+          "contentHash": "d0af4fcaad4e813a4f133b5710c445bad61fade625fb4a36989a4f1d94c97f11"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "d0af4fcaad4e813a4f133b5710c445bad61fade625fb4a36989a4f1d94c97f11",
+  "quality": {}
+}

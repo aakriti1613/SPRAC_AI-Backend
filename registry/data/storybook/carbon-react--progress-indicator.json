@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/progress-indicator",
+  "source": "storybook",
+  "name": "ProgressIndicator (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "dd82fa42057c5382390fc15457e116fe61bf96dd96a74267e96d180deee98b25": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/progress-indicator@0.0.0",
+        "name": "ProgressIndicator (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "ProgressIndicator from IBM Carbon (React): 3 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-progressindicator--overview",
+          "ref": "@carbon/react",
+          "contentHash": "dd82fa42057c5382390fc15457e116fe61bf96dd96a74267e96d180deee98b25"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "dd82fa42057c5382390fc15457e116fe61bf96dd96a74267e96d180deee98b25",
+  "quality": {
+    "hasTests": true
+  }
+}

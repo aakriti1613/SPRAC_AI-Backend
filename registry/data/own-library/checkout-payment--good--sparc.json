@@ -1,0 +1,144 @@
+{
+  "slug": "checkout-payment/good/sparc",
+  "source": "own-library",
+  "name": "Good checkout-payment",
+  "kind": "component",
+  "versions": {
+    "588e9c361f27e8b6d94071908326985227a2f199cf08e86b2e13a384542dc69a": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:checkout-payment/good/sparc@1.0.0",
+        "name": "Good checkout-payment",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good checkout-payment: Customer details and payment. The shell talks to the payment gateway; the component only shows the form.",
+        "room": "checkout-payment",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "ecommerce"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/checkout-payment/good/sparc/index.tsx",
+          "contentHash": "588e9c361f27e8b6d94071908326985227a2f199cf08e86b2e13a384542dc69a"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "backHref",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "currency",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "lines",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "mode",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "onPay",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "paying",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "total",
+              "kind": "number",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/icons",
+            "sparc-ui/core/link",
+            "sparc-ui/core/money",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "commerce",
+          "tags": [
+            "checkout-payment",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-19T11-06-31-950Z-330d3d"
+    }
+  },
+  "room": "checkout-payment",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "588e9c361f27e8b6d94071908326985227a2f199cf08e86b2e13a384542dc69a",
+  "quality": {
+    "sizeKb": 2.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

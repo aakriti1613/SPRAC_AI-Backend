@@ -1,0 +1,86 @@
+{
+  "slug": "@radix-ui/react-dialog",
+  "source": "npm",
+  "name": "@radix-ui/react-dialog",
+  "kind": "library",
+  "versions": {
+    "8e7649866958646b19d8a58a3e80b83f929dbde669fdd0c1a1a51c0e3cbe3b36": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:@radix-ui/react-dialog@1.3.1",
+        "name": "@radix-ui/react-dialog",
+        "version": "1.3.1",
+        "kind": "library",
+        "summary": "View docs [here](https://radix-ui.com/primitives/docs/components/dialog).",
+        "room": "confirm-dialog",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/@radix-ui/react-dialog",
+          "ref": "1.3.1",
+          "contentHash": "8e7649866958646b19d8a58a3e80b83f929dbde669fdd0c1a1a51c0e3cbe3b36"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+            "react-dom": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+            "@types/react": "*",
+            "@types/react-dom": "*"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "confirm-dialog",
+          "tags": [
+            "query:react dialog"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "confirm-dialog",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "8e7649866958646b19d8a58a3e80b83f929dbde669fdd0c1a1a51c0e3cbe3b36",
+  "quality": {
+    "downloads": 374071073,
+    "lastPublish": "2026-10-12T21:03:50.186Z",
+    "hasTypes": true
+  }
+}

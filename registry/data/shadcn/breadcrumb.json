@@ -1,0 +1,74 @@
+{
+  "slug": "breadcrumb",
+  "source": "shadcn",
+  "name": "breadcrumb",
+  "kind": "ui",
+  "versions": {
+    "5dd86c9c5dec92166497894b5e42fb5a7d1e336be66a5ecd72f0428d79dacbdc": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:breadcrumb@0.0.0",
+        "name": "breadcrumb",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"breadcrumb\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/breadcrumb.json",
+          "ref": "new-york-v4",
+          "contentHash": "5dd86c9c5dec92166497894b5e42fb5a7d1e336be66a5ecd72f0428d79dacbdc"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "5dd86c9c5dec92166497894b5e42fb5a7d1e336be66a5ecd72f0428d79dacbdc",
+  "quality": {}
+}

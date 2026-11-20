@@ -1,0 +1,97 @@
+{
+  "slug": "sidebar-08",
+  "source": "shadcn",
+  "name": "sidebar-08",
+  "kind": "component",
+  "versions": {
+    "fa4dc2ca41c04b36fa1a1d79f71e65bcbc47ec26bae979abaaa7f6d9bbf321ac": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:sidebar-08@0.0.0",
+        "name": "sidebar-08",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "An inset sidebar with secondary navigation.",
+        "room": "app-frame",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/sidebar-08.json",
+          "ref": "new-york-v4",
+          "contentHash": "fa4dc2ca41c04b36fa1a1d79f71e65bcbc47ec26bae979abaaa7f6d9bbf321ac"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:avatar",
+            "shadcn:breadcrumb",
+            "shadcn:collapsible",
+            "shadcn:dropdown-menu",
+            "shadcn:separator",
+            "shadcn:sidebar"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "sidebar",
+            "dashboard"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "room": "app-frame",
+  "styleLevel": "good",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"navItems\"",
+    "contract: does not accept required prop \"user\"",
+    "contract: does not accept required prop \"onLogout\"",
+    "contract: does not accept required prop \"children\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "fa4dc2ca41c04b36fa1a1d79f71e65bcbc47ec26bae979abaaa7f6d9bbf321ac",
+  "quality": {}
+}

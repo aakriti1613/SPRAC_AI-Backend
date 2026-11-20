@@ -1,0 +1,76 @@
+{
+  "slug": "chart-tooltip-indicator-none",
+  "source": "shadcn",
+  "name": "chart-tooltip-indicator-none",
+  "kind": "ui",
+  "versions": {
+    "ae5cebdf3dcf68fca1827ae4996ed32869d04ba382cfeeb99fbc98357c946395": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-tooltip-indicator-none@0.0.0",
+        "name": "chart-tooltip-indicator-none",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-tooltip-indicator-none\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-tooltip-indicator-none.json",
+          "ref": "new-york-v4",
+          "contentHash": "ae5cebdf3dcf68fca1827ae4996ed32869d04ba382cfeeb99fbc98357c946395"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-tooltip"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "ae5cebdf3dcf68fca1827ae4996ed32869d04ba382cfeeb99fbc98357c946395",
+  "quality": {}
+}

@@ -1,0 +1,44 @@
+{
+  "cdlVersion": 1,
+  "id": "npm:react-datepicker@8.0.0",
+  "name": "react-datepicker",
+  "version": "8.0.0",
+  "kind": "library",
+  "summary": "Popular date picker for React (metadata only, not buildable yet).",
+  "source": {
+    "type": "npm",
+    "url": "https://www.npmjs.com/package/react-datepicker",
+    "ref": "8.0.0"
+  },
+  "requires": {
+    "npm": {},
+    "peer": {
+      "react": "^16.9.0 || ^17 || ^18 || ^19"
+    },
+    "registry": [],
+    "env": []
+  },
+  "facets": {
+    "category": "form",
+    "tags": [
+      "date",
+      "picker"
+    ]
+  },
+  "license": "MIT",
+  "quality": {
+    "hasTypes": true
+  },
+  "trust": "candidate",
+  "provenance": {
+    "requires": {
+      "by": "registry"
+    },
+    "license": {
+      "by": "registry"
+    },
+    "summary": {
+      "by": "human"
+    }
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "chart-bar-multiple",
+  "source": "shadcn",
+  "name": "chart-bar-multiple",
+  "kind": "ui",
+  "versions": {
+    "d9932697123119673d17aed07f6c47cd629ac027f02efb3537f9de2b73a8846d": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-bar-multiple@0.0.0",
+        "name": "chart-bar-multiple",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-bar-multiple\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-bar-multiple.json",
+          "ref": "new-york-v4",
+          "contentHash": "d9932697123119673d17aed07f6c47cd629ac027f02efb3537f9de2b73a8846d"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-bar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "d9932697123119673d17aed07f6c47cd629ac027f02efb3537f9de2b73a8846d",
+  "quality": {}
+}

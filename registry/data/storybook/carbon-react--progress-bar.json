@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/progress-bar",
+  "source": "storybook",
+  "name": "ProgressBar (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "8f9ef92aaf08bade36449ef1dc254de5410b8fa7d4e88765b33ebfd786b8d19c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/progress-bar@0.0.0",
+        "name": "ProgressBar (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "ProgressBar from IBM Carbon (React): 4 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-progressbar--overview",
+          "ref": "@carbon/react",
+          "contentHash": "8f9ef92aaf08bade36449ef1dc254de5410b8fa7d4e88765b33ebfd786b8d19c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "8f9ef92aaf08bade36449ef1dc254de5410b8fa7d4e88765b33ebfd786b8d19c",
+  "quality": {
+    "hasTests": true
+  }
+}

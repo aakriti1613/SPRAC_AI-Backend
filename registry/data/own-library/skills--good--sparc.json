@@ -1,0 +1,106 @@
+{
+  "slug": "skills/good/sparc",
+  "source": "own-library",
+  "name": "Good skills",
+  "kind": "component",
+  "versions": {
+    "a6e653bee05cc56ceb11b7d5efc22922ff371337a7125a8b715acc5901ee0ad3": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:skills/good/sparc@1.0.0",
+        "name": "Good skills",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good skills: Skills grouped by area.",
+        "room": "skills",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/skills/good/sparc/index.tsx",
+          "contentHash": "a6e653bee05cc56ceb11b7d5efc22922ff371337a7125a8b715acc5901ee0ad3"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "groups",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "skills",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "skills",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "a6e653bee05cc56ceb11b7d5efc22922ff371337a7125a8b715acc5901ee0ad3",
+  "quality": {
+    "sizeKb": 1.4,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

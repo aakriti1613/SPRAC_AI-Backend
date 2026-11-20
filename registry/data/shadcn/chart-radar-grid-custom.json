@@ -1,0 +1,76 @@
+{
+  "slug": "chart-radar-grid-custom",
+  "source": "shadcn",
+  "name": "chart-radar-grid-custom",
+  "kind": "ui",
+  "versions": {
+    "5472f6ef62cd9376faa8ef24a99831f796d70feefab95163a76acd0f87d17474": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-radar-grid-custom@0.0.0",
+        "name": "chart-radar-grid-custom",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-radar-grid-custom\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-radar-grid-custom.json",
+          "ref": "new-york-v4",
+          "contentHash": "5472f6ef62cd9376faa8ef24a99831f796d70feefab95163a76acd0f87d17474"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-radar"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "5472f6ef62cd9376faa8ef24a99831f796d70feefab95163a76acd0f87d17474",
+  "quality": {}
+}

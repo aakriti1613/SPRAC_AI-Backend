@@ -1,0 +1,72 @@
+{
+  "slug": "terminal",
+  "source": "magicui",
+  "name": "Terminal",
+  "kind": "ui",
+  "versions": {
+    "56c1ec9754097724ae5750bde49242bcdb37599d6a5435bcc5b469d1282259ed": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:terminal@0.0.0",
+        "name": "Terminal",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A terminal component",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/terminal.json",
+          "ref": "magicui",
+          "contentHash": "56c1ec9754097724ae5750bde49242bcdb37599d6a5435bcc5b469d1282259ed"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "56c1ec9754097724ae5750bde49242bcdb37599d6a5435bcc5b469d1282259ed",
+  "quality": {}
+}

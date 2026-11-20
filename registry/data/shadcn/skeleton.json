@@ -1,0 +1,74 @@
+{
+  "slug": "skeleton",
+  "source": "shadcn",
+  "name": "skeleton",
+  "kind": "ui",
+  "versions": {
+    "4190562a0d5a27939dc741ed46fb65b4c324629aade3191e68ac83df893c3e85": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:skeleton@0.0.0",
+        "name": "skeleton",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"skeleton\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/skeleton.json",
+          "ref": "new-york-v4",
+          "contentHash": "4190562a0d5a27939dc741ed46fb65b4c324629aade3191e68ac83df893c3e85"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "also-in:crud-modern-new-temp"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "4190562a0d5a27939dc741ed46fb65b4c324629aade3191e68ac83df893c3e85",
+  "quality": {}
+}

@@ -1,0 +1,90 @@
+{
+  "id": "admin-portal",
+  "name": "Admin portal / dashboard",
+  "description": "Signed-in portal to manage records (patients, students, products…) with a dashboard. Data lives in Supabase.",
+  "status": "active",
+  "release": "v1",
+  "audience": "Any business managing records",
+  "industryBased": true,
+  "industries": ["generic", "healthcare", "crm", "hrms", "school", "inventory", "erp"],
+  "maxStyleLevel": "amazing",
+  "configFile": "portal-config.json",
+  "existingTemplates": ["portal-admin", "crud-modern-new-temp"],
+  "rooms": {
+    "required": [
+      "login",
+      "app-frame",
+      "dashboard-stat-card",
+      "data-table",
+      "filter-bar",
+      "record-form",
+      "form-field",
+      "record-detail",
+      "confirm-dialog",
+      "empty-state",
+      "profile",
+      "not-found"
+    ],
+    "optional": [
+      "signup",
+      "forgot-password",
+      "dashboard-chart",
+      "export-button",
+      "settings",
+      "users-roles",
+      "file-upload",
+      "notifications",
+      "activity-log"
+    ],
+    "defaultOn": ["dashboard-chart", "export-button"]
+  },
+  "industryDefaults": {
+    "healthcare": ["activity-log"],
+    "hrms": ["users-roles"],
+    "erp": ["users-roles", "activity-log"]
+  },
+  "modulesFrom": "industry presets (platform-main/src/portal/portalDefaults.js INDUSTRY_MODULES); the user can edit them in the wizard",
+  "pages": [
+    { "id": "login", "path": "/login", "title": "Login", "rooms": ["login"] },
+    { "id": "signup", "path": "/signup", "title": "Create account", "when": "signup", "rooms": ["signup"] },
+    { "id": "forgot-password", "path": "/forgot-password", "title": "Forgot password", "when": "forgot-password", "rooms": ["forgot-password"] },
+    {
+      "id": "dashboard",
+      "path": "/",
+      "title": "Dashboard",
+      "rooms": ["app-frame", "notifications", "dashboard-stat-card", "dashboard-chart", "activity-log"]
+    },
+    {
+      "id": "module-list",
+      "path": "/:module",
+      "title": "Module list",
+      "repeat": "per-module",
+      "rooms": ["app-frame", "notifications", "filter-bar", "export-button", "data-table", "empty-state", "confirm-dialog"]
+    },
+    {
+      "id": "module-new",
+      "path": "/:module/new",
+      "title": "Add record",
+      "repeat": "per-module",
+      "rooms": ["app-frame", "record-form", "form-field", "file-upload"]
+    },
+    {
+      "id": "module-edit",
+      "path": "/:module/:id/edit",
+      "title": "Edit record",
+      "repeat": "per-module",
+      "rooms": ["app-frame", "record-form", "form-field", "file-upload"]
+    },
+    {
+      "id": "module-detail",
+      "path": "/:module/:id",
+      "title": "Record details",
+      "repeat": "per-module",
+      "rooms": ["app-frame", "record-detail", "confirm-dialog"]
+    },
+    { "id": "profile", "path": "/profile", "title": "My profile", "rooms": ["app-frame", "profile"] },
+    { "id": "settings", "path": "/settings", "title": "Settings", "when": "settings", "rooms": ["app-frame", "settings"] },
+    { "id": "users", "path": "/users", "title": "Users & roles", "when": "users-roles", "rooms": ["app-frame", "users-roles"] },
+    { "id": "not-found", "path": "*", "title": "404", "rooms": ["not-found"] }
+  ]
+}

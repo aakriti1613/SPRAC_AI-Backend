@@ -1,0 +1,75 @@
+{
+  "slug": "carbon-react/breadcrumb",
+  "source": "storybook",
+  "name": "Breadcrumb (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "e423d6346fa8b31870e2bb568193765f7394dfad056bf9446831bdd6ce2fddf9": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/breadcrumb@0.0.0",
+        "name": "Breadcrumb (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Breadcrumb from IBM Carbon (React): 5 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-breadcrumb--overview",
+          "ref": "@carbon/react",
+          "contentHash": "e423d6346fa8b31870e2bb568193765f7394dfad056bf9446831bdd6ce2fddf9"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest",
+            "play-fn"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e423d6346fa8b31870e2bb568193765f7394dfad056bf9446831bdd6ce2fddf9",
+  "quality": {
+    "hasTests": true
+  }
+}

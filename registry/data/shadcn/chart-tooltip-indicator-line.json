@@ -1,0 +1,76 @@
+{
+  "slug": "chart-tooltip-indicator-line",
+  "source": "shadcn",
+  "name": "chart-tooltip-indicator-line",
+  "kind": "ui",
+  "versions": {
+    "a3a9f97ae556239549cb7f67da7c942f7ce8f7b35393789e72d024c63e5f09ba": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-tooltip-indicator-line@0.0.0",
+        "name": "chart-tooltip-indicator-line",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-tooltip-indicator-line\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-tooltip-indicator-line.json",
+          "ref": "new-york-v4",
+          "contentHash": "a3a9f97ae556239549cb7f67da7c942f7ce8f7b35393789e72d024c63e5f09ba"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-tooltip"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a3a9f97ae556239549cb7f67da7c942f7ce8f7b35393789e72d024c63e5f09ba",
+  "quality": {}
+}

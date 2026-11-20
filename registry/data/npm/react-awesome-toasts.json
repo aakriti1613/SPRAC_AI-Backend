@@ -1,0 +1,90 @@
+{
+  "slug": "react-awesome-toasts",
+  "source": "npm",
+  "name": "react-awesome-toasts",
+  "kind": "library",
+  "versions": {
+    "ffe26c8aea0500ef127866585a575568fca00e934b16f0b4fad0425e67317bd5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:react-awesome-toasts@0.0.9",
+        "name": "react-awesome-toasts",
+        "version": "0.0.9",
+        "kind": "library",
+        "summary": "Higly customisable React toast notifications with automanaged queue",
+        "room": "notifications",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/react-awesome-toasts",
+          "ref": "0.0.9",
+          "contentHash": "ffe26c8aea0500ef127866585a575568fca00e934b16f0b4fad0425e67317bd5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": "^16.6.0",
+            "react-dom": "^16.6.0"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": "^16.6.0",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "notifications",
+          "tags": [
+            "react",
+            "toast",
+            "toasts",
+            "notification",
+            "notifications",
+            "awesome",
+            "query:react toast"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "notifications",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "ffe26c8aea0500ef127866585a575568fca00e934b16f0b4fad0425e67317bd5",
+  "quality": {
+    "downloads": 2202,
+    "lastPublish": "2018-11-11T20:19:36.221Z",
+    "hasTypes": true
+  }
+}

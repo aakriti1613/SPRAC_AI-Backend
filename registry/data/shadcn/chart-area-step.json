@@ -1,0 +1,76 @@
+{
+  "slug": "chart-area-step",
+  "source": "shadcn",
+  "name": "chart-area-step",
+  "kind": "ui",
+  "versions": {
+    "a614e1d457e415029cc58ccbf26e51dab8c9464859095a5776157e7dc3ba3656": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-area-step@0.0.0",
+        "name": "chart-area-step",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-area-step\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-area-step.json",
+          "ref": "new-york-v4",
+          "contentHash": "a614e1d457e415029cc58ccbf26e51dab8c9464859095a5776157e7dc3ba3656"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-area"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "a614e1d457e415029cc58ccbf26e51dab8c9464859095a5776157e7dc3ba3656",
+  "quality": {}
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "chart-line-dots",
+  "source": "shadcn",
+  "name": "chart-line-dots",
+  "kind": "ui",
+  "versions": {
+    "4d81a5c263e4e327990c14fec6302380bf639f202f689d6110d18f20158d6a0a": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-line-dots@0.0.0",
+        "name": "chart-line-dots",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-line-dots\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-line-dots.json",
+          "ref": "new-york-v4",
+          "contentHash": "4d81a5c263e4e327990c14fec6302380bf639f202f689d6110d18f20158d6a0a"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-line"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "4d81a5c263e4e327990c14fec6302380bf639f202f689d6110d18f20158d6a0a",
+  "quality": {}
+}

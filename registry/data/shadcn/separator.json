@@ -1,0 +1,76 @@
+{
+  "slug": "separator",
+  "source": "shadcn",
+  "name": "separator",
+  "kind": "ui",
+  "versions": {
+    "8af262e64da53b81fb84852fd6e4331f9b219d672d4082ca4e4364e5276e2b5c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:separator@0.0.0",
+        "name": "separator",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"separator\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/separator.json",
+          "ref": "new-york-v4",
+          "contentHash": "8af262e64da53b81fb84852fd6e4331f9b219d672d4082ca4e4364e5276e2b5c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "also-in:crud-modern-new-temp"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "8af262e64da53b81fb84852fd6e4331f9b219d672d4082ca4e4364e5276e2b5c",
+  "quality": {}
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "animated-testimonials",
+  "source": "aceternity",
+  "name": "animated-testimonials",
+  "kind": "component",
+  "versions": {
+    "802e59656df820160426dde4e1ed049dd1527cacee89f77a2f452366a08c6d6f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:animated-testimonials@0.0.0",
+        "name": "animated-testimonials",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"animated-testimonials\".",
+        "room": "testimonials",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/animated-testimonials.json",
+          "ref": "aceternity",
+          "contentHash": "802e59656df820160426dde4e1ed049dd1527cacee89f77a2f452366a08c6d6f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@tabler/icons-react": "*",
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "testimonials",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"astonishing\"",
+    "contract: does not accept required prop \"heading\"",
+    "contract: does not accept required prop \"items\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "802e59656df820160426dde4e1ed049dd1527cacee89f77a2f452366a08c6d6f",
+  "quality": {}
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "carbon-react/data-table",
+  "source": "storybook",
+  "name": "DataTable (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "7b662d0c8bb81c3aba660b134999305bce41d304b1c2c626a4aaec84b0634d0e": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/data-table@0.0.0",
+        "name": "DataTable (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "DataTable from IBM Carbon (React): 26 stories, documented.",
+        "room": "data-table",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-datatable-basic--overview",
+          "ref": "@carbon/react",
+          "contentHash": "7b662d0c8bb81c3aba660b134999305bce41d304b1c2c626a4aaec84b0634d0e"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "data-table",
+          "tags": [
+            "carbon-react",
+            "manifest",
+            "play-fn"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "room": "data-table",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "7b662d0c8bb81c3aba660b134999305bce41d304b1c2c626a4aaec84b0634d0e",
+  "quality": {
+    "hasTests": true
+  }
+}

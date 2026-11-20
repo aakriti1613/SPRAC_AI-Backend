@@ -1,0 +1,75 @@
+{
+  "slug": "toggle-group",
+  "source": "shadcn",
+  "name": "toggle-group",
+  "kind": "ui",
+  "versions": {
+    "e7210e6558a1be062f91306c5ea349dfcae47d1a75c870945a554cdcb1c67521": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:toggle-group@0.0.0",
+        "name": "toggle-group",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"toggle-group\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/toggle-group.json",
+          "ref": "new-york-v4",
+          "contentHash": "e7210e6558a1be062f91306c5ea349dfcae47d1a75c870945a554cdcb1c67521"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "radix-ui": "*"
+          },
+          "peer": {},
+          "registry": [
+            "shadcn:toggle",
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "e7210e6558a1be062f91306c5ea349dfcae47d1a75c870945a554cdcb1c67521",
+  "quality": {}
+}

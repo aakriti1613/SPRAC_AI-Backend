@@ -1,0 +1,75 @@
+{
+  "slug": "carousel",
+  "source": "aceternity",
+  "name": "carousel",
+  "kind": "ui",
+  "versions": {
+    "29535c7dd0ccf2151f0ab35e2a0e8646a7c381b86b31d1590d99a2cc92950eeb": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:carousel@0.0.0",
+        "name": "carousel",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"carousel\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/carousel.json",
+          "ref": "aceternity",
+          "contentHash": "29535c7dd0ccf2151f0ab35e2a0e8646a7c381b86b31d1590d99a2cc92950eeb"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "29535c7dd0ccf2151f0ab35e2a0e8646a7c381b86b31d1590d99a2cc92950eeb",
+  "quality": {}
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "experience/good/sparc",
+  "source": "own-library",
+  "name": "Good experience",
+  "kind": "component",
+  "versions": {
+    "12fa6baa370347dba035a8b7761ca1a94dfd7d685976ee6e73dc428e4a7a3836": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:experience/good/sparc@1.0.0",
+        "name": "Good experience",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good experience: Work experience timeline.",
+        "room": "experience",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/experience/good/sparc/index.tsx",
+          "contentHash": "12fa6baa370347dba035a8b7761ca1a94dfd7d685976ee6e73dc428e4a7a3836"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "experience",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "experience",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "12fa6baa370347dba035a8b7761ca1a94dfd7d685976ee6e73dc428e4a7a3836",
+  "quality": {
+    "sizeKb": 1.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

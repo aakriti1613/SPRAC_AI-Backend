@@ -1,0 +1,72 @@
+{
+  "slug": "interactive-hover-button",
+  "source": "magicui",
+  "name": "interactive-hover-button",
+  "kind": "ui",
+  "versions": {
+    "81820c39fa84d422731327ddf65fc66a3ebd3b98bbdb37c20557184b84489d82": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:interactive-hover-button@0.0.0",
+        "name": "interactive-hover-button",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "magicui ui \"interactive-hover-button\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/interactive-hover-button.json",
+          "ref": "magicui",
+          "contentHash": "81820c39fa84d422731327ddf65fc66a3ebd3b98bbdb37c20557184b84489d82"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "81820c39fa84d422731327ddf65fc66a3ebd3b98bbdb37c20557184b84489d82",
+  "quality": {}
+}

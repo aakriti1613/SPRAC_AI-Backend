@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/menu-button",
+  "source": "storybook",
+  "name": "MenuButton (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "fa379edb0d81763b0b2aeb50ae71d71753731ecd90a3f614b41cc7c8ab8a96ce": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/menu-button@0.0.0",
+        "name": "MenuButton (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "MenuButton from IBM Carbon (React): 8 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-menubutton--overview",
+          "ref": "@carbon/react",
+          "contentHash": "fa379edb0d81763b0b2aeb50ae71d71753731ecd90a3f614b41cc7c8ab8a96ce"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "fa379edb0d81763b0b2aeb50ae71d71753731ecd90a3f614b41cc7c8ab8a96ce",
+  "quality": {
+    "hasTests": true
+  }
+}

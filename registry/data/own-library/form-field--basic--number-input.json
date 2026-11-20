@@ -1,0 +1,130 @@
+{
+  "slug": "form-field/basic/number-input",
+  "source": "own-library",
+  "name": "Basic form-field (number-input)",
+  "kind": "component",
+  "versions": {
+    "4d46d43fcae3e7092c99c87577314a61b59ca8b82a436a6dc4078c5afafde55f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:form-field/basic/number-input@1.0.0",
+        "name": "Basic form-field (number-input)",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic form-field: ONE input for one field type (text, currency, date…). Each component declares which field types it supports.",
+        "room": "form-field",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/form-field/basic/number-input/index.tsx",
+          "contentHash": "4d46d43fcae3e7092c99c87577314a61b59ca8b82a436a6dc4078c5afafde55f"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "disabled",
+              "kind": "boolean",
+              "required": false
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "field",
+              "kind": "object",
+              "required": true
+            },
+            {
+              "name": "onChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "value",
+              "kind": "unknown",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [
+            "number",
+            "currency",
+            "percentage",
+            "rating"
+          ],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "form",
+          "tags": [
+            "form-field",
+            "basic",
+            "number",
+            "currency",
+            "percentage",
+            "rating"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "form-field",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "4d46d43fcae3e7092c99c87577314a61b59ca8b82a436a6dc4078c5afafde55f",
+  "quality": {
+    "sizeKb": 1.3,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "simple-navbar-with-hover-effects",
+  "source": "aceternity",
+  "name": "simple-navbar-with-hover-effects",
+  "kind": "component",
+  "versions": {
+    "6959611623a2f15571d55a6f385838452a40e58a2375778e2c40b08e994c2621": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:simple-navbar-with-hover-effects@0.0.0",
+        "name": "simple-navbar-with-hover-effects",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Simple Navbar With Hover Effects",
+        "room": "navbar",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/simple-navbar-with-hover-effects.json",
+          "ref": "aceternity",
+          "contentHash": "6959611623a2f15571d55a6f385838452a40e58a2375778e2c40b08e994c2621"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "@tabler/icons-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "navbar",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "package \"@tabler/icons-react\" is not allowed at style \"amazing\"",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"links\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "6959611623a2f15571d55a6f385838452a40e58a2375778e2c40b08e994c2621",
+  "quality": {}
+}

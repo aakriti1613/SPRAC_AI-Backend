@@ -1,0 +1,75 @@
+{
+  "slug": "typing-animation",
+  "source": "magicui",
+  "name": "Typing Animation",
+  "kind": "ui",
+  "versions": {
+    "6b8b03ae5e74cd51d35b489be8fa08e24a389d91268df74959aa7bbc1eccb329": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:typing-animation@0.0.0",
+        "name": "Typing Animation",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Characters appearing in typed animation",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/typing-animation.json",
+          "ref": "magicui",
+          "contentHash": "6b8b03ae5e74cd51d35b489be8fa08e24a389d91268df74959aa7bbc1eccb329"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "6b8b03ae5e74cd51d35b489be8fa08e24a389d91268df74959aa7bbc1eccb329",
+  "quality": {}
+}

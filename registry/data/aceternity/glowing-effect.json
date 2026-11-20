@@ -1,0 +1,75 @@
+{
+  "slug": "glowing-effect",
+  "source": "aceternity",
+  "name": "glowing-effect",
+  "kind": "ui",
+  "versions": {
+    "ba4ee297a1afcba3e65b32526c15b02dc107cbc58400a7367e46501e71997a72": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:glowing-effect@0.0.0",
+        "name": "glowing-effect",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "aceternity ui \"glowing-effect\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/glowing-effect.json",
+          "ref": "aceternity",
+          "contentHash": "ba4ee297a1afcba3e65b32526c15b02dc107cbc58400a7367e46501e71997a72"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "lucide-react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "ba4ee297a1afcba3e65b32526c15b02dc107cbc58400a7367e46501e71997a72",
+  "quality": {}
+}

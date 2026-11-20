@@ -1,0 +1,91 @@
+{
+  "slug": "floating-navbar",
+  "source": "aceternity",
+  "name": "floating-navbar",
+  "kind": "component",
+  "versions": {
+    "e36b37fb4ae996a9fb446d810a8c16a70282fdc180e3e5af11412d4f6ef6128b": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:floating-navbar@0.0.0",
+        "name": "floating-navbar",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "aceternity ui \"floating-navbar\".",
+        "room": "navbar",
+        "styleLevel": "astonishing",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/floating-navbar.json",
+          "ref": "aceternity",
+          "contentHash": "e36b37fb4ae996a9fb446d810a8c16a70282fdc180e3e5af11412d4f6ef6128b"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "section",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "navbar",
+  "styleLevel": "astonishing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"links\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "e36b37fb4ae996a9fb446d810a8c16a70282fdc180e3e5af11412d4f6ef6128b",
+  "quality": {}
+}

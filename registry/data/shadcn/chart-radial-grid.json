@@ -1,0 +1,76 @@
+{
+  "slug": "chart-radial-grid",
+  "source": "shadcn",
+  "name": "chart-radial-grid",
+  "kind": "ui",
+  "versions": {
+    "75edcef638bbff827f1409ec6bd5d884b7c29c806e628548d8c90efdc8868be3": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:chart-radial-grid@0.0.0",
+        "name": "chart-radial-grid",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui block \"chart-radial-grid\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/chart-radial-grid.json",
+          "ref": "new-york-v4",
+          "contentHash": "75edcef638bbff827f1409ec6bd5d884b7c29c806e628548d8c90efdc8868be3"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:card",
+            "shadcn:chart"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "charts",
+            "charts-radial"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "75edcef638bbff827f1409ec6bd5d884b7c29c806e628548d8c90efdc8868be3",
+  "quality": {}
+}

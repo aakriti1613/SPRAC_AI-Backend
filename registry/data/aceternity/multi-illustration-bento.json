@@ -1,0 +1,76 @@
+{
+  "slug": "multi-illustration-bento",
+  "source": "aceternity",
+  "name": "multi-illustration-bento",
+  "kind": "ui",
+  "versions": {
+    "903fe75b51dbd437cb42842821660993cea649fdffa3e97ee8d974045314776f": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:multi-illustration-bento@0.0.0",
+        "name": "multi-illustration-bento",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Multi-illustration bento grid with world map, keyboard, and login skeletons",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/multi-illustration-bento.json",
+          "ref": "aceternity",
+          "contentHash": "903fe75b51dbd437cb42842821660993cea649fdffa3e97ee8d974045314776f"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*",
+            "svg-dotted-map": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "903fe75b51dbd437cb42842821660993cea649fdffa3e97ee8d974045314776f",
+  "quality": {}
+}

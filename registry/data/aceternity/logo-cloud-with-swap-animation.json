@@ -1,0 +1,75 @@
+{
+  "slug": "logo-cloud-with-swap-animation",
+  "source": "aceternity",
+  "name": "logo-cloud-with-swap-animation",
+  "kind": "ui",
+  "versions": {
+    "1a5628752b30dc62b3ccca72a5e4a5187735253182941e29495b4fe9e5997ed5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:logo-cloud-with-swap-animation@0.0.0",
+        "name": "logo-cloud-with-swap-animation",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A logo cloud with 10 logos in a 5x2 grid that swap every 3 seconds. Logos animate horizontally with blur effect and staggered timing for a smooth transition.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/logo-cloud-with-swap-animation.json",
+          "ref": "aceternity",
+          "contentHash": "1a5628752b30dc62b3ccca72a5e4a5187735253182941e29495b4fe9e5997ed5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "1a5628752b30dc62b3ccca72a5e4a5187735253182941e29495b4fe9e5997ed5",
+  "quality": {}
+}

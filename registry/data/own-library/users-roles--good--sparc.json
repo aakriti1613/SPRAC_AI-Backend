@@ -1,0 +1,126 @@
+{
+  "slug": "users-roles/good/sparc",
+  "source": "own-library",
+  "name": "Good users-roles",
+  "kind": "component",
+  "versions": {
+    "3305b282451a8ceb49cfcde3a8e7402ccce98a310d1b716d359435cda29012dd": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:users-roles/good/sparc@1.0.0",
+        "name": "Good users-roles",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good users-roles: Manage portal users and their roles.",
+        "room": "users-roles",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/users-roles/good/sparc/index.tsx",
+          "contentHash": "3305b282451a8ceb49cfcde3a8e7402ccce98a310d1b716d359435cda29012dd"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "busy",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "error",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "onInvite",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "onRoleChange",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "roles",
+              "kind": "array",
+              "required": true
+            },
+            {
+              "name": "users",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/icons",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "data",
+          "tags": [
+            "users-roles",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "users-roles",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "3305b282451a8ceb49cfcde3a8e7402ccce98a310d1b716d359435cda29012dd",
+  "quality": {
+    "sizeKb": 1.8,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

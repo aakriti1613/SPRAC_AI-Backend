@@ -1,0 +1,90 @@
+{
+  "slug": "simple-login-with-grid-lines",
+  "source": "aceternity",
+  "name": "simple-login-with-grid-lines",
+  "kind": "component",
+  "versions": {
+    "adccd97a87f511e14c05f8e5e2ceb142b9ab33c6a238d75a5480a1a6faa8cdf0": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:simple-login-with-grid-lines@0.0.0",
+        "name": "simple-login-with-grid-lines",
+        "version": "0.0.0",
+        "kind": "component",
+        "summary": "Simple login form with dashed grid lines border decoration",
+        "room": "login",
+        "styleLevel": "amazing",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/simple-login-with-grid-lines.json",
+          "ref": "aceternity",
+          "contentHash": "adccd97a87f511e14c05f8e5e2ceb142b9ab33c6a238d75a5480a1a6faa8cdf0"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "room": "login",
+  "styleLevel": "amazing",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds",
+    "props not analysed yet (fetch item files + parse during promotion)",
+    "license \"UNKNOWN\" is not allowed for verified components",
+    "contract: does not accept required prop \"brand\"",
+    "contract: does not accept required prop \"headline\"",
+    "contract: does not accept required prop \"onSubmit\"",
+    "contract: does not accept required prop \"submitting\"",
+    "size not measured (run npm run library:measure in sparc-ui)",
+    "accessibility not checked (run npm run library:measure in sparc-ui)"
+  ],
+  "exceptions": [],
+  "current": "adccd97a87f511e14c05f8e5e2ceb142b9ab33c6a238d75a5480a1a6faa8cdf0",
+  "quality": {}
+}

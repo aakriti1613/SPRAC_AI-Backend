@@ -1,0 +1,79 @@
+{
+  "slug": "carbon-react/date-picker",
+  "source": "storybook",
+  "name": "DatePicker (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "feb2600cfca7a71c4ca6fea19a98b38e0d625a2b71c05a6ae79283c99d7dd3b5": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/date-picker@0.0.0",
+        "name": "DatePicker (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "DatePicker from IBM Carbon (React): 9 stories, documented.",
+        "room": "form-field",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-datepicker--overview",
+          "ref": "@carbon/react",
+          "contentHash": "feb2600cfca7a71c4ca6fea19a98b38e0d625a2b71c05a6ae79283c99d7dd3b5"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "form-field",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "room": "form-field",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "feb2600cfca7a71c4ca6fea19a98b38e0d625a2b71c05a6ae79283c99d7dd3b5",
+  "quality": {
+    "hasTests": true
+  }
+}

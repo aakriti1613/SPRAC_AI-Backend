@@ -1,0 +1,107 @@
+{
+  "slug": "testimonials/good/sparc",
+  "source": "own-library",
+  "name": "Good testimonials",
+  "kind": "component",
+  "versions": {
+    "fce43981a83845f5c6059592deff8b1b215bc088c826f409dbf6bf1be37be7ef": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:testimonials/good/sparc@1.0.0",
+        "name": "Good testimonials",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Good testimonials: Quotes from clients or colleagues.",
+        "room": "testimonials",
+        "styleLevel": "good",
+        "websiteTypes": [
+          "landing",
+          "portfolio"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/testimonials/good/sparc/index.tsx",
+          "contentHash": "fce43981a83845f5c6059592deff8b1b215bc088c826f409dbf6bf1be37be7ef"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "heading",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "items",
+              "kind": "array",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "library/_shared/basic",
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "content",
+          "tags": [
+            "testimonials",
+            "good"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "testimonials",
+  "styleLevel": "good",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "fce43981a83845f5c6059592deff8b1b215bc088c826f409dbf6bf1be37be7ef",
+  "quality": {
+    "sizeKb": 1.6,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "slug": "carbon-react/tile",
+  "source": "storybook",
+  "name": "Tile (IBM Carbon (React))",
+  "kind": "ui",
+  "versions": {
+    "ec0b4d9c0d51ed9e88ca5e39551f1fa19afeeb301915c1b055b9b83c6adff2f2": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "storybook:carbon-react/tile@0.0.0",
+        "name": "Tile (IBM Carbon (React))",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Tile from IBM Carbon (React): 23 stories, documented.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "storybook",
+          "url": "https://react.carbondesignsystem.com/?path=/story/components-tile--overview",
+          "ref": "@carbon/react",
+          "contentHash": "ec0b4d9c0d51ed9e88ca5e39551f1fa19afeeb301915c1b055b9b83c6adff2f2"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "@carbon/react": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {},
+        "facets": {
+          "category": "ui",
+          "tags": [
+            "carbon-react",
+            "manifest"
+          ]
+        },
+        "license": "Apache-2.0",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "storybook-2026-11-18T12-34-23-198Z-737482"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "ec0b4d9c0d51ed9e88ca5e39551f1fa19afeeb301915c1b055b9b83c6adff2f2",
+  "quality": {
+    "hasTests": true
+  }
+}

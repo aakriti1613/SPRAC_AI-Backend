@@ -1,0 +1,75 @@
+{
+  "slug": "text-highlight-illustration",
+  "source": "aceternity",
+  "name": "text-highlight-illustration",
+  "kind": "ui",
+  "versions": {
+    "b9499160677257e5d89f8e5bdbbde7ad8f3cced0857a87fb72f2bd0551acb2d3": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "aceternity:text-highlight-illustration@0.0.0",
+        "name": "text-highlight-illustration",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "Story text with animated highlight reveal and floating formatting toolbar",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.aceternity.com/registry/text-highlight-illustration.json",
+          "ref": "aceternity",
+          "contentHash": "b9499160677257e5d89f8e5bdbbde7ad8f3cced0857a87fb72f2bd0551acb2d3"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "block",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "UNKNOWN",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "aceternity-2026-11-18T12-56-34-105Z-8ff828"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"UNKNOWN\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "b9499160677257e5d89f8e5bdbbde7ad8f3cced0857a87fb72f2bd0551acb2d3",
+  "quality": {}
+}

@@ -1,0 +1,340 @@
+{
+  "status": 500,
+  "body": {
+    "success": false,
+    "error": "Duplicate field key \"a\" in Xs."
+  },
+  "files": {
+    "src/portal-config.json": {
+      "portalName": "Demo Health Group — Organization Portal",
+      "logo": {
+        "src": "/logo.webp",
+        "alt": "Demo Health Group",
+        "width": 140
+      },
+      "theme": {
+        "mode": "system",
+        "tokens": {
+          "primary": "221 83% 53%",
+          "ring": "221 83% 53%",
+          "radius": "0.75rem",
+          "brand-primary": "#2563EB",
+          "brand-accent": "#3B82F6",
+          "gradient-start": "#2563EB",
+          "gradient-end": "#1D4ED8"
+        }
+      },
+      "dashboard": {
+        "heroTitle": "Manage your patients & claims",
+        "primaryActions": [
+          "patients",
+          "claims",
+          "batches"
+        ],
+        "secondaryActions": [
+          "users",
+          "accounts",
+          "subscription",
+          "usage",
+          "invoices"
+        ]
+      },
+      "navigation": [
+        {
+          "label": "Dashboard",
+          "icon": "LayoutDashboard",
+          "path": "/organization/dashboard",
+          "permission": "dashboard:read"
+        },
+        {
+          "label": "Patients",
+          "icon": "Heart",
+          "path": "/organization/patients",
+          "permission": "patients:read"
+        },
+        {
+          "label": "Claim Status",
+          "icon": "FileText",
+          "path": "/organization/claims-status",
+          "permission": "claimstatus:read"
+        },
+        {
+          "label": "Batches",
+          "icon": "Layers",
+          "path": "/organization/batches",
+          "permission": "batches:read"
+        },
+        {
+          "label": "Users",
+          "icon": "Users",
+          "path": "/organization/users",
+          "permission": "organizationusers:read"
+        },
+        {
+          "label": "Accounts",
+          "icon": "Building",
+          "path": "/organization/accounts",
+          "permission": "accounts:read"
+        },
+        {
+          "label": "Billing",
+          "icon": "CreditCard",
+          "permission": "billing:read",
+          "children": [
+            {
+              "label": "Payment Method",
+              "path": "/organization/billing/payment-method",
+              "permission": "paymentmethod:read"
+            },
+            {
+              "label": "Subscription",
+              "path": "/organization/billing/subscription",
+              "permission": "subscription:read"
+            },
+            {
+              "label": "Usage",
+              "path": "/organization/billing/usage",
+              "permission": "usage:read"
+            },
+            {
+              "label": "Invoices",
+              "path": "/organization/billing/invoices",
+              "permission": "invoices:read"
+            }
+          ]
+        },
+        {
+          "label": "Settings",
+          "icon": "Settings",
+          "permission": "settings:read",
+          "children": [
+            {
+              "label": "Payers",
+              "path": "/admin/settings/payers",
+              "permission": "settings:read"
+            }
+          ]
+        }
+      ],
+      "entities": [
+        {
+          "name": "patient",
+          "table": "patients",
+          "basePath": "/api/v1/patient",
+          "permissions": {
+            "read": "patients:read",
+            "write": "patients:write",
+            "delete": "patients:delete"
+          },
+          "requiresActiveAccount": true,
+          "supportsImport": true,
+          "searchColumn": "first_name",
+          "fields": [
+            {
+              "name": "firstName",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "lastName",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "dateOfBirth",
+              "type": "date"
+            },
+            {
+              "name": "memberId",
+              "type": "string"
+            },
+            {
+              "name": "payerName",
+              "type": "string"
+            },
+            {
+              "name": "insuranceStatus",
+              "type": "enum",
+              "options": [
+                "Verified",
+                "Pending",
+                "Inactive"
+              ]
+            },
+            {
+              "name": "accountId",
+              "type": "ref",
+              "ref": "account"
+            }
+          ]
+        },
+        {
+          "name": "account",
+          "table": "accounts",
+          "basePath": "/api/v1/accounts",
+          "permissions": {
+            "read": "accounts:read",
+            "write": "accounts:write",
+            "delete": "accounts:delete"
+          },
+          "searchColumn": "name",
+          "fields": [
+            {
+              "name": "npi",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "name",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "address",
+              "type": "string"
+            },
+            {
+              "name": "city",
+              "type": "string"
+            },
+            {
+              "name": "state",
+              "type": "string"
+            },
+            {
+              "name": "zip",
+              "type": "string"
+            },
+            {
+              "name": "taxId",
+              "type": "string"
+            },
+            {
+              "name": "stcCodes",
+              "type": "string[]"
+            },
+            {
+              "name": "status",
+              "type": "enum",
+              "options": [
+                "Active",
+                "Inactive"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "organizationUser",
+          "table": "organization_users",
+          "basePath": "/api/v1/organization/users",
+          "permissions": {
+            "read": "organizationusers:read",
+            "write": "organizationusers:write",
+            "delete": "organizationusers:delete"
+          },
+          "searchColumn": "email",
+          "fields": [
+            {
+              "name": "firstName",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "lastName",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "email",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "phoneNumber",
+              "type": "string"
+            },
+            {
+              "name": "role",
+              "type": "enum",
+              "options": [
+                "Organization Admin",
+                "Organization User"
+              ]
+            },
+            {
+              "name": "status",
+              "type": "enum",
+              "options": [
+                "Active",
+                "Inactive"
+              ]
+            },
+            {
+              "name": "accountIds",
+              "type": "ref[]",
+              "ref": "account"
+            }
+          ]
+        },
+        {
+          "name": "batch",
+          "table": "batches",
+          "basePath": "/api/v1/batches",
+          "permissions": {
+            "read": "batches:read",
+            "write": "batches:write",
+            "delete": "batches:delete"
+          },
+          "deleteAllowedStatuses": [
+            "COMPLETED",
+            "FAILED_SYSTEM_ERROR"
+          ],
+          "searchColumn": "name",
+          "fields": [
+            {
+              "name": "name",
+              "type": "string",
+              "required": true
+            },
+            {
+              "name": "accountId",
+              "type": "ref",
+              "ref": "account"
+            },
+            {
+              "name": "type",
+              "type": "enum",
+              "options": [
+                "CLAIMS_SUBMISSION",
+                "TEST"
+              ]
+            },
+            {
+              "name": "status",
+              "type": "enum",
+              "options": [
+                "PENDING",
+                "PROCESSING",
+                "COMPLETED",
+                "FAILED_SYSTEM_ERROR"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "claim",
+          "table": "claims",
+          "basePath": "/api/v1/claim-status",
+          "permissions": {
+            "read": "claimstatus:read"
+          },
+          "readOnly": true,
+          "accountFiltered": true,
+          "searchColumn": "patient_name"
+        }
+      ]
+    },
+    "supabase/schema.sql": "-- ============================================================\n-- portal-admin — Supabase schema\n-- ============================================================\n-- Run this in the Supabase SQL editor (or `supabase db push`) before provisioning system data.\n-- Columns are snake_case; the app's api.service translates them to/from the\n-- camelCase TypeScript models automatically. Arrays/nested values use jsonb.\n--\n-- RLS: enabled on every table. The demo policies allow any authenticated user\n-- full access (so the seeded admin can exercise full CRUD). For real\n-- multi-tenant isolation, replace the \"authenticated can do everything\"\n-- policies with organization_id-scoped policies (example commented at bottom).\n-- ============================================================\n\ncreate extension if not exists \"pgcrypto\";\n\n-- ---------- organizations ----------\ncreate table if not exists organizations (\n  id          uuid primary key default gen_random_uuid(),\n  name        text not null,\n  created_at  timestamptz not null default now(),\n  updated_at  timestamptz not null default now()\n);\n\n-- ---------- accounts ----------\ncreate table if not exists accounts (\n  id              uuid primary key default gen_random_uuid(),\n  npi             text not null,\n  name            text not null,\n  address         text default '',\n  city            text default '',\n  state           text default '',\n  zip             text default '',\n  organization_id uuid references organizations(id) on delete cascade,\n  tax_id          text default '',\n  stc_codes       jsonb not null default '[]',\n  status          text not null default 'Active',\n  is_primary      boolean not null default false,\n  created_at      timestamptz not null default now(),\n  updated_at      timestamptz not null default now()\n);\n\n-- ---------- organization_users ----------\ncreate table if not exists organization_users (\n  id                        uuid primary key default gen_random_uuid(),\n  auth_user_id              uuid unique,                 -- links to auth.users.id\n  first_name                text default '',\n  last_name                 text default '',\n  email                     text not null unique,\n  phone_number              text default '',\n  country_code              text default '+1',\n  organization_id           uuid references organizations(id) on delete cascade,\n  role                      text not null default 'Organization User',\n  status                    text not null default 'Active',\n  account_ids               jsonb not null default '[]',\n  accounts                  jsonb not null default '[]', -- [{id,name}]\n  is_acknowledged           boolean not null default false,\n  is_two_factor_enabled     boolean not null default false,\n  requires_password_change  boolean not null default false,\n  subscription_id           text,\n  created_at                timestamptz not null default now(),\n  updated_at                timestamptz not null default now()\n);\n\n-- ---------- payers ----------\ncreate table if not exists payers (\n  id          uuid primary key default gen_random_uuid(),\n  name        text not null,\n  payer_code  text default '',\n  created_at  timestamptz not null default now(),\n  updated_at  timestamptz not null default now()\n);\n\n-- ---------- patients ----------\ncreate table if not exists patients (\n  id                uuid primary key default gen_random_uuid(),\n  first_name        text not null,\n  last_name         text not null,\n  date_of_birth     date,\n  gender            text default '',\n  member_id         text default '',\n  payer_id          uuid references payers(id) on delete set null,\n  payer_name        text default '',\n  insurance_status  text default 'Pending',\n  account_id        uuid references accounts(id) on delete set null,\n  organization_id   uuid references organizations(id) on delete cascade,\n  status            text not null default 'Active',\n  created_at        timestamptz not null default now(),\n  updated_at        timestamptz not null default now()\n);\n\n-- ---------- patient_notes ----------\ncreate table if not exists patient_notes (\n  id          uuid primary key default gen_random_uuid(),\n  patient_id  uuid references patients(id) on delete cascade,\n  note        text not null default '',\n  created_at  timestamptz not null default now()\n);\n\n-- ---------- batches ----------\ncreate table if not exists batches (\n  id              uuid primary key default gen_random_uuid(),\n  name            text not null,\n  account_id      uuid references accounts(id) on delete set null,\n  type            text not null default 'CLAIMS_SUBMISSION',\n  status          text not null default 'PENDING',\n  total           integer not null default 0,\n  processed       integer not null default 0,\n  organization_id uuid references organizations(id) on delete cascade,\n  created_at      timestamptz not null default now(),\n  updated_at      timestamptz not null default now()\n);\n\n-- ---------- claims (read-only in the portal) ----------\ncreate table if not exists claims (\n  id              uuid primary key default gen_random_uuid(),\n  patient_name    text not null,\n  account_id      uuid references accounts(id) on delete set null,\n  payer           text default '',\n  amount          numeric default 0,\n  status          text not null default 'SUBMITTED',\n  organization_id uuid references organizations(id) on delete cascade,\n  created_at      timestamptz not null default now(),\n  updated_at      timestamptz not null default now()\n);\n\n-- ============================================================\n-- Row Level Security — demo policies (authenticated full access)\n-- ============================================================\ndo $$\ndeclare t text;\nbegin\n  foreach t in array array[\n    'organizations','accounts','organization_users','payers',\n    'patients','patient_notes','batches','claims'\n  ]\n  loop\n    execute format('alter table %I enable row level security;', t);\n    execute format('drop policy if exists \"demo_all\" on %I;', t);\n    execute format(\n      'create policy \"demo_all\" on %I for all to authenticated using (true) with check (true);', t\n    );\n  end loop;\nend $$;\n\n-- For real tenant isolation, swap the demo policy for something like:\n--   create policy \"tenant_read\" on patients for select to authenticated\n--     using (organization_id = (auth.jwt() -> 'app_metadata' ->> 'organization_id')::uuid);\n",
+    "supabase/seed.sql": "-- ============================================================\n-- portal-admin — production seed policy\n-- ============================================================\n-- Generated portals must not ship sample business records.\n--\n-- Provisioning creates only:\n--   - the initial Supabase Auth admin user\n--   - one organization row for system ownership\n--   - one organization_users profile row linked to that admin user\n--\n-- CRUD/business tables intentionally start empty. Users enter real data later.\n-- ============================================================\n"
+  }
+}

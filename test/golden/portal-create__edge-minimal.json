@@ -1,0 +1,8 @@
+{
+  "status": 400,
+  "body": {
+    "success": false,
+    "error": "Invalid input: expected string, received undefined"
+  },
+  "stored": null
+}

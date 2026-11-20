@@ -1,0 +1,75 @@
+{
+  "slug": "animated-grid-pattern",
+  "source": "magicui",
+  "name": "Animated Grid Pattern",
+  "kind": "ui",
+  "versions": {
+    "5445fff5527a91723ee40a34d93f6060dc67d7c6f074b151939871071bd94816": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:animated-grid-pattern@0.0.0",
+        "name": "Animated Grid Pattern",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "A animated background grid pattern made with SVGs, fully customizable using Tailwind CSS.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/animated-grid-pattern.json",
+          "ref": "magicui",
+          "contentHash": "5445fff5527a91723ee40a34d93f6060dc67d7c6f074b151939871071bd94816"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "motion": "*"
+          },
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated",
+            "motion"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "5445fff5527a91723ee40a34d93f6060dc67d7c6f074b151939871071bd94816",
+  "quality": {}
+}

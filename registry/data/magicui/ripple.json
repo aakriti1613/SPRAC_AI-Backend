@@ -1,0 +1,72 @@
+{
+  "slug": "ripple",
+  "source": "magicui",
+  "name": "Ripple",
+  "kind": "ui",
+  "versions": {
+    "86258ec306e32e6ad2757c792f2e96b81bcaf37e604f3c5fe011312c79c3b013": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "magicui:ripple@0.0.0",
+        "name": "Ripple",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "An animated ripple effect typically used behind elements to emphasize them.",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://magicui.design/r/ripple.json",
+          "ref": "magicui",
+          "contentHash": "86258ec306e32e6ad2757c792f2e96b81bcaf37e604f3c5fe011312c79c3b013"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": [
+            "animated"
+          ]
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "magicui-2026-11-18T12-55-25-538Z-447db2"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "86258ec306e32e6ad2757c792f2e96b81bcaf37e604f3c5fe011312c79c3b013",
+  "quality": {}
+}

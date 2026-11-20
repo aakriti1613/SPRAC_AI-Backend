@@ -1,0 +1,72 @@
+{
+  "slug": "kbd",
+  "source": "shadcn",
+  "name": "kbd",
+  "kind": "ui",
+  "versions": {
+    "8d317d5644e3d7765716f83eb872277680e344043b851e9006f77358c1c73cba": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "shadcn:kbd@0.0.0",
+        "name": "kbd",
+        "version": "0.0.0",
+        "kind": "ui",
+        "summary": "shadcn/ui component \"kbd\".",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "shadcn",
+          "url": "https://ui.shadcn.com/r/styles/new-york-v4/kbd.json",
+          "ref": "new-york-v4",
+          "contentHash": "8d317d5644e3d7765716f83eb872277680e344043b851e9006f77358c1c73cba"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {},
+          "registry": [
+            "shadcn:utils"
+          ],
+          "env": []
+        },
+        "compat": {
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "primitive",
+          "tags": []
+        },
+        "license": "MIT",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "shadcn-2026-11-18T12-33-59-937Z-50380e"
+    }
+  },
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)"
+  ],
+  "exceptions": [],
+  "current": "8d317d5644e3d7765716f83eb872277680e344043b851e9006f77358c1c73cba",
+  "quality": {}
+}

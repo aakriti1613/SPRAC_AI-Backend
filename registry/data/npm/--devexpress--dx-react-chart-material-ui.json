@@ -1,0 +1,98 @@
+{
+  "slug": "@devexpress/dx-react-chart-material-ui",
+  "source": "npm",
+  "name": "@devexpress/dx-react-chart-material-ui",
+  "kind": "library",
+  "versions": {
+    "ffc201e1cae8c3658f7600e17ffa744178c640f344d8a892667a215605b91d0c": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "npm:@devexpress/dx-react-chart-material-ui@4.0.11",
+        "name": "@devexpress/dx-react-chart-material-ui",
+        "version": "4.0.11",
+        "kind": "library",
+        "summary": "Material-UI templates for DevExtreme React Chart component",
+        "room": "dashboard-chart",
+        "websiteTypes": [],
+        "industries": [],
+        "source": {
+          "type": "npm",
+          "url": "https://www.npmjs.com/package/@devexpress/dx-react-chart-material-ui",
+          "ref": "4.0.11",
+          "contentHash": "ffc201e1cae8c3658f7600e17ffa744178c640f344d8a892667a215605b91d0c"
+        },
+        "interface": {
+          "props": []
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {},
+          "peer": {
+            "react": ">=17.0.2",
+            "@mui/material": ">=5.0.0",
+            "@emotion/react": ">=11.4.1",
+            "@emotion/styled": ">=11.3.0",
+            "@mui/icons-material": ">=5.0.0",
+            "@devexpress/dx-chart-core": "4.0.11",
+            "@devexpress/dx-react-core": "4.0.11",
+            "@devexpress/dx-react-chart": "4.0.11"
+          },
+          "registry": [],
+          "env": []
+        },
+        "compat": {
+          "react": ">=17.0.2",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "dashboard-chart",
+          "tags": [
+            "react",
+            "data",
+            "chart",
+            "d3js",
+            "material",
+            "material-ui",
+            "react-component",
+            "query:react chart"
+          ]
+        },
+        "license": "SEE LICENSE IN README.md",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "registry"
+          },
+          "requires": {
+            "by": "registry"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "room": {
+            "by": "registry"
+          }
+        }
+      },
+      "firstSeenRun": "npm-2026-11-18T12-36-39-992Z-02e89a"
+    }
+  },
+  "room": "dashboard-chart",
+  "trust": "candidate",
+  "problems": [
+    "external or legacy source: never auto-built (needs adapter + review to be promoted)",
+    "license \"SEE LICENSE IN README.md\" is not allowed for reuse in builds"
+  ],
+  "exceptions": [],
+  "current": "ffc201e1cae8c3658f7600e17ffa744178c640f344d8a892667a215605b91d0c",
+  "quality": {
+    "downloads": 21674,
+    "lastPublish": "2025-05-05T10:09:07.202Z",
+    "hasTypes": true
+  }
+}

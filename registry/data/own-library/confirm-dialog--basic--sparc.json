@@ -1,0 +1,135 @@
+{
+  "slug": "confirm-dialog/basic/sparc",
+  "source": "own-library",
+  "name": "Basic confirm-dialog",
+  "kind": "component",
+  "versions": {
+    "5a0f54434ae91a26be57037c43e8f5ec5049cf41828056a789a383c85c59a007": {
+      "label": {
+        "cdlVersion": 1,
+        "id": "own:confirm-dialog/basic/sparc@1.0.0",
+        "name": "Basic confirm-dialog",
+        "version": "1.0.0",
+        "kind": "component",
+        "summary": "Basic confirm-dialog: 'Are you sure?' dialog.",
+        "room": "confirm-dialog",
+        "styleLevel": "basic",
+        "websiteTypes": [
+          "admin-portal"
+        ],
+        "industries": [],
+        "source": {
+          "type": "own-template",
+          "url": "platform-backend-main/sparc-ui",
+          "path": "library/confirm-dialog/basic/sparc/index.tsx",
+          "contentHash": "5a0f54434ae91a26be57037c43e8f5ec5049cf41828056a789a383c85c59a007"
+        },
+        "interface": {
+          "props": [
+            {
+              "name": "busy",
+              "kind": "boolean",
+              "required": false
+            },
+            {
+              "name": "confirmLabel",
+              "kind": "string",
+              "required": true
+            },
+            {
+              "name": "danger",
+              "kind": "boolean",
+              "required": false
+            },
+            {
+              "name": "message",
+              "kind": "string",
+              "required": false
+            },
+            {
+              "name": "onCancel",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "onConfirm",
+              "kind": "function",
+              "required": true
+            },
+            {
+              "name": "open",
+              "kind": "boolean",
+              "required": true
+            },
+            {
+              "name": "title",
+              "kind": "string",
+              "required": true
+            }
+          ]
+        },
+        "provides": {
+          "fieldTypes": [],
+          "capabilities": []
+        },
+        "requires": {
+          "npm": {
+            "react": "^19.3.1"
+          },
+          "peer": {},
+          "registry": [
+            "sparc-ui/core/ui"
+          ],
+          "env": []
+        },
+        "compat": {
+          "react": "^19.3.1",
+          "tailwind": "4",
+          "language": "ts"
+        },
+        "facets": {
+          "category": "feedback",
+          "tags": [
+            "confirm-dialog",
+            "basic"
+          ]
+        },
+        "license": "own",
+        "provenance": {
+          "summary": {
+            "by": "registry"
+          },
+          "license": {
+            "by": "human"
+          },
+          "requires": {
+            "by": "parser"
+          },
+          "trust": {
+            "by": "parser"
+          },
+          "interface": {
+            "by": "parser",
+            "confidence": 1
+          },
+          "room": {
+            "by": "parser"
+          }
+        }
+      },
+      "firstSeenRun": "own-library-2026-11-18T13-00-30-711Z-dbfe4d"
+    }
+  },
+  "room": "confirm-dialog",
+  "styleLevel": "basic",
+  "trust": "verified",
+  "problems": [],
+  "exceptions": [],
+  "current": "5a0f54434ae91a26be57037c43e8f5ec5049cf41828056a789a383c85c59a007",
+  "quality": {
+    "sizeKb": 1.2,
+    "a11yViolations": 0,
+    "hasTypes": true,
+    "hasTests": true
+  }
+}
