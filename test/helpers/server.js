@@ -26,6 +26,7 @@ export async function startServer(extraEnv = {}) {
     ...process.env,
     PORT: String(port),
     OUTPUT_DIR: outputDir,
+    SPARC_EVIDENCE_DIR: path.join(workDir, "evidence"), // feedback from tests never touches the real evidence
     PORTALS_DIR: portalsDir,
     PLATFORM_ADMIN_EMAIL: TEST_ADMIN.email,
     PLATFORM_ADMIN_PASSWORD: TEST_ADMIN.password,

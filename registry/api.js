@@ -11,7 +11,9 @@ import { fileURLToPath } from "node:url";
 import { createEmbedder } from "./retrieve/embeddings.js";
 import { buildLibraryIndex, embedQuery } from "./retrieve/library.js";
 import { search } from "./retrieve/search.js";
-import { composeSite, lockFromComposition } from "./retrieve/compose.js";
+import { composeSite, lockFromComposition, suggestForRoom } from "./retrieve/compose.js";
+import { createEvidenceStore } from "./evidence/store.js";
+import { eventsFromChoice } from "./evidence/feedback.js";
 import { createFileStore } from "./store/file.js";
 import { planSite } from "./plan/index.js";
 import { createGeminiCaller } from "./plan/gemini.js";
@@ -44,7 +46,7 @@ export function builderOptions() {
   };
 }
 
-export function createRegistryRouter({ store = createFileStore(DATA_DIR), embedder = createEmbedder(), outputDir = null } = {}) {
+export function createRegistryRouter({ store = createFileStore(DATA_DIR), embedder = createEmbedder(), outputDir = null, evidenceStore = createEvidenceStore() } = {}) {
   const router = express.Router();
   let cache = null; // { records, index } built lazily, kept for the process
   async function ready() {
@@ -63,7 +65,7 @@ export function createRegistryRouter({ store = createFileStore(DATA_DIR), embedd
     }
     try {
       const callGemini = useGemini && process.env.GEMINI_API_KEY ? createGeminiCaller() : null;
-      const plan = await planSite(description.trim(), { embedder, styleLevel, enabledOptional, callGemini });
+      const plan = await planSite(description.trim(), { embedder, styleLevel, enabledOptional, callGemini, evidence: evidenceStore.load() });
       return res.json({ success: true, ...plan });
     } catch (err) {
       return res.status(500).json({ success: false, error: err.message || "Planning failed." });
@@ -85,7 +87,7 @@ export function createRegistryRouter({ store = createFileStore(DATA_DIR), embedd
   });
 
   router.post("/build", async (req, res) => {
-    const { description, config, name, styleLevel, enabledOptional, runBuild, forDeploy } = req.body || {};
+    const { description, config, name, styleLevel, enabledOptional, runBuild, forDeploy, feedback } = req.body || {};
     if (!SLUG.test(String(name || ""))) return res.status(400).json({ success: false, error: "name must be a lowercase slug (a-z, 0-9, dashes)" });
     if (!description && !config) return res.status(400).json({ success: false, error: "provide a description or a config" });
     try {
@@ -98,6 +100,8 @@ export function createRegistryRouter({ store = createFileStore(DATA_DIR), embedd
         build: runBuild === true && !forDeploy,
         store: { list: async () => records },
         embedder,
+        evidenceStore,
+        feedback: feedback && typeof feedback === "object" ? { plannedModuleIds: Array.isArray(feedback.plannedModuleIds) ? feedback.plannedModuleIds.map(String) : undefined, description: String(feedback.description ?? "").slice(0, 500) } : undefined,
         ...(forDeploy ? { outDir: outputDir } : {}),
       });
       return res.json({ success: result.ok, ...result, forDeploy: Boolean(forDeploy) });
@@ -107,15 +111,28 @@ export function createRegistryRouter({ store = createFileStore(DATA_DIR), embedd
   });
 
   router.post("/compose", async (req, res) => {
-    const { websiteType, styleLevel, enabledOptional } = req.body || {};
+    const { websiteType, styleLevel, enabledOptional, industry } = req.body || {};
     if (!websiteType || !styleLevel) return res.status(400).json({ success: false, error: "websiteType and styleLevel are required" });
     try {
       const { records } = await ready();
-      const composition = composeSite(records, { websiteType, styleLevel, enabledOptional: enabledOptional || [] });
-      return res.json({ success: true, composition, lock: lockFromComposition(composition) });
+      const evidence = evidenceStore.load();
+      const composition = composeSite(records, { websiteType, styleLevel, enabledOptional: enabledOptional || [], industry, evidence });
+      // Top 3 per room; the third place is kept for the best less-tried part (fair chance).
+      const suggestions = Object.fromEntries(Object.entries(composition.picks).map(([room, p]) => [room, suggestForRoom(records, { websiteType, styleLevel: p.level, room, industry, evidence })]));
+      return res.json({ success: true, composition, suggestions, lock: lockFromComposition(composition) });
     } catch (err) {
       return res.status(400).json({ success: false, error: err.message || "Compose failed." });
     }
+  });
+
+  // The user picked a component from the suggestions: that choice is evidence.
+  router.post("/sparc/choice", async (req, res) => {
+    const { websiteType, industry, room, styleLevel, chosen, description } = req.body || {};
+    if (!websiteType || !room || !styleLevel || !chosen?.slug || !chosen?.source) return res.status(400).json({ success: false, error: "websiteType, room, styleLevel and chosen {slug, source} are required" });
+    const { records } = await ready();
+    if (!records.some((r) => r.slug === chosen.slug && r.source === chosen.source && r.trust === "verified" && r.room === room)) return res.status(400).json({ success: false, error: "chosen must be a verified component for that room" });
+    const stored = evidenceStore.record(eventsFromChoice({ websiteType, industry, room, styleLevel, chosen, description: String(description ?? "").slice(0, 500) }));
+    return res.json({ success: true, recorded: stored.stored, version: evidenceStore.update().version });
   });
 
   router.post("/registry/search", async (req, res) => {

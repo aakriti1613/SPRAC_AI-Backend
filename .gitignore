@@ -25,3 +25,6 @@ sparc-ui/.generated/
 
 # Scaffolder output (generated projects, pushed to GitHub separately)
 output/
+
+# Iterative descriptors: feedback events and snapshots (per installation, not committed)
+registry/evidence/data/

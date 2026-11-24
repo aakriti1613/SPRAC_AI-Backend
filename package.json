@@ -16,7 +16,9 @@
     "registry:evaluate-sites": "node registry/cli.js evaluate-sites",
     "registry:evaluate-report": "node registry/cli.js evaluate-report",
     "registry:study-sites": "node registry/cli.js study-sites",
-    "registry:study-report": "node registry/cli.js study-report"
+    "registry:study-report": "node registry/cli.js study-report",
+    "registry:evaluate-rcde": "node registry/cli.js evaluate-rcde",
+    "registry:evidence": "node registry/cli.js evidence"
   },
   "dependencies": {
     "@google/genai": "^2.7.0",

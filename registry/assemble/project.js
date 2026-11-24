@@ -138,14 +138,14 @@ function copyShellSrc(shell, destSrc, styleLevel) {
  * assembleProject(config, { name, records, outDir?, lock? })
  * Returns { ok, dir, lock, errors }.
  */
-export function assembleProject(config, { name, records = [], outDir = GENERATED_DIR, lock: providedLock } = {}) {
+export function assembleProject(config, { name, records = [], outDir = GENERATED_DIR, lock: providedLock, evidence = null } = {}) {
   const check = checkSparcConfig(config);
   if (!check.ok) return { ok: false, errors: check.errors };
   if (!/^[a-z0-9][a-z0-9-]*$/.test(String(name || ""))) return { ok: false, errors: ["name must be a lowercase slug"] };
 
   const shell = SHELL_FOR[config.websiteType];
   const enabledOptional = config.rooms?.enabled || [];
-  const composition = composeSite(records, { websiteType: config.websiteType, styleLevel: config.styleLevel, enabledOptional });
+  const composition = composeSite(records, { websiteType: config.websiteType, styleLevel: config.styleLevel, enabledOptional, industry: config.industry, evidence });
   const lock = providedLock || { ...lockFromComposition(composition), config: { brand: config.brand.name, industry: config.industry }, generatedAt: new Date().toISOString(), reuse: { components: Object.keys(composition.picks).length, newCode: 0 } };
 
   const dir = path.join(outDir, name);

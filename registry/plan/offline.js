@@ -6,6 +6,8 @@ import { MODULE_LIBRARY } from "../../sparc/modules.js";
 import { buildLibraryIndex, embedQuery } from "../retrieve/library.js";
 import { search } from "../retrieve/search.js";
 import { tokenize } from "../retrieve/text.js";
+import { moduleContext, moduleItemId } from "../evidence/feedback.js";
+import { evidenceValue, lookup } from "../evidence/model.js";
 
 const PORTFOLIO_WORDS = ["portfolio", "resume", "cv", "personal site", "about me", "my work", "freelance"];
 const LANDING_WORDS = ["landing", "one page", "one-page", "brochure", "marketing site", "promote", "homepage", "coming soon"];
@@ -80,7 +82,56 @@ export function guessBrandName(text) {
   return "";
 }
 
-export async function planOffline(description, { embedder, styleLevel } = {}) {
+/**
+ * Rank the module library for a description and choose the modules to use.
+ * evidence (optional snapshot): modules users kept for this industry rank higher,
+ * modules they removed rank lower. A module with strong evidence for the request's
+ * words may join without a literal word match (e.g. school requests keep "fees").
+ * Returns { moduleIds, ranked: [{ id, score, evidence? }] }.
+ */
+export async function selectModules(description, { embedder, industry, evidence = null, index = null } = {}) {
+  const idx = index || (await buildLibraryIndex({ embedder }));
+  const qv = await embedQuery(idx, description);
+  const hits = search(idx, {
+    query: description,
+    queryVector: qv,
+    filters: { kind: "module" },
+    limit: 12,
+    evidence: evidence ? { snapshot: evidence, contextFor: () => moduleContext(industry) } : null,
+  });
+  // Keep only strong matches close to the best one, so weak/off-topic modules
+  // don't sneak in. A direct keyword hit (word appears in the query) counts as strong.
+  const top = hits[0]?.score ?? 0;
+  // Learned from feedback (only with confident evidence for THIS request's words):
+  //   learnedIn:  users kept it for requests like this -> may join without a literal word match
+  //   learnedOut: users removed it for requests like this -> not added automatically
+  // A module the request names directly is always added below, whatever the evidence says.
+  const learnedIn = (h) => h.evidence?.confident && h.evidence.wordMatch > 0 && h.evidence.fit > 0.6;
+  const queryWords = [...new Set(tokenize(description))];
+  const learnedOut = (id) => {
+    if (!evidence) return false;
+    const e = evidenceValue(lookup(evidence, moduleItemId(id), moduleContext(industry)), { queryWords });
+    return e.confident && e.wordMatch < 0 && e.fit < 0.5;
+  };
+  const strong = hits.filter((h) => (h.matched.length > 0 || learnedIn(h)) && !learnedOut(h.payload.id) && h.score >= Math.max(0.3, top * 0.6));
+  let moduleIds = strong.map((h) => h.payload.id).slice(0, 5);
+  // Always include a module the user named directly (its singular/plural word is in the text).
+  const qTokens = new Set(tokenize(description));
+  for (const m of MODULE_LIBRARY) {
+    const named = tokenize(`${m.singularName} ${m.pluralName}`).some((w) => qTokens.has(w));
+    if (named && !moduleIds.includes(m.id)) moduleIds.push(m.id);
+  }
+  moduleIds = moduleIds.slice(0, 6);
+  // If the description was vague, seed the detected industry's home modules.
+  if (moduleIds.length < 2) {
+    // (starter modules that users removed for requests like this are not seeded either)
+    const homeModules = MODULE_LIBRARY.filter((m) => m.industries[0] === industry && !learnedOut(m.id)).map((m) => m.id);
+    moduleIds = [...new Set([...moduleIds, ...homeModules])].slice(0, 4);
+  }
+  return { moduleIds, ranked: hits.map((h) => ({ id: h.payload.id, score: h.score, ...(h.evidence ? { evidence: h.evidence } : {}) })) };
+}
+
+export async function planOffline(description, { embedder, styleLevel, evidence = null } = {}) {
   const wt = detectWebsiteType(description);
   const industry = detectIndustry(description);
   const style = styleLevel || detectStyle(description) || "good";
@@ -88,26 +139,7 @@ export async function planOffline(description, { embedder, styleLevel } = {}) {
 
   let moduleIds = [];
   if (wt.type === "admin-portal") {
-    const index = await buildLibraryIndex({ embedder });
-    const qv = await embedQuery(index, description);
-    const hits = search(index, { query: description, queryVector: qv, filters: { kind: "module" }, limit: 12 });
-    // Keep only strong matches close to the best one, so weak/off-topic modules
-    // don't sneak in. A direct keyword hit (word appears in the query) counts as strong.
-    const top = hits[0]?.score ?? 0;
-    const strong = hits.filter((h) => h.matched.length > 0 && h.score >= Math.max(0.3, top * 0.6));
-    moduleIds = strong.map((h) => h.payload.id).slice(0, 5);
-    // Always include a module the user named directly (its singular/plural word is in the text).
-    const qTokens = new Set(tokenize(description));
-    for (const m of MODULE_LIBRARY) {
-      const named = tokenize(`${m.singularName} ${m.pluralName}`).some((w) => qTokens.has(w));
-      if (named && !moduleIds.includes(m.id)) moduleIds.push(m.id);
-    }
-    moduleIds = moduleIds.slice(0, 6);
-    // If the description was vague, seed the detected industry's home modules.
-    if (moduleIds.length < 2) {
-      const homeModules = MODULE_LIBRARY.filter((m) => m.industries[0] === industry).map((m) => m.id);
-      moduleIds = [...new Set([...moduleIds, ...homeModules])].slice(0, 4);
-    }
+    moduleIds = (await selectModules(description, { embedder, industry, evidence })).moduleIds;
   }
 
   return {

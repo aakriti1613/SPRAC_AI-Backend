@@ -5,6 +5,7 @@
 // result carries the matched words and score parts, so choices are explainable.
 import { buildIdf, keywordScore, termFreq, tokenize } from "./text.js";
 import { cosine } from "./embeddings.js";
+import { evidenceDelta, evidenceValue, lookup } from "../evidence/model.js";
 
 export const DEFAULT_WEIGHTS = { semantic: 0.45, keyword: 0.3, quality: 0.15, usage: 0.1 };
 
@@ -34,9 +35,11 @@ export function buildIndex(documents) {
  *   queryVector optional embedding of the query (same embedder as the docs)
  *   filters     facet -> value | value[] ; a doc must match every given facet
  *   weights, limit
+ *   evidence    optional { snapshot, contextFor(doc), explore } : iterative descriptors (RCDE).
+ *               With no usable evidence every score is exactly the static one.
  * Returns ranked [{ id, score, parts, matched, payload }].
  */
-export function search(index, { query = "", queryVector = null, filters = {}, weights = DEFAULT_WEIGHTS, limit = 10 } = {}) {
+export function search(index, { query = "", queryVector = null, filters = {}, weights = DEFAULT_WEIGHTS, limit = 10, evidence = null } = {}) {
   const qTokens = tokenize(query);
   const qSet = new Set(qTokens);
   const results = [];
@@ -53,10 +56,15 @@ export function search(index, { query = "", queryVector = null, filters = {}, we
       quality: +(quality * weights.quality).toFixed(4),
       usage: +(usage * weights.usage).toFixed(4),
     };
-    const score = +(parts.semantic + parts.keyword + parts.quality + parts.usage).toFixed(4);
+    let ev = null;
+    if (evidence?.snapshot && evidence.contextFor) {
+      ev = evidenceValue(lookup(evidence.snapshot, doc.id, evidence.contextFor(doc)), { queryWords: [...qSet], explore: evidence.explore === true });
+      parts.evidence = +evidenceDelta(ev).toFixed(4);
+    }
+    const score = +(parts.semantic + parts.keyword + parts.quality + parts.usage + (parts.evidence ?? 0)).toFixed(4);
     if (score <= 0) continue;
     const matched = [...qSet].filter((t) => doc.tf.has(t));
-    results.push({ id: doc.id, score, parts, matched, payload: doc.payload });
+    results.push({ id: doc.id, score, parts, matched, payload: doc.payload, ...(ev ? { evidence: ev } : {}) });
   }
   results.sort((a, b) => b.score - a.score || String(a.id).localeCompare(String(b.id)));
   return results.slice(0, limit);

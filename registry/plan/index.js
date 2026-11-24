@@ -41,10 +41,10 @@ export async function planSite(description, options = {}) {
     try {
       plan = await planWithGemini(description, { callGemini, styleLevel: options.styleLevel });
     } catch (err) {
-      plan = { ...(await planOffline(description, { embedder, styleLevel: options.styleLevel })), fallbackReason: `Gemini failed: ${err.message}` };
+      plan = { ...(await planOffline(description, { embedder, styleLevel: options.styleLevel, evidence: options.evidence })), fallbackReason: `Gemini failed: ${err.message}` };
     }
   } else {
-    plan = await planOffline(description, { embedder, styleLevel: options.styleLevel });
+    plan = await planOffline(description, { embedder, styleLevel: options.styleLevel, evidence: options.evidence });
     confidence = plan.confidence;
   }
 
@@ -69,6 +69,7 @@ export async function planSite(description, options = {}) {
   const modulesUsed = (signals.websiteType === "admin-portal" ? signals.moduleIds : []).map((id) => ({ id, source: "library" }));
   return {
     engine: plan.engine,
+    evidenceVersion: options.evidence?.version ?? 0,
     fallbackReason: plan.fallbackReason,
     ok: built.ok,
     config: built.config,

@@ -135,6 +135,28 @@ async function main(argv) {
     console.log(`wrote docs/EVALUATION.md, docs/eval/charts.html (results: ${path.relative(BACKEND, DEFAULT_OUT)})`);
     return 0;
   }
+  if (command === "evaluate-rcde") {
+    const { runRcdeReplay, renderRcdeReport } = await import("./evaluation/rcde.js");
+    const result = await runRcdeReplay();
+    fs.mkdirSync(path.join(BACKEND, "docs", "eval"), { recursive: true });
+    fs.writeFileSync(path.join(BACKEND, "docs", "eval", "rcde.json"), `${JSON.stringify(result, null, 2)}
+`);
+    fs.writeFileSync(path.join(BACKEND, "docs", "eval", "RCDE.md"), renderRcdeReport(result));
+    console.log("wrote docs/eval/RCDE.md and docs/eval/rcde.json");
+    return 0;
+  }
+  if (command === "evidence") {
+    const { createEvidenceStore } = await import("./evidence/store.js");
+    const { describeEvidence } = await import("./evidence/model.js");
+    const store = createEvidenceStore();
+    const sub = args[0] || "report";
+    if (sub === "update") return console.log(`evidence snapshot v${store.update().version}`), 0;
+    if (sub === "rollback") return console.log(`now using v${store.rollback(Number(args[1])).version}`), 0;
+    const snap = store.load();
+    console.log(`evidence v${snap.version} (${snap.events ?? 0} events), snapshots: ${store.versions().join(", ") || "none"}`);
+    for (const [item, byCtx] of Object.entries(snap.items)) for (const [ctx, s] of Object.entries(byCtx)) console.log(`  ${item}  [${ctx}]  ${JSON.stringify(describeEvidence(s))}`);
+    return 0;
+  }
   if (command === "study-sites") {
     const { buildStudySites } = await import("./evaluation/run.js");
     const records = await createFileStore(DATA_DIR).list();
