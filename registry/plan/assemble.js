@@ -11,9 +11,10 @@ import { levelsUpTo } from "../../sparc/styleLevels.js";
 const MODULES = new Map(MODULE_LIBRARY.map((m) => [m.id, m]));
 const INDUSTRY_COLOR = { healthcare: "#0f766e", crm: "#4f46e5", hrms: "#7c3aed", school: "#2563eb", inventory: "#ea580c", erp: "#334155", generic: "#2563eb" };
 
-function themeFor(industry, styleLevel) {
+function themeFor(industry, styleLevel, chosenColor) {
+  const chosen = /^#[0-9a-f]{6}$/i.test(chosenColor || "") ? chosenColor.toLowerCase() : null; // the user's own colour, when valid
   return {
-    primary: INDUSTRY_COLOR[industry] || THEME_PRESET_COLORS.blue,
+    primary: chosen || INDUSTRY_COLOR[industry] || THEME_PRESET_COLORS.blue,
     mode: "light",
     radius: styleLevel === "basic" ? "md" : "lg",
     density: "comfortable",
@@ -65,7 +66,7 @@ function assemblePortal(signals) {
     styleLevel: level,
     industry: signals.industry,
     brand: { name: signals.brandName, logoText: initials(signals.brandName) },
-    theme: themeFor(signals.industry, level),
+    theme: themeFor(signals.industry, level, signals.themeColor),
     rooms: { enabled },
     loginPage: { badge: defaults.badge, headline: defaults.headline, description: defaults.description },
     modules,
@@ -155,7 +156,7 @@ function assembleSite(signals) {
     styleLevel: level,
     industry: signals.industry,
     brand: { name, logoText: initials(name) },
-    theme: themeFor(signals.industry, level),
+    theme: themeFor(signals.industry, level, signals.themeColor),
     rooms: { enabled },
     meta: { title: signals.websiteType === "portfolio" ? `${name} — Portfolio` : name, description: (signals.description || "").slice(0, 160) },
     sections,

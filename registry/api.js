@@ -20,6 +20,7 @@ import { createGeminiCaller } from "./plan/gemini.js";
 import { buildSite } from "./assemble/build.js";
 import { assembleConfig } from "./plan/assemble.js";
 import { MODULE_LIBRARY } from "../sparc/modules.js";
+import { checkSparcConfig } from "../sparc/config.js";
 import { ROOMS, activeBlueprints } from "../sparc/index.js";
 import { STYLE_LEVELS, STYLE_LEVEL_IDS, levelsUpTo } from "../sparc/styleLevels.js";
 import { PORTAL_INDUSTRIES } from "../lib/portalConfig.js";
@@ -123,6 +124,14 @@ export function createRegistryRouter({ store = createFileStore(DATA_DIR), embedd
     } catch (err) {
       return res.status(400).json({ success: false, error: err.message || "Compose failed." });
     }
+  });
+
+  // Check a config the user edited by hand (JSON), without building anything.
+  router.post("/sparc/check", (req, res) => {
+    const { config } = req.body || {};
+    if (!config || typeof config !== "object" || Array.isArray(config)) return res.status(400).json({ success: false, error: "config object is required" });
+    const r = checkSparcConfig(config);
+    return res.json({ success: r.ok, errors: r.errors });
   });
 
   // The user picked a component from the suggestions: that choice is evidence.
