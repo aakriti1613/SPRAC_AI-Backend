@@ -28,3 +28,4 @@ output/
 
 # Iterative descriptors: feedback events and snapshots (per installation, not committed)
 registry/evidence/data/
+registry/data/embed-cache.json
